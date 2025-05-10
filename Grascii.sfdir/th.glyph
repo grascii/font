@@ -1,0 +1,14 @@
+StartChar: th
+Encoding: 262 -1 20
+Width: 217
+Flags: W
+AnchorPoint: "Join" 207 138 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 0 m 0
+ 10 89 151 138 207 138 c 1024
+EndSplineSet
+Ligature2: "ch sh th" t h
+EndChar
