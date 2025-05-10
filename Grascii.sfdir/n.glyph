@@ -1,7 +1,7 @@
 StartChar: n
 Encoding: 110 110 6
 Width: 260
-Flags: W
+Flags: WO
 AnchorPoint: "Join" 250 0 exit 0
 AnchorPoint: "Join" 10 0 entry 0
 LayerCount: 2
