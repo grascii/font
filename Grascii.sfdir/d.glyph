@@ -1,0 +1,11 @@
+StartChar: d
+Encoding: 100 100 13
+Width: 540
+VWidth: 995
+Flags: W
+AnchorPoint: "Join" 529.615 300 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+Refer: 5 109 N 0.866025 0.5 -0.5 0.866025 1.33984 -5 2
+EndChar

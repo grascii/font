@@ -1,13 +1,11 @@
 StartChar: t
 Encoding: 116 116 9
 Width: 228
+VWidth: 995
 Flags: W
-AnchorPoint: "Join" 218 120 exit 0
+AnchorPoint: "Join" 217.847 120 exit 0
 AnchorPoint: "Join" 10 0 entry 0
 LayerCount: 2
 Fore
-SplineSet
-10 0 m 0
- 218 120 l 1024
-EndSplineSet
+Refer: 6 110 N 0.866025 0.5 -0.5 0.866025 1.33984 -5 2
 EndChar
