@@ -11,5 +11,5 @@ SplineSet
 130 208 m 0
  10 0 l 1024
 EndSplineSet
-Ligature2: "ch sh th" s h
+Ligature2: "ch sh th ng nk" s h
 EndChar

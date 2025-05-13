@@ -10,5 +10,5 @@ SplineSet
 10 0 m 0
  10 89 151 138 207 138 c 1024
 EndSplineSet
-Ligature2: "ch sh th" t h
+Ligature2: "ch sh th ng nk" t h
 EndChar

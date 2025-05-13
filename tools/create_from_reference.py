@@ -34,6 +34,10 @@ transformations = {
         "matrix": psMat.rotate(math.radians(30)),
         "reverse": False,
     },
+    "N to NG": {
+        "matrix": psMat.rotate(math.radians(-15)),
+        "reverse": False,
+    },
 }
 
 

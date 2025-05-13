@@ -28,6 +28,8 @@ def shape(text, font):
     ("sh", ["sh"]),
     ("ch", ["ch"]),
     ("th", ["th"]),
+    ("ng", ["ng"]),
+    ("nk", ["nk"]),
 ])
 def test_multichar_ligatures(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

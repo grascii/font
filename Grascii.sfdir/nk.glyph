@@ -1,0 +1,12 @@
+StartChar: nk
+Encoding: 271 -1 28
+Width: 484
+VWidth: 1126
+Flags: WO
+AnchorPoint: "Join" 473.645 0 exit 0
+AnchorPoint: "Join" 10 124.233 entry 0
+LayerCount: 2
+Fore
+Refer: 27 -1 N 0.965926 -0.258819 0.258819 0.965926 0.34082 126.821 2
+Ligature2: "ch sh th ng nk" n k
+EndChar
