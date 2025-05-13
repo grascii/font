@@ -6,6 +6,9 @@ CWD = $(shell pwd)
 run:
 	$(FONT_FORGE) $(CWD)/Grascii.sfdir
 
+test:
+	$(FONT_FORGE) --quiet -script $(CWD)/tests/main.py
+
 install-tools: tools/load.py | env
 	$(eval FF_INIT_DIR := $(shell $(FONT_FORGE) --quiet -c 'print(fontforge.scriptPath()[-1])'))
 	sed "s|REPLACE|$(CWD)|" ./tools/load.py > $(FF_INIT_DIR)/load_grascii_tools.py
