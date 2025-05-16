@@ -16,8 +16,10 @@ for glyph in font.glyphs():
 
     glyph.stroke("circular", 24)
     glyph.transform(psMat.translate(0, 12))
-    glyph.left_side_bearing = 0
-    glyph.right_side_bearing = 0
+
+    if glyph.glyphname != "space":
+        glyph.left_side_bearing = 0
+        glyph.right_side_bearing = 0
 
 font.generate(sys.argv[2])
 font.save(sys.argv[3])
