@@ -27,3 +27,4 @@ env: requirements.txt
 	fi
 	./env/bin/python -m pip install -U pip
 	./env/bin/python -m pip install -r requirements.txt
+	touch env

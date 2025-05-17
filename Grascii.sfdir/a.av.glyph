@@ -1,0 +1,13 @@
+StartChar: a.av
+Encoding: 321 -1 38
+Width: 168
+Flags: W
+AnchorPoint: "Join" 101 169 exit 0
+AnchorPoint: "Join" 158 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+158 0 m 0
+ -73 37 13 214 101 169 c 1024
+EndSplineSet
+EndChar

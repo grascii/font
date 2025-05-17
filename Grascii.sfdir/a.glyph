@@ -14,4 +14,15 @@ SplineSet
  171 -6 272 63 275 138 c 0
  277 175 231 210 194 213 c 1024
 EndSplineSet
+Substitution2: "Before ng" a.ang
+Substitution2: "Before l" a.al
+Substitution2: "Before r" a.ar
+Substitution2: "Before v" a.av
+Substitution2: "Before t" a.at
+Substitution2: "Before th" a.ath
+Substitution2: "Before p" a.ap
+Substitution2: "Before n" a.an
+Substitution2: "Before k" a.ak
+Substitution2: "Before f" a.af
+Substitution2: "Before ch" a.ach
 EndChar
