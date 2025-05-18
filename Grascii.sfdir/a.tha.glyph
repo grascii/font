@@ -1,0 +1,15 @@
+StartChar: a.tha
+Encoding: 346 -1 48
+Width: 150
+VWidth: 1080
+Flags: WO
+AnchorPoint: "Join" 10 61 exit 0
+AnchorPoint: "Join" 96 81 entry 0
+LayerCount: 2
+Fore
+SplineSet
+96 81 m 0
+ 154 80 144 32 129 17 c 0
+ 106 -6 31 -18 10 61 c 1024
+EndSplineSet
+EndChar

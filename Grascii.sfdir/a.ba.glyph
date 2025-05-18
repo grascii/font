@@ -1,0 +1,13 @@
+StartChar: a.ba
+Encoding: 338 -1 40
+Width: 167
+Flags: W
+AnchorPoint: "Join" 10 169 exit 0
+AnchorPoint: "Join" 67 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+67 0 m 0
+ 155 -45 241 132 10 169 c 1024
+EndSplineSet
+EndChar

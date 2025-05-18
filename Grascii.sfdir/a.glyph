@@ -14,6 +14,16 @@ SplineSet
  171 -6 272 63 275 138 c 0
  277 175 231 210 194 213 c 1024
 EndSplineSet
+Substitution2: "After ng" a.nga
+Substitution2: "After b" a.ba
+Substitution2: "After th" a.tha
+Substitution2: "After t" a.ta
+Substitution2: "After r" a.ra
+Substitution2: "After p" a.pa
+Substitution2: "After n" a.na
+Substitution2: "After k" a.ka
+Substitution2: "After f" a.fa
+Substitution2: "After ch" a.cha
 Substitution2: "Before ng" a.ang
 Substitution2: "Before l" a.al
 Substitution2: "Before r" a.ar

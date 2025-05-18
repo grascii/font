@@ -1,0 +1,11 @@
+StartChar: a.nga
+Encoding: 348 -1 49
+Width: 193
+VWidth: 1034
+Flags: W
+AnchorPoint: "Join" 13.084 109.74 exit 0
+AnchorPoint: "Join" 69.1074 94.7295 entry 0
+LayerCount: 2
+Fore
+Refer: 44 -1 N 0.965926 -0.258819 0.258819 0.965926 -17.5403 34.0887 2
+EndChar

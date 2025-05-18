@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1747538402
+ModificationTime: 1747542039
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -44,18 +44,28 @@ HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 4 0 0 "Multichar strokes" { "ch sh th ng nk"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "Vowel Joinings" { "Vowel Before Overrides"  "Vowel Before"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "Vowel Joinings" { "Vowel Before Overrides"  "Vowel Before"  "Vowel After Overrides"  "Vowel After"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Before ch" { "Before ch"  } []
 Lookup: 1 0 0 "Before f" { "Before f"  } []
 Lookup: 1 0 0 "Before k" { "Before k"  } []
 Lookup: 1 0 0 "Before l" { "Before l"  } []
-Lookup: 1 0 0 "Before ng" { "Before ng"  } []
 Lookup: 1 0 0 "Before n" { "Before n"  } []
+Lookup: 1 0 0 "Before ng" { "Before ng"  } []
 Lookup: 1 0 0 "Before p" { "Before p"  } []
 Lookup: 1 0 0 "Before r" { "Before r"  } []
-Lookup: 1 0 0 "Before th" { "Before th"  } []
 Lookup: 1 0 0 "Before t" { "Before t"  } []
+Lookup: 1 0 0 "Before th" { "Before th"  } []
 Lookup: 1 0 0 "Before v" { "Before v"  } []
+Lookup: 1 0 0 "After b" { "After b"  } []
+Lookup: 1 0 0 "After ch" { "After ch"  } []
+Lookup: 1 0 0 "After f" { "After f"  } []
+Lookup: 1 0 0 "After k" { "After k"  } []
+Lookup: 1 0 0 "After n" { "After n"  } []
+Lookup: 1 0 0 "After ng" { "After ng"  } []
+Lookup: 1 0 0 "After p" { "After p"  } []
+Lookup: 1 0 0 "After r" { "After r"  } []
+Lookup: 1 0 0 "After t" { "After t"  } []
+Lookup: 1 0 0 "After th" { "After th"  } []
 Lookup: 264 0 0 "Line of Writing" { "Starts with a"  } [' RQD' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 259 0 0 "Cursive Attachment" { "Join"  } ['curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 257 0 0 "Position Before b" { "Position Before b"  } []
@@ -78,6 +88,102 @@ Lookup: 257 0 0 "Position Before th" { "Position Before th"  } []
 Lookup: 257 0 0 "Position Before v" { "Position Before v"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: glyph "Vowel After Overrides" 0 0 0 1
+ String: 1 a
+ BString: 1 b
+ FString: 0 
+ 1
+  SeqLookup: 0 "After b"
+EndFPST
+ChainSub2: class "Vowel After" 11 11 11 9
+  Class: 1 a
+  Class: 7 sh ch j
+  Class: 3 f v
+  Class: 3 k g
+  Class: 3 n m
+  Class: 3 p b
+  Class: 3 r l
+  Class: 3 t d
+  Class: 2 th
+  Class: 5 ng nk
+  BClass: 1 a
+  BClass: 7 sh ch j
+  BClass: 3 f v
+  BClass: 3 k g
+  BClass: 3 n m
+  BClass: 3 p b
+  BClass: 3 r l
+  BClass: 3 t d
+  BClass: 2 th
+  BClass: 5 ng nk
+  FClass: 1 a
+  FClass: 7 sh ch j
+  FClass: 3 f v
+  FClass: 3 k g
+  FClass: 3 n m
+  FClass: 3 p b
+  FClass: 3 r l
+  FClass: 3 t d
+  FClass: 2 th
+  FClass: 5 ng nk
+ 1 1 0
+  ClsList: 1
+  BClsList: 2
+  FClsList:
+ 1
+  SeqLookup: 0 "After ch"
+ 1 1 0
+  ClsList: 1
+  BClsList: 3
+  FClsList:
+ 1
+  SeqLookup: 0 "After f"
+ 1 1 0
+  ClsList: 1
+  BClsList: 4
+  FClsList:
+ 1
+  SeqLookup: 0 "After k"
+ 1 1 0
+  ClsList: 1
+  BClsList: 5
+  FClsList:
+ 1
+  SeqLookup: 0 "After n"
+ 1 1 0
+  ClsList: 1
+  BClsList: 6
+  FClsList:
+ 1
+  SeqLookup: 0 "After p"
+ 1 1 0
+  ClsList: 1
+  BClsList: 7
+  FClsList:
+ 1
+  SeqLookup: 0 "After r"
+ 1 1 0
+  ClsList: 1
+  BClsList: 8
+  FClsList:
+ 1
+  SeqLookup: 0 "After t"
+ 1 1 0
+  ClsList: 1
+  BClsList: 9
+  FClsList:
+ 1
+  SeqLookup: 0 "After th"
+ 1 1 0
+  ClsList: 1
+  BClsList: 10
+  FClsList:
+ 1
+  SeqLookup: 0 "After ng"
+  ClassNames: "All_Others" "a" "ch" "f" "k" "n" "p" "r" "t" "th" "ng"
+  BClassNames: "All_Others" "a" "ch" "f" "k" "n" "p" "r" "t" "th" "ng"
+  FClassNames: "All_Others" "a" "ch" "f" "k" "n" "p" "r" "t" "th" "ng"
+EndFPST
 ChainPos2: class "Starts with a" 12 12 19 17
   Class: 5 a.ach
   Class: 4 a.af
@@ -322,7 +428,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 78 26 10
+WinInfo: 104 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
