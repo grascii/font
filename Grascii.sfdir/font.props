@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1747517363
+ModificationTime: 1747529475
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -56,17 +56,183 @@ Lookup: 1 0 0 "Before r" { "Before r"  } []
 Lookup: 1 0 0 "Before th" { "Before th"  } []
 Lookup: 1 0 0 "Before t" { "Before t"  } []
 Lookup: 1 0 0 "Before v" { "Before v"  } []
+Lookup: 264 0 0 "Line of Writing" { "Starts with a"  } [' RQD' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 259 0 0 "Cursive Attachment" { "Join"  } ['curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 257 0 0 "Position Before b" { "Position Before b"  } []
+Lookup: 257 0 0 "Position Before ch" { "Position Before ch"  } []
+Lookup: 257 0 0 "Position Before d" { "Position Before d"  } []
+Lookup: 257 0 0 "Position Before f" { "Position Before f"  } []
+Lookup: 257 0 0 "Position Before g" { "Position Before g"  } []
+Lookup: 257 0 0 "Position Before j" { "Position Before j"  } []
+Lookup: 257 0 0 "Position Before k" { "Position Before k"  } []
+Lookup: 257 0 0 "Position Before l" { "Position Before l"  } []
+Lookup: 257 0 0 "Position Before m" { "Position Before m"  } []
+Lookup: 257 0 0 "Position Before n" { "Position Before n"  } []
+Lookup: 257 0 0 "Position Before ng" { "Position Before ng"  } []
+Lookup: 257 0 0 "Position Before nk" { "Position Before nk"  } []
+Lookup: 257 0 0 "Position Before p" { "Position Before p"  } []
+Lookup: 257 0 0 "Position Before r" { "Position Before r"  } []
+Lookup: 257 0 0 "Position Before sh" { "Position Before sh"  } []
+Lookup: 257 0 0 "Position Before t" { "Position Before t"  } []
+Lookup: 257 0 0 "Position Before th" { "Position Before th"  } []
+Lookup: 257 0 0 "Position Before v" { "Position Before v"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ChainPos2: class "Starts with a" 12 12 19 17
+  Class: 5 a.ach
+  Class: 4 a.af
+  Class: 4 a.ak
+  Class: 4 a.al
+  Class: 4 a.an
+  Class: 5 a.ang
+  Class: 4 a.ap
+  Class: 4 a.ar
+  Class: 4 a.at
+  Class: 5 a.ath
+  Class: 4 a.av
+  BClass: 5 a.ach
+  BClass: 4 a.af
+  BClass: 4 a.ak
+  BClass: 4 a.al
+  BClass: 4 a.an
+  BClass: 5 a.ang
+  BClass: 4 a.ap
+  BClass: 4 a.ar
+  BClass: 4 a.at
+  BClass: 5 a.ath
+  BClass: 4 a.av
+  FClass: 1 b
+  FClass: 2 ch
+  FClass: 1 d
+  FClass: 1 f
+  FClass: 1 g
+  FClass: 1 j
+  FClass: 1 k
+  FClass: 1 l
+  FClass: 1 m
+  FClass: 1 n
+  FClass: 2 ng
+  FClass: 2 nk
+  FClass: 1 p
+  FClass: 1 r
+  FClass: 2 sh
+  FClass: 1 t
+  FClass: 2 th
+  FClass: 1 v
+ 1 0 1
+  ClsList: 7
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Position Before b"
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 2
+ 1
+  SeqLookup: 0 "Position Before ch"
+ 1 0 1
+  ClsList: 9
+  BClsList:
+  FClsList: 3
+ 1
+  SeqLookup: 0 "Position Before d"
+ 1 0 1
+  ClsList: 2
+  BClsList:
+  FClsList: 4
+ 1
+  SeqLookup: 0 "Position Before f"
+ 1 0 1
+  ClsList: 3
+  BClsList:
+  FClsList: 5
+ 1
+  SeqLookup: 0 "Position Before g"
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 6
+ 1
+  SeqLookup: 0 "Position Before j"
+ 1 0 1
+  ClsList: 3
+  BClsList:
+  FClsList: 7
+ 1
+  SeqLookup: 0 "Position Before k"
+ 1 0 1
+  ClsList: 4
+  BClsList:
+  FClsList: 8
+ 1
+  SeqLookup: 0 "Position Before l"
+ 1 0 1
+  ClsList: 5
+  BClsList:
+  FClsList: 9
+ 1
+  SeqLookup: 0 "Position Before m"
+ 1 0 1
+  ClsList: 5
+  BClsList:
+  FClsList: 10
+ 1
+  SeqLookup: 0 "Position Before n"
+ 1 0 1
+  ClsList: 6
+  BClsList:
+  FClsList: 11
+ 1
+  SeqLookup: 0 "Position Before ng"
+ 1 0 1
+  ClsList: 6
+  BClsList:
+  FClsList: 12
+ 1
+  SeqLookup: 0 "Position Before nk"
+ 1 0 1
+  ClsList: 7
+  BClsList:
+  FClsList: 13
+ 1
+  SeqLookup: 0 "Position Before p"
+ 1 0 1
+  ClsList: 8
+  BClsList:
+  FClsList: 14
+ 1
+  SeqLookup: 0 "Position Before r"
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 15
+ 1
+  SeqLookup: 0 "Position Before sh"
+ 1 0 1
+  ClsList: 9
+  BClsList:
+  FClsList: 16
+ 1
+  SeqLookup: 0 "Position Before t"
+ 1 0 1
+  ClsList: 11
+  BClsList:
+  FClsList: 18
+ 1
+  SeqLookup: 0 "Position Before v"
+  ClassNames: "All_Others" "a.ach" "a.af" "a.ak" "a.al" "a.an" "a.ang" "a.ap" "a.ar" "a.at" "a.ath" "a.av"
+  BClassNames: "All_Others" "a.ach" "a.af" "a.ak" "a.al" "a.an" "a.ang" "a.ap" "a.ar" "a.at" "a.ath" "a.av"
+  FClassNames: "All_Others" "b" "ch" "d" "f" "g" "j" "k" "l" "m" "n" "ng" "nk" "p" "r" "sh" "t" "th" "v"
+EndFPST
 ChainSub2: glyph "Vowel Before Overrides" 0 0 0 2
  String: 1 a
- BString: 0
+ BString: 0 
  FString: 1 l
  1
   SeqLookup: 0 "Before l"
  String: 1 a
- BString: 0
+ BString: 0 
  FString: 1 v
  1
   SeqLookup: 0 "Before v"

@@ -18,7 +18,7 @@ test: | env
 	$(FONT_FORGE) --quiet -script $(CWD)/tests/main.py
 
 install-tools: tools/load.py | env
-	$(eval FF_INIT_DIR := $(shell $(FONT_FORGE) --quiet -c 'print(fontforge.scriptPath()[-1])'))
+	$(eval FF_INIT_DIR := $(shell $(FONT_FORGE) --quiet -skippyfile -c 'print(fontforge.scriptPath()[-1])'))
 	sed "s|REPLACE|$(CWD)|" ./tools/load.py > $(FF_INIT_DIR)/load_grascii_tools.py
 
 env: requirements.txt

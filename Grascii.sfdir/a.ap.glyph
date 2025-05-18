@@ -2,13 +2,15 @@ StartChar: a.ap
 Encoding: 317 -1 34
 Width: 185
 Flags: W
-AnchorPoint: "Join" 107 88 exit 0
-AnchorPoint: "Join" 10 0 entry 0
+AnchorPoint: "Join" 107 117 exit 0
+AnchorPoint: "Join" 10 29 entry 0
 LayerCount: 2
 Fore
 SplineSet
-10 0 m 0
- 69 -59 125 -11 144 8 c 0
- 198 62 178 150 107 88 c 1024
+10 29 m 4
+ 69 -30 125 18 144 37 c 4
+ 198 91 178 179 107 117 c 1028
 EndSplineSet
+Position2: "Position Before p" dx=0 dy=267 dh=0 dv=0
+Position2: "Position Before b" dx=0 dy=630 dh=0 dv=0
 EndChar

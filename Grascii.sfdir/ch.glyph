@@ -11,5 +11,6 @@ SplineSet
 220 364 m 0
  10 0 l 1024
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "ch sh th ng nk" c h
 EndChar
