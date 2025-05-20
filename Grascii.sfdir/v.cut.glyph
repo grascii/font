@@ -2,7 +2,7 @@ StartChar: v.cut
 Encoding: 281 -1 57
 Width: 505
 VWidth: 1608
-Flags: WO
+Flags: W
 AnchorPoint: "Join" 10 0 exit 0
 AnchorPoint: "Join" 495.495 616.901 entry 0
 LayerCount: 2
