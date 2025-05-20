@@ -1,0 +1,11 @@
+StartChar: f.cut
+Encoding: 280 -1 56
+Width: 267
+VWidth: 1306
+Flags: W
+AnchorPoint: "Join" 10 0 exit 0
+AnchorPoint: "Join" 256.828 305.518 entry 0
+LayerCount: 2
+Fore
+Refer: 50 -1 N -0.5 -0.866025 -0.866025 0.5 274.818 306.678 2
+EndChar

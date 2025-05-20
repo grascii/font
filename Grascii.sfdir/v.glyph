@@ -8,4 +8,5 @@ AnchorPoint: "Join" 430 727.462 entry 0
 LayerCount: 2
 Fore
 Refer: 4 108 N -0.5 -0.866025 -0.866025 0.5 562.306 662.622 2
+Substitution2: "Cut Consonant" v.cut
 EndChar

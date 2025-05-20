@@ -1,13 +1,14 @@
 StartChar: a.pa
 Encoding: 343 -1 45
 Width: 112
+VWidth: 1008
 Flags: W
-AnchorPoint: "Join" 10 140 exit 0
-AnchorPoint: "Join" 16 0 entry 0
+AnchorPoint: "Join" 10 148 exit 0
+AnchorPoint: "Join" 16 8 entry 0
 LayerCount: 2
 Fore
 SplineSet
-16 0 m 0
- 94 -44 166 96 10 140 c 1024
+16 8 m 0
+ 94 -36 166 104 10 148 c 1024
 EndSplineSet
 EndChar

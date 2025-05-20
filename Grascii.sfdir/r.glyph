@@ -11,4 +11,5 @@ SplineSet
 10 76 m 0
  14 -66 288 27 430 76 c 1024
 EndSplineSet
+Substitution2: "Cut Consonant" r.cut
 EndChar

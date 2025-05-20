@@ -1,0 +1,11 @@
+StartChar: k.cut
+Encoding: 276 -1 52
+Width: 408
+VWidth: 1076
+Flags: W
+AnchorPoint: "Join" 398 61 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+Refer: 50 -1 N -1 1.22465e-16 -1.22465e-16 -1 408 76 2
+EndChar

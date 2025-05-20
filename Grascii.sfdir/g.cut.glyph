@@ -1,0 +1,11 @@
+StartChar: g.cut
+Encoding: 277 -1 53
+Width: 797
+VWidth: 1147
+Flags: W
+AnchorPoint: "Join" 787 112 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+Refer: 51 -1 N -1 1.22465e-16 -1.22465e-16 -1 797 147 2
+EndChar

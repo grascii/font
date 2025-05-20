@@ -1,0 +1,14 @@
+StartChar: r.cut
+Encoding: 274 -1 50
+Width: 408
+VWidth: 1014
+Flags: W
+AnchorPoint: "Join" 398 76 exit 0
+AnchorPoint: "Join" 10 15 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 15 m 0
+ 87 -30 286 37 398 76 c 1024
+EndSplineSet
+EndChar

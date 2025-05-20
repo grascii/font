@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1747542039
+ModificationTime: 1747708863
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -45,6 +45,7 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 4 0 0 "Multichar strokes" { "ch sh th ng nk"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Vowel Joinings" { "Vowel Before Overrides"  "Vowel Before"  "Vowel After Overrides"  "Vowel After"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "Cut Consonant" { "Cut Consonant" ("cut") } []
 Lookup: 1 0 0 "Before ch" { "Before ch"  } []
 Lookup: 1 0 0 "Before f" { "Before f"  } []
 Lookup: 1 0 0 "Before k" { "Before k"  } []
@@ -428,7 +429,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 104 26 10
+WinInfo: 52 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
