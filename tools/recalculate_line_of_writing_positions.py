@@ -2,7 +2,7 @@ import re
 import fontforge
 
 
-POSITION_BEFORE_REGEX = re.compile(r"Position Before (\w+)")
+POSITION_BEFORE_REGEX = re.compile(r"Position Before ([.\w]+)")
 
 
 def recalculate_line_of_writing_positions(data, font):
