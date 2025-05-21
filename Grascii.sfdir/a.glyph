@@ -14,12 +14,14 @@ SplineSet
  171 -6 272 63 275 138 c 0
  277 175 231 210 194 213 c 1024
 EndSplineSet
-Substitution2: "After s.left" a.sla
-Substitution2: "Before s.right" a.as
-Substitution2: "After s.right" a.sa
+Substitution2: "After nt" a.thUa
+Substitution2: "Before nt" a.athU
+Substitution2: "After s.left" a.sLa
+Substitution2: "Before s.right" a.asR
+Substitution2: "After s.right" a.sRa
 Substitution2: "After ng" a.nga
 Substitution2: "After b" a.ba
-Substitution2: "After th" a.tha
+Substitution2: "After tn" a.thOa
 Substitution2: "After t" a.ta
 Substitution2: "After r" a.ra
 Substitution2: "After p" a.pa
@@ -32,7 +34,7 @@ Substitution2: "Before l" a.al
 Substitution2: "Before r" a.ar
 Substitution2: "Before v" a.av
 Substitution2: "Before t" a.at
-Substitution2: "Before th" a.ath
+Substitution2: "Before tn" a.athO
 Substitution2: "Before p" a.ap
 Substitution2: "Before n" a.an
 Substitution2: "Before k" a.ak

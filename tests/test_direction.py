@@ -26,6 +26,7 @@ def create_map_direction(first, second):
 
 
 map_s_direction = create_map_direction("s.left", "s.right")
+map_th_direction = create_map_direction("th.under", "th.over")
 
 
 @pytest.mark.parametrize("text,expected", [
@@ -153,3 +154,27 @@ def test_sandwiched_s2(font, text, expected):
 ])
 def test_s_after_i(font, text, expected):
     assert map_s_direction(shape(text, font)) == expected
+
+
+@pytest.mark.parametrize("text,expected", [
+    ("th", [1]),
+    ("th(", [1]),
+    ("th)", [-1]),
+])
+def test_lone_th(font, text, expected):
+    assert map_th_direction(shape(text, font)) == expected
+
+
+@pytest.mark.parametrize("text,expected", [
+    ("thek", [1, 0, 0]),
+    ("them", [1, 0, 0]),
+    ("duth", [0, 0, 1]),
+    ("tho", [-1, 0]),
+    ("thro", [-1, 0, 0]),
+    ("athlet", [0, -1, 0, 0, 0]),
+    ("moth", [0, 0, -1]),
+    ("erth", [0, 0, -1]),
+    ("elth", [0, 0, -1]),
+])
+def test_th_joinings(font, text, expected):
+    assert map_th_direction(shape(text, font)) == expected

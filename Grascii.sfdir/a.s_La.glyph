@@ -1,8 +1,8 @@
-StartChar: a.sla
+StartChar: a.sLa
 Encoding: 349 -1 65
 Width: 127
 VWidth: 1011
-Flags: WO
+Flags: W
 AnchorPoint: "Join" 39 113 exit 0
 AnchorPoint: "Join" 10 12 entry 0
 LayerCount: 2

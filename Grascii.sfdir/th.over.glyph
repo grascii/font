@@ -1,5 +1,5 @@
-StartChar: th
-Encoding: 262 -1 20
+StartChar: th.over
+Encoding: 263 -1 66
 Width: 217
 Flags: W
 AnchorPoint: "Join" 207 138 exit 0
@@ -10,7 +10,5 @@ SplineSet
 10 0 m 0
  10 89 151 138 207 138 c 1024
 EndSplineSet
-Substitution2: "Under th" th.under
-Substitution2: "Over th" th.over
-Ligature2: "ch sh th ng nk" t h
+Ligature2: "Annotated Directions" th parenleft
 EndChar

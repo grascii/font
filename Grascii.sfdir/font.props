@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1747799701
+ModificationTime: 1747803589
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -45,23 +45,26 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 4 0 0 "Multichar strokes" { "ch sh th ng nk"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Annotated Directions" { "Annotated Directions"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "Directions" { "s Direction"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "Directions" { "s Direction"  "th Direction"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Consonant Joinings" { "p Joinings"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Vowel Joinings" { "Vowel Before Overrides"  "Vowel Before"  "Vowel After Overrides"  "Vowel After"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Cut Consonant" { "Cut Consonant" ("cut") } []
 Lookup: 1 0 0 "Right s" { "Right s"  } []
 Lookup: 1 0 0 "Left s" { "Left s"  } []
+Lookup: 1 0 0 "Over th" { "Over th"  } []
+Lookup: 1 0 0 "Under th" { "Under th"  } []
 Lookup: 1 0 0 "Before ch" { "Before ch"  } []
 Lookup: 1 0 0 "Before f" { "Before f"  } []
 Lookup: 1 0 0 "Before k" { "Before k"  } []
 Lookup: 1 0 0 "Before l" { "Before l"  } []
 Lookup: 1 0 0 "Before n" { "Before n"  } []
 Lookup: 1 0 0 "Before ng" { "Before ng"  } []
+Lookup: 1 0 0 "Before nt" { "Before nt"  } []
 Lookup: 1 0 0 "Before p" { "Before p"  } []
 Lookup: 1 0 0 "Before r" { "Before r"  } []
 Lookup: 1 0 0 "Before t" { "Before t"  } []
 Lookup: 1 0 0 "Before s.right" { "Before s.right"  } []
-Lookup: 1 0 0 "Before th" { "Before th"  } []
+Lookup: 1 0 0 "Before tn" { "Before tn"  } []
 Lookup: 1 0 0 "Before v" { "Before v"  } []
 Lookup: 1 0 0 "After b" { "After b"  } []
 Lookup: 1 0 0 "After ch" { "After ch"  } []
@@ -69,12 +72,13 @@ Lookup: 1 0 0 "After f" { "After f"  } []
 Lookup: 1 0 0 "After k" { "After k"  } []
 Lookup: 1 0 0 "After n" { "After n"  } []
 Lookup: 1 0 0 "After ng" { "After ng"  } []
+Lookup: 1 0 0 "After nt" { "After nt"  } []
 Lookup: 1 0 0 "After p" { "After p"  } []
 Lookup: 1 0 0 "After r" { "After r"  } []
 Lookup: 1 0 0 "After s.right" { "After s.right"  } []
 Lookup: 1 0 0 "After s.left" { "After s.left"  } []
 Lookup: 1 0 0 "After t" { "After t"  } []
-Lookup: 1 0 0 "After th" { "After th"  } []
+Lookup: 1 0 0 "After tn" { "After tn"  } []
 Lookup: 264 0 0 "Line of Writing" { "Starts with a"  } [' RQD' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 259 0 0 "Cursive Attachment" { "Join"  } ['curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 257 0 0 "Position Before b" { "Position Before b"  } []
@@ -99,6 +103,65 @@ Lookup: 257 0 0 "Position Before th" { "Position Before th"  } []
 Lookup: 257 0 0 "Position Before v" { "Position Before v"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: class "th Direction" 5 5 5 7
+  Class: 2 th
+  Class: 3 r l
+  Class: 1 o
+  Class: 3 a e
+  BClass: 2 th
+  BClass: 3 r l
+  BClass: 1 o
+  BClass: 3 a e
+  FClass: 2 th
+  FClass: 3 r l
+  FClass: 1 o
+  FClass: 3 a e
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 2
+ 1
+  SeqLookup: 0 "Under th"
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 3
+ 1
+  SeqLookup: 0 "Under th"
+ 1 1 0
+  ClsList: 1
+  BClsList: 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Under th"
+ 1 1 0
+  ClsList: 1
+  BClsList: 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Under th"
+ 1 0 2
+  ClsList: 1
+  BClsList:
+  FClsList: 4 2
+ 1
+  SeqLookup: 0 "Under th"
+ 1 2 0
+  ClsList: 1
+  BClsList: 4 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Under th"
+ 1 0 0
+  ClsList: 1
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "Over th"
+  ClassNames: "All_Others" "th" "r" "o" "circle"
+  BClassNames: "All_Others" "th" "r" "o" "circle"
+  FClassNames: "All_Others" "th" "r" "o" "circle"
+EndFPST
 ChainSub2: class "s Direction" 8 8 8 15
   Class: 1 s
   Class: 23 k g f v sh ch j s.right
@@ -235,21 +298,21 @@ EndFPST
 ChainSub2: glyph "Vowel After Overrides" 0 0 0 3
  String: 1 a
  BString: 1 b
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "After b"
  String: 1 a
  BString: 7 s.right
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "After s.right"
  String: 1 a
  BString: 6 s.left
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "After s.left"
 EndFPST
-ChainSub2: class "Vowel After" 11 11 11 9
+ChainSub2: class "Vowel After" 12 12 12 10
   Class: 1 a
   Class: 7 sh ch j
   Class: 23 f v f.cut v.cut s.right
@@ -258,7 +321,8 @@ ChainSub2: class "Vowel After" 11 11 11 9
   Class: 10 p b s.left
   Class: 15 r l r.cut l.cut
   Class: 3 t d
-  Class: 2 th
+  Class: 7 th.over
+  Class: 8 th.under
   Class: 5 ng nk
   BClass: 1 a
   BClass: 7 sh ch j
@@ -268,7 +332,8 @@ ChainSub2: class "Vowel After" 11 11 11 9
   BClass: 10 p b s.left
   BClass: 15 r l r.cut l.cut
   BClass: 3 t d
-  BClass: 2 th
+  BClass: 7 th.over
+  BClass: 8 th.under
   BClass: 5 ng nk
   FClass: 1 a
   FClass: 7 sh ch j
@@ -278,7 +343,8 @@ ChainSub2: class "Vowel After" 11 11 11 9
   FClass: 10 p b s.left
   FClass: 15 r l r.cut l.cut
   FClass: 3 t d
-  FClass: 2 th
+  FClass: 7 th.over
+  FClass: 8 th.under
   FClass: 5 ng nk
  1 1 0
   ClsList: 1
@@ -327,16 +393,22 @@ ChainSub2: class "Vowel After" 11 11 11 9
   BClsList: 9
   FClsList:
  1
-  SeqLookup: 0 "After th"
+  SeqLookup: 0 "After tn"
  1 1 0
   ClsList: 1
   BClsList: 10
   FClsList:
  1
+  SeqLookup: 0 "After nt"
+ 1 1 0
+  ClsList: 1
+  BClsList: 11
+  FClsList:
+ 1
   SeqLookup: 0 "After ng"
-  ClassNames: "All_Others" "a" "ch" "f" "k" "n" "p" "r" "t" "th" "ng"
-  BClassNames: "All_Others" "a" "ch" "f" "k" "n" "p" "r" "t" "th" "ng"
-  FClassNames: "All_Others" "a" "ch" "f" "k" "n" "p" "r" "t" "th" "ng"
+  ClassNames: "All_Others" "a" "ch" "f" "k" "n" "p" "r" "t" "tn" "nt" "ng"
+  BClassNames: "All_Others" "a" "ch" "f" "k" "n" "p" "r" "t" "tn" "nt" "ng"
+  FClassNames: "All_Others" "a" "ch" "f" "k" "n" "p" "r" "t" "tn" "nt" "ng"
 EndFPST
 ChainPos2: class "Starts with a" 7 7 12 11
   Class: 5 a.ach
@@ -434,22 +506,22 @@ ChainPos2: class "Starts with a" 7 7 12 11
 EndFPST
 ChainSub2: glyph "Vowel Before Overrides" 0 0 0 3
  String: 1 a
- BString: 0
+ BString: 0 
  FString: 1 l
  1
   SeqLookup: 0 "Before l"
  String: 1 a
- BString: 0
+ BString: 0 
  FString: 1 v
  1
   SeqLookup: 0 "Before v"
  String: 1 a
- BString: 0
+ BString: 0 
  FString: 7 s.right
  1
   SeqLookup: 0 "Before s.right"
 EndFPST
-ChainSub2: class "Vowel Before" 11 1 11 9
+ChainSub2: class "Vowel Before" 12 1 12 10
   Class: 1 a
   Class: 7 sh ch j
   Class: 11 f v s.right
@@ -458,7 +530,8 @@ ChainSub2: class "Vowel Before" 11 1 11 9
   Class: 22 p b p.cut b.cut s.left
   Class: 3 r l
   Class: 3 t d
-  Class: 2 th
+  Class: 7 th.over
+  Class: 8 th.under
   Class: 5 ng nk
   FClass: 1 a
   FClass: 7 sh ch j
@@ -468,7 +541,8 @@ ChainSub2: class "Vowel Before" 11 1 11 9
   FClass: 22 p b p.cut b.cut s.left
   FClass: 3 r l
   FClass: 3 t d
-  FClass: 2 th
+  FClass: 7 th.over
+  FClass: 8 th.under
   FClass: 5 ng nk
  1 0 1
   ClsList: 1
@@ -517,16 +591,22 @@ ChainSub2: class "Vowel Before" 11 1 11 9
   BClsList:
   FClsList: 9
  1
-  SeqLookup: 0 "Before th"
+  SeqLookup: 0 "Before tn"
  1 0 1
   ClsList: 1
   BClsList:
   FClsList: 10
  1
+  SeqLookup: 0 "Before nt"
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 11
+ 1
   SeqLookup: 0 "Before ng"
-  ClassNames: "All_Others" "a" "ch" "f" "k" "n" "p" "r" "t" "th" "ng"
+  ClassNames: "All_Others" "a" "ch" "f" "k" "n" "p" "r" "t" "tn" "nt" "ng"
   BClassNames: "All_Others"
-  FClassNames: "All_Others" "a" "ch" "f" "k" "n" "p" "r" "t" "th" "ng"
+  FClassNames: "All_Others" "a" "ch" "f" "k" "n" "p" "r" "t" "tn" "nt" "ng"
 EndFPST
 Encoding: ISO8859-1
 UnicodeInterp: none
@@ -534,7 +614,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 130 26 10
+WinInfo: 104 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144

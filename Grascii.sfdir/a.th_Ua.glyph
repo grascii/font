@@ -1,0 +1,11 @@
+StartChar: a.thUa
+Encoding: 350 -1 69
+Width: 119
+VWidth: 132
+Flags: WO
+AnchorPoint: "Join" 34.748 0 exit 0
+AnchorPoint: "Join" 108.748 101 entry 0
+LayerCount: 2
+Fore
+Refer: 36 -1 N -1 1.22465e-16 -1.22465e-16 -1 118.748 132 2
+EndChar
