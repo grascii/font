@@ -1,0 +1,14 @@
+StartChar: a.sla
+Encoding: 349 -1 65
+Width: 127
+VWidth: 1011
+Flags: WO
+AnchorPoint: "Join" 39 113 exit 0
+AnchorPoint: "Join" 10 12 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 12 m 0
+ 90 -34 189 67 39 113 c 1024
+EndSplineSet
+EndChar

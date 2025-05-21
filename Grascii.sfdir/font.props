@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1747722638
+ModificationTime: 1747799701
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -60,6 +60,7 @@ Lookup: 1 0 0 "Before ng" { "Before ng"  } []
 Lookup: 1 0 0 "Before p" { "Before p"  } []
 Lookup: 1 0 0 "Before r" { "Before r"  } []
 Lookup: 1 0 0 "Before t" { "Before t"  } []
+Lookup: 1 0 0 "Before s.right" { "Before s.right"  } []
 Lookup: 1 0 0 "Before th" { "Before th"  } []
 Lookup: 1 0 0 "Before v" { "Before v"  } []
 Lookup: 1 0 0 "After b" { "After b"  } []
@@ -70,6 +71,8 @@ Lookup: 1 0 0 "After n" { "After n"  } []
 Lookup: 1 0 0 "After ng" { "After ng"  } []
 Lookup: 1 0 0 "After p" { "After p"  } []
 Lookup: 1 0 0 "After r" { "After r"  } []
+Lookup: 1 0 0 "After s.right" { "After s.right"  } []
+Lookup: 1 0 0 "After s.left" { "After s.left"  } []
 Lookup: 1 0 0 "After t" { "After t"  } []
 Lookup: 1 0 0 "After th" { "After th"  } []
 Lookup: 264 0 0 "Line of Writing" { "Starts with a"  } [' RQD' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -229,40 +232,50 @@ ChainSub2: class "p Joinings" 3 3 3 1
   BClassNames: "All_Others" "p" "r"
   FClassNames: "All_Others" "p" "r"
 EndFPST
-ChainSub2: glyph "Vowel After Overrides" 0 0 0 1
+ChainSub2: glyph "Vowel After Overrides" 0 0 0 3
  String: 1 a
  BString: 1 b
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "After b"
+ String: 1 a
+ BString: 7 s.right
+ FString: 0
+ 1
+  SeqLookup: 0 "After s.right"
+ String: 1 a
+ BString: 6 s.left
+ FString: 0
+ 1
+  SeqLookup: 0 "After s.left"
 EndFPST
 ChainSub2: class "Vowel After" 11 11 11 9
   Class: 1 a
   Class: 7 sh ch j
-  Class: 15 f v f.cut v.cut
+  Class: 23 f v f.cut v.cut s.right
   Class: 3 k g
   Class: 3 n m
-  Class: 3 p b
+  Class: 10 p b s.left
   Class: 15 r l r.cut l.cut
   Class: 3 t d
   Class: 2 th
   Class: 5 ng nk
   BClass: 1 a
   BClass: 7 sh ch j
-  BClass: 15 f v f.cut v.cut
+  BClass: 23 f v f.cut v.cut s.right
   BClass: 3 k g
   BClass: 3 n m
-  BClass: 3 p b
+  BClass: 10 p b s.left
   BClass: 15 r l r.cut l.cut
   BClass: 3 t d
   BClass: 2 th
   BClass: 5 ng nk
   FClass: 1 a
   FClass: 7 sh ch j
-  FClass: 15 f v f.cut v.cut
+  FClass: 23 f v f.cut v.cut s.right
   FClass: 3 k g
   FClass: 3 n m
-  FClass: 3 p b
+  FClass: 10 p b s.left
   FClass: 15 r l r.cut l.cut
   FClass: 3 t d
   FClass: 2 th
@@ -419,35 +432,40 @@ ChainPos2: class "Starts with a" 7 7 12 11
   BClassNames: "All_Others" "a.ach" "a.af" "a.ang" "a.ap" "a.at" "a.av"
   FClassNames: "All_Others" "b" "b.cut" "ch" "f" "j" "ng" "nk" "p" "p.cut" "sh" "v"
 EndFPST
-ChainSub2: glyph "Vowel Before Overrides" 0 0 0 2
+ChainSub2: glyph "Vowel Before Overrides" 0 0 0 3
  String: 1 a
- BString: 0 
+ BString: 0
  FString: 1 l
  1
   SeqLookup: 0 "Before l"
  String: 1 a
- BString: 0 
+ BString: 0
  FString: 1 v
  1
   SeqLookup: 0 "Before v"
+ String: 1 a
+ BString: 0
+ FString: 7 s.right
+ 1
+  SeqLookup: 0 "Before s.right"
 EndFPST
 ChainSub2: class "Vowel Before" 11 1 11 9
   Class: 1 a
   Class: 7 sh ch j
-  Class: 3 f v
+  Class: 11 f v s.right
   Class: 15 k g k.cut g.cut
   Class: 3 n m
-  Class: 15 p b p.cut b.cut
+  Class: 22 p b p.cut b.cut s.left
   Class: 3 r l
   Class: 3 t d
   Class: 2 th
   Class: 5 ng nk
   FClass: 1 a
   FClass: 7 sh ch j
-  FClass: 3 f v
+  FClass: 11 f v s.right
   FClass: 15 k g k.cut g.cut
   FClass: 3 n m
-  FClass: 15 p b p.cut b.cut
+  FClass: 22 p b p.cut b.cut s.left
   FClass: 3 r l
   FClass: 3 t d
   FClass: 2 th
@@ -516,7 +534,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 26 10
+WinInfo: 130 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
