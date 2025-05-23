@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1747803589
+ModificationTime: 1747978596
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -47,7 +47,8 @@ Lookup: 4 0 0 "Multichar strokes" { "ch sh th ng nk"  } ['rlig' ('DFLT' <'dflt' 
 Lookup: 4 0 0 "Annotated Directions" { "Annotated Directions"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Directions" { "s Direction"  "th Direction"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Consonant Joinings" { "p Joinings"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "Vowel Joinings" { "Vowel Before Overrides"  "Vowel Before"  "Vowel After Overrides"  "Vowel After"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 1 "Vowel Between" { "Between k *"  "Between r *"  "Between n *"  "Between t *"  "Between p *"  "Between f *"  "Between ch *"  "Between ng *"  "Between tn *"  "Between nt *"  } ['rclt' ('latn' <'dflt' > ) ]
+Lookup: 6 0 0 "Vowel Before/After" { "Vowel Before Overrides"  "Vowel Before"  "Vowel After Overrides"  "Vowel After"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Cut Consonant" { "Cut Consonant" ("cut") } []
 Lookup: 1 0 0 "Right s" { "Right s"  } []
 Lookup: 1 0 0 "Left s" { "Left s"  } []
@@ -79,6 +80,106 @@ Lookup: 1 0 0 "After s.right" { "After s.right"  } []
 Lookup: 1 0 0 "After s.left" { "After s.left"  } []
 Lookup: 1 0 0 "After t" { "After t"  } []
 Lookup: 1 0 0 "After tn" { "After tn"  } []
+Lookup: 1 0 0 "Between k k" { "Between k k"  } []
+Lookup: 1 0 0 "Between k r" { "Between k r"  } []
+Lookup: 1 0 0 "Between k n" { "Between k n"  } []
+Lookup: 1 0 0 "Between k t" { "Between k t"  } []
+Lookup: 1 0 0 "Between k p" { "Between k p"  } []
+Lookup: 1 0 0 "Between k f" { "Between k f"  } []
+Lookup: 1 0 0 "Between k ch" { "Between k ch"  } []
+Lookup: 1 0 0 "Between k ng" { "Between k ng"  } []
+Lookup: 1 0 0 "Between k tn" { "Between k tn"  } []
+Lookup: 1 0 0 "Between k nt" { "Between k nt"  } []
+Lookup: 1 0 0 "Between r k" { "Between r k"  } []
+Lookup: 1 0 0 "Between r r" { "Between r r"  } []
+Lookup: 1 0 0 "Between r n" { "Between r n"  } []
+Lookup: 1 0 0 "Between r t" { "Between r t"  } []
+Lookup: 1 0 0 "Between r p" { "Between r p"  } []
+Lookup: 1 0 0 "Between r f" { "Between r f"  } []
+Lookup: 1 0 0 "Between r ch" { "Between r ch"  } []
+Lookup: 1 0 0 "Between r ng" { "Between r ng"  } []
+Lookup: 1 0 0 "Between r tn" { "Between r tn"  } []
+Lookup: 1 0 0 "Between r nt" { "Between r nt"  } []
+Lookup: 1 0 0 "Between n k" { "Between n k"  } []
+Lookup: 1 0 0 "Between n r" { "Between n r"  } []
+Lookup: 1 0 0 "Between n n" { "Between n n"  } []
+Lookup: 1 0 0 "Between n t" { "Between n t"  } []
+Lookup: 1 0 0 "Between n p" { "Between n p"  } []
+Lookup: 1 0 0 "Between n f" { "Between n f"  } []
+Lookup: 1 0 0 "Between n ch" { "Between n ch"  } []
+Lookup: 1 0 0 "Between n ng" { "Between n ng"  } []
+Lookup: 1 0 0 "Between n tn" { "Between n tn"  } []
+Lookup: 1 0 0 "Between n nt" { "Between n nt"  } []
+Lookup: 1 0 0 "Between t k" { "Between t k"  } []
+Lookup: 1 0 0 "Between t r" { "Between t r"  } []
+Lookup: 1 0 0 "Between t n" { "Between t n"  } []
+Lookup: 1 0 0 "Between t t" { "Between t t"  } []
+Lookup: 1 0 0 "Between t p" { "Between t p"  } []
+Lookup: 1 0 0 "Between t f" { "Between t f"  } []
+Lookup: 1 0 0 "Between t ch" { "Between t ch"  } []
+Lookup: 1 0 0 "Between t ng" { "Between t ng"  } []
+Lookup: 1 0 0 "Between t tn" { "Between t tn"  } []
+Lookup: 1 0 0 "Between t nt" { "Between t nt"  } []
+Lookup: 1 0 0 "Between p k" { "Between p k"  } []
+Lookup: 1 0 0 "Between p r" { "Between p r"  } []
+Lookup: 1 0 0 "Between p n" { "Between p n"  } []
+Lookup: 1 0 0 "Between p t" { "Between p t"  } []
+Lookup: 1 0 0 "Between p p" { "Between p p"  } []
+Lookup: 1 0 0 "Between p f" { "Between p f"  } []
+Lookup: 1 0 0 "Between p ch" { "Between p ch"  } []
+Lookup: 1 0 0 "Between p ng" { "Between p ng"  } []
+Lookup: 1 0 0 "Between p tn" { "Between p tn"  } []
+Lookup: 1 0 0 "Between p nt" { "Between p nt"  } []
+Lookup: 1 0 0 "Between f k" { "Between f k"  } []
+Lookup: 1 0 0 "Between f r" { "Between f r"  } []
+Lookup: 1 0 0 "Between f n" { "Between f n"  } []
+Lookup: 1 0 0 "Between f t" { "Between f t"  } []
+Lookup: 1 0 0 "Between f p" { "Between f p"  } []
+Lookup: 1 0 0 "Between f f" { "Between f f"  } []
+Lookup: 1 0 0 "Between f ch" { "Between f ch"  } []
+Lookup: 1 0 0 "Between f ng" { "Between f ng"  } []
+Lookup: 1 0 0 "Between f tn" { "Between f tn"  } []
+Lookup: 1 0 0 "Between f nt" { "Between f nt"  } []
+Lookup: 1 0 0 "Between ch k" { "Between ch k"  } []
+Lookup: 1 0 0 "Between ch r" { "Between ch r"  } []
+Lookup: 1 0 0 "Between ch n" { "Between ch n"  } []
+Lookup: 1 0 0 "Between ch t" { "Between ch t"  } []
+Lookup: 1 0 0 "Between ch p" { "Between ch p"  } []
+Lookup: 1 0 0 "Between ch f" { "Between ch f"  } []
+Lookup: 1 0 0 "Between ch ch" { "Between ch ch"  } []
+Lookup: 1 0 0 "Between ch ng" { "Between ch ng"  } []
+Lookup: 1 0 0 "Between ch tn" { "Between ch tn"  } []
+Lookup: 1 0 0 "Between ch nt" { "Between ch nt"  } []
+Lookup: 1 0 0 "Between ng k" { "Between ng k"  } []
+Lookup: 1 0 0 "Between ng r" { "Between ng r"  } []
+Lookup: 1 0 0 "Between ng n" { "Between ng n"  } []
+Lookup: 1 0 0 "Between ng t" { "Between ng t"  } []
+Lookup: 1 0 0 "Between ng p" { "Between ng p"  } []
+Lookup: 1 0 0 "Between ng f" { "Between ng f"  } []
+Lookup: 1 0 0 "Between ng ch" { "Between ng ch"  } []
+Lookup: 1 0 0 "Between ng ng" { "Between ng ng"  } []
+Lookup: 1 0 0 "Between ng tn" { "Between ng tn"  } []
+Lookup: 1 0 0 "Between ng nt" { "Between ng nt"  } []
+Lookup: 1 0 0 "Between tn k" { "Between tn k"  } []
+Lookup: 1 0 0 "Between tn r" { "Between tn r"  } []
+Lookup: 1 0 0 "Between tn n" { "Between tn n"  } []
+Lookup: 1 0 0 "Between tn t" { "Between tn t"  } []
+Lookup: 1 0 0 "Between tn p" { "Between tn p"  } []
+Lookup: 1 0 0 "Between tn f" { "Between tn f"  } []
+Lookup: 1 0 0 "Between tn ch" { "Between tn ch"  } []
+Lookup: 1 0 0 "Between tn ng" { "Between tn ng"  } []
+Lookup: 1 0 0 "Between tn tn" { "Between tn tn"  } []
+Lookup: 1 0 0 "Between tn nt" { "Between tn nt"  } []
+Lookup: 1 0 0 "Between nt k" { "Between nt k"  } []
+Lookup: 1 0 0 "Between nt r" { "Between nt r"  } []
+Lookup: 1 0 0 "Between nt n" { "Between nt n"  } []
+Lookup: 1 0 0 "Between nt t" { "Between nt t"  } []
+Lookup: 1 0 0 "Between nt p" { "Between nt p"  } []
+Lookup: 1 0 0 "Between nt f" { "Between nt f"  } []
+Lookup: 1 0 0 "Between nt ch" { "Between nt ch"  } []
+Lookup: 1 0 0 "Between nt ng" { "Between nt ng"  } []
+Lookup: 1 0 0 "Between nt tn" { "Between nt tn"  } []
+Lookup: 1 0 0 "Between nt nt" { "Between nt nt"  } []
 Lookup: 264 0 0 "Line of Writing" { "Starts with a"  } [' RQD' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 259 0 0 "Cursive Attachment" { "Join"  } ['curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 257 0 0 "Position Before b" { "Position Before b"  } []
@@ -103,6 +204,436 @@ Lookup: 257 0 0 "Position Before th" { "Position Before th"  } []
 Lookup: 257 0 0 "Position Before v" { "Position Before v"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: class "Between k *" 12 12 12 1
+  Class: 9 a e i o u
+  Class: 15 k g k.cut g.cut
+  Class: 15 r l r.cut l.cut
+  Class: 3 n m
+  Class: 3 t d
+  Class: 22 p b p.cut b.cut s.left
+  Class: 23 f v f.cut v.cut s.right
+  Class: 7 sh ch j
+  Class: 5 ng nk
+  Class: 7 th.over
+  Class: 8 th.under
+  BClass: 9 a e i o u
+  BClass: 15 k g k.cut g.cut
+  BClass: 15 r l r.cut l.cut
+  BClass: 3 n m
+  BClass: 3 t d
+  BClass: 22 p b p.cut b.cut s.left
+  BClass: 23 f v f.cut v.cut s.right
+  BClass: 7 sh ch j
+  BClass: 5 ng nk
+  BClass: 7 th.over
+  BClass: 8 th.under
+  FClass: 9 a e i o u
+  FClass: 15 k g k.cut g.cut
+  FClass: 15 r l r.cut l.cut
+  FClass: 3 n m
+  FClass: 3 t d
+  FClass: 22 p b p.cut b.cut s.left
+  FClass: 23 f v f.cut v.cut s.right
+  FClass: 7 sh ch j
+  FClass: 5 ng nk
+  FClass: 7 th.over
+  FClass: 8 th.under
+ 1 0 0
+  ClsList: 0
+  BClsList:
+  FClsList:
+ 0
+  ClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+  BClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+  FClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+EndFPST
+ChainSub2: class "Between r *" 12 12 12 1
+  Class: 9 a e i o u
+  Class: 15 k g k.cut g.cut
+  Class: 15 r l r.cut l.cut
+  Class: 3 n m
+  Class: 3 t d
+  Class: 22 p b p.cut b.cut s.left
+  Class: 23 f v f.cut v.cut s.right
+  Class: 7 sh ch j
+  Class: 5 ng nk
+  Class: 7 th.over
+  Class: 8 th.under
+  BClass: 9 a e i o u
+  BClass: 15 k g k.cut g.cut
+  BClass: 15 r l r.cut l.cut
+  BClass: 3 n m
+  BClass: 3 t d
+  BClass: 22 p b p.cut b.cut s.left
+  BClass: 23 f v f.cut v.cut s.right
+  BClass: 7 sh ch j
+  BClass: 5 ng nk
+  BClass: 7 th.over
+  BClass: 8 th.under
+  FClass: 9 a e i o u
+  FClass: 15 k g k.cut g.cut
+  FClass: 15 r l r.cut l.cut
+  FClass: 3 n m
+  FClass: 3 t d
+  FClass: 22 p b p.cut b.cut s.left
+  FClass: 23 f v f.cut v.cut s.right
+  FClass: 7 sh ch j
+  FClass: 5 ng nk
+  FClass: 7 th.over
+  FClass: 8 th.under
+ 1 0 0
+  ClsList: 0
+  BClsList:
+  FClsList:
+ 0
+  ClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+  BClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+  FClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+EndFPST
+ChainSub2: class "Between n *" 12 12 12 1
+  Class: 9 a e i o u
+  Class: 15 k g k.cut g.cut
+  Class: 15 r l r.cut l.cut
+  Class: 3 n m
+  Class: 3 t d
+  Class: 22 p b p.cut b.cut s.left
+  Class: 23 f v f.cut v.cut s.right
+  Class: 7 sh ch j
+  Class: 5 ng nk
+  Class: 7 th.over
+  Class: 8 th.under
+  BClass: 9 a e i o u
+  BClass: 15 k g k.cut g.cut
+  BClass: 15 r l r.cut l.cut
+  BClass: 3 n m
+  BClass: 3 t d
+  BClass: 22 p b p.cut b.cut s.left
+  BClass: 23 f v f.cut v.cut s.right
+  BClass: 7 sh ch j
+  BClass: 5 ng nk
+  BClass: 7 th.over
+  BClass: 8 th.under
+  FClass: 9 a e i o u
+  FClass: 15 k g k.cut g.cut
+  FClass: 15 r l r.cut l.cut
+  FClass: 3 n m
+  FClass: 3 t d
+  FClass: 22 p b p.cut b.cut s.left
+  FClass: 23 f v f.cut v.cut s.right
+  FClass: 7 sh ch j
+  FClass: 5 ng nk
+  FClass: 7 th.over
+  FClass: 8 th.under
+ 1 0 0
+  ClsList: 0
+  BClsList:
+  FClsList:
+ 0
+  ClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+  BClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+  FClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+EndFPST
+ChainSub2: class "Between t *" 12 12 12 1
+  Class: 9 a e i o u
+  Class: 15 k g k.cut g.cut
+  Class: 15 r l r.cut l.cut
+  Class: 3 n m
+  Class: 3 t d
+  Class: 22 p b p.cut b.cut s.left
+  Class: 23 f v f.cut v.cut s.right
+  Class: 7 sh ch j
+  Class: 5 ng nk
+  Class: 7 th.over
+  Class: 8 th.under
+  BClass: 9 a e i o u
+  BClass: 15 k g k.cut g.cut
+  BClass: 15 r l r.cut l.cut
+  BClass: 3 n m
+  BClass: 3 t d
+  BClass: 22 p b p.cut b.cut s.left
+  BClass: 23 f v f.cut v.cut s.right
+  BClass: 7 sh ch j
+  BClass: 5 ng nk
+  BClass: 7 th.over
+  BClass: 8 th.under
+  FClass: 9 a e i o u
+  FClass: 15 k g k.cut g.cut
+  FClass: 15 r l r.cut l.cut
+  FClass: 3 n m
+  FClass: 3 t d
+  FClass: 22 p b p.cut b.cut s.left
+  FClass: 23 f v f.cut v.cut s.right
+  FClass: 7 sh ch j
+  FClass: 5 ng nk
+  FClass: 7 th.over
+  FClass: 8 th.under
+ 1 0 0
+  ClsList: 0
+  BClsList:
+  FClsList:
+ 0
+  ClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+  BClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+  FClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+EndFPST
+ChainSub2: class "Between p *" 12 12 12 1
+  Class: 9 a e i o u
+  Class: 15 k g k.cut g.cut
+  Class: 15 r l r.cut l.cut
+  Class: 3 n m
+  Class: 3 t d
+  Class: 22 p b p.cut b.cut s.left
+  Class: 23 f v f.cut v.cut s.right
+  Class: 7 sh ch j
+  Class: 5 ng nk
+  Class: 7 th.over
+  Class: 8 th.under
+  BClass: 9 a e i o u
+  BClass: 15 k g k.cut g.cut
+  BClass: 15 r l r.cut l.cut
+  BClass: 3 n m
+  BClass: 3 t d
+  BClass: 22 p b p.cut b.cut s.left
+  BClass: 23 f v f.cut v.cut s.right
+  BClass: 7 sh ch j
+  BClass: 5 ng nk
+  BClass: 7 th.over
+  BClass: 8 th.under
+  FClass: 9 a e i o u
+  FClass: 15 k g k.cut g.cut
+  FClass: 15 r l r.cut l.cut
+  FClass: 3 n m
+  FClass: 3 t d
+  FClass: 22 p b p.cut b.cut s.left
+  FClass: 23 f v f.cut v.cut s.right
+  FClass: 7 sh ch j
+  FClass: 5 ng nk
+  FClass: 7 th.over
+  FClass: 8 th.under
+ 1 0 0
+  ClsList: 0
+  BClsList:
+  FClsList:
+ 0
+  ClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+  BClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+  FClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+EndFPST
+ChainSub2: class "Between f *" 12 12 12 1
+  Class: 9 a e i o u
+  Class: 15 k g k.cut g.cut
+  Class: 15 r l r.cut l.cut
+  Class: 3 n m
+  Class: 3 t d
+  Class: 22 p b p.cut b.cut s.left
+  Class: 23 f v f.cut v.cut s.right
+  Class: 7 sh ch j
+  Class: 5 ng nk
+  Class: 7 th.over
+  Class: 8 th.under
+  BClass: 9 a e i o u
+  BClass: 15 k g k.cut g.cut
+  BClass: 15 r l r.cut l.cut
+  BClass: 3 n m
+  BClass: 3 t d
+  BClass: 22 p b p.cut b.cut s.left
+  BClass: 23 f v f.cut v.cut s.right
+  BClass: 7 sh ch j
+  BClass: 5 ng nk
+  BClass: 7 th.over
+  BClass: 8 th.under
+  FClass: 9 a e i o u
+  FClass: 15 k g k.cut g.cut
+  FClass: 15 r l r.cut l.cut
+  FClass: 3 n m
+  FClass: 3 t d
+  FClass: 22 p b p.cut b.cut s.left
+  FClass: 23 f v f.cut v.cut s.right
+  FClass: 7 sh ch j
+  FClass: 5 ng nk
+  FClass: 7 th.over
+  FClass: 8 th.under
+ 1 0 0
+  ClsList: 0
+  BClsList:
+  FClsList:
+ 0
+  ClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+  BClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+  FClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+EndFPST
+ChainSub2: class "Between ch *" 12 12 12 1
+  Class: 9 a e i o u
+  Class: 15 k g k.cut g.cut
+  Class: 15 r l r.cut l.cut
+  Class: 3 n m
+  Class: 3 t d
+  Class: 22 p b p.cut b.cut s.left
+  Class: 23 f v f.cut v.cut s.right
+  Class: 7 sh ch j
+  Class: 5 ng nk
+  Class: 7 th.over
+  Class: 8 th.under
+  BClass: 9 a e i o u
+  BClass: 15 k g k.cut g.cut
+  BClass: 15 r l r.cut l.cut
+  BClass: 3 n m
+  BClass: 3 t d
+  BClass: 22 p b p.cut b.cut s.left
+  BClass: 23 f v f.cut v.cut s.right
+  BClass: 7 sh ch j
+  BClass: 5 ng nk
+  BClass: 7 th.over
+  BClass: 8 th.under
+  FClass: 9 a e i o u
+  FClass: 15 k g k.cut g.cut
+  FClass: 15 r l r.cut l.cut
+  FClass: 3 n m
+  FClass: 3 t d
+  FClass: 22 p b p.cut b.cut s.left
+  FClass: 23 f v f.cut v.cut s.right
+  FClass: 7 sh ch j
+  FClass: 5 ng nk
+  FClass: 7 th.over
+  FClass: 8 th.under
+ 1 0 0
+  ClsList: 0
+  BClsList:
+  FClsList:
+ 0
+  ClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+  BClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+  FClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+EndFPST
+ChainSub2: class "Between ng *" 12 12 12 1
+  Class: 9 a e i o u
+  Class: 15 k g k.cut g.cut
+  Class: 15 r l r.cut l.cut
+  Class: 3 n m
+  Class: 3 t d
+  Class: 22 p b p.cut b.cut s.left
+  Class: 23 f v f.cut v.cut s.right
+  Class: 7 sh ch j
+  Class: 5 ng nk
+  Class: 7 th.over
+  Class: 8 th.under
+  BClass: 9 a e i o u
+  BClass: 15 k g k.cut g.cut
+  BClass: 15 r l r.cut l.cut
+  BClass: 3 n m
+  BClass: 3 t d
+  BClass: 22 p b p.cut b.cut s.left
+  BClass: 23 f v f.cut v.cut s.right
+  BClass: 7 sh ch j
+  BClass: 5 ng nk
+  BClass: 7 th.over
+  BClass: 8 th.under
+  FClass: 9 a e i o u
+  FClass: 15 k g k.cut g.cut
+  FClass: 15 r l r.cut l.cut
+  FClass: 3 n m
+  FClass: 3 t d
+  FClass: 22 p b p.cut b.cut s.left
+  FClass: 23 f v f.cut v.cut s.right
+  FClass: 7 sh ch j
+  FClass: 5 ng nk
+  FClass: 7 th.over
+  FClass: 8 th.under
+ 1 0 0
+  ClsList: 0
+  BClsList:
+  FClsList:
+ 0
+  ClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+  BClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+  FClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+EndFPST
+ChainSub2: class "Between tn *" 12 12 12 1
+  Class: 9 a e i o u
+  Class: 15 k g k.cut g.cut
+  Class: 15 r l r.cut l.cut
+  Class: 3 n m
+  Class: 3 t d
+  Class: 22 p b p.cut b.cut s.left
+  Class: 23 f v f.cut v.cut s.right
+  Class: 7 sh ch j
+  Class: 5 ng nk
+  Class: 7 th.over
+  Class: 8 th.under
+  BClass: 9 a e i o u
+  BClass: 15 k g k.cut g.cut
+  BClass: 15 r l r.cut l.cut
+  BClass: 3 n m
+  BClass: 3 t d
+  BClass: 22 p b p.cut b.cut s.left
+  BClass: 23 f v f.cut v.cut s.right
+  BClass: 7 sh ch j
+  BClass: 5 ng nk
+  BClass: 7 th.over
+  BClass: 8 th.under
+  FClass: 9 a e i o u
+  FClass: 15 k g k.cut g.cut
+  FClass: 15 r l r.cut l.cut
+  FClass: 3 n m
+  FClass: 3 t d
+  FClass: 22 p b p.cut b.cut s.left
+  FClass: 23 f v f.cut v.cut s.right
+  FClass: 7 sh ch j
+  FClass: 5 ng nk
+  FClass: 7 th.over
+  FClass: 8 th.under
+ 1 0 0
+  ClsList: 0
+  BClsList:
+  FClsList:
+ 0
+  ClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+  BClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+  FClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+EndFPST
+ChainSub2: class "Between nt *" 12 12 12 1
+  Class: 9 a e i o u
+  Class: 15 k g k.cut g.cut
+  Class: 15 r l r.cut l.cut
+  Class: 3 n m
+  Class: 3 t d
+  Class: 22 p b p.cut b.cut s.left
+  Class: 23 f v f.cut v.cut s.right
+  Class: 7 sh ch j
+  Class: 5 ng nk
+  Class: 7 th.over
+  Class: 8 th.under
+  BClass: 9 a e i o u
+  BClass: 15 k g k.cut g.cut
+  BClass: 15 r l r.cut l.cut
+  BClass: 3 n m
+  BClass: 3 t d
+  BClass: 22 p b p.cut b.cut s.left
+  BClass: 23 f v f.cut v.cut s.right
+  BClass: 7 sh ch j
+  BClass: 5 ng nk
+  BClass: 7 th.over
+  BClass: 8 th.under
+  FClass: 9 a e i o u
+  FClass: 15 k g k.cut g.cut
+  FClass: 15 r l r.cut l.cut
+  FClass: 3 n m
+  FClass: 3 t d
+  FClass: 22 p b p.cut b.cut s.left
+  FClass: 23 f v f.cut v.cut s.right
+  FClass: 7 sh ch j
+  FClass: 5 ng nk
+  FClass: 7 th.over
+  FClass: 8 th.under
+ 1 0 0
+  ClsList: 0
+  BClsList:
+  FClsList:
+ 0
+  ClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+  BClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+  FClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
+EndFPST
 ChainSub2: class "th Direction" 5 5 5 7
   Class: 2 th
   Class: 3 r l
