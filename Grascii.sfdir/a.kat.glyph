@@ -1,0 +1,16 @@
+StartChar: a.kat
+Encoding: 367 -1 73
+Width: 167
+VWidth: 1142
+Flags: W
+AnchorPoint: "Join" 150 175 exit 0
+AnchorPoint: "Join" 157 143 entry 0
+LayerCount: 2
+Fore
+SplineSet
+157 143 m 0
+ 157 128 169 63 111 26 c 0
+ 1 -45 -13 46 39 94 c 0
+ 83 135 124 160 150 175 c 1024
+EndSplineSet
+EndChar

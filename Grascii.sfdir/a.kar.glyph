@@ -1,0 +1,15 @@
+StartChar: a.kar
+Encoding: 365 -1 71
+Width: 213
+VWidth: 1172
+Flags: W
+AnchorPoint: "Join" 12 70 exit 0
+AnchorPoint: "Join" 12 70 entry 0
+LayerCount: 2
+Fore
+SplineSet
+12 70 m 0
+ 46 -70 240 27 197 124 c 0
+ 141 221 -11 155 12 70 c 1024
+EndSplineSet
+EndChar

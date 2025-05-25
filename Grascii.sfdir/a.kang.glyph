@@ -1,0 +1,15 @@
+StartChar: a.kang
+Encoding: 371 -1 77
+Width: 216
+VWidth: 1098
+Flags: W
+AnchorPoint: "Join" 207 92 exit 0
+AnchorPoint: "Join" 207 92 entry 0
+LayerCount: 2
+Fore
+SplineSet
+207 92 m 0
+ 207 43 36 -40 12 23 c 0
+ -6 69 115 117 207 92 c 1024
+EndSplineSet
+EndChar

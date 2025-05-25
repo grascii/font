@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1747978596
+ModificationTime: 1748146646
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -46,7 +46,7 @@ OS2Vendor: 'PfEd'
 Lookup: 4 0 0 "Multichar strokes" { "ch sh th ng nk"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Annotated Directions" { "Annotated Directions"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Directions" { "s Direction"  "th Direction"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "Consonant Joinings" { "p Joinings"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "Consonant Joinings" { "p Joinings"  "f Joinings"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 1 "Vowel Between" { "Between k *"  "Between r *"  "Between n *"  "Between t *"  "Between p *"  "Between f *"  "Between ch *"  "Between ng *"  "Between tn *"  "Between nt *"  } ['rclt' ('latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Vowel Before/After" { "Vowel Before Overrides"  "Vowel Before"  "Vowel After Overrides"  "Vowel After"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Cut Consonant" { "Cut Consonant" ("cut") } []
@@ -204,7 +204,9 @@ Lookup: 257 0 0 "Position Before th" { "Position Before th"  } []
 Lookup: 257 0 0 "Position Before v" { "Position Before v"  } []
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: class "Between k *" 12 12 12 1
+ChainSub2: class "f Joinings" 0 0 0 0
+EndFPST
+ChainSub2: class "Between k *" 12 12 12 10
   Class: 9 a e i o u
   Class: 15 k g k.cut g.cut
   Class: 15 r l r.cut l.cut
@@ -238,11 +240,66 @@ ChainSub2: class "Between k *" 12 12 12 1
   FClass: 5 ng nk
   FClass: 7 th.over
   FClass: 8 th.under
- 1 0 0
-  ClsList: 0
-  BClsList:
-  FClsList:
- 0
+ 1 1 1
+  ClsList: 1
+  BClsList: 2
+  FClsList: 2
+ 1
+  SeqLookup: 0 "Between k k"
+ 1 1 1
+  ClsList: 1
+  BClsList: 2
+  FClsList: 3
+ 1
+  SeqLookup: 0 "Between k r"
+ 1 1 1
+  ClsList: 1
+  BClsList: 2
+  FClsList: 4
+ 1
+  SeqLookup: 0 "Between k n"
+ 1 1 1
+  ClsList: 1
+  BClsList: 2
+  FClsList: 5
+ 1
+  SeqLookup: 0 "Between k t"
+ 1 1 1
+  ClsList: 1
+  BClsList: 2
+  FClsList: 6
+ 1
+  SeqLookup: 0 "Between k p"
+ 1 1 1
+  ClsList: 1
+  BClsList: 2
+  FClsList: 7
+ 1
+  SeqLookup: 0 "Between k f"
+ 1 1 1
+  ClsList: 1
+  BClsList: 2
+  FClsList: 8
+ 1
+  SeqLookup: 0 "Between k ch"
+ 1 1 1
+  ClsList: 1
+  BClsList: 2
+  FClsList: 9
+ 1
+  SeqLookup: 0 "Between k ng"
+ 1 1 1
+  ClsList: 1
+  BClsList: 2
+  FClsList: 10
+ 1
+  SeqLookup: 0 "Between k tn"
+ 1 1 1
+  ClsList: 1
+  BClsList: 2
+  FClsList: 11
+ 1
+  SeqLookup: 0 "Between k nt"
   ClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
   BClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
   FClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
@@ -1145,7 +1202,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 104 26 10
+WinInfo: 130 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144

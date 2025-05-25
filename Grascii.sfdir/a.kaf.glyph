@@ -1,0 +1,15 @@
+StartChar: a.kaf
+Encoding: 369 -1 75
+Width: 189
+VWidth: 1104
+Flags: W
+AnchorPoint: "Join" 179 67 exit 0
+AnchorPoint: "Join" 179 67 entry 0
+LayerCount: 2
+Fore
+SplineSet
+179 67 m 4
+ 179 -6 10 -22 10 35 c 4
+ 10 92 179 143 179 67 c 1028
+EndSplineSet
+EndChar

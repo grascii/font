@@ -1,0 +1,15 @@
+StartChar: a.kap
+Encoding: 368 -1 74
+Width: 237
+VWidth: 1098
+Flags: W
+AnchorPoint: "Join" 10 46 exit 0
+AnchorPoint: "Join" 10 46 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 46 m 4
+ 10 -13 210 -18 226 53 c 4
+ 243 130 63 99 10 46 c 1028
+EndSplineSet
+EndChar

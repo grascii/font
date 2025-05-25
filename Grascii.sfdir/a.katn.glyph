@@ -1,0 +1,15 @@
+StartChar: a.katn
+Encoding: 372 -1 78
+Width: 181
+VWidth: 1118
+Flags: W
+AnchorPoint: "Join" 68 118 exit 0
+AnchorPoint: "Join" 171 118 entry 0
+LayerCount: 2
+Fore
+SplineSet
+171 118 m 0
+ 171 35 57 -25 21 11 c 0
+ 3 29 0 50 68 118 c 1024
+EndSplineSet
+EndChar
