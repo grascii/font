@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1748146646
+ModificationTime: 1748147953
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -204,7 +204,13 @@ Lookup: 257 0 0 "Position Before th" { "Position Before th"  } []
 Lookup: 257 0 0 "Position Before v" { "Position Before v"  } []
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: class "f Joinings" 0 0 0 0
+ChainSub2: coverage "f Joinings" 0 0 0 1
+ 1 2 0
+  Coverage: 3 f v
+  BCoverage: 3 a e
+  BCoverage: 28 r l k g n m t d f v th.under
+ 1
+  SeqLookup: 0 "Cut Consonant"
 EndFPST
 ChainSub2: class "Between k *" 12 12 12 10
   Class: 9 a e i o u
