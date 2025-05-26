@@ -8,5 +8,6 @@ AnchorPoint: "Join" 118.874 155.885 entry 0
 LayerCount: 2
 Fore
 Refer: 58 -1 N 0.5 0.866025 0.866025 -0.5 -8.16918 9.83984 2
+Substitution2: "Cut Consonant" s.left.cut
 Ligature2: "Annotated Directions" s parenleft
 EndChar

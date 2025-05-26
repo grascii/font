@@ -12,9 +12,9 @@ def shape(text, font):
 
 def create_map_direction(first, second):
     def map_glyph(glyph):
-        if glyph == first:
+        if glyph.startswith(first):
             return -1
-        elif glyph == second:
+        elif glyph.startswith(second):
             return 1
         else:
             return 0
