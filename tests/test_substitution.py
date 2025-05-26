@@ -135,3 +135,55 @@ def test_k_a(font, text, expected_glyphs):
 ])
 def test_g_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("rak",  ["r", "a.rak", "k"]),
+    ("rag",  ["r", "a.rak", "g"]),
+    ("rar",  ["r", "a.rar", "r"]),
+    ("ral",  ["r", "a.rar", "l"]),
+    ("ran",  ["r", "a.ran", "n"]),
+    ("ram",  ["r", "a.ran", "m"]),
+    ("rat",  ["r", "a.rat", "t"]),
+    ("rad",  ["r", "a.rat", "d"]),
+    ("rap",  ["r", "a.rap", "p"]),
+    ("rab",  ["r", "a.rap", "b"]),
+    ("raf",  ["r", "a.raf", "f.cut"]),
+    ("rav",  ["r", "a.raf", "v.cut"]),
+    ("rash", ["r", "a.rach", "sh"]),
+    ("rach", ["r", "a.rach", "ch"]),
+    ("raj",  ["r", "a.rach", "j"]),
+    ("ras",  ["r", "a.rap", "s.left"]),
+    ("ras)", ["r", "a.raf", "s.right.cut"]),
+    ("rang", ["r", "a.rang", "ng"]),
+    ("rank", ["r", "a.rang", "nk"]),
+    ("rath", ["r", "a.rant", "th.under"]),
+])
+def test_r_a(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("lak",  ["l", "a.rak", "k"]),
+    ("lag",  ["l", "a.rak", "g"]),
+    ("lar",  ["l", "a.rar", "r"]),
+    ("lal",  ["l", "a.rar", "l"]),
+    ("lan",  ["l", "a.ran", "n"]),
+    ("lam",  ["l", "a.ran", "m"]),
+    ("lat",  ["l", "a.rat", "t"]),
+    ("lad",  ["l", "a.rat", "d"]),
+    ("lap",  ["l", "a.rap", "p"]),
+    ("lab",  ["l", "a.rap", "b"]),
+    ("laf",  ["l", "a.raf", "f.cut"]),
+    ("lav",  ["l", "a.raf", "v.cut"]),
+    ("lash", ["l", "a.rach", "sh"]),
+    ("lach", ["l", "a.rach", "ch"]),
+    ("laj",  ["l", "a.rach", "j"]),
+    ("las",  ["l", "a.rap", "s.left"]),
+    ("las)", ["l", "a.raf", "s.right.cut"]),
+    ("lang", ["l", "a.rang", "ng"]),
+    ("lank", ["l", "a.rang", "nk"]),
+    ("lath", ["l", "a.rant", "th.under"]),
+])
+def test_l_a(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

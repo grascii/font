@@ -1,0 +1,14 @@
+StartChar: a.rap
+Encoding: 394 -1 92
+Width: 303
+Flags: W
+AnchorPoint: "Join" 10 0 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 0 m 0
+ 66 19 318 89 291 142 c 0
+ 245 232 54 26 10 0 c 1024
+EndSplineSet
+EndChar

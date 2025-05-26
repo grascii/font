@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1748283103
+ModificationTime: 1748284840
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -329,45 +329,100 @@ ChainSub2: class "Between k *" 12 12 12 10
   BClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
   FClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
 EndFPST
-ChainSub2: class "Between r *" 12 12 12 1
+ChainSub2: class "Between r *" 12 12 12 10
   Class: 9 a e i o u
   Class: 15 k g k.cut g.cut
   Class: 15 r l r.cut l.cut
   Class: 3 n m
   Class: 3 t d
-  Class: 22 p b p.cut b.cut s.left
-  Class: 23 f v f.cut v.cut s.right
+  Class: 33 p b p.cut b.cut s.left s.left.cut
+  Class: 35 f v f.cut v.cut s.right s.right.cut
   Class: 7 sh ch j
   Class: 5 ng nk
-  Class: 7 th.over
-  Class: 8 th.under
+  Class: 52 th.over th.over.angled th.over.skew30 th.over.skew45
+  Class: 56 th.under th.under.angled th.under.skew30 th.under.skew45
   BClass: 9 a e i o u
   BClass: 15 k g k.cut g.cut
   BClass: 15 r l r.cut l.cut
   BClass: 3 n m
   BClass: 3 t d
-  BClass: 22 p b p.cut b.cut s.left
-  BClass: 23 f v f.cut v.cut s.right
+  BClass: 33 p b p.cut b.cut s.left s.left.cut
+  BClass: 35 f v f.cut v.cut s.right s.right.cut
   BClass: 7 sh ch j
   BClass: 5 ng nk
-  BClass: 7 th.over
-  BClass: 8 th.under
+  BClass: 52 th.over th.over.angled th.over.skew30 th.over.skew45
+  BClass: 56 th.under th.under.angled th.under.skew30 th.under.skew45
   FClass: 9 a e i o u
   FClass: 15 k g k.cut g.cut
   FClass: 15 r l r.cut l.cut
   FClass: 3 n m
   FClass: 3 t d
-  FClass: 22 p b p.cut b.cut s.left
-  FClass: 23 f v f.cut v.cut s.right
+  FClass: 33 p b p.cut b.cut s.left s.left.cut
+  FClass: 35 f v f.cut v.cut s.right s.right.cut
   FClass: 7 sh ch j
   FClass: 5 ng nk
-  FClass: 7 th.over
-  FClass: 8 th.under
- 1 0 0
-  ClsList: 0
-  BClsList:
-  FClsList:
- 0
+  FClass: 52 th.over th.over.angled th.over.skew30 th.over.skew45
+  FClass: 56 th.under th.under.angled th.under.skew30 th.under.skew45
+ 1 1 1
+  ClsList: 1
+  BClsList: 3
+  FClsList: 2
+ 1
+  SeqLookup: 0 "Between r k"
+ 1 1 1
+  ClsList: 1
+  BClsList: 3
+  FClsList: 3
+ 1
+  SeqLookup: 0 "Between r r"
+ 1 1 1
+  ClsList: 1
+  BClsList: 3
+  FClsList: 4
+ 1
+  SeqLookup: 0 "Between r n"
+ 1 1 1
+  ClsList: 1
+  BClsList: 3
+  FClsList: 5
+ 1
+  SeqLookup: 0 "Between r t"
+ 1 1 1
+  ClsList: 1
+  BClsList: 3
+  FClsList: 6
+ 1
+  SeqLookup: 0 "Between r p"
+ 1 1 1
+  ClsList: 1
+  BClsList: 3
+  FClsList: 7
+ 1
+  SeqLookup: 0 "Between r f"
+ 1 1 1
+  ClsList: 1
+  BClsList: 3
+  FClsList: 8
+ 1
+  SeqLookup: 0 "Between r ch"
+ 1 1 1
+  ClsList: 1
+  BClsList: 3
+  FClsList: 9
+ 1
+  SeqLookup: 0 "Between r ng"
+ 1 1 1
+  ClsList: 1
+  BClsList: 3
+  FClsList: 10
+ 1
+  SeqLookup: 0 "Between r tn"
+ 1 1 1
+  ClsList: 1
+  BClsList: 3
+  FClsList: 11
+ 1
+  SeqLookup: 0 "Between r nt"
   ClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
   BClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
   FClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
@@ -1227,7 +1282,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 130 26 10
+WinInfo: 156 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144

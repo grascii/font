@@ -14,6 +14,7 @@ SplineSet
  171 -6 272 63 275 138 c 0
  277 175 231 210 194 213 c 1024
 EndSplineSet
+Substitution2: "Between r nt" a.rant
 Substitution2: "Between k tn" a.katn
 Substitution2: "Between k ng" a.kang
 Substitution2: "Between k ch" a.kach
@@ -49,4 +50,12 @@ Substitution2: "Before k" a.ak
 Substitution2: "Before f" a.af
 Substitution2: "Before ch" a.ach
 Substitution2: "Between k n" a.kan
+Substitution2: "Between r k" a.rak
+Substitution2: "Between r r" a.rar
+Substitution2: "Between r n" a.ran
+Substitution2: "Between r t" a.rat
+Substitution2: "Between r p" a.rap
+Substitution2: "Between r f" a.raf
+Substitution2: "Between r ch" a.rach
+Substitution2: "Between r ng" a.rang
 EndChar

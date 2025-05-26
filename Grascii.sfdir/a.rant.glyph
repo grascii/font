@@ -1,0 +1,14 @@
+StartChar: a.rant
+Encoding: 399 -1 96
+Width: 201
+Flags: W
+AnchorPoint: "Join" 113 0 exit 0
+AnchorPoint: "Join" 113 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+113 0 m 0
+ 228 45 218 141 68 101 c 0
+ -2 82 -31 0 113 0 c 1024
+EndSplineSet
+EndChar

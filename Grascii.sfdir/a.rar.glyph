@@ -1,0 +1,15 @@
+StartChar: a.rar
+Encoding: 391 -1 89
+Width: 237
+Flags: W
+AnchorPoint: "Join" 13 0 exit 0
+AnchorPoint: "Join" 13 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+13 0 m 0
+ 64 18 228 57 228 117 c 0
+ 228 157 134 146 90 131 c 0
+ 30 110 1 80 13 0 c 1024
+EndSplineSet
+EndChar

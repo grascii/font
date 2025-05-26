@@ -1,0 +1,15 @@
+StartChar: a.rang
+Encoding: 397 -1 95
+Width: 219
+Flags: W
+AnchorPoint: "Join" 100 0 exit 0
+AnchorPoint: "Join" 100 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+100 0 m 0
+ 170 24 233 67 200 100 c 0
+ 161 138 10 103 10 55 c 0
+ 10 22 58 11 100 0 c 1024
+EndSplineSet
+EndChar

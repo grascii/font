@@ -1,0 +1,15 @@
+StartChar: a.rak
+Encoding: 390 -1 88
+Width: 239
+VWidth: 1101
+Flags: W
+AnchorPoint: "Join" 104 101 exit 0
+AnchorPoint: "Join" 104 101 entry 0
+LayerCount: 2
+Fore
+SplineSet
+104 101 m 0
+ 255 151 273 88 136 37 c 0
+ -1 -14 -47 51 104 101 c 1024
+EndSplineSet
+EndChar

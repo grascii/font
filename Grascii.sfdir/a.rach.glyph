@@ -1,0 +1,14 @@
+StartChar: a.rach
+Encoding: 396 -1 94
+Width: 215
+Flags: W
+AnchorPoint: "Join" 10 0 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 0 m 0
+ 77 31 239 67 198 127 c 0
+ 160 183 63 91 10 0 c 1024
+EndSplineSet
+EndChar
