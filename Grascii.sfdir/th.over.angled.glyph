@@ -1,0 +1,13 @@
+StartChar: th.over.angled
+Encoding: 265 -1 82
+Width: 217
+Flags: W
+AnchorPoint: "Join" 207 138 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 0 m 0
+ 55 77 151 138 207 138 c 1024
+EndSplineSet
+EndChar

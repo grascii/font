@@ -1,0 +1,10 @@
+StartChar: th.under.skew30
+Encoding: 268 -1 85
+Width: 297
+Flags: W
+AnchorPoint: "Join" 286.675 138 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+Refer: 83 -1 N 1 0 0.57735 1 0 0 2
+EndChar

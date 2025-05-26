@@ -38,6 +38,14 @@ transformations = {
         "matrix": psMat.rotate(math.radians(-15)),
         "reverse": False,
     },
+    "Skew 30": {
+        "matrix": psMat.skew(math.radians(30)),
+        "reverse": False,
+    },
+    "Skew 45": {
+        "matrix": psMat.skew(math.radians(45)),
+        "reverse": False,
+    },
 }
 
 

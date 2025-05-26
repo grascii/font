@@ -105,7 +105,7 @@ def test_a_after(font, text, expected_glyphs):
     ("kas(", ["k", "a.kap", "s.left"]),
     ("kang", ["k", "a.kang", "ng"]),
     ("kank", ["k", "a.kang", "nk"]),
-    ("kath", ["k", "a.katn", "th.over"]),
+    ("kath", ["k", "a.katn", "th.over.skew30"]),
 ])
 def test_k_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -131,7 +131,7 @@ def test_k_a(font, text, expected_glyphs):
     ("gas(", ["g", "a.kap", "s.left"]),
     ("gang", ["g", "a.kang", "ng"]),
     ("gank", ["g", "a.kang", "nk"]),
-    ("gath", ["g", "a.katn", "th.over"]),
+    ("gath", ["g", "a.katn", "th.over.skew30"]),
 ])
 def test_g_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
