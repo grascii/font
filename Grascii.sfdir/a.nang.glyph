@@ -1,0 +1,14 @@
+StartChar: a.nang
+Encoding: 423 -1 104
+Width: 183
+Flags: W
+AnchorPoint: "Join" 70 0 exit 0
+AnchorPoint: "Join" 70 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+70 0 m 0
+ 233 0 181 93 74 93 c 0
+ -11 93 -10 21 70 0 c 1024
+EndSplineSet
+EndChar

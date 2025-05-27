@@ -58,4 +58,13 @@ Substitution2: "Between r p" a.rap
 Substitution2: "Between r f" a.raf
 Substitution2: "Between r ch" a.rach
 Substitution2: "Between r ng" a.rang
+Substitution2: "Between n k" a.nak
+Substitution2: "Between n r" a.nar
+Substitution2: "Between n n" a.nan
+Substitution2: "Between n t" a.nat
+Substitution2: "Between n p" a.nap
+Substitution2: "Between n f" a.naf
+Substitution2: "Between n ch" a.nach
+Substitution2: "Between n ng" a.nang
+Substitution2: "Between n tn" a.natn
 EndChar

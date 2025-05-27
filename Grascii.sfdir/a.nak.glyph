@@ -1,0 +1,11 @@
+StartChar: a.nak
+Encoding: 416 -1 97
+Width: 247
+VWidth: 1113
+Flags: W
+AnchorPoint: "Join" 119.024 111.2 exit 0
+AnchorPoint: "Join" 119.024 111.2 entry 0
+LayerCount: 2
+Fore
+Refer: 90 -1 N -1 1.22465e-16 -1.22465e-16 -1 247.024 113.201 2
+EndChar
