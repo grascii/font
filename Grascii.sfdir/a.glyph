@@ -14,74 +14,84 @@ SplineSet
  171 -6 272 63 275 138 c 0
  277 175 231 210 194 213 c 1024
 EndSplineSet
-Substitution2: "Between p t" a.pat
-Substitution2: "Between p tn" a.patn
-Substitution2: "Between p ng" a.pang
-Substitution2: "Between p ch" a.pach
-Substitution2: "Between p f" a.paf
-Substitution2: "Between p p" a.pap
-Substitution2: "Between p n" a.pan
-Substitution2: "Between p r" a.par
-Substitution2: "Between p k" a.pak
-Substitution2: "Between r nt" a.rant
-Substitution2: "Between k tn" a.katn
-Substitution2: "Between k ng" a.kang
-Substitution2: "Between k ch" a.kach
-Substitution2: "Between k f" a.kaf
-Substitution2: "Between k p" a.kap
-Substitution2: "Between k t" a.kat
-Substitution2: "Between k r" a.kar
-Substitution2: "Between k k" a.kak
-Substitution2: "After nt" a.thUa
-Substitution2: "Before nt" a.athU
-Substitution2: "After s.left" a.sLa
-Substitution2: "Before s.right" a.asR
-Substitution2: "After s.right" a.sRa
-Substitution2: "After ng" a.nga
-Substitution2: "After b" a.ba
-Substitution2: "After tn" a.thOa
-Substitution2: "After t" a.ta
-Substitution2: "After r" a.ra
-Substitution2: "After p" a.pa
-Substitution2: "After n" a.na
-Substitution2: "After k" a.ka
-Substitution2: "After f" a.fa
-Substitution2: "After ch" a.cha
-Substitution2: "Before ng" a.ang
-Substitution2: "Before l" a.al
-Substitution2: "Before r" a.ar
-Substitution2: "Before v" a.av
-Substitution2: "Before t" a.at
-Substitution2: "Before tn" a.athO
-Substitution2: "Before p" a.ap
-Substitution2: "Before n" a.an
-Substitution2: "Before k" a.ak
-Substitution2: "Before f" a.af
-Substitution2: "Before ch" a.ach
-Substitution2: "Between k n" a.kan
-Substitution2: "Between r k" a.rak
-Substitution2: "Between r r" a.rar
-Substitution2: "Between r n" a.ran
-Substitution2: "Between r t" a.rat
-Substitution2: "Between r p" a.rap
-Substitution2: "Between r f" a.raf
-Substitution2: "Between r ch" a.rach
-Substitution2: "Between r ng" a.rang
-Substitution2: "Between n k" a.nak
-Substitution2: "Between n r" a.nar
-Substitution2: "Between n n" a.nan
-Substitution2: "Between n t" a.nat
-Substitution2: "Between n p" a.nap
-Substitution2: "Between n f" a.naf
-Substitution2: "Between n ch" a.nach
-Substitution2: "Between n ng" a.nang
-Substitution2: "Between n tn" a.natn
-Substitution2: "Between t k" a.tak
-Substitution2: "Between t r" a.tar
-Substitution2: "Between t n" a.tan
-Substitution2: "Between t t" a.tat
-Substitution2: "Between t p" a.tap
-Substitution2: "Between t f" a.taf
-Substitution2: "Between t ch" a.tach
+Substitution2: "Between f nt" a.fant
+Substitution2: "Between f tn" a.fatn
+Substitution2: "Between f ng" a.fang
+Substitution2: "Between f ch" a.fach
+Substitution2: "Between f f" a.faf
+Substitution2: "Between f p" a.fap
+Substitution2: "Between f t" a.fat
+Substitution2: "Between f n" a.fan
+Substitution2: "Between f r" a.far
+Substitution2: "Between f k" a.fak
 Substitution2: "Between t ng" a.tang
+Substitution2: "Between t ch" a.tach
+Substitution2: "Between t f" a.taf
+Substitution2: "Between t p" a.tap
+Substitution2: "Between t t" a.tat
+Substitution2: "Between t n" a.tan
+Substitution2: "Between t r" a.tar
+Substitution2: "Between t k" a.tak
+Substitution2: "Between n tn" a.natn
+Substitution2: "Between n ng" a.nang
+Substitution2: "Between n ch" a.nach
+Substitution2: "Between n f" a.naf
+Substitution2: "Between n p" a.nap
+Substitution2: "Between n t" a.nat
+Substitution2: "Between n n" a.nan
+Substitution2: "Between n r" a.nar
+Substitution2: "Between n k" a.nak
+Substitution2: "Between r ng" a.rang
+Substitution2: "Between r ch" a.rach
+Substitution2: "Between r f" a.raf
+Substitution2: "Between r p" a.rap
+Substitution2: "Between r t" a.rat
+Substitution2: "Between r n" a.ran
+Substitution2: "Between r r" a.rar
+Substitution2: "Between r k" a.rak
+Substitution2: "Between k n" a.kan
+Substitution2: "Before ch" a.ach
+Substitution2: "Before f" a.af
+Substitution2: "Before k" a.ak
+Substitution2: "Before n" a.an
+Substitution2: "Before p" a.ap
+Substitution2: "Before tn" a.athO
+Substitution2: "Before t" a.at
+Substitution2: "Before v" a.av
+Substitution2: "Before r" a.ar
+Substitution2: "Before l" a.al
+Substitution2: "Before ng" a.ang
+Substitution2: "After ch" a.cha
+Substitution2: "After f" a.fa
+Substitution2: "After k" a.ka
+Substitution2: "After n" a.na
+Substitution2: "After p" a.pa
+Substitution2: "After r" a.ra
+Substitution2: "After t" a.ta
+Substitution2: "After tn" a.thOa
+Substitution2: "After b" a.ba
+Substitution2: "After ng" a.nga
+Substitution2: "After s.right" a.sRa
+Substitution2: "Before s.right" a.asR
+Substitution2: "After s.left" a.sLa
+Substitution2: "Before nt" a.athU
+Substitution2: "After nt" a.thUa
+Substitution2: "Between k k" a.kak
+Substitution2: "Between k r" a.kar
+Substitution2: "Between k t" a.kat
+Substitution2: "Between k p" a.kap
+Substitution2: "Between k f" a.kaf
+Substitution2: "Between k ch" a.kach
+Substitution2: "Between k ng" a.kang
+Substitution2: "Between k tn" a.katn
+Substitution2: "Between r nt" a.rant
+Substitution2: "Between p k" a.pak
+Substitution2: "Between p r" a.par
+Substitution2: "Between p n" a.pan
+Substitution2: "Between p p" a.pap
+Substitution2: "Between p f" a.paf
+Substitution2: "Between p ch" a.pach
+Substitution2: "Between p ng" a.pang
+Substitution2: "Between p tn" a.patn
+Substitution2: "Between p t" a.pat
 EndChar

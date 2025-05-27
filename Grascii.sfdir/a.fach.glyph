@@ -1,0 +1,16 @@
+StartChar: a.fach
+Encoding: 500 -1 129
+Width: 246
+VWidth: 1130
+Flags: W
+AnchorPoint: "Join" 232 52 exit 0
+AnchorPoint: "Join" 232 52 entry 0
+LayerCount: 2
+Fore
+SplineSet
+232 52 m 4
+ 144 -15 1 -19 10 49 c 4
+ 17 103 109 131 155 131 c 4
+ 201 131 253 88 232 52 c 1028
+EndSplineSet
+EndChar

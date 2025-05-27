@@ -1,0 +1,15 @@
+StartChar: a.fap
+Encoding: 498 -1 127
+Width: 254
+VWidth: 1128
+Flags: W
+AnchorPoint: "Join" 29 58 exit 0
+AnchorPoint: "Join" 29 58 entry 0
+LayerCount: 2
+Fore
+SplineSet
+29 58 m 0
+ -68 -38 230 0 243 71 c 0
+ 261 173 98 121 29 58 c 1024
+EndSplineSet
+EndChar

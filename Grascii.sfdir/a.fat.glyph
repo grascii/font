@@ -1,0 +1,11 @@
+StartChar: a.fat
+Encoding: 497 -1 126
+Width: 211
+VWidth: 1163
+Flags: W
+AnchorPoint: "Join" 201.15 163.115 exit 0
+AnchorPoint: "Join" 201.15 163.115 entry 0
+LayerCount: 2
+Fore
+Refer: 110 -1 N -1 1.22465e-16 -1.22465e-16 -1 211.15 163.116 2
+EndChar

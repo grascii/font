@@ -1,0 +1,15 @@
+StartChar: a.fatn
+Encoding: 502 -1 131
+Width: 156
+VWidth: 1045
+Flags: W
+AnchorPoint: "Join" 27 45 exit 0
+AnchorPoint: "Join" 147 45 entry 0
+LayerCount: 2
+Fore
+SplineSet
+147 45 m 0
+ 109 13 66 0 40 0 c 0
+ 7 0 -1 29 27 45 c 1024
+EndSplineSet
+EndChar

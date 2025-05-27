@@ -341,3 +341,57 @@ def test_p_a(font, text, expected_glyphs):
 ])
 def test_b_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("fak",  ["f", "a.fak", "k"]),
+    ("fag",  ["f", "a.fak", "g"]),
+    ("far",  ["f", "a.far", "r"]),
+    ("fal",  ["f", "a.far", "l"]),
+    ("fan",  ["f", "a.fan", "n"]),
+    ("fam",  ["f", "a.fan", "m"]),
+    ("fat",  ["f", "a.fat", "t"]),
+    ("fad",  ["f", "a.fat", "d"]),
+    ("fap",  ["f", "a.fap", "p"]),
+    ("fab",  ["f", "a.fap", "b"]),
+    ("faf",  ["f", "a.faf", "f"]),
+    ("fav",  ["f", "a.faf", "v"]),
+    ("fash", ["f", "a.fach", "sh"]),
+    ("fach", ["f", "a.fach", "ch"]),
+    ("faj",  ["f", "a.fach", "j"]),
+    ("fas",  ["f", "a.faf", "s.right"]),
+    ("fas(", ["f", "a.fap", "s.left"]),
+    ("fang", ["f", "a.fang", "ng"]),
+    ("fank", ["f", "a.fang", "nk"]),
+    ("fath", ["f", "a.fatn", "th.over.skew45"]),
+    ("fath)", ["f", "a.fant", "th.under"]),
+])
+def test_f_a(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("vak",  ["v", "a.fak", "k"]),
+    ("vag",  ["v", "a.fak", "g"]),
+    ("var",  ["v", "a.far", "r"]),
+    ("val",  ["v", "a.far", "l"]),
+    ("van",  ["v", "a.fan", "n"]),
+    ("vam",  ["v", "a.fan", "m"]),
+    ("vat",  ["v", "a.fat", "t"]),
+    ("vad",  ["v", "a.fat", "d"]),
+    ("vap",  ["v", "a.fap", "p"]),
+    ("vab",  ["v", "a.fap", "b"]),
+    ("vaf",  ["v", "a.faf", "f"]),
+    ("vav",  ["v", "a.faf", "v"]),
+    ("vash", ["v", "a.fach", "sh"]),
+    ("vach", ["v", "a.fach", "ch"]),
+    ("vaj",  ["v", "a.fach", "j"]),
+    ("vas",  ["v", "a.faf", "s.right"]),
+    ("vas(", ["v", "a.fap", "s.left"]),
+    ("vang", ["v", "a.fang", "ng"]),
+    ("vank", ["v", "a.fang", "nk"]),
+    ("vath", ["v", "a.fatn", "th.over.skew45"]),
+    ("vath)", ["v", "a.fant", "th.under"]),
+])
+def test_v_a(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
