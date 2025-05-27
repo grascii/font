@@ -1,0 +1,15 @@
+StartChar: a.pach
+Encoding: 474 -1 120
+Width: 247
+VWidth: 1135
+Flags: W
+AnchorPoint: "Join" 10 11 exit 0
+AnchorPoint: "Join" 10 11 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 11 m 4
+ 88 -32 303 57 217 123 c 4
+ 158 168 47 75 10 11 c 1028
+EndSplineSet
+EndChar

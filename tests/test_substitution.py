@@ -289,3 +289,55 @@ def test_t_a(font, text, expected_glyphs):
 ])
 def test_d_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("pak",  ["p.cut", "a.pak", "k"]),
+    ("pag",  ["p.cut", "a.pak", "g"]),
+    ("par",  ["p.cut", "a.par", "r"]),
+    ("pal",  ["p.cut", "a.par", "l"]),
+    ("pan",  ["p.cut", "a.pan", "n"]),
+    ("pam",  ["p.cut", "a.pan", "m"]),
+    ("pat",  ["p", "a.pat", "t"]),
+    ("pad",  ["p", "a.pat", "d"]),
+    ("pap",  ["p", "a.pap", "p"]),
+    ("pab",  ["p", "a.pap", "b"]),
+    ("paf",  ["p.cut", "a.paf", "f.cut"]),
+    ("pav",  ["p.cut", "a.paf", "v.cut"]),
+    ("pash", ["p", "a.pach", "sh"]),
+    ("pach", ["p", "a.pach", "ch"]),
+    ("paj",  ["p", "a.pach", "j"]),
+    ("pas",  ["p", "a.pap", "s.left"]),
+    ("pas)", ["p.cut", "a.paf", "s.right.cut"]),
+    ("pang", ["p.cut", "a.pang", "ng"]),
+    ("pank", ["p.cut", "a.pang", "nk"]),
+    ("path", ["p.cut", "a.patn", "th.over.skew30"]),
+])
+def test_p_a(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("bak",  ["b.cut", "a.pak", "k"]),
+    ("bag",  ["b.cut", "a.pak", "g"]),
+    ("bar",  ["b.cut", "a.par", "r"]),
+    ("bal",  ["b.cut", "a.par", "l"]),
+    ("ban",  ["b.cut", "a.pan", "n"]),
+    ("bam",  ["b.cut", "a.pan", "m"]),
+    ("bat",  ["b", "a.pat", "t"]),
+    ("bad",  ["b", "a.pat", "d"]),
+    ("bap",  ["b", "a.pap", "p"]),
+    ("bab",  ["b", "a.pap", "b"]),
+    ("baf",  ["b.cut", "a.paf", "f.cut"]),
+    ("bav",  ["b.cut", "a.paf", "v.cut"]),
+    ("bash", ["b", "a.pach", "sh"]),
+    ("bach", ["b", "a.pach", "ch"]),
+    ("baj",  ["b", "a.pach", "j"]),
+    ("bas",  ["b", "a.pap", "s.left"]),
+    ("bas)", ["b.cut", "a.paf", "s.right.cut"]),
+    ("bang", ["b.cut", "a.pang", "ng"]),
+    ("bank", ["b.cut", "a.pang", "nk"]),
+    ("bath", ["b.cut", "a.patn", "th.over.skew30"]),
+])
+def test_b_a(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

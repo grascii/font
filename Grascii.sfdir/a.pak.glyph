@@ -1,0 +1,11 @@
+StartChar: a.pak
+Encoding: 468 -1 114
+Width: 173
+VWidth: 1150
+Flags: W
+AnchorPoint: "Join" 163.281 150.848 exit 0
+AnchorPoint: "Join" 163.281 150.848 entry 0
+LayerCount: 2
+Fore
+Refer: 111 -1 N -1 1.22465e-16 -1.22465e-16 -1 173.281 150.847 2
+EndChar
