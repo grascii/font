@@ -1,0 +1,10 @@
+StartChar: a.tat
+Encoding: 445 -1 109
+Width: 169
+Flags: W
+AnchorPoint: "Join" 62.4375 97.04 exit 0
+AnchorPoint: "Join" 62.4375 97.04 entry 0
+LayerCount: 2
+Fore
+Refer: 99 -1 N 0.866025 0.5 -0.5 0.866025 30.1293 -29 2
+EndChar

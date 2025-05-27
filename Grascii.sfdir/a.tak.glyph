@@ -1,0 +1,16 @@
+StartChar: a.tak
+Encoding: 442 -1 106
+Width: 225
+VWidth: 1048
+Flags: W
+AnchorPoint: "Join" 177 116 exit 0
+AnchorPoint: "Join" 10 48 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 48 m 0
+ 73 78 194 143 214 100 c 0
+ 227 73 122 -10 50 1 c 0
+ 0 9 65 89 177 116 c 1024
+EndSplineSet
+EndChar

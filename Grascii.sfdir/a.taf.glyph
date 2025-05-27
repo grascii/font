@@ -1,0 +1,14 @@
+StartChar: a.taf
+Encoding: 447 -1 111
+Width: 173
+Flags: W
+AnchorPoint: "Join" 10 0 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 0 m 0
+ 74 37 194 94 156 132 c 0
+ 87 201 10 63 10 0 c 1024
+EndSplineSet
+EndChar

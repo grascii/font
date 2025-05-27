@@ -239,3 +239,53 @@ def test_n_a(font, text, expected_glyphs):
 ])
 def test_m_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("tak",  ["t", "a.tak", "k"]),
+    ("tag",  ["t", "a.tak", "g"]),
+    ("tar",  ["t", "a.tar", "r"]),
+    ("tal",  ["t", "a.tar", "l"]),
+    ("tan",  ["t", "a.tan", "n"]),
+    ("tam",  ["t", "a.tan", "m"]),
+    ("tat",  ["t", "a.tat", "t"]),
+    ("tad",  ["t", "a.tat", "d"]),
+    ("tap",  ["t", "a.tap", "p"]),
+    ("tab",  ["t", "a.tap", "b"]),
+    ("taf",  ["t", "a.taf", "f.cut"]),
+    ("tav",  ["t", "a.taf", "v.cut"]),
+    ("tash", ["t", "a.tach", "sh"]),
+    ("tach", ["t", "a.tach", "ch"]),
+    ("taj",  ["t", "a.tach", "j"]),
+    ("tas",  ["t", "a.tap", "s.left"]),
+    ("tas)", ["t", "a.taf", "s.right.cut"]),
+    ("tang", ["t", "a.tang", "ng"]),
+    ("tank", ["t", "a.tang", "nk"]),
+])
+def test_t_a(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("dak",  ["d", "a.tak", "k"]),
+    ("dag",  ["d", "a.tak", "g"]),
+    ("dar",  ["d", "a.tar", "r"]),
+    ("dal",  ["d", "a.tar", "l"]),
+    ("dan",  ["d", "a.tan", "n"]),
+    ("dam",  ["d", "a.tan", "m"]),
+    ("dat",  ["d", "a.tat", "t"]),
+    ("dad",  ["d", "a.tat", "d"]),
+    ("dap",  ["d", "a.tap", "p"]),
+    ("dab",  ["d", "a.tap", "b"]),
+    ("daf",  ["d", "a.taf", "f.cut"]),
+    ("dav",  ["d", "a.taf", "v.cut"]),
+    ("dash", ["d", "a.tach", "sh"]),
+    ("dach", ["d", "a.tach", "ch"]),
+    ("daj",  ["d", "a.tach", "j"]),
+    ("das",  ["d", "a.tap", "s.left"]),
+    ("das)", ["d", "a.taf", "s.right.cut"]),
+    ("dang", ["d", "a.tang", "ng"]),
+    ("dank", ["d", "a.tang", "nk"]),
+])
+def test_d_a(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
