@@ -1,0 +1,11 @@
+StartChar: a.chan
+Encoding: 522 -1 135
+Width: 256
+VWidth: 1116
+Flags: W
+AnchorPoint: "Join" 246.343 116.441 exit 0
+AnchorPoint: "Join" 246.343 116.441 entry 0
+LayerCount: 2
+Fore
+Refer: 103 -1 N -1 1.22465e-16 -1.22465e-16 -1 256.343 116.442 2
+EndChar

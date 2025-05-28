@@ -1,0 +1,11 @@
+StartChar: a.chach
+Encoding: 526 -1 139
+Width: 136
+VWidth: 1020
+Flags: W
+AnchorPoint: "Join" 107.124 52.4375 exit 0
+AnchorPoint: "Join" 107.124 52.4375 entry 0
+LayerCount: 2
+Fore
+Refer: 99 -1 N 0.5 0.866025 0.866025 -0.5 -18.9157 20.1293 2
+EndChar

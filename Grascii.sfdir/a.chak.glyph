@@ -1,0 +1,11 @@
+StartChar: a.chak
+Encoding: 520 -1 133
+Width: 215
+VWidth: 1144
+Flags: W
+AnchorPoint: "Join" 204.558 144.081 exit 0
+AnchorPoint: "Join" 204.558 144.081 entry 0
+LayerCount: 2
+Fore
+Refer: 94 -1 N -1 1.22465e-16 -1.22465e-16 -1 214.558 144.081 2
+EndChar

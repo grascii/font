@@ -1,0 +1,11 @@
+StartChar: a.chaf
+Encoding: 525 -1 138
+Width: 247
+VWidth: 1134
+Flags: W
+AnchorPoint: "Join" 236.96 123.864 exit 0
+AnchorPoint: "Join" 236.96 123.864 entry 0
+LayerCount: 2
+Fore
+Refer: 120 -1 N -1 1.22465e-16 -1.22465e-16 -1 246.96 134.864 2
+EndChar

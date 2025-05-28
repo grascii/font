@@ -395,3 +395,78 @@ def test_f_a(font, text, expected_glyphs):
 ])
 def test_v_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("shak",  ["sh", "a.chak", "k"]),
+    ("shag",  ["sh", "a.chak", "g"]),
+    ("shar",  ["sh", "a.char", "r"]),
+    ("shal",  ["sh", "a.char", "l"]),
+    ("shan",  ["sh", "a.chan", "n"]),
+    ("sham",  ["sh", "a.chan", "m"]),
+    ("shat",  ["sh", "a.chat", "t"]),
+    ("shad",  ["sh", "a.chat", "d"]),
+    ("shap",  ["sh", "a.chap", "p"]),
+    ("shab",  ["sh", "a.chap", "b"]),
+    ("shaf",  ["sh", "a.chaf", "f"]),
+    ("shav",  ["sh", "a.chaf", "v"]),
+    ("shash", ["sh", "a.chach", "sh"]),
+    ("shach", ["sh", "a.chach", "ch"]),
+    ("shaj",  ["sh", "a.chach", "j"]),
+    ("shas",  ["sh", "a.chaf", "s.right"]),
+    ("shas(", ["sh", "a.chap", "s.left"]),
+    ("shang", ["sh", "a.chang", "ng"]),
+    ("shank", ["sh", "a.chang", "nk"]),
+])
+def test_sh_a(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("chak",  ["ch", "a.chak", "k"]),
+    ("chag",  ["ch", "a.chak", "g"]),
+    ("char",  ["ch", "a.char", "r"]),
+    ("chal",  ["ch", "a.char", "l"]),
+    ("chan",  ["ch", "a.chan", "n"]),
+    ("cham",  ["ch", "a.chan", "m"]),
+    ("chat",  ["ch", "a.chat", "t"]),
+    ("chad",  ["ch", "a.chat", "d"]),
+    ("chap",  ["ch", "a.chap", "p"]),
+    ("chab",  ["ch", "a.chap", "b"]),
+    ("chaf",  ["ch", "a.chaf", "f"]),
+    ("chav",  ["ch", "a.chaf", "v"]),
+    ("chash", ["ch", "a.chach", "sh"]),
+    ("chach", ["ch", "a.chach", "ch"]),
+    ("chaj",  ["ch", "a.chach", "j"]),
+    ("chas",  ["ch", "a.chaf", "s.right"]),
+    ("chas(", ["ch", "a.chap", "s.left"]),
+    ("chang", ["ch", "a.chang", "ng"]),
+    ("chank", ["ch", "a.chang", "nk"]),
+])
+def test_ch_a(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("jak",  ["j", "a.chak", "k"]),
+    ("jag",  ["j", "a.chak", "g"]),
+    ("jar",  ["j", "a.char", "r"]),
+    ("jal",  ["j", "a.char", "l"]),
+    ("jan",  ["j", "a.chan", "n"]),
+    ("jam",  ["j", "a.chan", "m"]),
+    ("jat",  ["j", "a.chat", "t"]),
+    ("jad",  ["j", "a.chat", "d"]),
+    ("jap",  ["j", "a.chap", "p"]),
+    ("jab",  ["j", "a.chap", "b"]),
+    ("jaf",  ["j", "a.chaf", "f"]),
+    ("jav",  ["j", "a.chaf", "v"]),
+    ("jash", ["j", "a.chach", "sh"]),
+    ("jach", ["j", "a.chach", "ch"]),
+    ("jaj",  ["j", "a.chach", "j"]),
+    ("jas",  ["j", "a.chaf", "s.right"]),
+    ("jas(", ["j", "a.chap", "s.left"]),
+    ("jang", ["j", "a.chang", "ng"]),
+    ("jank", ["j", "a.chang", "nk"]),
+])
+def test_j_a(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
