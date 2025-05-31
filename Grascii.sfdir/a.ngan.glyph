@@ -1,0 +1,11 @@
+StartChar: a.ngan
+Encoding: 548 -1 141
+Width: 184
+VWidth: 1093
+Flags: W
+AnchorPoint: "Join" 114.036 93 exit 0
+AnchorPoint: "Join" 114.036 93 entry 0
+LayerCount: 2
+Fore
+Refer: 104 -1 N -1 1.22465e-16 -1.22465e-16 -1 184.036 93 2
+EndChar

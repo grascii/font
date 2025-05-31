@@ -520,3 +520,48 @@ def test_sR_a(font, text, expected_glyphs):
 ])
 def test_sL_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("ngar",  ["ng", "a.ngar", "r.cut"]),
+    ("ngal",  ["ng", "a.ngar", "l.cut"]),
+    ("ngan",  ["ng", "a.ngan", "n"]),
+    ("ngam",  ["ng", "a.ngan", "m"]),
+    ("ngat",  ["ng", "a.ngat", "t"]),
+    ("ngad",  ["ng", "a.ngat", "d"]),
+])
+def test_ng_a(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("nkar",  ["nk", "a.ngar", "r.cut"]),
+    ("nkal",  ["nk", "a.ngar", "l.cut"]),
+    ("nkan",  ["nk", "a.ngan", "n"]),
+    ("nkam",  ["nk", "a.ngan", "m"]),
+    ("nkat",  ["nk", "a.ngat", "t"]),
+    ("nkad",  ["nk", "a.ngat", "d"]),
+])
+def test_nk_a(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("th(ak",   ["th.over", "a.tnak", "k"]),
+    ("th(ag",   ["th.over", "a.tnak", "g"]),
+    ("th(an",   ["th.over", "a.tnan", "n"]),
+    ("th(am",   ["th.over", "a.tnan", "m"]),
+    ("th(ash",  ["th.over", "a.tnach", "sh"]),
+    ("th(ach",  ["th.over", "a.tnach", "ch"]),
+    ("th(aj",   ["th.over", "a.tnach", "j"]),
+])
+def test_thO_a(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("th)af", ["th.under.skew30", "a.ntaf", "f.cut"]),
+    ("th)av", ["th.under.skew30", "a.ntaf", "v.cut"]),
+])
+def test_thU_a(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

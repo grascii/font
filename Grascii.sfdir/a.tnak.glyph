@@ -1,0 +1,15 @@
+StartChar: a.tnak
+Encoding: 572 -1 142
+Width: 157
+VWidth: 1101
+Flags: W
+AnchorPoint: "Join" 91 101 exit 0
+AnchorPoint: "Join" 91 101 entry 0
+LayerCount: 2
+Fore
+SplineSet
+91 101 m 0
+ 204 105 125 0 55 0 c 0
+ -19 0 3 69 91 101 c 1024
+EndSplineSet
+EndChar

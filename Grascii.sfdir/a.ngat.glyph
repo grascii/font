@@ -1,0 +1,11 @@
+StartChar: a.ngat
+Encoding: 549 -1 145
+Width: 167
+VWidth: 1117
+Flags: W
+AnchorPoint: "Join" 102.105 117 exit 0
+AnchorPoint: "Join" 102.105 117 entry 0
+LayerCount: 2
+Fore
+Refer: 113 -1 N -1 1.22465e-16 -1.22465e-16 -1 167.106 117 2
+EndChar

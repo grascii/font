@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1748399493
+ModificationTime: 1748667837
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -46,7 +46,7 @@ OS2Vendor: 'PfEd'
 Lookup: 4 0 0 "Multichar strokes" { "ch sh th ng nk"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Annotated Directions" { "Annotated Directions"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Directions" { "s Direction"  "th Direction"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "Consonant Joinings" { "p Joinings 1"  "p Joinings 2"  "f Joinings"  "s.right Joinings"  "s.left Joinings"  "th.over Joinings 1"  "th.over Joinings 2"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "Consonant Joinings" { "r Joinings"  "p Joinings 1"  "p Joinings 2"  "f Joinings"  "s.right Joinings"  "s.left Joinings"  "th.over Joinings 1"  "th.over Joinings 2"  "th.under Joinings 1"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 1 "Vowel Between" { "Between k *"  "Between r *"  "Between n *"  "Between t *"  "Between p *"  "Between f *"  "Between ch *"  "Between ng *"  "Between tn *"  "Between nt *"  } ['rclt' ('latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Vowel Before/After" { "Vowel Before Overrides"  "Vowel Before"  "Vowel After Overrides"  "Vowel After"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Cut Consonant" { "Cut Consonant" ("cut") } []
@@ -207,6 +207,22 @@ Lookup: 257 0 0 "Position Before th" { "Position Before th"  } []
 Lookup: 257 0 0 "Position Before v" { "Position Before v"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "th.under Joinings 1" 0 0 0 1
+ 1 0 2
+  Coverage: 8 th.under
+  FCoverage: 1 a
+  FCoverage: 15 f v f.cut v.cut
+ 1
+  SeqLookup: 0 "Skewed 30"
+EndFPST
+ChainSub2: coverage "r Joinings" 0 0 0 1
+ 1 2 0
+  Coverage: 3 r l
+  BCoverage: 1 a
+  BCoverage: 5 ng nk
+ 1
+  SeqLookup: 0 "Cut Consonant"
+EndFPST
 ChainSub2: coverage "s.left Joinings" 0 0 0 1
  1 0 2
   Coverage: 6 s.left
@@ -251,7 +267,7 @@ ChainSub2: coverage "f Joinings" 0 0 0 1
  1 2 0
   Coverage: 3 f v
   BCoverage: 3 a e
-  BCoverage: 58 r l k g n m t d p b p.cut b.cut s.left s.left.cut th.under
+  BCoverage: 74 r l k g n m t d p b p.cut b.cut s.left s.left.cut th.under th.under.skew30
  1
   SeqLookup: 0 "Cut Consonant"
 EndFPST
@@ -941,131 +957,296 @@ ChainSub2: class "Between ch *" 12 12 12 10
   BClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
   FClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
 EndFPST
-ChainSub2: class "Between ng *" 12 12 12 1
+ChainSub2: class "Between ng *" 12 12 12 10
   Class: 9 a e i o u
   Class: 15 k g k.cut g.cut
   Class: 15 r l r.cut l.cut
   Class: 3 n m
   Class: 3 t d
-  Class: 22 p b p.cut b.cut s.left
-  Class: 23 f v f.cut v.cut s.right
+  Class: 33 p b p.cut b.cut s.left s.left.cut
+  Class: 35 f v f.cut v.cut s.right s.right.cut
   Class: 7 sh ch j
   Class: 5 ng nk
-  Class: 7 th.over
-  Class: 8 th.under
+  Class: 52 th.over th.over.angled th.over.skew30 th.over.skew45
+  Class: 56 th.under th.under.angled th.under.skew30 th.under.skew45
   BClass: 9 a e i o u
   BClass: 15 k g k.cut g.cut
   BClass: 15 r l r.cut l.cut
   BClass: 3 n m
   BClass: 3 t d
-  BClass: 22 p b p.cut b.cut s.left
-  BClass: 23 f v f.cut v.cut s.right
+  BClass: 33 p b p.cut b.cut s.left s.left.cut
+  BClass: 35 f v f.cut v.cut s.right s.right.cut
   BClass: 7 sh ch j
   BClass: 5 ng nk
-  BClass: 7 th.over
-  BClass: 8 th.under
+  BClass: 52 th.over th.over.angled th.over.skew30 th.over.skew45
+  BClass: 56 th.under th.under.angled th.under.skew30 th.under.skew45
   FClass: 9 a e i o u
   FClass: 15 k g k.cut g.cut
   FClass: 15 r l r.cut l.cut
   FClass: 3 n m
   FClass: 3 t d
-  FClass: 22 p b p.cut b.cut s.left
-  FClass: 23 f v f.cut v.cut s.right
+  FClass: 33 p b p.cut b.cut s.left s.left.cut
+  FClass: 35 f v f.cut v.cut s.right s.right.cut
   FClass: 7 sh ch j
   FClass: 5 ng nk
-  FClass: 7 th.over
-  FClass: 8 th.under
- 1 0 0
-  ClsList: 0
-  BClsList:
-  FClsList:
- 0
+  FClass: 52 th.over th.over.angled th.over.skew30 th.over.skew45
+  FClass: 56 th.under th.under.angled th.under.skew30 th.under.skew45
+ 1 1 1
+  ClsList: 1
+  BClsList: 9
+  FClsList: 2
+ 1
+  SeqLookup: 0 "Between ng k"
+ 1 1 1
+  ClsList: 1
+  BClsList: 9
+  FClsList: 3
+ 1
+  SeqLookup: 0 "Between ng r"
+ 1 1 1
+  ClsList: 1
+  BClsList: 9
+  FClsList: 4
+ 1
+  SeqLookup: 0 "Between ng n"
+ 1 1 1
+  ClsList: 1
+  BClsList: 9
+  FClsList: 5
+ 1
+  SeqLookup: 0 "Between ng t"
+ 1 1 1
+  ClsList: 1
+  BClsList: 9
+  FClsList: 6
+ 1
+  SeqLookup: 0 "Between ng p"
+ 1 1 1
+  ClsList: 1
+  BClsList: 9
+  FClsList: 7
+ 1
+  SeqLookup: 0 "Between ng f"
+ 1 1 1
+  ClsList: 1
+  BClsList: 9
+  FClsList: 8
+ 1
+  SeqLookup: 0 "Between ng ch"
+ 1 1 1
+  ClsList: 1
+  BClsList: 9
+  FClsList: 9
+ 1
+  SeqLookup: 0 "Between ng ng"
+ 1 1 1
+  ClsList: 1
+  BClsList: 9
+  FClsList: 10
+ 1
+  SeqLookup: 0 "Between ng tn"
+ 1 1 1
+  ClsList: 1
+  BClsList: 9
+  FClsList: 11
+ 1
+  SeqLookup: 0 "Between ng nt"
   ClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
   BClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
   FClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
 EndFPST
-ChainSub2: class "Between tn *" 12 12 12 1
+ChainSub2: class "Between tn *" 12 12 12 10
   Class: 9 a e i o u
   Class: 15 k g k.cut g.cut
   Class: 15 r l r.cut l.cut
   Class: 3 n m
   Class: 3 t d
-  Class: 22 p b p.cut b.cut s.left
-  Class: 23 f v f.cut v.cut s.right
+  Class: 33 p b p.cut b.cut s.left s.left.cut
+  Class: 35 f v f.cut v.cut s.right s.right.cut
   Class: 7 sh ch j
   Class: 5 ng nk
-  Class: 7 th.over
-  Class: 8 th.under
+  Class: 52 th.over th.over.angled th.over.skew30 th.over.skew45
+  Class: 56 th.under th.under.angled th.under.skew30 th.under.skew45
   BClass: 9 a e i o u
   BClass: 15 k g k.cut g.cut
   BClass: 15 r l r.cut l.cut
   BClass: 3 n m
   BClass: 3 t d
-  BClass: 22 p b p.cut b.cut s.left
-  BClass: 23 f v f.cut v.cut s.right
+  BClass: 33 p b p.cut b.cut s.left s.left.cut
+  BClass: 35 f v f.cut v.cut s.right s.right.cut
   BClass: 7 sh ch j
   BClass: 5 ng nk
-  BClass: 7 th.over
-  BClass: 8 th.under
+  BClass: 52 th.over th.over.angled th.over.skew30 th.over.skew45
+  BClass: 56 th.under th.under.angled th.under.skew30 th.under.skew45
   FClass: 9 a e i o u
   FClass: 15 k g k.cut g.cut
   FClass: 15 r l r.cut l.cut
   FClass: 3 n m
   FClass: 3 t d
-  FClass: 22 p b p.cut b.cut s.left
-  FClass: 23 f v f.cut v.cut s.right
+  FClass: 33 p b p.cut b.cut s.left s.left.cut
+  FClass: 35 f v f.cut v.cut s.right s.right.cut
   FClass: 7 sh ch j
   FClass: 5 ng nk
-  FClass: 7 th.over
-  FClass: 8 th.under
- 1 0 0
-  ClsList: 0
-  BClsList:
-  FClsList:
- 0
+  FClass: 52 th.over th.over.angled th.over.skew30 th.over.skew45
+  FClass: 56 th.under th.under.angled th.under.skew30 th.under.skew45
+ 1 1 1
+  ClsList: 1
+  BClsList: 10
+  FClsList: 2
+ 1
+  SeqLookup: 0 "Between tn k"
+ 1 1 1
+  ClsList: 1
+  BClsList: 10
+  FClsList: 3
+ 1
+  SeqLookup: 0 "Between tn r"
+ 1 1 1
+  ClsList: 1
+  BClsList: 10
+  FClsList: 4
+ 1
+  SeqLookup: 0 "Between tn n"
+ 1 1 1
+  ClsList: 1
+  BClsList: 10
+  FClsList: 5
+ 1
+  SeqLookup: 0 "Between tn t"
+ 1 1 1
+  ClsList: 1
+  BClsList: 10
+  FClsList: 6
+ 1
+  SeqLookup: 0 "Between tn p"
+ 1 1 1
+  ClsList: 1
+  BClsList: 10
+  FClsList: 7
+ 1
+  SeqLookup: 0 "Between tn f"
+ 1 1 1
+  ClsList: 1
+  BClsList: 10
+  FClsList: 8
+ 1
+  SeqLookup: 0 "Between tn ch"
+ 1 1 1
+  ClsList: 1
+  BClsList: 10
+  FClsList: 9
+ 1
+  SeqLookup: 0 "Between tn ng"
+ 1 1 1
+  ClsList: 1
+  BClsList: 10
+  FClsList: 10
+ 1
+  SeqLookup: 0 "Between tn tn"
+ 1 1 1
+  ClsList: 1
+  BClsList: 10
+  FClsList: 11
+ 1
+  SeqLookup: 0 "Between tn nt"
   ClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
   BClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
   FClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
 EndFPST
-ChainSub2: class "Between nt *" 12 12 12 1
+ChainSub2: class "Between nt *" 12 12 12 10
   Class: 9 a e i o u
   Class: 15 k g k.cut g.cut
   Class: 15 r l r.cut l.cut
   Class: 3 n m
   Class: 3 t d
-  Class: 22 p b p.cut b.cut s.left
-  Class: 23 f v f.cut v.cut s.right
+  Class: 33 p b p.cut b.cut s.left s.left.cut
+  Class: 35 f v f.cut v.cut s.right s.right.cut
   Class: 7 sh ch j
   Class: 5 ng nk
-  Class: 7 th.over
-  Class: 8 th.under
+  Class: 52 th.over th.over.angled th.over.skew30 th.over.skew45
+  Class: 56 th.under th.under.angled th.under.skew30 th.under.skew45
   BClass: 9 a e i o u
   BClass: 15 k g k.cut g.cut
   BClass: 15 r l r.cut l.cut
   BClass: 3 n m
   BClass: 3 t d
-  BClass: 22 p b p.cut b.cut s.left
-  BClass: 23 f v f.cut v.cut s.right
+  BClass: 33 p b p.cut b.cut s.left s.left.cut
+  BClass: 35 f v f.cut v.cut s.right s.right.cut
   BClass: 7 sh ch j
   BClass: 5 ng nk
-  BClass: 7 th.over
-  BClass: 8 th.under
+  BClass: 52 th.over th.over.angled th.over.skew30 th.over.skew45
+  BClass: 56 th.under th.under.angled th.under.skew30 th.under.skew45
   FClass: 9 a e i o u
   FClass: 15 k g k.cut g.cut
   FClass: 15 r l r.cut l.cut
   FClass: 3 n m
   FClass: 3 t d
-  FClass: 22 p b p.cut b.cut s.left
-  FClass: 23 f v f.cut v.cut s.right
+  FClass: 33 p b p.cut b.cut s.left s.left.cut
+  FClass: 35 f v f.cut v.cut s.right s.right.cut
   FClass: 7 sh ch j
   FClass: 5 ng nk
-  FClass: 7 th.over
-  FClass: 8 th.under
- 1 0 0
-  ClsList: 0
-  BClsList:
-  FClsList:
- 0
+  FClass: 52 th.over th.over.angled th.over.skew30 th.over.skew45
+  FClass: 56 th.under th.under.angled th.under.skew30 th.under.skew45
+ 1 1 1
+  ClsList: 1
+  BClsList: 11
+  FClsList: 2
+ 1
+  SeqLookup: 0 "Between nt k"
+ 1 1 1
+  ClsList: 1
+  BClsList: 11
+  FClsList: 3
+ 1
+  SeqLookup: 0 "Between nt r"
+ 1 1 1
+  ClsList: 1
+  BClsList: 11
+  FClsList: 4
+ 1
+  SeqLookup: 0 "Between nt n"
+ 1 1 1
+  ClsList: 1
+  BClsList: 11
+  FClsList: 5
+ 1
+  SeqLookup: 0 "Between nt t"
+ 1 1 1
+  ClsList: 1
+  BClsList: 11
+  FClsList: 6
+ 1
+  SeqLookup: 0 "Between nt p"
+ 1 1 1
+  ClsList: 1
+  BClsList: 11
+  FClsList: 7
+ 1
+  SeqLookup: 0 "Between nt f"
+ 1 1 1
+  ClsList: 1
+  BClsList: 11
+  FClsList: 8
+ 1
+  SeqLookup: 0 "Between nt ch"
+ 1 1 1
+  ClsList: 1
+  BClsList: 11
+  FClsList: 9
+ 1
+  SeqLookup: 0 "Between nt ng"
+ 1 1 1
+  ClsList: 1
+  BClsList: 11
+  FClsList: 10
+ 1
+  SeqLookup: 0 "Between nt tn"
+ 1 1 1
+  ClsList: 1
+  BClsList: 11
+  FClsList: 11
+ 1
+  SeqLookup: 0 "Between nt nt"
   ClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
   BClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
   FClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
@@ -1581,7 +1762,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 286 26 10
+WinInfo: 52 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
