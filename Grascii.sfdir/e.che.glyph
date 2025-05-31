@@ -1,0 +1,15 @@
+StartChar: e.che
+Encoding: 676 -1 153
+Width: 123
+VWidth: 1078
+Flags: W
+AnchorPoint: "Join" 113 79 exit 0
+AnchorPoint: "Join" 113 79 entry 0
+LayerCount: 2
+Fore
+SplineSet
+113 79 m 0
+ 80 21 38 -27 15 16 c 0
+ -13 69 89 79 113 79 c 1024
+EndSplineSet
+EndChar

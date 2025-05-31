@@ -1,0 +1,11 @@
+StartChar: e.thUe
+Encoding: 686 -1 169
+Width: 81
+VWidth: 1145
+Flags: W
+AnchorPoint: "Join" 51.2021 0 exit 0
+AnchorPoint: "Join" 71.2021 55 entry 0
+LayerCount: 2
+Fore
+Refer: 152 -1 N -1 1.22465e-16 -1.22465e-16 -1 81.202 84 2
+EndChar

@@ -1,0 +1,15 @@
+StartChar: e.sLe
+Encoding: 680 -1 157
+Width: 85
+VWidth: 1005
+Flags: W
+AnchorPoint: "Join" 13 79 exit 0
+AnchorPoint: "Join" 10 6 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 6 m 0
+ 44 -14 90 23 70 54 c 0
+ 60 70 49 69 13 79 c 1024
+EndSplineSet
+EndChar

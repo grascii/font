@@ -1,0 +1,15 @@
+StartChar: a.ntaf
+Encoding: 603 -1 147
+Width: 133
+VWidth: 1151
+Flags: W
+AnchorPoint: "Join" 10 0 exit 0
+AnchorPoint: "Join" 72 47 entry 0
+LayerCount: 2
+Fore
+SplineSet
+72 47 m 0
+ 94 69 161 131 94 150 c 0
+ 28 169 10 62 10 0 c 1024
+EndSplineSet
+EndChar

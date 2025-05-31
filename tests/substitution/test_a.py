@@ -1,34 +1,5 @@
 import pytest
-import uharfbuzz as hb
-
-
-def shape(text, font):
-    buf = hb.Buffer()
-    buf.add_str(text)
-    buf.guess_segment_properties()
-    hb.shape(font, buf)
-    return [font.glyph_to_string(info.codepoint) for info in buf.glyph_infos]
-
-
-@pytest.mark.parametrize("text,expected_glyphs", [
-    ("sh", ["sh"]),
-    ("ch", ["ch"]),
-    ("th", ["th.over"]),
-    ("ng", ["ng"]),
-    ("nk", ["nk"]),
-])
-def test_multichar_ligatures(font, text, expected_glyphs):
-    assert shape(text, font) == expected_glyphs
-
-
-@pytest.mark.parametrize("text,expected_glyphs", [
-    ("pr", ["p.cut", "r"]),
-    ("pl", ["p.cut", "l"]),
-    ("br", ["b.cut", "r"]),
-    ("bl", ["b.cut", "l"]),
-])
-def test_consonant_blends(font, text, expected_glyphs):
-    assert shape(text, font) == expected_glyphs
+from shape import shape
 
 
 @pytest.mark.parametrize("text,expected_glyphs", [

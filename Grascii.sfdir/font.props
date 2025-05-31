@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1748667837
+ModificationTime: 1748725924
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -1443,7 +1443,7 @@ ChainSub2: class "p Joinings 1" 3 3 3 1
   BClassNames: "All_Others" "p" "r"
   FClassNames: "All_Others" "p" "r"
 EndFPST
-ChainSub2: glyph "Vowel After Overrides" 0 0 0 3
+ChainSub2: glyph "Vowel After Overrides" 0 0 0 4
  String: 1 a
  BString: 1 b
  FString: 0 
@@ -1459,9 +1459,14 @@ ChainSub2: glyph "Vowel After Overrides" 0 0 0 3
  FString: 0 
  1
   SeqLookup: 0 "After s.left"
+ String: 1 e
+ BString: 6 s.left
+ FString: 0 
+ 1
+  SeqLookup: 0 "After s.left"
 EndFPST
 ChainSub2: class "Vowel After" 12 12 12 10
-  Class: 1 a
+  Class: 3 a e
   Class: 7 sh ch j
   Class: 35 f v f.cut v.cut s.right s.right.cut
   Class: 3 k g
@@ -1472,7 +1477,7 @@ ChainSub2: class "Vowel After" 12 12 12 10
   Class: 52 th.over th.over.angled th.over.skew30 th.over.skew45
   Class: 56 th.under th.under.angled th.under.skew30 th.under.skew45
   Class: 5 ng nk
-  BClass: 1 a
+  BClass: 3 a e
   BClass: 7 sh ch j
   BClass: 35 f v f.cut v.cut s.right s.right.cut
   BClass: 3 k g
@@ -1483,7 +1488,7 @@ ChainSub2: class "Vowel After" 12 12 12 10
   BClass: 52 th.over th.over.angled th.over.skew30 th.over.skew45
   BClass: 56 th.under th.under.angled th.under.skew30 th.under.skew45
   BClass: 5 ng nk
-  FClass: 1 a
+  FClass: 3 a e
   FClass: 7 sh ch j
   FClass: 35 f v f.cut v.cut s.right s.right.cut
   FClass: 3 k g
@@ -1554,9 +1559,9 @@ ChainSub2: class "Vowel After" 12 12 12 10
   FClsList:
  1
   SeqLookup: 0 "After ng"
-  ClassNames: "All_Others" "a" "ch" "f" "k" "n" "p" "r" "t" "tn" "nt" "ng"
-  BClassNames: "All_Others" "a" "ch" "f" "k" "n" "p" "r" "t" "tn" "nt" "ng"
-  FClassNames: "All_Others" "a" "ch" "f" "k" "n" "p" "r" "t" "tn" "nt" "ng"
+  ClassNames: "All_Others" "vowel" "ch" "f" "k" "n" "p" "r" "t" "tn" "nt" "ng"
+  BClassNames: "All_Others" "vowel" "ch" "f" "k" "n" "p" "r" "t" "tn" "nt" "ng"
+  FClassNames: "All_Others" "vowel" "ch" "f" "k" "n" "p" "r" "t" "tn" "nt" "ng"
 EndFPST
 ChainPos2: class "Starts with a" 7 7 12 11
   Class: 5 a.ach
@@ -1652,7 +1657,7 @@ ChainPos2: class "Starts with a" 7 7 12 11
   BClassNames: "All_Others" "a.ach" "a.af" "a.ang" "a.ap" "a.at" "a.av"
   FClassNames: "All_Others" "b" "b.cut" "ch" "f" "j" "ng" "nk" "p" "p.cut" "sh" "v"
 EndFPST
-ChainSub2: glyph "Vowel Before Overrides" 0 0 0 3
+ChainSub2: glyph "Vowel Before Overrides" 0 0 0 4
  String: 1 a
  BString: 0 
  FString: 1 l
@@ -1668,9 +1673,14 @@ ChainSub2: glyph "Vowel Before Overrides" 0 0 0 3
  FString: 7 s.right
  1
   SeqLookup: 0 "Before s.right"
+ String: 1 e
+ BString: 0 
+ FString: 7 s.right
+ 1
+  SeqLookup: 0 "Before s.right"
 EndFPST
 ChainSub2: class "Vowel Before" 12 1 12 10
-  Class: 1 a
+  Class: 3 a e
   Class: 7 sh ch j
   Class: 11 f v s.right
   Class: 15 k g k.cut g.cut
@@ -1681,7 +1691,7 @@ ChainSub2: class "Vowel Before" 12 1 12 10
   Class: 52 th.over th.over.angled th.over.skew30 th.over.skew45
   Class: 56 th.under th.under.angled th.under.skew30 th.under.skew45
   Class: 5 ng nk
-  FClass: 1 a
+  FClass: 3 a e
   FClass: 7 sh ch j
   FClass: 11 f v s.right
   FClass: 15 k g k.cut g.cut
@@ -1752,9 +1762,9 @@ ChainSub2: class "Vowel Before" 12 1 12 10
   FClsList: 11
  1
   SeqLookup: 0 "Before ng"
-  ClassNames: "All_Others" "a" "ch" "f" "k" "n" "p" "r" "t" "tn" "nt" "ng"
+  ClassNames: "All_Others" "vowel" "ch" "f" "k" "n" "p" "r" "t" "tn" "nt" "ng"
   BClassNames: "All_Others"
-  FClassNames: "All_Others" "a" "ch" "f" "k" "n" "p" "r" "t" "tn" "nt" "ng"
+  FClassNames: "All_Others" "vowel" "ch" "f" "k" "n" "p" "r" "t" "tn" "nt" "ng"
 EndFPST
 Encoding: ISO8859-1
 UnicodeInterp: none
@@ -1762,7 +1772,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 52 26 10
+WinInfo: 442 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144

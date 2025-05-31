@@ -56,7 +56,7 @@ def import_base_model(data, glyph):
     glyph.addAnchorPoint("Join", "entry", contour[0].x, contour[0].y)
     glyph.addAnchorPoint("Join", "exit", contour[-1].x, contour[-1].y)
 
-    if contour[0].y <= 0 and contour[-1].y <= 0 and ymin < -0.001:
+    if contour[0].y <= 0 and contour[-1].y <= 0 and ymin < -0.001 and ymax <= 0:
         glyph.transform(psMat.translate(0, ymax - ymin))
     elif ymin < -0.001:
         glyph.transform(psMat.translate(0, -ymin))

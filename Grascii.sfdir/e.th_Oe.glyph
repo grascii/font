@@ -1,0 +1,15 @@
+StartChar: e.thOe
+Encoding: 682 -1 159
+Width: 114
+VWidth: 1061
+Flags: W
+AnchorPoint: "Join" 10 49 exit 0
+AnchorPoint: "Join" 75 61 entry 0
+LayerCount: 2
+Fore
+SplineSet
+75 61 m 0
+ 110 61 112 21 88 7 c 0
+ 75 0 27 -16 10 49 c 1024
+EndSplineSet
+EndChar
