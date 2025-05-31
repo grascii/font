@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1748397450
+ModificationTime: 1748399493
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -46,7 +46,7 @@ OS2Vendor: 'PfEd'
 Lookup: 4 0 0 "Multichar strokes" { "ch sh th ng nk"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Annotated Directions" { "Annotated Directions"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Directions" { "s Direction"  "th Direction"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "Consonant Joinings" { "p Joinings 1"  "p Joinings 2"  "f Joinings"  "s.right Joinings"  "th.over Joinings 1"  "th.over Joinings 2"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "Consonant Joinings" { "p Joinings 1"  "p Joinings 2"  "f Joinings"  "s.right Joinings"  "s.left Joinings"  "th.over Joinings 1"  "th.over Joinings 2"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 1 "Vowel Between" { "Between k *"  "Between r *"  "Between n *"  "Between t *"  "Between p *"  "Between f *"  "Between ch *"  "Between ng *"  "Between tn *"  "Between nt *"  } ['rclt' ('latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Vowel Before/After" { "Vowel Before Overrides"  "Vowel Before"  "Vowel After Overrides"  "Vowel After"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Cut Consonant" { "Cut Consonant" ("cut") } []
@@ -207,11 +207,19 @@ Lookup: 257 0 0 "Position Before th" { "Position Before th"  } []
 Lookup: 257 0 0 "Position Before v" { "Position Before v"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "s.left Joinings" 0 0 0 1
+ 1 0 2
+  Coverage: 6 s.left
+  FCoverage: 3 a e
+  FCoverage: 47 k g r l n m f v f.cut v.cut s.right s.right.cut
+ 1
+  SeqLookup: 0 "Cut Consonant"
+EndFPST
 ChainSub2: coverage "th.over Joinings 2" 0 0 0 1
  1 2 0
   Coverage: 7 th.over
   BCoverage: 1 a
-  BCoverage: 15 f v f.cut v.cut
+  BCoverage: 35 f v f.cut v.cut s.right s.right.cut
  1
   SeqLookup: 0 "Skewed 45"
 EndFPST
@@ -227,7 +235,7 @@ ChainSub2: coverage "th.over Joinings 1" 0 0 0 1
  1 2 0
   Coverage: 7 th.over
   BCoverage: 1 a
-  BCoverage: 19 k g p b p.cut b.cut
+  BCoverage: 37 k g p b p.cut b.cut s.left s.left.cut
  1
   SeqLookup: 0 "Skewed 30"
 EndFPST
@@ -235,7 +243,7 @@ ChainSub2: coverage "s.right Joinings" 0 0 0 1
  1 2 0
   Coverage: 7 s.right
   BCoverage: 3 a e
-  BCoverage: 31 r l k g n m t d p b p.cut b.cut
+  BCoverage: 49 r l k g n m t d p b p.cut b.cut s.left s.left.cut
  1
   SeqLookup: 0 "Cut Consonant"
 EndFPST
@@ -243,7 +251,7 @@ ChainSub2: coverage "f Joinings" 0 0 0 1
  1 2 0
   Coverage: 3 f v
   BCoverage: 3 a e
-  BCoverage: 40 r l k g n m t d p b p.cut b.cut th.under
+  BCoverage: 58 r l k g n m t d p b p.cut b.cut s.left s.left.cut th.under
  1
   SeqLookup: 0 "Cut Consonant"
 EndFPST

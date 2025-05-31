@@ -470,3 +470,53 @@ def test_ch_a(font, text, expected_glyphs):
 ])
 def test_j_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("s)ak",  ["s.right", "a.fak", "k"]),
+    ("s)ag",  ["s.right", "a.fak", "g"]),
+    ("s)ar",  ["s.right", "a.far", "r"]),
+    ("s)al",  ["s.right", "a.far", "l"]),
+    ("s)an",  ["s.right", "a.fan", "n"]),
+    ("s)am",  ["s.right", "a.fan", "m"]),
+    ("s)at",  ["s.right", "a.fat", "t"]),
+    ("s)ad",  ["s.right", "a.fat", "d"]),
+    ("s)ap",  ["s.right", "a.fap", "p"]),
+    ("s)ab",  ["s.right", "a.fap", "b"]),
+    ("s)af",  ["s.right", "a.faf", "f"]),
+    ("s)av",  ["s.right", "a.faf", "v"]),
+    ("s)ash", ["s.right", "a.fach", "sh"]),
+    ("s)ach", ["s.right", "a.fach", "ch"]),
+    ("s)aj",  ["s.right", "a.fach", "j"]),
+    ("s)as",  ["s.right", "a.faf", "s.right"]),
+    ("s)as(", ["s.right", "a.fap", "s.left"]),
+    ("s)ang", ["s.right", "a.fang", "ng"]),
+    ("s)ank", ["s.right", "a.fang", "nk"]),
+    ("s)ath", ["s.right", "a.fatn", "th.over.skew45"]),
+    ("s)ath)", ["s.right", "a.fant", "th.under"]),
+])
+def test_sR_a(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("s(ak",  ["s.left.cut", "a.pak", "k"]),
+    ("s(ag",  ["s.left.cut", "a.pak", "g"]),
+    ("s(ar",  ["s.left.cut", "a.par", "r"]),
+    ("s(al",  ["s.left.cut", "a.par", "l"]),
+    ("s(an",  ["s.left.cut", "a.pan", "n"]),
+    ("s(am",  ["s.left.cut", "a.pan", "m"]),
+    ("s(at",  ["s.left", "a.pat", "t"]),
+    ("s(ad",  ["s.left", "a.pat", "d"]),
+    ("s(ap",  ["s.left", "a.pap", "p"]),
+    ("s(ab",  ["s.left", "a.pap", "b"]),
+    ("s(af",  ["s.left.cut", "a.paf", "f.cut"]),
+    ("s(av",  ["s.left.cut", "a.paf", "v.cut"]),
+    ("s(ash", ["s.left", "a.pach", "sh"]),
+    ("s(ach", ["s.left", "a.pach", "ch"]),
+    ("s(aj",  ["s.left", "a.pach", "j"]),
+    ("s(as(",  ["s.left", "a.pap", "s.left"]),
+    ("s(as)", ["s.left.cut", "a.paf", "s.right.cut"]),
+])
+def test_sL_a(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
