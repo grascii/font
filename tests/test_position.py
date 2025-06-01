@@ -33,3 +33,28 @@ def position_of_first(text, font):
 def test_starts_with_a(font, text, moved):
     did_move = position_of_first(text, font).y_offset != 0
     assert did_move == moved
+
+
+@pytest.mark.parametrize("text,moved", [
+    ("eb", True),
+    ("ech", True),
+    ("ed", False),
+    ("ef", True),
+    ("eg", False),
+    ("ej", True),
+    ("ek", False),
+    ("el", False),
+    ("em", False),
+    ("en", False),
+    ("eng", True),
+    ("enk", True),
+    ("ep", True),
+    ("er", False),
+    ("esh", True),
+    ("et", False),
+    ("eth", False),
+    ("ev", True),
+])
+def test_starts_with_e(font, text, moved):
+    did_move = position_of_first(text, font).y_offset != 0
+    assert did_move == moved

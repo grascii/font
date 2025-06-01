@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1748725924
+ModificationTime: 1748735170
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -183,7 +183,7 @@ Lookup: 1 0 0 "Between nt ch" { "Between nt ch"  } []
 Lookup: 1 0 0 "Between nt ng" { "Between nt ng"  } []
 Lookup: 1 0 0 "Between nt tn" { "Between nt tn"  } []
 Lookup: 1 0 0 "Between nt nt" { "Between nt nt"  } []
-Lookup: 264 0 0 "Line of Writing" { "Starts with a"  } [' RQD' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 264 0 0 "Line of Writing" { "Starts with a"  "Starts with e"  } [' RQD' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 259 0 0 "Cursive Attachment" { "Join"  } ['curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 257 0 0 "Position Before b" { "Position Before b"  } []
 Lookup: 257 0 0 "Position Before b.cut" { "Position Before b.cut"  } []
@@ -1563,27 +1563,25 @@ ChainSub2: class "Vowel After" 12 12 12 10
   BClassNames: "All_Others" "vowel" "ch" "f" "k" "n" "p" "r" "t" "tn" "nt" "ng"
   FClassNames: "All_Others" "vowel" "ch" "f" "k" "n" "p" "r" "t" "tn" "nt" "ng"
 EndFPST
-ChainPos2: class "Starts with a" 7 7 12 11
+ChainPos2: class "Starts with a" 6 6 12 11
   Class: 5 a.ach
   Class: 4 a.af
   Class: 5 a.ang
   Class: 4 a.ap
-  Class: 4 a.at
   Class: 4 a.av
   BClass: 5 a.ach
   BClass: 4 a.af
   BClass: 5 a.ang
   BClass: 4 a.ap
-  BClass: 4 a.at
   BClass: 4 a.av
-  FClass: 2 b 
+  FClass: 1 b
   FClass: 5 b.cut
   FClass: 2 ch
   FClass: 1 f
   FClass: 1 j
   FClass: 2 ng
   FClass: 2 nk
-  FClass: 2 p 
+  FClass: 1 p
   FClass: 5 p.cut
   FClass: 2 sh
   FClass: 1 v
@@ -1648,13 +1646,103 @@ ChainPos2: class "Starts with a" 7 7 12 11
  1
   SeqLookup: 0 "Position Before sh"
  1 0 1
-  ClsList: 6
+  ClsList: 5
   BClsList:
   FClsList: 11
  1
   SeqLookup: 0 "Position Before v"
-  ClassNames: "All_Others" "a.ach" "a.af" "a.ang" "a.ap" "a.at" "a.av"
-  BClassNames: "All_Others" "a.ach" "a.af" "a.ang" "a.ap" "a.at" "a.av"
+  ClassNames: "All_Others" "a.ach" "a.af" "a.ang" "a.ap" "a.av"
+  BClassNames: "All_Others" "a.ach" "a.af" "a.ang" "a.ap" "a.av"
+  FClassNames: "All_Others" "b" "b.cut" "ch" "f" "j" "ng" "nk" "p" "p.cut" "sh" "v"
+EndFPST
+ChainPos2: class "Starts with e" 5 5 12 11
+  Class: 5 e.ech
+  Class: 4 e.ef
+  Class: 5 e.eng
+  Class: 4 e.ep
+  BClass: 5 e.ech
+  BClass: 4 e.ef
+  BClass: 5 e.eng
+  BClass: 4 e.ep
+  FClass: 1 b
+  FClass: 5 b.cut
+  FClass: 2 ch
+  FClass: 1 f
+  FClass: 1 j
+  FClass: 2 ng
+  FClass: 2 nk
+  FClass: 1 p
+  FClass: 5 p.cut
+  FClass: 2 sh
+  FClass: 1 v
+ 1 0 1
+  ClsList: 4
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Position Before b"
+ 1 0 1
+  ClsList: 4
+  BClsList:
+  FClsList: 2
+ 1
+  SeqLookup: 0 "Position Before b.cut"
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 3
+ 1
+  SeqLookup: 0 "Position Before ch"
+ 1 0 1
+  ClsList: 2
+  BClsList:
+  FClsList: 4
+ 1
+  SeqLookup: 0 "Position Before f"
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 5
+ 1
+  SeqLookup: 0 "Position Before j"
+ 1 0 1
+  ClsList: 3
+  BClsList:
+  FClsList: 6
+ 1
+  SeqLookup: 0 "Position Before ng"
+ 1 0 1
+  ClsList: 3
+  BClsList:
+  FClsList: 7
+ 1
+  SeqLookup: 0 "Position Before nk"
+ 1 0 1
+  ClsList: 4
+  BClsList:
+  FClsList: 8
+ 1
+  SeqLookup: 0 "Position Before p"
+ 1 0 1
+  ClsList: 4
+  BClsList:
+  FClsList: 9
+ 1
+  SeqLookup: 0 "Position Before p.cut"
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 10
+ 1
+  SeqLookup: 0 "Position Before sh"
+ 1 0 1
+  ClsList: 2
+  BClsList:
+  FClsList: 11
+ 1
+  SeqLookup: 0 "Position Before v"
+  ClassNames: "All_Others" "e.ech" "e.ef" "e.eng" "e.ep"
+  BClassNames: "All_Others" "e.ech" "e.ef" "e.eng" "e.ep"
   FClassNames: "All_Others" "b" "b.cut" "ch" "f" "j" "ng" "nk" "p" "p.cut" "sh" "v"
 EndFPST
 ChainSub2: glyph "Vowel Before Overrides" 0 0 0 4
@@ -1772,7 +1860,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 442 26 10
+WinInfo: 52 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
