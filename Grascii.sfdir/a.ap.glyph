@@ -12,6 +12,7 @@ SplineSet
  69 -30 125 18 144 37 c 0
  198 91 178 178 107 116 c 1024
 EndSplineSet
+Position2: "Position Before s.left" dx=0 dy=60 dh=0 dv=0
 Position2: "Position Before b.cut" dx=0 dy=521 dh=0 dv=0
 Position2: "Position Before p.cut" dx=0 dy=210 dh=0 dv=0
 Position2: "Position Before p" dx=0 dy=268 dh=0 dv=0

@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1748735170
+ModificationTime: 1748736825
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -201,6 +201,8 @@ Lookup: 257 0 0 "Position Before nk" { "Position Before nk"  } []
 Lookup: 257 0 0 "Position Before p" { "Position Before p"  } []
 Lookup: 257 0 0 "Position Before p.cut" { "Position Before p.cut"  } []
 Lookup: 257 0 0 "Position Before r" { "Position Before r"  } []
+Lookup: 257 0 0 "Position Before s.right" { "Position Before s.right"  } []
+Lookup: 257 0 0 "Position Before s.left" { "Position Before s.left"  } []
 Lookup: 257 0 0 "Position Before sh" { "Position Before sh"  } []
 Lookup: 257 0 0 "Position Before t" { "Position Before t"  } []
 Lookup: 257 0 0 "Position Before th" { "Position Before th"  } []
@@ -1563,17 +1565,19 @@ ChainSub2: class "Vowel After" 12 12 12 10
   BClassNames: "All_Others" "vowel" "ch" "f" "k" "n" "p" "r" "t" "tn" "nt" "ng"
   FClassNames: "All_Others" "vowel" "ch" "f" "k" "n" "p" "r" "t" "tn" "nt" "ng"
 EndFPST
-ChainPos2: class "Starts with a" 6 6 12 11
+ChainPos2: class "Starts with a" 7 7 14 13
   Class: 5 a.ach
   Class: 4 a.af
   Class: 5 a.ang
   Class: 4 a.ap
   Class: 4 a.av
+  Class: 5 a.asR
   BClass: 5 a.ach
   BClass: 4 a.af
   BClass: 5 a.ang
   BClass: 4 a.ap
   BClass: 4 a.av
+  BClass: 5 a.asR
   FClass: 1 b
   FClass: 5 b.cut
   FClass: 2 ch
@@ -1585,6 +1589,8 @@ ChainPos2: class "Starts with a" 6 6 12 11
   FClass: 5 p.cut
   FClass: 2 sh
   FClass: 1 v
+  FClass: 7 s.right
+  FClass: 6 s.left
  1 0 1
   ClsList: 4
   BClsList:
@@ -1651,19 +1657,33 @@ ChainPos2: class "Starts with a" 6 6 12 11
   FClsList: 11
  1
   SeqLookup: 0 "Position Before v"
-  ClassNames: "All_Others" "a.ach" "a.af" "a.ang" "a.ap" "a.av"
-  BClassNames: "All_Others" "a.ach" "a.af" "a.ang" "a.ap" "a.av"
-  FClassNames: "All_Others" "b" "b.cut" "ch" "f" "j" "ng" "nk" "p" "p.cut" "sh" "v"
+ 1 0 1
+  ClsList: 6
+  BClsList:
+  FClsList: 12
+ 1
+  SeqLookup: 0 "Position Before s.right"
+ 1 0 1
+  ClsList: 4
+  BClsList:
+  FClsList: 13
+ 1
+  SeqLookup: 0 "Position Before s.left"
+  ClassNames: "All_Others" "a.ach" "a.af" "a.ang" "a.ap" "a.av" "a.asR"
+  BClassNames: "All_Others" "a.ach" "a.af" "a.ang" "a.ap" "a.av" "a.asR"
+  FClassNames: "All_Others" "b" "b.cut" "ch" "f" "j" "ng" "nk" "p" "p.cut" "sh" "v" "s.right" "s.left"
 EndFPST
-ChainPos2: class "Starts with e" 5 5 12 11
+ChainPos2: class "Starts with e" 6 6 14 13
   Class: 5 e.ech
   Class: 4 e.ef
   Class: 5 e.eng
   Class: 4 e.ep
+  Class: 5 e.esR
   BClass: 5 e.ech
   BClass: 4 e.ef
   BClass: 5 e.eng
   BClass: 4 e.ep
+  BClass: 5 e.esR
   FClass: 1 b
   FClass: 5 b.cut
   FClass: 2 ch
@@ -1675,6 +1695,8 @@ ChainPos2: class "Starts with e" 5 5 12 11
   FClass: 5 p.cut
   FClass: 2 sh
   FClass: 1 v
+  FClass: 7 s.right
+  FClass: 6 s.left
  1 0 1
   ClsList: 4
   BClsList:
@@ -1741,9 +1763,21 @@ ChainPos2: class "Starts with e" 5 5 12 11
   FClsList: 11
  1
   SeqLookup: 0 "Position Before v"
-  ClassNames: "All_Others" "e.ech" "e.ef" "e.eng" "e.ep"
-  BClassNames: "All_Others" "e.ech" "e.ef" "e.eng" "e.ep"
-  FClassNames: "All_Others" "b" "b.cut" "ch" "f" "j" "ng" "nk" "p" "p.cut" "sh" "v"
+ 1 0 1
+  ClsList: 5
+  BClsList:
+  FClsList: 12
+ 1
+  SeqLookup: 0 "Position Before s.right"
+ 1 0 1
+  ClsList: 4
+  BClsList:
+  FClsList: 13
+ 1
+  SeqLookup: 0 "Position Before s.left"
+  ClassNames: "All_Others" "e.ech" "e.ef" "e.eng" "e.ep" "e.esR"
+  BClassNames: "All_Others" "e.ech" "e.ef" "e.eng" "e.ep" "e.esR"
+  FClassNames: "All_Others" "b" "b.cut" "ch" "f" "j" "ng" "nk" "p" "p.cut" "sh" "v" "s.right" "s.left"
 EndFPST
 ChainSub2: glyph "Vowel Before Overrides" 0 0 0 4
  String: 1 a
@@ -1860,7 +1894,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 52 26 10
+WinInfo: 286 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
