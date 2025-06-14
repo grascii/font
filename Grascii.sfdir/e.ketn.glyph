@@ -1,0 +1,15 @@
+StartChar: e.ketn
+Encoding: 710 -1 175
+Width: 105
+VWidth: 1051
+Flags: WO
+AnchorPoint: "Join" 24 52 exit 0
+AnchorPoint: "Join" 96 52 entry 0
+LayerCount: 2
+Fore
+SplineSet
+96 52 m 0
+ 96 19 56 -6 28 1 c 0
+ 10 6 -1 27 24 52 c 1024
+EndSplineSet
+EndChar

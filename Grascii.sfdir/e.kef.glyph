@@ -1,0 +1,15 @@
+StartChar: e.kef
+Encoding: 707 -1 172
+Width: 106
+VWidth: 1048
+Flags: W
+AnchorPoint: "Join" 97 48 exit 0
+AnchorPoint: "Join" 97 48 entry 0
+LayerCount: 2
+Fore
+SplineSet
+97 48 m 0
+ 97 -3 10 -17 10 25 c 0
+ 10 67 97 94 97 48 c 1024
+EndSplineSet
+EndChar

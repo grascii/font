@@ -54,3 +54,55 @@ def test_e_before(font, text, expected_glyphs):
 ])
 def test_e_after(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("kek",  ["k", "e.kek", "k"]),
+    ("keg",  ["k", "e.kek", "g"]),
+    ("ker",  ["k", "e.ker", "r"]),
+    ("kel",  ["k", "e.ker", "l"]),
+    ("ken",  ["k", "e.en", "n"]),
+    ("kem",  ["k", "e.en", "m"]),
+    ("ket",  ["k", "e.et", "t"]),
+    ("ked",  ["k", "e.et", "d"]),
+    ("kep",  ["k", "e.ep", "p"]),
+    ("keb",  ["k", "e.ep", "b"]),
+    ("kef",  ["k", "e.kef", "f.cut"]),
+    ("kev",  ["k", "e.kef", "v.cut"]),
+    ("kesh", ["k", "e.kech", "sh"]),
+    ("kech", ["k", "e.kech", "ch"]),
+    ("kej",  ["k", "e.kech", "j"]),
+    ("kes",  ["k", "e.kef", "s.right.cut"]),
+    ("kes(", ["k", "e.ep", "s.left"]),
+    ("keng", ["k", "e.keng", "ng"]),
+    ("kenk", ["k", "e.keng", "nk"]),
+    ("keth", ["k", "e.ketn", "th.over.skew30"]),
+])
+def test_k_e(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("gek",  ["g", "e.kek", "k"]),
+    ("geg",  ["g", "e.kek", "g"]),
+    ("ger",  ["g", "e.ker", "r"]),
+    ("gel",  ["g", "e.ker", "l"]),
+    ("gen",  ["g", "e.en", "n"]),
+    ("gem",  ["g", "e.en", "m"]),
+    ("get",  ["g", "e.et", "t"]),
+    ("ged",  ["g", "e.et", "d"]),
+    ("gep",  ["g", "e.ep", "p"]),
+    ("geb",  ["g", "e.ep", "b"]),
+    ("gef",  ["g", "e.kef", "f.cut"]),
+    ("gev",  ["g", "e.kef", "v.cut"]),
+    ("gesh", ["g", "e.kech", "sh"]),
+    ("gech", ["g", "e.kech", "ch"]),
+    ("gej",  ["g", "e.kech", "j"]),
+    ("ges",  ["g", "e.kef", "s.right.cut"]),
+    ("ges(", ["g", "e.ep", "s.left"]),
+    ("geng", ["g", "e.keng", "ng"]),
+    ("genk", ["g", "e.keng", "nk"]),
+    ("geth", ["g", "e.ketn", "th.over.skew30"]),
+])
+def test_g_e(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
