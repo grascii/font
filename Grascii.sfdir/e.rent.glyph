@@ -1,0 +1,14 @@
+StartChar: e.rent
+Encoding: 737 -1 184
+Width: 91
+Flags: W
+AnchorPoint: "Join" 50 0 exit 0
+AnchorPoint: "Join" 50 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+50 0 m 0
+ 106 20 77 69 39 59 c 0
+ -3 48 0 0 50 0 c 1024
+EndSplineSet
+EndChar

@@ -2,7 +2,7 @@ StartChar: e.ketn
 Encoding: 710 -1 175
 Width: 105
 VWidth: 1051
-Flags: WO
+Flags: W
 AnchorPoint: "Join" 24 52 exit 0
 AnchorPoint: "Join" 96 52 entry 0
 LayerCount: 2

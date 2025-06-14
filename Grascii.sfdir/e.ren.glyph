@@ -1,0 +1,14 @@
+StartChar: e.ren
+Encoding: 730 -1 177
+Width: 107
+Flags: W
+AnchorPoint: "Join" 60 0 exit 0
+AnchorPoint: "Join" 60 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+60 0 m 0
+ 122 20 103 70 49 58 c 0
+ -4 46 -5 0 60 0 c 1024
+EndSplineSet
+EndChar
