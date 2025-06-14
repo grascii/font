@@ -14,26 +14,26 @@ SplineSet
  64 -2 98 22 99 47 c 0
  100 59 84 71 72 72 c 1024
 EndSplineSet
-Substitution2: "After tn" e.thOe
-Substitution2: "After t" e.te
-Substitution2: "After s.left" e.sLe
-Substitution2: "After r" e.re
-Substitution2: "After p" e.pe
-Substitution2: "After nt" e.thUe
-Substitution2: "After ng" e.nge
-Substitution2: "After n" e.ne
-Substitution2: "After k" e.ke
-Substitution2: "After f" e.fe
-Substitution2: "After ch" e.che
-Substitution2: "Before tn" e.ethO
-Substitution2: "Before s.right" e.esR
-Substitution2: "Before t" e.et
-Substitution2: "Before r" e.er
-Substitution2: "Before p" e.ep
-Substitution2: "Before nt" e.ethU
-Substitution2: "Before ng" e.eng
-Substitution2: "Before n" e.en
-Substitution2: "Before k" e.ek
-Substitution2: "Before f" e.ef
-Substitution2: "Before ch" e.ech
+MultipleSubs2: "After tn" e.thOe
+MultipleSubs2: "After t" e.te
+MultipleSubs2: "After s.left" e.sLe
+MultipleSubs2: "After r" e.re
+MultipleSubs2: "After p" e.pe
+MultipleSubs2: "After nt" e.thUe
+MultipleSubs2: "After ng" e.nge
+MultipleSubs2: "After n" e.ne
+MultipleSubs2: "After k" e.ke
+MultipleSubs2: "After f" e.fe
+MultipleSubs2: "After ch" e.che
+MultipleSubs2: "Before tn" e.ethO
+MultipleSubs2: "Before s.right" e.esR
+MultipleSubs2: "Before t" e.et
+MultipleSubs2: "Before r" e.er
+MultipleSubs2: "Before p" e.ep
+MultipleSubs2: "Before nt" e.ethU
+MultipleSubs2: "Before ng" e.eng
+MultipleSubs2: "Before n" e.en
+MultipleSubs2: "Before k" e.ek
+MultipleSubs2: "Before f" e.ef
+MultipleSubs2: "Before ch" e.ech
 EndChar
