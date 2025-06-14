@@ -1,0 +1,15 @@
+StartChar: e.netn
+Encoding: 762 -1 192
+Width: 81
+VWidth: 1050
+Flags: W
+AnchorPoint: "Join" 10 50 exit 0
+AnchorPoint: "Join" 10 50 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 50 m 0
+ 97 50 77 -10 33 2 c 0
+ 12 8 10 33 10 50 c 1024
+EndSplineSet
+EndChar

@@ -1,0 +1,14 @@
+StartChar: e.neng
+Encoding: 761 -1 191
+Width: 95
+Flags: W
+AnchorPoint: "Join" 47 0 exit 0
+AnchorPoint: "Join" 47 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+47 0 m 0
+ 100 0 95 53 56 63 c 0
+ 10 75 -15 16 47 0 c 1024
+EndSplineSet
+EndChar

@@ -1,0 +1,11 @@
+StartChar: e.nek
+Encoding: 754 -1 185
+Width: 109
+VWidth: 1059
+Flags: W
+AnchorPoint: "Join" 48.7158 59.8359 exit 0
+AnchorPoint: "Join" 48.7158 59.8359 entry 0
+LayerCount: 2
+Fore
+Refer: 177 -1 N -1 1.22465e-16 -1.22465e-16 -1 108.715 59.8359 2
+EndChar
