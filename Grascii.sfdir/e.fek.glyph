@@ -1,0 +1,11 @@
+StartChar: e.fek
+Encoding: 832 -1 209
+Width: 100
+VWidth: 1136
+Flags: W
+AnchorPoint: "Join" 90.2461 64.125 exit 0
+AnchorPoint: "Join" 90.2461 64.125 entry 0
+LayerCount: 2
+Fore
+Refer: 179 -1 N -1 1.22465e-16 -1.22465e-16 -1 100.246 64.125 2
+EndChar

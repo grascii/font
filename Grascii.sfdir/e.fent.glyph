@@ -1,0 +1,15 @@
+StartChar: e.fent
+Encoding: 841 -1 217
+Width: 121
+VWidth: 1061
+Flags: W
+AnchorPoint: "Join" 112 62 exit 0
+AnchorPoint: "Join" 112 62 entry 0
+LayerCount: 2
+Fore
+SplineSet
+112 62 m 0
+ 64 11 36 -7 20 2 c 0
+ -6 17 16 62 112 62 c 1024
+EndSplineSet
+EndChar

@@ -1,0 +1,15 @@
+StartChar: e.feng
+Encoding: 839 -1 215
+Width: 125
+VWidth: 1043
+Flags: W
+AnchorPoint: "Join" 115 43 exit 0
+AnchorPoint: "Join" 115 43 entry 0
+LayerCount: 2
+Fore
+SplineSet
+115 43 m 0
+ 78 12 27 -14 13 9 c 0
+ -1 32 37 64 115 43 c 1024
+EndSplineSet
+EndChar

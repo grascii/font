@@ -1,0 +1,15 @@
+StartChar: e.fetn
+Encoding: 840 -1 216
+Width: 95
+VWidth: 1042
+Flags: W
+AnchorPoint: "Join" 36 44 exit 0
+AnchorPoint: "Join" 85 42 entry 0
+LayerCount: 2
+Fore
+SplineSet
+85 42 m 0
+ 62 21 35 -8 18 2 c 0
+ 7 9 4 26 36 44 c 1024
+EndSplineSet
+EndChar
