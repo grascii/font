@@ -1,0 +1,14 @@
+StartChar: e.tent
+Encoding: 789 -1 200
+Width: 87
+Flags: W
+AnchorPoint: "Join" 51 0 exit 0
+AnchorPoint: "Join" 51 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+51 0 m 0
+ 112 35 53 75 25 56 c 0
+ 3 40 1 0 51 0 c 1024
+EndSplineSet
+EndChar

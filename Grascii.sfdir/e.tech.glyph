@@ -1,0 +1,14 @@
+StartChar: e.tech
+Encoding: 786 -1 197
+Width: 117
+Flags: W
+AnchorPoint: "Join" 10 0 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 0 m 0
+ 88 45 125 62 100 87 c 0
+ 75 112 55 78 10 0 c 1024
+EndSplineSet
+EndChar
