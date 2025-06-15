@@ -1,0 +1,11 @@
+StartChar: e.pen
+Encoding: 808 -1 203
+Width: 100
+VWidth: 1061
+Flags: W
+AnchorPoint: "Join" 89.7129 61.6982 exit 0
+AnchorPoint: "Join" 89.7129 61.6982 entry 0
+LayerCount: 2
+Fore
+Refer: 189 -1 N -1 1.22465e-16 -1.22465e-16 -1 99.7132 61.6978 2
+EndChar

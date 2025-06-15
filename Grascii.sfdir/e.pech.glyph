@@ -1,0 +1,15 @@
+StartChar: e.pech
+Encoding: 812 -1 206
+Width: 102
+VWidth: 1015
+Flags: W
+AnchorPoint: "Join" 10 15 exit 0
+AnchorPoint: "Join" 10 15 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 15 m 0
+ 62 -15 104 3 89 38 c 0
+ 79 61 40 67 10 15 c 1024
+EndSplineSet
+EndChar

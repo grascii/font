@@ -1,0 +1,15 @@
+StartChar: e.peng
+Encoding: 813 -1 207
+Width: 103
+VWidth: 1057
+Flags: W
+AnchorPoint: "Join" 93 57 exit 0
+AnchorPoint: "Join" 93 57 entry 0
+LayerCount: 2
+Fore
+SplineSet
+93 57 m 0
+ 93 22 62 -7 34 1 c 0
+ -14 14 11 79 93 57 c 1024
+EndSplineSet
+EndChar

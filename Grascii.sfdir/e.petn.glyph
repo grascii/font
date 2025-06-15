@@ -1,0 +1,15 @@
+StartChar: e.petn
+Encoding: 814 -1 208
+Width: 88
+VWidth: 1093
+Flags: W
+AnchorPoint: "Join" 30 57 exit 0
+AnchorPoint: "Join" 78 94 entry 0
+LayerCount: 2
+Fore
+SplineSet
+78 94 m 0
+ 78 30 70 -10 25 2 c 0
+ 15 5 -5 22 30 57 c 1024
+EndSplineSet
+EndChar
