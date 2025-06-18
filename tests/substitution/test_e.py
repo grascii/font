@@ -372,3 +372,81 @@ def test_f_e(font, text, expected_glyphs):
 ])
 def test_v_e(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("shek",   ["sh", "e.chek", "k"]),
+    ("sheg",   ["sh", "e.chek", "g"]),
+    ("sher",   ["sh", "e.cher", "r"]),
+    ("shel",   ["sh", "e.cher", "l"]),
+    ("shen",   ["sh", "e.chen", "n"]),
+    ("shem",   ["sh", "e.chen", "m"]),
+    ("shet",   ["sh", "e.chet", "t"]),
+    ("shed",   ["sh", "e.chet", "d"]),
+    ("shep",   ["sh", "e.ep", "p"]),
+    ("sheb",   ["sh", "e.ep", "b"]),
+    ("shef",   ["sh", "e.ef", "f"]),
+    ("shev",   ["sh", "e.ef", "v"]),
+    ("shesh",  ["sh", "e.chech", "sh"]),
+    ("shech",  ["sh", "e.chech", "ch"]),
+    ("shej",   ["sh", "e.chech", "j"]),
+    ("shes",   ["sh", "e.esR", "s.right"]),
+    ("shes(",  ["sh", "e.ep", "s.left"]),
+    ("sheng",  ["sh", "e.cheng", "ng"]),
+    ("shenk",  ["sh", "e.cheng", "nk"]),
+    ("sheth",  ["sh", "e.chetn", "th.over.skew30"]),
+])
+def test_sh_e(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("chek",   ["ch", "e.chek", "k"]),
+    ("cheg",   ["ch", "e.chek", "g"]),
+    ("cher",   ["ch", "e.cher", "r"]),
+    ("chel",   ["ch", "e.cher", "l"]),
+    ("chen",   ["ch", "e.chen", "n"]),
+    ("chem",   ["ch", "e.chen", "m"]),
+    ("chet",   ["ch", "e.chet", "t"]),
+    ("ched",   ["ch", "e.chet", "d"]),
+    ("chep",   ["ch", "e.ep", "p"]),
+    ("cheb",   ["ch", "e.ep", "b"]),
+    ("chef",   ["ch", "e.ef", "f"]),
+    ("chev",   ["ch", "e.ef", "v"]),
+    ("chesh",  ["ch", "e.chech", "sh"]),
+    ("chech",  ["ch", "e.chech", "ch"]),
+    ("chej",   ["ch", "e.chech", "j"]),
+    ("ches",   ["ch", "e.esR", "s.right"]),
+    ("ches(",  ["ch", "e.ep", "s.left"]),
+    ("cheng",  ["ch", "e.cheng", "ng"]),
+    ("chenk",  ["ch", "e.cheng", "nk"]),
+    ("cheth",  ["ch", "e.chetn", "th.over.skew30"]),
+])
+def test_ch_e(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("jek",   ["j", "e.chek", "k"]),
+    ("jeg",   ["j", "e.chek", "g"]),
+    ("jer",   ["j", "e.cher", "r"]),
+    ("jel",   ["j", "e.cher", "l"]),
+    ("jen",   ["j", "e.chen", "n"]),
+    ("jem",   ["j", "e.chen", "m"]),
+    ("jet",   ["j", "e.chet", "t"]),
+    ("jed",   ["j", "e.chet", "d"]),
+    ("jep",   ["j", "e.ep", "p"]),
+    ("jeb",   ["j", "e.ep", "b"]),
+    ("jef",   ["j", "e.ef", "f"]),
+    ("jev",   ["j", "e.ef", "v"]),
+    ("jesh",  ["j", "e.chech", "sh"]),
+    ("jech",  ["j", "e.chech", "ch"]),
+    ("jej",   ["j", "e.chech", "j"]),
+    ("jes",   ["j", "e.esR", "s.right"]),
+    ("jes(",  ["j", "e.ep", "s.left"]),
+    ("jeng",  ["j", "e.cheng", "ng"]),
+    ("jenk",  ["j", "e.cheng", "nk"]),
+    ("jeth",  ["j", "e.chetn", "th.over.skew30"]),
+])
+def test_j_e(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

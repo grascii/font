@@ -1,0 +1,11 @@
+StartChar: e.chek
+Encoding: 858 -1 218
+Width: 107
+VWidth: 1079
+Flags: W
+AnchorPoint: "Join" 97.4727 79.8096 exit 0
+AnchorPoint: "Join" 97.4727 79.8096 entry 0
+LayerCount: 2
+Fore
+Refer: 181 -1 N -1 1.22465e-16 -1.22465e-16 -1 107.473 79.8091 2
+EndChar

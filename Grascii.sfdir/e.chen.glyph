@@ -1,0 +1,10 @@
+StartChar: e.chen
+Encoding: 860 -1 220
+Width: 123
+Flags: W
+AnchorPoint: "Join" 112.823 79.5234 exit 0
+AnchorPoint: "Join" 112.823 79.5234 entry 0
+LayerCount: 2
+Fore
+Refer: 153 -1 N 1 0 0 1 -0.176277 0.523222 2
+EndChar

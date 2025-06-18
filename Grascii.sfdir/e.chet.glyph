@@ -1,0 +1,11 @@
+StartChar: e.chet
+Encoding: 861 -1 221
+Width: 118
+VWidth: 1095
+Flags: W
+AnchorPoint: "Join" 107.742 95.0938 exit 0
+AnchorPoint: "Join" 107.742 95.0938 entry 0
+LayerCount: 2
+Fore
+Refer: 197 -1 N -1 1.22465e-16 -1.22465e-16 -1 117.742 95.0937 2
+EndChar

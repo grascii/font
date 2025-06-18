@@ -1,0 +1,11 @@
+StartChar: e.cher
+Encoding: 859 -1 219
+Width: 91
+VWidth: 1051
+Flags: W
+AnchorPoint: "Join" 10 24.0527 exit 0
+AnchorPoint: "Join" 10 24.0527 entry 0
+LayerCount: 2
+Fore
+Refer: 173 -1 N -1 1.22465e-16 -1.22465e-16 -1 91 51.0525 2
+EndChar

@@ -1,0 +1,11 @@
+StartChar: e.chech
+Encoding: 864 -1 222
+Width: 92
+VWidth: 1005
+Flags: W
+AnchorPoint: "Join" 82.1719 64.0908 exit 0
+AnchorPoint: "Join" 57.6719 21.6553 entry 0
+LayerCount: 2
+Fore
+Refer: 150 -1 N 0.5 0.866025 0.866025 -0.5 -4.66464 5.68417 2
+EndChar
