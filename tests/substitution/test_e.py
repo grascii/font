@@ -453,6 +453,56 @@ def test_j_e(font, text, expected_glyphs):
 
 
 @pytest.mark.parametrize("text,expected_glyphs", [
+    ("s)ek",  ["s.right", "e.fek", "k"]),
+    ("s)eg",  ["s.right", "e.fek", "g"]),
+    ("s)er",  ["s.right", "e.fer", "r"]),
+    ("s)el",  ["s.right", "e.fer", "l"]),
+    ("s)en",  ["s.right", "e.fen", "n"]),
+    ("s)em",  ["s.right", "e.fen", "m"]),
+    ("s)et",  ["s.right", "e.fet", "t"]),
+    ("s)ed",  ["s.right", "e.fet", "d"]),
+    ("s)ep",  ["s.right", "e.fep", "p"]),
+    ("s)eb",  ["s.right", "e.fep", "b"]),
+    ("s)ef",  ["s.right", "e.fef", "f"]),
+    ("s)ev",  ["s.right", "e.fef", "v"]),
+    ("s)esh", ["s.right", "e.ech", "sh"]),
+    ("s)ech", ["s.right", "e.ech", "ch"]),
+    ("s)ej",  ["s.right", "e.ech", "j"]),
+    ("s)es",  ["s.right", "e.fef", "s.right"]),
+    ("s)es(", ["s.right", "e.fep", "s.left"]),
+    ("s)eng", ["s.right", "e.feng", "ng"]),
+    ("s)enk", ["s.right", "e.feng", "nk"]),
+    ("s)eth", ["s.right", "e.fetn", "th.over.skew45"]),
+    ("s)eth)", ["s.right", "e.fent", "th.under"]),
+])
+def test_sR_e(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("s(ek",  ["s.left.cut", "e.pek", "k"]),
+    ("s(eg",  ["s.left.cut", "e.pek", "g"]),
+    ("s(er",  ["s.left.cut", "e.per", "r"]),
+    ("s(el",  ["s.left.cut", "e.per", "l"]),
+    ("s(en",  ["s.left.cut", "e.pen", "n"]),
+    ("s(em",  ["s.left.cut", "e.pen", "m"]),
+    ("s(et",  ["s.left", "e.et", "t"]),
+    ("s(ed",  ["s.left", "e.et", "d"]),
+    ("s(ep",  ["s.left", "e.pep", "p"]),
+    ("s(eb",  ["s.left", "e.pep", "b"]),
+    ("s(ef",  ["s.left.cut", "e.pef", "f.cut"]),
+    ("s(ev",  ["s.left.cut", "e.pef", "v.cut"]),
+    ("s(esh", ["s.left", "e.pech", "sh"]),
+    ("s(ech", ["s.left", "e.pech", "ch"]),
+    ("s(ej",  ["s.left", "e.pech", "j"]),
+    ("s(es(",  ["s.left", "e.pep", "s.left"]),
+    ("s(es)", ["s.left.cut", "e.pef", "s.right.cut"]),
+])
+def test_sL_e(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
     ("ngen",   ["ng", "e.ngen", "n"]),
     ("ngem",   ["ng", "e.ngen", "m"]),
     ("nget",   ["ng", "e.nget", "t"]),
