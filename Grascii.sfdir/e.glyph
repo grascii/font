@@ -91,4 +91,8 @@ MultipleSubs2: "Between f f" e.fef
 MultipleSubs2: "Between f ng" e.feng
 MultipleSubs2: "Between f tn" e.fetn
 MultipleSubs2: "Between f nt" e.fent
+MultipleSubs2: "Between ng n" e.ngen
+MultipleSubs2: "Between ng t" e.nget
+MultipleSubs2: "Between ng p" e.ngep
+MultipleSubs2: "Between ng ch" e.ngech
 EndChar

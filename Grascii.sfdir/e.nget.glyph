@@ -1,0 +1,11 @@
+StartChar: e.nget
+Encoding: 887 -1 226
+Width: 93
+VWidth: 1067
+Flags: W
+AnchorPoint: "Join" 48.3145 67.3281 exit 0
+AnchorPoint: "Join" 48.3145 67.3281 entry 0
+LayerCount: 2
+Fore
+Refer: 198 -1 N -1 1.22465e-16 -1.22465e-16 -1 92.3149 67.3284 2
+EndChar
