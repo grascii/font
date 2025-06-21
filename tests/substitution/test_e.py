@@ -498,3 +498,15 @@ def test_nk_e(font, text, expected_glyphs):
 ])
 def test_thO_e(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("th)er",    ["th.under.skew30", "e.nter", "r"]),
+    ("th)el",    ["th.under.skew30", "e.nter", "l"]),
+    ("th)en",    ["th.under", "e.nten", "n"]),
+    ("th)em",    ["th.under", "e.nten", "m"]),
+    ("th)et",    ["th.under", "e.ntet", "t"]),
+    ("th)ed",    ["th.under", "e.ntet", "d"]),
+])
+def test_thU_e(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

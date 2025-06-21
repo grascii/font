@@ -1,0 +1,11 @@
+StartChar: e.nten
+Encoding: 938 -1 235
+Width: 81
+VWidth: 1050
+Flags: W
+AnchorPoint: "Join" 70.6318 0 exit 0
+AnchorPoint: "Join" 70.6318 0 entry 0
+LayerCount: 2
+Fore
+Refer: 192 -1 N -1 1.22465e-16 -1.22465e-16 -1 80.6315 50 2
+EndChar

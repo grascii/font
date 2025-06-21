@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1750536605
+ModificationTime: 1750540347
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -212,8 +212,8 @@ DEI: 91125
 ChainSub2: coverage "th.under Joinings 1" 0 0 0 1
  1 0 2
   Coverage: 8 th.under
-  FCoverage: 1 a
-  FCoverage: 15 f v f.cut v.cut
+  FCoverage: 3 a e
+  FCoverage: 31 r l r.cut l.cut f v f.cut v.cut
  1
   SeqLookup: 0 "Skewed 30"
 EndFPST
@@ -1894,7 +1894,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 676 26 10
+WinInfo: 702 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
