@@ -482,3 +482,19 @@ def test_ng_e(font, text, expected_glyphs):
 ])
 def test_nk_e(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("th(ek",    ["th.over", "e.tnek", "k"]),
+    ("th(eg",    ["th.over", "e.tnek", "g"]),
+    ("th(en",    ["th.over", "e.tnen", "n"]),
+    ("th(em",    ["th.over", "e.tnen", "m"]),
+    ("th(et",    ["th.over", "e.tnet", "t"]),
+    ("th(ed",    ["th.over", "e.tnet", "d"]),
+    ("th(ef",    ["th.over", "e.tnef", "f"]),
+    ("th(ev",    ["th.over", "e.tnef", "v"]),
+    ("th(es",    ["th.over", "e.tnef", "s.right"]),
+    ("th(eth",   ["th.over", "e.tnetn", "th.over"]),
+])
+def test_thO_e(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

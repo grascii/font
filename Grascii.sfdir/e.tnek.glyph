@@ -1,0 +1,11 @@
+StartChar: e.tnek
+Encoding: 910 -1 230
+Width: 91
+VWidth: 1060
+Flags: W
+AnchorPoint: "Join" 41.2646 60.3311 exit 0
+AnchorPoint: "Join" 41.2646 60.3311 entry 0
+LayerCount: 2
+Fore
+Refer: 184 -1 N -1 1.22465e-16 -1.22465e-16 -1 91.2644 60.3306 2
+EndChar

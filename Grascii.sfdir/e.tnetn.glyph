@@ -1,0 +1,11 @@
+StartChar: e.tnetn
+Encoding: 918 -1 229
+Width: 101
+VWidth: 10
+Flags: W
+AnchorPoint: "Join" 30 50 exit 0
+AnchorPoint: "Join" 30 50 entry 0
+LayerCount: 2
+Fore
+Refer: 192 -1 N 1 0 0 1 20 0 2
+EndChar

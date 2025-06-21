@@ -14,85 +14,90 @@ SplineSet
  64 -2 98 22 99 47 c 0
  100 59 84 71 72 72 c 1024
 EndSplineSet
-MultipleSubs2: "Between ch tn" e.chetn
-MultipleSubs2: "Between ch ng" e.cheng
-MultipleSubs2: "Between ch ch" e.chech
-MultipleSubs2: "Between ch t" e.chet
-MultipleSubs2: "Between ch n" e.chen
-MultipleSubs2: "Between ch r" e.cher
-MultipleSubs2: "Between ch k" e.chek
-MultipleSubs2: "Between p tn" e.petn
-MultipleSubs2: "Between p ng" e.peng
-MultipleSubs2: "Between p ch" e.pech
-MultipleSubs2: "Between p f" e.pef
-MultipleSubs2: "Between p p" e.pep
-MultipleSubs2: "Between p n" e.pen
-MultipleSubs2: "Between p r" e.per
-MultipleSubs2: "Between p k" e.pek
-MultipleSubs2: "Between n tn" e.netn
-MultipleSubs2: "Between n ng" e.neng
-MultipleSubs2: "Between n ch" e.nech
-MultipleSubs2: "Between n f" e.nef
-MultipleSubs2: "Between n p" e.nep
-MultipleSubs2: "Between n t" e.net
-MultipleSubs2: "Between n r" e.ner
-MultipleSubs2: "Between n k" e.nek
-MultipleSubs2: "Between r r" e.rer
-MultipleSubs2: "Between k tn" e.ketn
-MultipleSubs2: "Between k ng" e.keng
-MultipleSubs2: "Between k ch" e.kech
-MultipleSubs2: "Between k f" e.kef
-MultipleSubs2: "Between k r" e.ker
-MultipleSubs2: "Between k k" e.kek
-MultipleSubs2: "Before ch" e.ech
-MultipleSubs2: "Before f" e.ef
-MultipleSubs2: "Before k" e.ek
-MultipleSubs2: "Before n" e.en
-MultipleSubs2: "Before ng" e.eng
-MultipleSubs2: "Before nt" e.ethU
-MultipleSubs2: "Before p" e.ep
-MultipleSubs2: "Before r" e.er
-MultipleSubs2: "Before t" e.et
-MultipleSubs2: "Before s.right" e.esR
-MultipleSubs2: "Before tn" e.ethO
-MultipleSubs2: "After ch" e.che
-MultipleSubs2: "After f" e.fe
-MultipleSubs2: "After k" e.ke
-MultipleSubs2: "After n" e.ne
-MultipleSubs2: "After ng" e.nge
-MultipleSubs2: "After nt" e.thUe
-MultipleSubs2: "After p" e.pe
-MultipleSubs2: "After r" e.re
-MultipleSubs2: "After s.left" e.sLe
-MultipleSubs2: "After t" e.te
-MultipleSubs2: "After tn" e.thOe
-MultipleSubs2: "Between r n" e.ren
-MultipleSubs2: "Between r p" e.rep
-MultipleSubs2: "Between r f" e.ref
-MultipleSubs2: "Between r ch" e.rech
-MultipleSubs2: "Between r ng" e.reng
-MultipleSubs2: "Between r tn" e.retn
-MultipleSubs2: "Between r nt" e.rent
-MultipleSubs2: "Between r t" e.ret
-MultipleSubs2: "Between t r" e.ter
-MultipleSubs2: "Between t n" e.ten
-MultipleSubs2: "Between t p" e.tep
-MultipleSubs2: "Between t f" e.tef
-MultipleSubs2: "Between t ch" e.tech
-MultipleSubs2: "Between t ng" e.teng
-MultipleSubs2: "Between t tn" e.tetn
-MultipleSubs2: "Between t nt" e.tent
-MultipleSubs2: "Between f k" e.fek
-MultipleSubs2: "Between f r" e.fer
-MultipleSubs2: "Between f n" e.fen
-MultipleSubs2: "Between f t" e.fet
-MultipleSubs2: "Between f p" e.fep
-MultipleSubs2: "Between f f" e.fef
-MultipleSubs2: "Between f ng" e.feng
-MultipleSubs2: "Between f tn" e.fetn
-MultipleSubs2: "Between f nt" e.fent
-MultipleSubs2: "Between ng n" e.ngen
-MultipleSubs2: "Between ng t" e.nget
-MultipleSubs2: "Between ng p" e.ngep
+MultipleSubs2: "Between tn tn" e.tnetn
+MultipleSubs2: "Between tn f" e.tnef
+MultipleSubs2: "Between tn t" e.tnet
+MultipleSubs2: "Between tn n" e.tnen
+MultipleSubs2: "Between tn k" e.tnek
 MultipleSubs2: "Between ng ch" e.ngech
+MultipleSubs2: "Between ng p" e.ngep
+MultipleSubs2: "Between ng t" e.nget
+MultipleSubs2: "Between ng n" e.ngen
+MultipleSubs2: "Between f nt" e.fent
+MultipleSubs2: "Between f tn" e.fetn
+MultipleSubs2: "Between f ng" e.feng
+MultipleSubs2: "Between f f" e.fef
+MultipleSubs2: "Between f p" e.fep
+MultipleSubs2: "Between f t" e.fet
+MultipleSubs2: "Between f n" e.fen
+MultipleSubs2: "Between f r" e.fer
+MultipleSubs2: "Between f k" e.fek
+MultipleSubs2: "Between t nt" e.tent
+MultipleSubs2: "Between t tn" e.tetn
+MultipleSubs2: "Between t ng" e.teng
+MultipleSubs2: "Between t ch" e.tech
+MultipleSubs2: "Between t f" e.tef
+MultipleSubs2: "Between t p" e.tep
+MultipleSubs2: "Between t n" e.ten
+MultipleSubs2: "Between t r" e.ter
+MultipleSubs2: "Between r t" e.ret
+MultipleSubs2: "Between r nt" e.rent
+MultipleSubs2: "Between r tn" e.retn
+MultipleSubs2: "Between r ng" e.reng
+MultipleSubs2: "Between r ch" e.rech
+MultipleSubs2: "Between r f" e.ref
+MultipleSubs2: "Between r p" e.rep
+MultipleSubs2: "Between r n" e.ren
+MultipleSubs2: "After tn" e.thOe
+MultipleSubs2: "After t" e.te
+MultipleSubs2: "After s.left" e.sLe
+MultipleSubs2: "After r" e.re
+MultipleSubs2: "After p" e.pe
+MultipleSubs2: "After nt" e.thUe
+MultipleSubs2: "After ng" e.nge
+MultipleSubs2: "After n" e.ne
+MultipleSubs2: "After k" e.ke
+MultipleSubs2: "After f" e.fe
+MultipleSubs2: "After ch" e.che
+MultipleSubs2: "Before tn" e.ethO
+MultipleSubs2: "Before s.right" e.esR
+MultipleSubs2: "Before t" e.et
+MultipleSubs2: "Before r" e.er
+MultipleSubs2: "Before p" e.ep
+MultipleSubs2: "Before nt" e.ethU
+MultipleSubs2: "Before ng" e.eng
+MultipleSubs2: "Before n" e.en
+MultipleSubs2: "Before k" e.ek
+MultipleSubs2: "Before f" e.ef
+MultipleSubs2: "Before ch" e.ech
+MultipleSubs2: "Between k k" e.kek
+MultipleSubs2: "Between k r" e.ker
+MultipleSubs2: "Between k f" e.kef
+MultipleSubs2: "Between k ch" e.kech
+MultipleSubs2: "Between k ng" e.keng
+MultipleSubs2: "Between k tn" e.ketn
+MultipleSubs2: "Between r r" e.rer
+MultipleSubs2: "Between n k" e.nek
+MultipleSubs2: "Between n r" e.ner
+MultipleSubs2: "Between n t" e.net
+MultipleSubs2: "Between n p" e.nep
+MultipleSubs2: "Between n f" e.nef
+MultipleSubs2: "Between n ch" e.nech
+MultipleSubs2: "Between n ng" e.neng
+MultipleSubs2: "Between n tn" e.netn
+MultipleSubs2: "Between p k" e.pek
+MultipleSubs2: "Between p r" e.per
+MultipleSubs2: "Between p n" e.pen
+MultipleSubs2: "Between p p" e.pep
+MultipleSubs2: "Between p f" e.pef
+MultipleSubs2: "Between p ch" e.pech
+MultipleSubs2: "Between p ng" e.peng
+MultipleSubs2: "Between p tn" e.petn
+MultipleSubs2: "Between ch k" e.chek
+MultipleSubs2: "Between ch r" e.cher
+MultipleSubs2: "Between ch n" e.chen
+MultipleSubs2: "Between ch t" e.chet
+MultipleSubs2: "Between ch ch" e.chech
+MultipleSubs2: "Between ch ng" e.cheng
+MultipleSubs2: "Between ch tn" e.chetn
 EndChar

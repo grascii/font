@@ -1,0 +1,15 @@
+StartChar: e.tnef
+Encoding: 915 -1 233
+Width: 93
+VWidth: 1057
+Flags: W
+AnchorPoint: "Join" 79 51 exit 0
+AnchorPoint: "Join" 36 57 entry 0
+LayerCount: 2
+Fore
+SplineSet
+36 57 m 0
+ 141 57 42 -31 15 12 c 0
+ -7 50 53 66 79 51 c 1024
+EndSplineSet
+EndChar

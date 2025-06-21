@@ -2,7 +2,7 @@ StartChar: e.ngep
 Encoding: 888 -1 228
 Width: 125
 VWidth: 1049
-Flags: WO
+Flags: W
 AnchorPoint: "Join" 10 6.83301 exit 0
 AnchorPoint: "Join" 10 6.83301 entry 0
 LayerCount: 2
