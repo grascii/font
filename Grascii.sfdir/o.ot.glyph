@@ -1,0 +1,11 @@
+StartChar: o.ot
+Encoding: 991 -1 241
+Width: 183
+VWidth: 1037
+Flags: W
+AnchorPoint: "Join" 172.535 40.8975 exit 0
+AnchorPoint: "Join" 81.6025 93.3975 entry 0
+LayerCount: 2
+Fore
+Refer: 237 -1 N 0.866025 -0.5 1 0.57735 -32.058 37.7755 2
+EndChar

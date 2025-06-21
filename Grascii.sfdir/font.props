@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1750540347
+ModificationTime: 1750546605
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -46,7 +46,7 @@ OS2Vendor: 'PfEd'
 Lookup: 4 0 0 "Multichar strokes" { "ch sh th ng nk"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Annotated Directions" { "Annotated Directions"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Directions" { "s Direction"  "th Direction"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "Consonant Joinings" { "r Joinings"  "p Joinings 1"  "p Joinings 2"  "f Joinings"  "s.right Joinings"  "s.left Joinings"  "th.over Joinings 1"  "th.over Joinings 2"  "th.under Joinings 1"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "Consonant Joinings" { "r Joinings 2"  "r Joinings 1"  "p Joinings 1"  "p Joinings 2"  "f Joinings"  "s.right Joinings"  "s.left Joinings"  "th.over Joinings 1"  "th.over Joinings 2"  "th.under Joinings 1"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 1 "Vowel Between" { "Between k *"  "Between r *"  "Between n *"  "Between t *"  "Between p *"  "Between f *"  "Between ch *"  "Between ng *"  "Between tn *"  "Between nt *"  } ['rclt' ('latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Vowel Before/After" { "Vowel Before Overrides"  "Vowel Before"  "Vowel After Overrides"  "Vowel After"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Cut Consonant" { "Cut Consonant" ("cut") } []
@@ -209,6 +209,13 @@ Lookup: 257 0 0 "Position Before th" { "Position Before th"  } []
 Lookup: 257 0 0 "Position Before v" { "Position Before v"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "r Joinings 2" 0 0 0 1
+ 1 1 0
+  Coverage: 3 r l
+  BCoverage: 1 o
+ 1
+  SeqLookup: 0 "Cut Consonant"
+EndFPST
 ChainSub2: coverage "th.under Joinings 1" 0 0 0 1
  1 0 2
   Coverage: 8 th.under
@@ -217,7 +224,7 @@ ChainSub2: coverage "th.under Joinings 1" 0 0 0 1
  1
   SeqLookup: 0 "Skewed 30"
 EndFPST
-ChainSub2: coverage "r Joinings" 0 0 0 1
+ChainSub2: coverage "r Joinings 1" 0 0 0 1
  1 2 0
   Coverage: 3 r l
   BCoverage: 1 a
@@ -1468,7 +1475,7 @@ ChainSub2: glyph "Vowel After Overrides" 0 0 0 4
   SeqLookup: 0 "After s.left"
 EndFPST
 ChainSub2: class "Vowel After" 12 12 12 10
-  Class: 3 a e
+  Class: 5 a e o
   Class: 7 sh ch j
   Class: 35 f v f.cut v.cut s.right s.right.cut
   Class: 3 k g
@@ -1479,7 +1486,7 @@ ChainSub2: class "Vowel After" 12 12 12 10
   Class: 52 th.over th.over.angled th.over.skew30 th.over.skew45
   Class: 56 th.under th.under.angled th.under.skew30 th.under.skew45
   Class: 5 ng nk
-  BClass: 3 a e
+  BClass: 5 a e o
   BClass: 7 sh ch j
   BClass: 35 f v f.cut v.cut s.right s.right.cut
   BClass: 3 k g
@@ -1490,7 +1497,7 @@ ChainSub2: class "Vowel After" 12 12 12 10
   BClass: 52 th.over th.over.angled th.over.skew30 th.over.skew45
   BClass: 56 th.under th.under.angled th.under.skew30 th.under.skew45
   BClass: 5 ng nk
-  FClass: 3 a e
+  FClass: 5 a e o
   FClass: 7 sh ch j
   FClass: 35 f v f.cut v.cut s.right s.right.cut
   FClass: 3 k g
@@ -1779,47 +1786,52 @@ ChainPos2: class "Starts with e" 6 6 14 13
   BClassNames: "All_Others" "e.ech" "e.ef" "e.eng" "e.ep" "e.esR"
   FClassNames: "All_Others" "b" "b.cut" "ch" "f" "j" "ng" "nk" "p" "p.cut" "sh" "v" "s.right" "s.left"
 EndFPST
-ChainSub2: glyph "Vowel Before Overrides" 0 0 0 4
+ChainSub2: glyph "Vowel Before Overrides" 0 0 0 5
  String: 1 a
- BString: 0 
+ BString: 0
  FString: 1 l
  1
   SeqLookup: 0 "Before l"
  String: 1 a
- BString: 0 
+ BString: 0
  FString: 1 v
  1
   SeqLookup: 0 "Before v"
  String: 1 a
- BString: 0 
+ BString: 0
  FString: 7 s.right
  1
   SeqLookup: 0 "Before s.right"
  String: 1 e
- BString: 0 
+ BString: 0
  FString: 7 s.right
  1
   SeqLookup: 0 "Before s.right"
+ String: 1 o
+ BString: 0
+ FString: 5 l.cut
+ 1
+  SeqLookup: 0 "Before l"
 EndFPST
 ChainSub2: class "Vowel Before" 12 1 12 10
-  Class: 3 a e
+  Class: 5 a e o
   Class: 7 sh ch j
   Class: 11 f v s.right
   Class: 15 k g k.cut g.cut
   Class: 3 n m
   Class: 33 p b p.cut b.cut s.left s.left.cut
-  Class: 3 r l
+  Class: 15 r l r.cut l.cut
   Class: 3 t d
   Class: 52 th.over th.over.angled th.over.skew30 th.over.skew45
   Class: 56 th.under th.under.angled th.under.skew30 th.under.skew45
   Class: 5 ng nk
-  FClass: 3 a e
+  FClass: 5 a e o
   FClass: 7 sh ch j
   FClass: 11 f v s.right
   FClass: 15 k g k.cut g.cut
   FClass: 3 n m
   FClass: 33 p b p.cut b.cut s.left s.left.cut
-  FClass: 3 r l
+  FClass: 15 r l r.cut l.cut
   FClass: 3 t d
   FClass: 52 th.over th.over.angled th.over.skew30 th.over.skew45
   FClass: 56 th.under th.under.angled th.under.skew30 th.under.skew45
@@ -1894,7 +1906,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 702 26 10
+WinInfo: 78 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144

@@ -1,15 +1,18 @@
 StartChar: o
 Encoding: 111 111 7
-Width: 125
+Width: 155
 VWidth: 1105
 Flags: W
-AnchorPoint: "Join" 115 105 exit 0
-AnchorPoint: "Join" 10 105 entry 0
+AnchorPoint: "Join" 145.296 105 exit 0
+AnchorPoint: "Join" 40.2959 105 entry 0
 LayerCount: 2
 Fore
-SplineSet
-10 105 m 0
- 10 75 17 0 62 0 c 0
- 107 0 115 75 115 105 c 1024
-EndSplineSet
+Refer: 237 -1 N 1 0 0.57735 1 -30.3265 0 2
+MultipleSubs2: "Before l" o.ol
+MultipleSubs2: "Before p" o.op
+MultipleSubs2: "Before t" o.ot
+MultipleSubs2: "Before n" o.on
+MultipleSubs2: "Before r" o.or
+MultipleSubs2: "Before k" o.ok
+MultipleSubs2: "Before ng" o.ong
 EndChar
