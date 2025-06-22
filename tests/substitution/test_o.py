@@ -27,3 +27,30 @@ from shape import shape
 ])
 def test_o_before(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("ko",   ["k", "o.ko"]),
+    ("go",   ["g", "o.ko"]),
+    ("ro",   ["r", "o"]),
+    ("lo",   ["l", "o"]),
+    ("no",   ["n", "o"]),
+    ("mo",   ["m", "o"]),
+    ("to",   ["t", "o"]),
+    ("do",   ["d", "o"]),
+    ("po",   ["p", "o.po"]),
+    ("bo",   ["b", "o.po"]),
+    ("fo",   ["f", "o.fo"]),
+    ("vo",   ["v", "o.fo"]),
+    ("sho",  ["sh", "o"]),
+    ("cho",  ["ch", "o"]),
+    ("jo",   ["j", "o"]),
+    ("so",   ["s.right", "o.fo"]),
+    ("s(o",  ["s.left", "o.po"]),
+    ("th(o", ["th.over", "o"]),
+    ("th)o", ["th.under.skew30", "o"]),
+    ("ngo",  ["ng", "o"]),
+    ("nko",  ["nk", "o"]),
+])
+def test_e_after(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
