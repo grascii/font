@@ -8,16 +8,16 @@ AnchorPoint: "Join" 40.2959 105 entry 0
 LayerCount: 2
 Fore
 Refer: 237 -1 N 1 0 0.57735 1 -30.3265 0 2
-Position2: "Position Before ch" dx=0 dy=279 dh=0 dv=0
-Position2: "Position Before f" dx=0 dy=279 dh=0 dv=0
-Position2: "Position Before j" dx=0 dy=642 dh=0 dv=0
+Position2: "Position Before ch" dx=75 dy=279 dh=0 dv=0
+Position2: "Position Before f" dx=75 dy=279 dh=0 dv=0
+Position2: "Position Before j" dx=285 dy=642 dh=0 dv=0
 Position2: "Position Before ng" dx=0 dy=-23 dh=0 dv=0
 Position2: "Position Before nk" dx=0 dy=39 dh=0 dv=0
-Position2: "Position Before p" dx=0 dy=279 dh=0 dv=0
-Position2: "Position Before p.cut" dx=0 dy=221 dh=0 dv=0
+Position2: "Position Before p" dx=110 dy=279 dh=0 dv=0
+Position2: "Position Before p.cut" dx=112 dy=221 dh=0 dv=0
 Position2: "Position Before s.right" dx=0 dy=71 dh=0 dv=0
 Position2: "Position Before sh" dx=0 dy=123 dh=0 dv=0
-Position2: "Position Before v" dx=0 dy=642 dh=0 dv=0
+Position2: "Position Before v" dx=285 dy=642 dh=0 dv=0
 MultipleSubs2: "After p" o.po
 MultipleSubs2: "After f" o.fo
 MultipleSubs2: "After k" o.ko

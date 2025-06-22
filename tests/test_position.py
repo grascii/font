@@ -10,82 +10,88 @@ def position_of_first(text, font):
     return buf.glyph_positions[0]
 
 
-@pytest.mark.parametrize("text,moved", [
-    ("ab", True),
-    ("ach", True),
-    ("ad", False),
-    ("af", True),
-    ("ag", False),
-    ("aj", True),
-    ("ak", False),
-    ("al", False),
-    ("am", False),
-    ("an", False),
-    ("ang", True),
-    ("ank", True),
-    ("ap", True),
-    ("ar", False),
-    ("as)", True),
-    ("as(", True),
-    ("ash", True),
-    ("at", False),
-    ("ath", False),
-    ("av", True),
+@pytest.mark.parametrize("text,moved_x,moved_y", [
+    ("ab", True, True),
+    ("ach", True, True),
+    ("ad", False, False),
+    ("af", True, True),
+    ("ag", False, False),
+    ("aj", True, True),
+    ("ak", False, False),
+    ("al", False, False),
+    ("am", False, False),
+    ("an", False, False),
+    ("ang", False, True),
+    ("ank", False, True),
+    ("ap", True, True),
+    ("ar", False, False),
+    ("as)", False, True),
+    ("as(", True, True),
+    ("ash", False, True),
+    ("at", False, False),
+    ("ath", False, False),
+    ("av", True, True),
 ])
-def test_starts_with_a(font, text, moved):
-    did_move = position_of_first(text, font).y_offset != 0
-    assert did_move == moved
+def test_starts_with_a(font, text, moved_x, moved_y):
+    did_move_x = position_of_first(text, font).x_offset != 0
+    did_move_y = position_of_first(text, font).y_offset != 0
+    assert did_move_x == moved_x
+    assert did_move_y == did_move_y
 
 
-@pytest.mark.parametrize("text,moved", [
-    ("eb", True),
-    ("ech", True),
-    ("ed", False),
-    ("ef", True),
-    ("eg", False),
-    ("ej", True),
-    ("ek", False),
-    ("el", False),
-    ("em", False),
-    ("en", False),
-    ("eng", True),
-    ("enk", True),
-    ("ep", True),
-    ("er", False),
-    ("es)", True),
-    ("es(", True),
-    ("esh", True),
-    ("et", False),
-    ("eth", False),
-    ("ev", True),
+@pytest.mark.parametrize("text,moved_x,moved_y", [
+    ("eb", True, True),
+    ("ech", True, True),
+    ("ed", False, False),
+    ("ef", True, True),
+    ("eg", False, False),
+    ("ej", True, True),
+    ("ek", False, False),
+    ("el", False, False),
+    ("em", False, False),
+    ("en", False, False),
+    ("eng", False, True),
+    ("enk", False, True),
+    ("ep", True, True),
+    ("er", False, False),
+    ("es)", True, True),
+    ("es(", True, True),
+    ("esh", True, True),
+    ("et", False, False),
+    ("eth", False, False),
+    ("ev", True, True),
 ])
-def test_starts_with_e(font, text, moved):
-    did_move = position_of_first(text, font).y_offset != 0
-    assert did_move == moved
+def test_starts_with_e(font, text, moved_x, moved_y,):
+    did_move_x = position_of_first(text, font).x_offset != 0
+    did_move_y = position_of_first(text, font).y_offset != 0
+    assert did_move_x == moved_x
+    assert did_move_y == did_move_y
 
 
-@pytest.mark.parametrize("text,moved", [
-    ("ob", True),
-    ("och", True),
-    ("od", False),
-    ("of", True),
-    ("og", False),
-    ("oj", True),
-    ("ok", False),
-    ("ol", False),
-    ("om", False),
-    ("on", False),
-    ("ong", True),
-    ("onk", True),
-    ("op", True),
-    ("or", False),
-    ("os)", True),
-    ("os(", True),
-    ("osh", True),
-    ("ot", False),
-    ("oth", False),
-    ("ov", True),
+@pytest.mark.parametrize("text,moved_x,moved_y", [
+    ("ob", True, True),
+    ("och", True, True),
+    ("od", False, False),
+    ("of", True, True),
+    ("og", False, False),
+    ("oj", True, True),
+    ("ok", False, False),
+    ("ol", False, False),
+    ("om", False, False),
+    ("on", False, False),
+    ("ong", False, True),
+    ("onk", False, True),
+    ("op", True, True),
+    ("or", False, False),
+    ("os)", False, True),
+    ("os(", False, True),
+    ("osh", False, True),
+    ("ot", False, False),
+    ("oth", False, False),
+    ("ov", True, True),
 ])
-def test_starts_with_o(font, text, moved):
-    did_move = position_of_first(text, font).y_offset != 0
-    assert did_move == moved
+def test_starts_with_o(font, text, moved_x, moved_y):
+    did_move_x = position_of_first(text, font).x_offset != 0
+    did_move_y = position_of_first(text, font).y_offset != 0
+    assert did_move_x == moved_x
+    assert did_move_y == did_move_y

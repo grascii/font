@@ -24,9 +24,19 @@ def recalculate_line_of_writing_positions(data, font):
             for anchor in glyph.anchorPoints:
                 if anchor[0] == "Join":
                     if anchor[1] == "exit":
+                        exit_x = anchor[2]
                         exit_y = anchor[3]
 
-            glyph.addPosSub(subtable, 0, round(height - exit_y), 0, 0)
+            for anchor in following_glyph.anchorPoints:
+                if anchor[0] == "Join":
+                    if anchor[1] == "entry":
+                        entry_x = anchor[2]
+
+            left = glyph.boundingBox()[0]
+
+            dx = max(0, round(entry_x - xmin - (exit_x - left)))
+            dy = round(height - exit_y)
+            glyph.addPosSub(subtable, dx, dy, 0, 0)
 
 
 fontforge.registerMenuItem(
