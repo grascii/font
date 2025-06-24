@@ -1,0 +1,15 @@
+StartChar: o.ton
+Encoding: 1076 -1 253
+Width: 92
+VWidth: 1086
+Flags: W
+AnchorPoint: "Join" 47 0 exit 0
+AnchorPoint: "Join" 83 87 entry 0
+LayerCount: 2
+Fore
+SplineSet
+83 87 m 0
+ 55 71 10 46 10 24 c 0
+ 10 0 31 0 47 0 c 1024
+EndSplineSet
+EndChar
