@@ -1,0 +1,15 @@
+StartChar: o.kot
+Encoding: 1068 -1 249
+Width: 173
+VWidth: 1100
+Flags: W
+AnchorPoint: "Join" 164 48 exit 0
+AnchorPoint: "Join" 73 100 entry 0
+LayerCount: 2
+Fore
+SplineSet
+73 100 m 0
+ 73 62 -7 48 13 14 c 0
+ 36 -25 134 31 164 48 c 1024
+EndSplineSet
+EndChar
