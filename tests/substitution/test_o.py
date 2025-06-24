@@ -158,3 +158,51 @@ def test_r_o(font, text, expected_glyphs):
 ])
 def test_l_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("nok",   ["n", "o.ok", "k"]),
+    ("nog",   ["n", "o.ok", "g"]),
+    ("nor",   ["n", "o.or", "r.cut"]),
+    ("nol",   ["n", "o.ol", "l.cut"]),
+    ("non",   ["n", "o.on", "n"]),
+    ("nom",   ["n", "o.on", "m"]),
+    ("not",   ["n", "o.ot", "t"]),
+    ("nod",   ["n", "o.ot", "d"]),
+    ("nop",   ["n", "o.op", "p"]),
+    ("nob",   ["n", "o.op", "b"]),
+    ("nof",   ["n", "o", "f"]),
+    ("nov",   ["n", "o", "v"]),
+    ("nosh",  ["n", "o", "sh"]),
+    ("noch",  ["n", "o", "ch"]),
+    ("noj",   ["n", "o", "j"]),
+    ("nos)",  ["n", "o", "s.right"]),
+    ("nos(",  ["n", "o.op", "s.left"]),
+    # ("noth",  ["n", "o.nont", "th.under"]),
+])
+def test_n_o(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("mok",   ["m", "o.ok", "k"]),
+    ("mog",   ["m", "o.ok", "g"]),
+    ("mor",   ["m", "o.or", "r.cut"]),
+    ("mol",   ["m", "o.ol", "l.cut"]),
+    ("mon",   ["m", "o.on", "n"]),
+    ("mom",   ["m", "o.on", "m"]),
+    ("mot",   ["m", "o.ot", "t"]),
+    ("mod",   ["m", "o.ot", "d"]),
+    ("mop",   ["m", "o.op", "p"]),
+    ("mob",   ["m", "o.op", "b"]),
+    ("mof",   ["m", "o", "f"]),
+    ("mov",   ["m", "o", "v"]),
+    ("mosh",  ["m", "o", "sh"]),
+    ("moch",  ["m", "o", "ch"]),
+    ("moj",   ["m", "o", "j"]),
+    ("mos)",  ["m", "o", "s.right"]),
+    ("mos(",  ["m", "o.op", "s.left"]),
+    # ("noth",  ["n", "o.nont", "th.under"]),
+])
+def test_m_o(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
