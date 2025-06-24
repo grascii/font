@@ -1,0 +1,15 @@
+StartChar: o.ron
+Encoding: 1072 -1 251
+Width: 126
+VWidth: 1105
+Flags: W
+AnchorPoint: "Join" 117 0 exit 0
+AnchorPoint: "Join" 117 105 entry 0
+LayerCount: 2
+Fore
+SplineSet
+117 105 m 0
+ 93 99 17 71 12 53 c 0
+ -4 -7 87 0 117 0 c 1024
+EndSplineSet
+EndChar

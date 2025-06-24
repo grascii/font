@@ -78,7 +78,7 @@ def test_o_after(font, text, expected_glyphs):
     ("konk", ["k", "o.ong", "nk"]),
     # ("koth", ["k", "o", "th.under"]),
 ])
-def test_g_o(font, text, expected_glyphs):
+def test_k_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
 
 
@@ -105,4 +105,56 @@ def test_g_o(font, text, expected_glyphs):
     # ("goth", ["g", "o", "th.under"]),
 ])
 def test_g_o(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("rok",   ["r", "o.ok", "k"]),
+    ("rog",   ["r", "o.ok", "g"]),
+    ("ror",   ["r", "o.or", "r.cut"]),
+    ("rol",   ["r", "o.ol", "l.cut"]),
+    ("ron",   ["r", "o.ron", "n"]),
+    ("rom",   ["r", "o.ron", "m"]),
+    ("rot",   ["r", "o.ot", "t"]),
+    ("rod",   ["r", "o.ot", "d"]),
+    ("rop",   ["r", "o.op", "p"]),
+    ("rob",   ["r", "o.op", "b"]),
+    ("rof",   ["r", "o", "f"]),
+    ("rov",   ["r", "o", "v"]),
+    ("rosh",  ["r", "o", "sh"]),
+    ("roch",  ["r", "o", "ch"]),
+    ("roj",   ["r", "o", "j"]),
+    ("ros)",  ["r", "o", "s.right"]),
+    ("ros(",  ["r", "o.op", "s.left"]),
+    ("rong",  ["r", "o.rong", "ng"]),
+    ("ronk",  ["r", "o.rong", "nk"]),
+    # ("roth",  ["r", "o.ront", "th.under"]),
+])
+def test_r_o(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("lok",   ["l", "o.ok", "k"]),
+    ("log",   ["l", "o.ok", "g"]),
+    ("lor",   ["l", "o.or", "r.cut"]),
+    ("lol",   ["l", "o.ol", "l.cut"]),
+    ("lon",   ["l", "o.ron", "n"]),
+    ("lom",   ["l", "o.ron", "m"]),
+    ("lot",   ["l", "o.ot", "t"]),
+    ("lod",   ["l", "o.ot", "d"]),
+    ("lop",   ["l", "o.op", "p"]),
+    ("lob",   ["l", "o.op", "b"]),
+    ("lof",   ["l", "o", "f"]),
+    ("lov",   ["l", "o", "v"]),
+    ("losh",  ["l", "o", "sh"]),
+    ("loch",  ["l", "o", "ch"]),
+    ("loj",   ["l", "o", "j"]),
+    ("los)",  ["l", "o", "s.right"]),
+    ("los(",  ["l", "o.op", "s.left"]),
+    ("long",  ["l", "o.rong", "ng"]),
+    ("lonk",  ["l", "o.rong", "nk"]),
+    # ("loth",  ["l", "o.ront", "th.under"]),
+])
+def test_l_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
