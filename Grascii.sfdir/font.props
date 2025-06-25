@@ -213,7 +213,7 @@ ChainSub2: coverage "r Joinings Overrides" 0 0 0 1
  1 2 0
   Coverage: 3 r l
   BCoverage: 1 o
-  BCoverage: 7 p b f v
+  BCoverage: 46 p b f v f.cut v.cut s.right s.left s.right.cut
  0
 EndFPST
 ChainPos2: class "Starts with o" 4 4 14 13

@@ -360,3 +360,55 @@ def test_f_o(font, text, expected_glyphs):
 ])
 def test_v_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("s)ok",   ["s.right", "o.fok", "k"]),
+    ("s)og",   ["s.right", "o.fok", "g"]),
+    ("s)or",   ["s.right", "o.fo", "r"]),
+    ("s)ol",   ["s.right", "o.fo", "l"]),
+    ("s)on",   ["s.right", "o.fo", "n"]),
+    ("s)om",   ["s.right", "o.fo", "m"]),
+    ("s)ot",   ["s.right", "o.fo", "t"]),
+    ("s)od",   ["s.right", "o.fo", "d"]),
+    ("s)op",   ["s.right", "o.fop", "p"]),
+    ("s)ob",   ["s.right", "o.fop", "b"]),
+    ("s)of",   ["s.right", "o.fo", "f"]),
+    ("s)ov",   ["s.right", "o.fo", "v"]),
+    ("s)osh",  ["s.right", "o.fo", "sh"]),
+    ("s)och",  ["s.right", "o.fo", "ch"]),
+    ("s)oj",   ["s.right", "o.fo", "j"]),
+    ("s)os)",  ["s.right", "o.fo", "s.right"]),
+    ("s)os(",  ["s.right", "o.fop", "s.left"]),
+    ("s)ong",  ["s.right", "o.fo", "ng"]),
+    ("s)onk",  ["s.right", "o.fo", "nk"]),
+    ("s)oth",  ["s.right", "o.fo", "th.under"]),
+])
+def test_sR_o(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("s(ok",   ["s.left", "o.po", "k"]),
+    ("s(og",   ["s.left", "o.po", "g"]),
+    ("s(or",   ["s.left", "o.po", "r"]),
+    ("s(ol",   ["s.left", "o.po", "l"]),
+    ("s(on",   ["s.left", "o.po", "n"]),
+    ("s(om",   ["s.left", "o.po", "m"]),
+    ("s(ot",   ["s.left", "o.po", "t"]),
+    ("s(od",   ["s.left", "o.po", "d"]),
+    ("s(op",   ["s.left", "o.pop", "p"]),
+    ("s(ob",   ["s.left", "o.pop", "b"]),
+    ("s(of",   ["s.left", "o.po", "f"]),
+    ("s(ov",   ["s.left", "o.po", "v"]),
+    ("s(osh",  ["s.left", "o.po", "sh"]),
+    ("s(och",  ["s.left", "o.po", "ch"]),
+    ("s(oj",   ["s.left", "o.po", "j"]),
+    ("s(os)",  ["s.left", "o.po", "s.right"]),
+    ("s(os(",  ["s.left", "o.pop", "s.left"]),
+    ("s(ong",  ["s.left", "o.po", "ng"]),
+    ("s(onk",  ["s.left", "o.po", "nk"]),
+    ("s(oth",  ["s.left", "o.po", "th.under"]),
+])
+def test_sL_o(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
