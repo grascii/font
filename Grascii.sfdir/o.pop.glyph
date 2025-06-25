@@ -1,0 +1,14 @@
+StartChar: o.pop
+Encoding: 1080 -1 255
+Width: 135
+VWidth: 1006
+Flags: W
+AnchorPoint: "Join" 125 59 exit 0
+AnchorPoint: "Join" 10 6 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 6 m 0
+ 33 -7 63 -3 125 59 c 1024
+EndSplineSet
+EndChar

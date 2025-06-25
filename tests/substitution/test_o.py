@@ -256,3 +256,55 @@ def test_t_o(font, text, expected_glyphs):
 ])
 def test_d_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("pok",   ["p", "o.po", "k"]),
+    ("pog",   ["p", "o.po", "g"]),
+    ("por",   ["p", "o.po", "r"]),
+    ("pol",   ["p", "o.po", "l"]),
+    ("pon",   ["p", "o.po", "n"]),
+    ("pom",   ["p", "o.po", "m"]),
+    ("pot",   ["p", "o.po", "t"]),
+    ("pod",   ["p", "o.po", "d"]),
+    ("pop",   ["p", "o.pop", "p"]),
+    ("pob",   ["p", "o.pop", "b"]),
+    ("pof",   ["p", "o.po", "f"]),
+    ("pov",   ["p", "o.po", "v"]),
+    ("posh",  ["p", "o.po", "sh"]),
+    ("poch",  ["p", "o.po", "ch"]),
+    ("poj",   ["p", "o.po", "j"]),
+    ("pos)",  ["p", "o.po", "s.right"]),
+    ("pos(",  ["p", "o.pop", "s.left"]),
+    ("pong",  ["p", "o.po", "ng"]),
+    ("ponk",  ["p", "o.po", "nk"]),
+    ("poth",  ["p", "o.po", "th.under"]),
+])
+def test_p_o(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("bok",   ["b", "o.po", "k"]),
+    ("bog",   ["b", "o.po", "g"]),
+    ("bor",   ["b", "o.po", "r"]),
+    ("bol",   ["b", "o.po", "l"]),
+    ("bon",   ["b", "o.po", "n"]),
+    ("bom",   ["b", "o.po", "m"]),
+    ("bot",   ["b", "o.po", "t"]),
+    ("bod",   ["b", "o.po", "d"]),
+    ("bop",   ["b", "o.pop", "p"]),
+    ("bob",   ["b", "o.pop", "b"]),
+    ("bof",   ["b", "o.po", "f"]),
+    ("bov",   ["b", "o.po", "v"]),
+    ("bosh",  ["b", "o.po", "sh"]),
+    ("boch",  ["b", "o.po", "ch"]),
+    ("boj",   ["b", "o.po", "j"]),
+    ("bos)",  ["b", "o.po", "s.right"]),
+    ("bos(",  ["b", "o.pop", "s.left"]),
+    ("bong",  ["b", "o.po", "ng"]),
+    ("bonk",  ["b", "o.po", "nk"]),
+    ("both",  ["b", "o.po", "th.under"]),
+])
+def test_b_o(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
