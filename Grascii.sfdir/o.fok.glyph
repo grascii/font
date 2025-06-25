@@ -1,0 +1,15 @@
+StartChar: o.fok
+Encoding: 1082 -1 256
+Width: 142
+VWidth: 1070
+Flags: W
+AnchorPoint: "Join" 132 39 exit 0
+AnchorPoint: "Join" 46 70 entry 0
+LayerCount: 2
+Fore
+SplineSet
+46 70 m 0
+ 1 28 3 0 28 0 c 0
+ 53 0 83 21 132 39 c 1024
+EndSplineSet
+EndChar
