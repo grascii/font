@@ -18,8 +18,6 @@ def recalculate_line_of_writing_positions(data, font):
                 continue
 
             following_glyph = font[match.group(1)]
-            xmin, ymin, xmax, ymax = following_glyph.boundingBox()
-            height = ymax - ymin
 
             for anchor in glyph.anchorPoints:
                 if anchor[0] == "Join":
@@ -31,11 +29,13 @@ def recalculate_line_of_writing_positions(data, font):
                 if anchor[0] == "Join":
                     if anchor[1] == "entry":
                         entry_x = anchor[2]
+                        entry_y = anchor[3]
 
             left = glyph.boundingBox()[0]
+            xmin, ymin, xmax, ymax = following_glyph.boundingBox()
 
             dx = max(0, round(entry_x - xmin - (exit_x - left)))
-            dy = round(height - exit_y)
+            dy = round(entry_y - ymin - exit_y - font.strokewidth)
             glyph.addPosSub(subtable, dx, dy, 0, 0)
 
 

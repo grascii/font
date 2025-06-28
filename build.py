@@ -25,11 +25,6 @@ for glyph in font.glyphs():
         glyph.left_side_bearing = 0
         glyph.right_side_bearing = 0
 
-    for pos in glyph.getPosSub("*"):
-        subtable, kind, *others = pos
-        if kind == "Position" and subtable.startswith("Position Before "):
-            glyph.addPosSub(subtable, others[0], others[1] - STROKE_WIDTH, 0, 0)
-
 
 font.generate(sys.argv[2])
 font.save(sys.argv[3])

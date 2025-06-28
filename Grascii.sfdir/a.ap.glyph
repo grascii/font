@@ -12,9 +12,9 @@ SplineSet
  69 -30 125 18 144 37 c 0
  198 91 178 178 107 116 c 1024
 EndSplineSet
-Position2: "Position Before s.left" dx=12 dy=60 dh=0 dv=0
-Position2: "Position Before b.cut" dx=388 dy=521 dh=0 dv=0
-Position2: "Position Before p.cut" dx=150 dy=210 dh=0 dv=0
-Position2: "Position Before p" dx=149 dy=268 dh=0 dv=0
-Position2: "Position Before b" dx=389 dy=631 dh=0 dv=0
+Position2: "Position Before s.left" dx=12 dy=40 dh=0 dv=0
+Position2: "Position Before b.cut" dx=388 dy=501 dh=0 dv=0
+Position2: "Position Before p.cut" dx=150 dy=190 dh=0 dv=0
+Position2: "Position Before p" dx=149 dy=248 dh=0 dv=0
+Position2: "Position Before b" dx=389 dy=611 dh=0 dv=0
 EndChar
