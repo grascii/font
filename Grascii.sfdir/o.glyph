@@ -57,4 +57,14 @@ MultipleSubs2: "Between p ch" o.po
 MultipleSubs2: "Between p ng" o.po
 MultipleSubs2: "Between p tn" o.po
 MultipleSubs2: "Between p nt" o.po
+MultipleSubs2: "Between ch k" o.chok
+MultipleSubs2: "Between ch r" o.lock
+MultipleSubs2: "Between ch n" o.lock
+MultipleSubs2: "Between ch t" o.lock
+MultipleSubs2: "Between ch p" o.chop
+MultipleSubs2: "Between ch f" o.lock
+MultipleSubs2: "Between ch ch" o.lock
+MultipleSubs2: "Between ch ng" o.lock
+MultipleSubs2: "Between ch tn" o.lock
+MultipleSubs2: "Between ch nt" o.lock
 EndChar

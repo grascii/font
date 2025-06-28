@@ -363,6 +363,84 @@ def test_v_o(font, text, expected_glyphs):
 
 
 @pytest.mark.parametrize("text,expected_glyphs", [
+    ("shok",   ["sh", "o.chok", "k"]),
+    ("shog",   ["sh", "o.chok", "g"]),
+    ("shor",   ["sh", "o", "r"]),
+    ("shol",   ["sh", "o", "l"]),
+    ("shon",   ["sh", "o", "n"]),
+    ("shom",   ["sh", "o", "m"]),
+    ("shot",   ["sh", "o", "t"]),
+    ("shod",   ["sh", "o", "d"]),
+    ("shop",   ["sh", "o.chop", "p"]),
+    ("shob",   ["sh", "o.chop", "b"]),
+    ("shof",   ["sh", "o", "f"]),
+    ("shov",   ["sh", "o", "v"]),
+    ("shosh",  ["sh", "o", "sh"]),
+    ("shoch",  ["sh", "o", "ch"]),
+    ("shoj",   ["sh", "o", "j"]),
+    ("shos)",  ["sh", "o", "s.right"]),
+    ("shos(",  ["sh", "o.chop", "s.left"]),
+    ("shong",  ["sh", "o", "ng"]),
+    ("shonk",  ["sh", "o", "nk"]),
+    ("shoth",  ["sh", "o", "th.under"]),
+])
+def test_sh_o(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("chok",   ["ch", "o.chok", "k"]),
+    ("chog",   ["ch", "o.chok", "g"]),
+    ("chor",   ["ch", "o", "r"]),
+    ("chol",   ["ch", "o", "l"]),
+    ("chon",   ["ch", "o", "n"]),
+    ("chom",   ["ch", "o", "m"]),
+    ("chot",   ["ch", "o", "t"]),
+    ("chod",   ["ch", "o", "d"]),
+    ("chop",   ["ch", "o.chop", "p"]),
+    ("chob",   ["ch", "o.chop", "b"]),
+    ("chof",   ["ch", "o", "f"]),
+    ("chov",   ["ch", "o", "v"]),
+    ("chosh",  ["ch", "o", "sh"]),
+    ("choch",  ["ch", "o", "ch"]),
+    ("choj",   ["ch", "o", "j"]),
+    ("chos)",  ["ch", "o", "s.right"]),
+    ("chos(",  ["ch", "o.chop", "s.left"]),
+    ("chong",  ["ch", "o", "ng"]),
+    ("chonk",  ["ch", "o", "nk"]),
+    ("choth",  ["ch", "o", "th.under"]),
+])
+def test_ch_o(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("jok",   ["j", "o.chok", "k"]),
+    ("jog",   ["j", "o.chok", "g"]),
+    ("jor",   ["j", "o", "r"]),
+    ("jol",   ["j", "o", "l"]),
+    ("jon",   ["j", "o", "n"]),
+    ("jom",   ["j", "o", "m"]),
+    ("jot",   ["j", "o", "t"]),
+    ("jod",   ["j", "o", "d"]),
+    ("jop",   ["j", "o.chop", "p"]),
+    ("job",   ["j", "o.chop", "b"]),
+    ("jof",   ["j", "o", "f"]),
+    ("jov",   ["j", "o", "v"]),
+    ("josh",  ["j", "o", "sh"]),
+    ("joch",  ["j", "o", "ch"]),
+    ("joj",   ["j", "o", "j"]),
+    ("jos)",  ["j", "o", "s.right"]),
+    ("jos(",  ["j", "o.chop", "s.left"]),
+    ("jong",  ["j", "o", "ng"]),
+    ("jonk",  ["j", "o", "nk"]),
+    ("joth",  ["j", "o", "th.under"]),
+])
+def test_j_o(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
     ("s)ok",   ["s.right", "o.fok", "k"]),
     ("s)og",   ["s.right", "o.fok", "g"]),
     ("s)or",   ["s.right", "o.fo", "r"]),

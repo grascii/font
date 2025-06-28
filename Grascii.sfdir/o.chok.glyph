@@ -1,0 +1,15 @@
+StartChar: o.chok
+Encoding: 1086 -1 258
+Width: 152
+VWidth: 1089
+Flags: W
+AnchorPoint: "Join" 142 41 exit 0
+AnchorPoint: "Join" 37 89 entry 0
+LayerCount: 2
+Fore
+SplineSet
+37 89 m 0
+ 9 41 -13 -21 55 7 c 0
+ 100 25 126 34 142 41 c 1024
+EndSplineSet
+EndChar
