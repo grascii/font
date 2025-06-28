@@ -1,0 +1,15 @@
+StartChar: o.thong
+Encoding: 1090 -1 261
+Width: 88
+VWidth: 1075
+Flags: W
+AnchorPoint: "Join" 79 0 exit 0
+AnchorPoint: "Join" 76 76 entry 0
+LayerCount: 2
+Fore
+SplineSet
+76 76 m 0
+ 46 76 15 64 11 47 c 0
+ 4 23 49 8 79 0 c 1024
+EndSplineSet
+EndChar
