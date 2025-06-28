@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1751082669
+ModificationTime: 1751084237
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -46,7 +46,7 @@ OS2Vendor: 'PfEd'
 Lookup: 4 0 0 "Multichar strokes" { "ch sh th ng nk"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Annotated Directions" { "Annotated Directions"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Directions" { "s Direction"  "th Direction"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "Consonant Joinings" { "th.under Joinings 2"  "r Joinings 1"  "r Joinings Overrides"  "r Joinings 2"  "p Joinings 1"  "p Joinings 2"  "f Joinings"  "s.right Joinings"  "s.left Joinings"  "th.over Joinings 1"  "th.over Joinings 2"  "th.under Joinings 1"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "Consonant Joinings" { "r Joinings Overrides"  "r Joinings 1"  "r Joinings 2"  "p Joinings 1"  "p Joinings 2"  "f Joinings"  "s.right Joinings"  "s.left Joinings"  "th.over Joinings 1"  "th.over Joinings 2"  "th.under Joinings 1"  "th.under Joinings 2"  "th.under Joinings 3"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 1 "Vowel Between" { "Between k *"  "Between r *"  "Between n *"  "Between t *"  "Between p *"  "Between f *"  "Between ch *"  "Between ng *"  "Between tn *"  "Between nt *"  } ['rclt' ('latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Vowel Before/After" { "Vowel Before Overrides"  "Vowel Before"  "Vowel After Overrides"  "Vowel After"  "Unlock Vowel"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Cut Consonant" { "Cut Consonant" ("cut") } []
@@ -210,6 +210,14 @@ Lookup: 257 0 0 "Position Before th" { "Position Before th"  } []
 Lookup: 257 0 0 "Position Before v" { "Position Before v"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "th.under Joinings 2" 0 0 0 1
+ 1 0 2
+  Coverage: 8 th.under
+  FCoverage: 1 o
+  FCoverage: 3 t d
+ 1
+  SeqLookup: 0 "Skewed 45"
+EndFPST
 ChainSub2: glyph "Unlock Vowel" 0 0 0 1
  String: 6 o.lock
  BString: 0 
@@ -326,7 +334,7 @@ ChainPos2: class "Starts with o" 4 4 14 13
   BClassNames: "All_Others" "o" "o.op" "o.ong"
   FClassNames: "All_Others" "b" "b.cut" "ch" "f" "j" "ng" "nk" "p" "p.cut" "sh" "v" "s.right" "s.left"
 EndFPST
-ChainSub2: coverage "th.under Joinings 2" 0 0 0 1
+ChainSub2: coverage "th.under Joinings 3" 0 0 0 1
  1 0 1
   Coverage: 8 th.under
   FCoverage: 1 o
@@ -2030,7 +2038,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 26 10
+WinInfo: 78 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144

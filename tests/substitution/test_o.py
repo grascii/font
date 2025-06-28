@@ -521,8 +521,26 @@ def test_nk_o(font, text, expected_glyphs):
     ("th(ol",   ["th.over", "o.ol", "l.cut"]),
     ("th(ot",   ["th.over", "o.ot", "t"]),
     ("th(od",   ["th.over", "o.ot", "d"]),
-    ("th(ong",  ["th.over", "o.thong", "ng"]),
-    ("th(onk",  ["th.over", "o.thong", "nk"]),
+    # ("th(os(",  ["th.under", "o.op", "s.left"]),
+    ("th(ong",  ["th.over", "o.tnong", "ng"]),
+    ("th(onk",  ["th.over", "o.tnong", "nk"]),
 ])
 def test_thO_o(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    # ("th)or",   ["th.under.skew45", "o.or", "r.cut"]),
+    # ("th)ol",   ["th.under.skew45", "o.ol", "l.cut"]),
+    # ("th)on",   ["th.under", "o.on", "n"]),
+    # ("th)om",   ["th.under", "o.on", "m"]),
+    ("th)ot",   ["th.under.skew45", "o.ot", "t"]),
+    ("th)od",   ["th.under.skew45", "o.ot", "d"]),
+    ("th)op",   ["th.under.skew30", "o.op", "p"]),
+    ("th)ob",   ["th.under.skew30", "o.op", "b"]),
+    # ("th)os)",  ["th.under", "o.of", "s.right"]),
+    ("th)ong",  ["th.under.skew30", "o.ntong", "ng"]),
+    ("th)onk",  ["th.under.skew30", "o.ntong", "nk"]),
+])
+def test_thU_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
