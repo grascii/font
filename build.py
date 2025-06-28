@@ -28,7 +28,7 @@ for glyph in font.glyphs():
     for pos in glyph.getPosSub("*"):
         subtable, kind, *others = pos
         if kind == "Position" and subtable.startswith("Position Before "):
-            glyph.addPosSub(subtable, 0, others[1] - STROKE_WIDTH, 0, 0)
+            glyph.addPosSub(subtable, others[0], others[1] - STROKE_WIDTH, 0, 0)
 
 
 font.generate(sys.argv[2])
