@@ -1,0 +1,11 @@
+StartChar: u.tu
+Encoding: 1146 -1 268
+Width: 183
+VWidth: 1057
+Flags: W
+AnchorPoint: "Join" 100.933 0 exit 0
+AnchorPoint: "Join" 10 52.5 entry 0
+LayerCount: 2
+Fore
+Refer: 272 -1 N 0.866025 -0.5 1 0.57735 1.33984 57.5 2
+EndChar

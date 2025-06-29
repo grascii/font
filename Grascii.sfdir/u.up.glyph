@@ -1,0 +1,11 @@
+StartChar: u.up
+Encoding: 1119 -1 264
+Width: 134
+VWidth: 1073
+Flags: W
+AnchorPoint: "Join" 97 0 exit 0
+AnchorPoint: "Join" 10 32 entry 0
+LayerCount: 2
+Fore
+Refer: 247 -1 N -1 1.22465e-16 -1.22465e-16 -1 134 73 2
+EndChar

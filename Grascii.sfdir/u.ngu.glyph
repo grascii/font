@@ -1,0 +1,11 @@
+StartChar: u.ngu
+Encoding: 1148 -1 270
+Width: 136
+VWidth: 1010
+Flags: W
+AnchorPoint: "Join" 10 7.89258 exit 0
+AnchorPoint: "Join" 37.1758 109.314 entry 0
+LayerCount: 2
+Fore
+Refer: 267 -1 N 0.965926 -0.258819 0.258819 0.965926 0.34082 10.4806 2
+EndChar

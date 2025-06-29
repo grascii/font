@@ -1,0 +1,15 @@
+StartChar: u.ru
+Encoding: 1144 -1 266
+Width: 122
+VWidth: 1070
+Flags: W
+AnchorPoint: "Join" 73 0 exit 0
+AnchorPoint: "Join" 10 70 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 70 m 0
+ 45 82 85 101 102 91 c 0
+ 130 75 92 33 73 0 c 1024
+EndSplineSet
+EndChar
