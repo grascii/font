@@ -13,8 +13,7 @@ font.strokedfont = False
 for glyph in font.glyphs():
     if glyph.references:
         glyph.unlinkRef()
-    else:
-        glyph.unlinkThisGlyph()
+    glyph.unlinkThisGlyph()
 
     glyph.background = glyph.foreground
 
