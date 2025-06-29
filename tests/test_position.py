@@ -95,3 +95,32 @@ def test_starts_with_o(font, text, moved_x, moved_y):
     did_move_y = position_of_first(text, font).y_offset != 0
     assert did_move_x == moved_x
     assert did_move_y == did_move_y
+
+
+@pytest.mark.parametrize("text,moved_x,moved_y", [
+    ("ub", True, True),
+    ("uch", True, True),
+    ("ud", False, False),
+    ("uf", True, True),
+    ("ug", False, False),
+    ("uj", True, True),
+    ("uk", False, False),
+    ("ul", False, False),
+    ("um", False, False),
+    ("un", False, False),
+    ("ung", False, True),
+    ("unk", False, True),
+    ("up", True, True),
+    ("ur", False, False),
+    ("us)", True, True),
+    ("us(", True, True),
+    ("ush", True, True),
+    ("ut", False, False),
+    ("uth", False, False),
+    ("uv", True, True),
+])
+def test_starts_with_u(font, text, moved_x, moved_y):
+    did_move_x = position_of_first(text, font).x_offset != 0
+    did_move_y = position_of_first(text, font).y_offset != 0
+    assert did_move_x == moved_x
+    assert did_move_y == did_move_y

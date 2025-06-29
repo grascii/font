@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1751159872
+ModificationTime: 1751160244
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -184,7 +184,7 @@ Lookup: 2 0 0 "Between nt ch" { "Between nt ch"  } []
 Lookup: 2 0 0 "Between nt ng" { "Between nt ng"  } []
 Lookup: 2 0 0 "Between nt tn" { "Between nt tn"  } []
 Lookup: 2 0 0 "Between nt nt" { "Between nt nt"  } []
-Lookup: 264 0 0 "Line of Writing" { "Starts with o"  "Starts with a"  "Starts with e"  } [' RQD' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 264 0 0 "Line of Writing" { "Starts with a"  "Starts with e"  "Starts with o"  "Starts with u"  } [' RQD' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 259 0 0 "Cursive Attachment" { "Join"  } ['curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 257 0 0 "Position Before b" { "Position Before b"  } []
 Lookup: 257 0 0 "Position Before b.cut" { "Position Before b.cut"  } []
@@ -339,6 +339,110 @@ ChainPos2: class "Starts with o" 4 4 14 13
   SeqLookup: 0 "Position Before s.left"
   ClassNames: "All_Others" "o" "o.op" "o.ong"
   BClassNames: "All_Others" "o" "o.op" "o.ong"
+  FClassNames: "All_Others" "b" "b.cut" "ch" "f" "j" "ng" "nk" "p" "p.cut" "sh" "v" "s.right" "s.left"
+EndFPST
+ChainPos2: class "Starts with u" 5 5 14 13
+  Class: 1 u
+  Class: 4 u.ur
+  Class: 4 u.up
+  Class: 4 u.uf
+  BClass: 1 u
+  BClass: 4 u.ur
+  BClass: 4 u.up
+  BClass: 4 u.uf
+  FClass: 1 b
+  FClass: 5 b.cut
+  FClass: 2 ch
+  FClass: 1 f
+  FClass: 1 j
+  FClass: 2 ng
+  FClass: 2 nk
+  FClass: 1 p
+  FClass: 5 p.cut
+  FClass: 2 sh
+  FClass: 1 v
+  FClass: 7 s.right
+  FClass: 6 s.left
+ 1 0 1
+  ClsList: 3
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Position Before b"
+ 1 0 1
+  ClsList: 3
+  BClsList:
+  FClsList: 2
+ 1
+  SeqLookup: 0 "Position Before b.cut"
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 3
+ 1
+  SeqLookup: 0 "Position Before ch"
+ 1 0 1
+  ClsList: 4
+  BClsList:
+  FClsList: 4
+ 1
+  SeqLookup: 0 "Position Before f"
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 5
+ 1
+  SeqLookup: 0 "Position Before j"
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 6
+ 1
+  SeqLookup: 0 "Position Before ng"
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 7
+ 1
+  SeqLookup: 0 "Position Before nk"
+ 1 0 1
+  ClsList: 3
+  BClsList:
+  FClsList: 8
+ 1
+  SeqLookup: 0 "Position Before p"
+ 1 0 1
+  ClsList: 3
+  BClsList:
+  FClsList: 9
+ 1
+  SeqLookup: 0 "Position Before p.cut"
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 10
+ 1
+  SeqLookup: 0 "Position Before sh"
+ 1 0 1
+  ClsList: 4
+  BClsList:
+  FClsList: 11
+ 1
+  SeqLookup: 0 "Position Before v"
+ 1 0 1
+  ClsList: 4
+  BClsList:
+  FClsList: 12
+ 1
+  SeqLookup: 0 "Position Before s.right"
+ 1 0 1
+  ClsList: 3
+  BClsList:
+  FClsList: 13
+ 1
+  SeqLookup: 0 "Position Before s.left"
+  ClassNames: "All_Others" "u" "u.ur" "u.up" "u.uf"
+  BClassNames: "All_Others" "u" "u.ur" "u.up" "u.uf"
   FClassNames: "All_Others" "b" "b.cut" "ch" "f" "j" "ng" "nk" "p" "p.cut" "sh" "v" "s.right" "s.left"
 EndFPST
 ChainSub2: coverage "th.under Joinings 3" 0 0 0 1
@@ -2045,7 +2149,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 468 26 10
+WinInfo: 884 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144

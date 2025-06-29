@@ -8,13 +8,18 @@ AnchorPoint: "Join" 10 0 entry 0
 LayerCount: 2
 Fore
 Refer: 272 -1 N 1 0 0.57735 1 0 0 2
-MultipleSubs2: "Before f" u.uf
-MultipleSubs2: "Before p" u.up
-MultipleSubs2: "Before r" u.ur
-MultipleSubs2: "After r" u.ru
-MultipleSubs2: "After n" u.nu
-MultipleSubs2: "After t" u.tu
-MultipleSubs2: "After f" u.fu
-MultipleSubs2: "After ng" u.ngu
+Position2: "Position Before sh" dx=15 dy=208 dh=0 dv=0
+Position2: "Position Before nk" dx=0 dy=124 dh=0 dv=0
+Position2: "Position Before ng" dx=0 dy=62 dh=0 dv=0
+Position2: "Position Before j" dx=315 dy=727 dh=0 dv=0
+Position2: "Position Before ch" dx=105 dy=364 dh=0 dv=0
 MultipleSubs2: "After tn" u.tnu
+MultipleSubs2: "After ng" u.ngu
+MultipleSubs2: "After f" u.fu
+MultipleSubs2: "After t" u.tu
+MultipleSubs2: "After n" u.nu
+MultipleSubs2: "After r" u.ru
+MultipleSubs2: "Before r" u.ur
+MultipleSubs2: "Before p" u.up
+MultipleSubs2: "Before f" u.uf
 EndChar
