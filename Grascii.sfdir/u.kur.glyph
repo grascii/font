@@ -1,0 +1,14 @@
+StartChar: u.kur
+Encoding: 1170 -1 273
+Width: 108
+VWidth: 1071
+Flags: W
+AnchorPoint: "Join" 10 11 exit 0
+AnchorPoint: "Join" 72 71 entry 0
+LayerCount: 2
+Fore
+SplineSet
+72 71 m 0
+ 137 34 70 -23 10 11 c 1024
+EndSplineSet
+EndChar

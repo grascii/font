@@ -54,3 +54,30 @@ def test_u_before(font, text, expected_glyphs):
 ])
 def test_u_after(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("kuk",  ["k", "u", "k"]),
+    ("kug",  ["k", "u", "g"]),
+    ("kur",  ["k.cut", "u.kur", "r.cut"]),
+    ("kul",  ["k.cut", "u.kur", "l.cut"]),
+    ("kun",  ["k", "u", "n"]),
+    ("kum",  ["k", "u", "m"]),
+    ("kut",  ["k", "u", "t"]),
+    ("kud",  ["k", "u", "d"]),
+    ("kup",  ["k", "u.up", "p"]),
+    ("kub",  ["k", "u.up", "b"]),
+    ("kuf",  ["k", "u.uf", "f"]),
+    ("kuv",  ["k", "u.uf", "v"]),
+    ("kush", ["k", "u", "sh"]),
+    ("kuch", ["k", "u", "ch"]),
+    ("kuj",  ["k", "u", "j"]),
+    ("kus)", ["k", "u.uf", "s.right"]),
+    ("kus(", ["k", "u.up", "s.left"]),
+    ("kung", ["k", "u", "ng"]),
+    ("kunk", ["k", "u", "nk"]),
+    ("kuth", ["k", "u", "th.over.skew30"]),
+    ("kuth)", ["k", "u", "th.under"]),
+])
+def test_k_u(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
