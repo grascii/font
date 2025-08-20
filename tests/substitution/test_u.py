@@ -462,3 +462,21 @@ def test_sR_u(font, text, expected_glyphs):
 ])
 def test_sL_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("ngur",   ["ng", "u.ngu", "r"]),
+    ("ngul",   ["ng", "u.ngu", "l"]),
+    ("ngus",   ["ng", "u.ngu", "s.right"]),
+])
+def test_ng_u(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("nkur",   ["nk", "u.ngu", "r"]),
+    ("nkul",   ["nk", "u.ngu", "l"]),
+    ("nkus",   ["nk", "u.ngu", "s.right"]),
+])
+def test_nk_u(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
