@@ -414,3 +414,51 @@ def test_ch_u(font, text, expected_glyphs):
 ])
 def test_j_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("s)uk",  ["s.right", "u.fu", "k"]),
+    ("s)ug",  ["s.right", "u.fu", "g"]),
+    ("s)ur",  ["s.right", "u.fur", "r"]),
+    ("s)ul",  ["s.right", "u.fur", "l"]),
+    ("s)un",  ["s.right", "u.fu", "n"]),
+    ("s)um",  ["s.right", "u.fu", "m"]),
+    ("s)ut",  ["s.right", "u.fu", "t"]),
+    ("s)ud",  ["s.right", "u.fu", "d"]),
+    ("s)up",  ["s.right", "u.up", "p"]),
+    ("s)ub",  ["s.right", "u.up", "b"]),
+    ("s)uf",  ["s.right", "u.fuf", "f"]),
+    ("s)uv",  ["s.right", "u.fuf", "v"]),
+    ("s)ush", ["s.right", "u.fuch", "sh"]),
+    ("s)uch", ["s.right", "u.fuch", "ch"]),
+    ("s)uj",  ["s.right", "u.fuch", "j"]),
+    ("s)us(", ["s.right", "u.up", "s.left"]),
+    ("s)us",  ["s.right", "u.fuf", "s.right"]),
+    ("s)uth", ["s.right", "u.fu", "th.over.skew30"]),
+])
+def test_sR_u(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("s(uk",  ["s.left", "u", "k"]),
+    ("s(ug",  ["s.left", "u", "g"]),
+    ("s(ur",  ["s.left", "u.ur", "r"]),
+    ("s(ul",  ["s.left", "u.ur", "l"]),
+    ("s(un",  ["s.left", "u", "n"]),
+    ("s(um",  ["s.left", "u", "m"]),
+    ("s(ut",  ["s.left", "u", "t"]),
+    ("s(ud",  ["s.left", "u", "d"]),
+    ("s(up",  ["s.left", "u.up", "p"]),
+    ("s(ub",  ["s.left", "u.up", "b"]),
+    ("s(uf",  ["s.left", "u.uf", "f"]),
+    ("s(uv",  ["s.left", "u.uf", "v"]),
+    ("s(ush", ["s.left", "u", "sh"]),
+    ("s(uch", ["s.left", "u", "ch"]),
+    ("s(uj",  ["s.left", "u", "j"]),
+    ("s(us(", ["s.left", "u.up", "s.left"]),
+    ("s(us",  ["s.left", "u.uf", "s.right"]),
+    ("s(uth", ["s.left", "u", "th.over.skew30"]),
+])
+def test_sL_u(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
