@@ -198,3 +198,51 @@ def test_n_u(font, text, expected_glyphs):
 ])
 def test_m_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("tuk",  ["t", "u.tu", "k"]),
+    ("tug",  ["t", "u.tu", "g"]),
+    ("tur",  ["t", "u.tur", "r"]),
+    ("tul",  ["t", "u.tur", "l"]),
+    ("tun",  ["t", "u.tu", "n"]),
+    ("tum",  ["t", "u.tu", "m"]),
+    ("tut",  ["t", "u.tu", "t"]),
+    ("tud",  ["t", "u.tu", "d"]),
+    ("tup",  ["t", "u.tup", "p"]),
+    ("tub",  ["t", "u.tup", "b"]),
+    ("tuf",  ["t", "u.tu", "f"]),
+    ("tuv",  ["t", "u.tu", "v"]),
+    ("tush", ["t", "u.tuch", "sh"]),
+    ("tuch", ["t", "u.tuch", "ch"]),
+    ("tuj",  ["t", "u.tuch", "j"]),
+    ("tus(", ["t", "u.tup", "s.left"]),
+    ("tus",  ["t", "u.tu", "s.right"]),
+    ("tuth", ["t", "u.tu", "th.over.skew30"]),
+])
+def test_t_u(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("duk",  ["d", "u.tu", "k"]),
+    ("dug",  ["d", "u.tu", "g"]),
+    ("dur",  ["d", "u.tur", "r"]),
+    ("dul",  ["d", "u.tur", "l"]),
+    ("dun",  ["d", "u.tu", "n"]),
+    ("dum",  ["d", "u.tu", "m"]),
+    ("dut",  ["d", "u.tu", "t"]),
+    ("dud",  ["d", "u.tu", "d"]),
+    ("dup",  ["d", "u.tup", "p"]),
+    ("dub",  ["d", "u.tup", "b"]),
+    ("duf",  ["d", "u.tu", "f"]),
+    ("duv",  ["d", "u.tu", "v"]),
+    ("dush", ["d", "u.tuch", "sh"]),
+    ("duch", ["d", "u.tuch", "ch"]),
+    ("duj",  ["d", "u.tuch", "j"]),
+    ("dus(", ["d", "u.tup", "s.left"]),
+    ("dus",  ["d", "u.tu", "s.right"]),
+    ("duth", ["d", "u.tu", "th.over.skew30"]),
+])
+def test_d_u(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

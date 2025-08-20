@@ -1,0 +1,15 @@
+StartChar: u.tur
+Encoding: 1182 -1 279
+Width: 127
+VWidth: 1028
+Flags: W
+AnchorPoint: "Join" 116 0 exit 0
+AnchorPoint: "Join" 10 29 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 29 m 0
+ 41 47 87 67 101 63 c 0
+ 121 58 116 26 116 0 c 1024
+EndSplineSet
+EndChar

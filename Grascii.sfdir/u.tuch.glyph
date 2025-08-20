@@ -1,0 +1,15 @@
+StartChar: u.tuch
+Encoding: 1186 -1 281
+Width: 103
+VWidth: 1052
+Flags: W
+AnchorPoint: "Join" 69 0 exit 0
+AnchorPoint: "Join" 10 53 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 53 m 0
+ 40 70 66 86 83 76 c 0
+ 107 62 85 28 69 0 c 1024
+EndSplineSet
+EndChar
