@@ -1,0 +1,15 @@
+StartChar: u.nup
+Encoding: 1180 -1 278
+Width: 88
+VWidth: 1076
+Flags: W
+AnchorPoint: "Join" 40 0 exit 0
+AnchorPoint: "Join" 10 76 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 76 m 0
+ 63 76 78 65 78 47 c 0
+ 78 34 65 22 40 0 c 1024
+EndSplineSet
+EndChar

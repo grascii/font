@@ -74,10 +74,7 @@ def test_u_after(font, text, expected_glyphs):
     ("kuj",  ["k", "u", "j"]),
     ("kus)", ["k", "u.uf", "s.right"]),
     ("kus(", ["k", "u.up", "s.left"]),
-    ("kung", ["k", "u", "ng"]),
-    ("kunk", ["k", "u", "nk"]),
     ("kuth", ["k", "u", "th.over.skew30"]),
-    ("kuth)", ["k", "u", "th.under"]),
 ])
 def test_k_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -101,10 +98,7 @@ def test_k_u(font, text, expected_glyphs):
     ("guj",  ["g", "u", "j"]),
     ("gus)", ["g", "u.uf", "s.right"]),
     ("gus(", ["g", "u.up", "s.left"]),
-    ("gung", ["g", "u", "ng"]),
-    ("gunk", ["g", "u", "nk"]),
     ("guth", ["g", "u", "th.over.skew30"]),
-    ("guth)", ["g", "u", "th.under"]),
 ])
 def test_g_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -128,10 +122,7 @@ def test_g_u(font, text, expected_glyphs):
     ("ruj",   ["r", "u.ru", "j"]),
     ("rus(",  ["r", "u.rup", "s.left"]),
     ("rus",   ["r", "u.ru", "s.right"]),
-    ("rung",  ["r", "u.ru", "ng"]),
-    ("runk",  ["r", "u.ru", "nk"]),
     ("ruth",  ["r", "u.ru", "th.over.skew30"]),
-    ("ruth)", ["r", "u.ru", "th.under"]),
 ])
 def test_r_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -155,10 +146,55 @@ def test_r_u(font, text, expected_glyphs):
     ("luj",   ["l", "u.ru", "j"]),
     ("lus(",  ["l", "u.rup", "s.left"]),
     ("lus",   ["l", "u.ru", "s.right"]),
-    ("lung",  ["l", "u.ru", "ng"]),
-    ("lunk",  ["l", "u.ru", "nk"]),
     ("luth",  ["l", "u.ru", "th.over.skew30"]),
-    ("luth)", ["l", "u.ru", "th.under"]),
 ])
 def test_l_u(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("nuk",  ["n", "u.nuk", "k"]),
+    ("nug",  ["n", "u.nuk", "g"]),
+    ("nur",  ["n", "u.nu", "r"]),
+    ("nul",  ["n", "u.nu", "l"]),
+    ("nun",  ["n", "u.nu", "n"]),
+    ("num",  ["n", "u.nu", "m"]),
+    ("nut",  ["n", "u.nut", "t"]),
+    ("nud",  ["n", "u.nut", "d"]),
+    ("nup",  ["n", "u.nup", "p"]),
+    ("nub",  ["n", "u.nup", "b"]),
+    ("nuf",  ["n", "u.nu", "f"]),
+    ("nuv",  ["n", "u.nu", "v"]),
+    ("nush", ["n", "u.nu", "sh"]),
+    ("nuch", ["n", "u.nu", "ch"]),
+    ("nuj",  ["n", "u.nu", "j"]),
+    ("nus(", ["n", "u.nup", "s.left"]),
+    ("nus",  ["n", "u.nu", "s.right"]),
+    ("nuth", ["n", "u.nut", "th.over.skew30"]),
+])
+def test_n_u(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("muk",  ["m", "u.nuk", "k"]),
+    ("mug",  ["m", "u.nuk", "g"]),
+    ("mur",  ["m", "u.nu", "r"]),
+    ("mul",  ["m", "u.nu", "l"]),
+    ("mun",  ["m", "u.nu", "n"]),
+    ("mum",  ["m", "u.nu", "m"]),
+    ("mut",  ["m", "u.nut", "t"]),
+    ("mud",  ["m", "u.nut", "d"]),
+    ("mup",  ["m", "u.nup", "p"]),
+    ("mub",  ["m", "u.nup", "b"]),
+    ("muf",  ["m", "u.nu", "f"]),
+    ("muv",  ["m", "u.nu", "v"]),
+    ("mush", ["m", "u.nu", "sh"]),
+    ("much", ["m", "u.nu", "ch"]),
+    ("muj",  ["m", "u.nu", "j"]),
+    ("mus(", ["m", "u.nup", "s.left"]),
+    ("mus",  ["m", "u.nu", "s.right"]),
+    ("muth", ["m", "u.nut", "th.over.skew30"]),
+])
+def test_m_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

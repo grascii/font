@@ -33,4 +33,14 @@ MultipleSubs2: "After f" u.fu
 MultipleSubs2: "After ng" u.ngu
 MultipleSubs2: "After tn" u.tnu
 MultipleSubs2: "Between r k" u.ru
+MultipleSubs2: "Between n k" u.nuk
+MultipleSubs2: "Between n r" u.nu
+MultipleSubs2: "Between n n" u.nu
+MultipleSubs2: "Between n t" u.nut
+MultipleSubs2: "Between n p" u.nup
+MultipleSubs2: "Between n f" u.nu
+MultipleSubs2: "Between n ch" u.nu
+MultipleSubs2: "Between n ng" u.nu
+MultipleSubs2: "Between n tn" u.nut
+MultipleSubs2: "Between n nt" u.nu
 EndChar

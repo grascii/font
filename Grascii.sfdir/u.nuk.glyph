@@ -1,0 +1,15 @@
+StartChar: u.nuk
+Encoding: 1176 -1 276
+Width: 102
+VWidth: 1061
+Flags: W
+AnchorPoint: "Join" 10 0 exit 0
+AnchorPoint: "Join" 40 62 entry 0
+LayerCount: 2
+Fore
+SplineSet
+40 62 m 0
+ 72 62 89 62 92 51 c 0
+ 101 19 47 17 10 0 c 1024
+EndSplineSet
+EndChar
