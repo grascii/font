@@ -1,0 +1,15 @@
+StartChar: u.tnut
+Encoding: 1194 -1 285
+Width: 69
+VWidth: 1070
+Flags: W
+AnchorPoint: "Join" 10 0 exit 0
+AnchorPoint: "Join" 10 71 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 71 m 0
+ 32 71 52 66 58 44 c 0
+ 63 24 45 20 10 0 c 1024
+EndSplineSet
+EndChar
