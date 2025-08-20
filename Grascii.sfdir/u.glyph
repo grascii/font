@@ -13,6 +13,15 @@ Position2: "Position Before j" dx=315 dy=727 dh=0 dv=0
 Position2: "Position Before ng" dx=0 dy=62 dh=0 dv=0
 Position2: "Position Before nk" dx=0 dy=124 dh=0 dv=0
 Position2: "Position Before sh" dx=15 dy=208 dh=0 dv=0
+MultipleSubs2: "Between r nt" u.ru
+MultipleSubs2: "Between r tn" u.ru
+MultipleSubs2: "Between r ng" u.ru
+MultipleSubs2: "Between r ch" u.ru
+MultipleSubs2: "Between r f" u.ru
+MultipleSubs2: "Between r p" u.rup
+MultipleSubs2: "Between r t" u.ru
+MultipleSubs2: "Between r n" u.ru
+MultipleSubs2: "Between r r" u.rur
 MultipleSubs2: "Between k r" u.kur
 MultipleSubs2: "Before f" u.uf
 MultipleSubs2: "Before p" u.up
@@ -23,4 +32,5 @@ MultipleSubs2: "After t" u.tu
 MultipleSubs2: "After f" u.fu
 MultipleSubs2: "After ng" u.ngu
 MultipleSubs2: "After tn" u.tnu
+MultipleSubs2: "Between r k" u.ru
 EndChar
