@@ -1,0 +1,11 @@
+StartChar: u.fuch
+Encoding: 1192 -1 284
+Width: 185
+VWidth: 1105
+Flags: W
+AnchorPoint: "Join" 145 0 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+Refer: 259 -1 N -1 1.22465e-16 -1.22465e-16 -1 185 105 2
+EndChar

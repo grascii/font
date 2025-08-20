@@ -1,0 +1,14 @@
+StartChar: u.fur
+Encoding: 1188 -1 282
+Width: 174
+Flags: W
+AnchorPoint: "Join" 147 0 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 0 m 0
+ 46 31 117 109 153 88 c 0
+ 180 72 147 35 147 0 c 1024
+EndSplineSet
+EndChar

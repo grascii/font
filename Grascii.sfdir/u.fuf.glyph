@@ -1,0 +1,13 @@
+StartChar: u.fuf
+Encoding: 1190 -1 283
+Width: 107
+Flags: W
+AnchorPoint: "Join" 97 40 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 0 m 0
+ 55 42 77 52 97 40 c 1024
+EndSplineSet
+EndChar

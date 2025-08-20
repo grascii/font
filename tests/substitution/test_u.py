@@ -294,3 +294,51 @@ def test_p_u(font, text, expected_glyphs):
 ])
 def test_b_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("fuk",  ["f", "u.fu", "k"]),
+    ("fug",  ["f", "u.fu", "g"]),
+    ("fur",  ["f", "u.fur", "r"]),
+    ("ful",  ["f", "u.fur", "l"]),
+    ("fun",  ["f", "u.fu", "n"]),
+    ("fum",  ["f", "u.fu", "m"]),
+    ("fut",  ["f", "u.fu", "t"]),
+    ("fud",  ["f", "u.fu", "d"]),
+    ("fup",  ["f", "u.up", "p"]),
+    ("fub",  ["f", "u.up", "b"]),
+    ("fuf",  ["f", "u.fuf", "f"]),
+    ("fuv",  ["f", "u.fuf", "v"]),
+    ("fush", ["f", "u.fuch", "sh"]),
+    ("fuch", ["f", "u.fuch", "ch"]),
+    ("fuj",  ["f", "u.fuch", "j"]),
+    ("fus(", ["f", "u.up", "s.left"]),
+    ("fus",  ["f", "u.fuf", "s.right"]),
+    ("futh", ["f", "u.fu", "th.over.skew30"]),
+])
+def test_f_u(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("vuk",  ["v", "u.fu", "k"]),
+    ("vug",  ["v", "u.fu", "g"]),
+    ("vur",  ["v", "u.fur", "r"]),
+    ("vul",  ["v", "u.fur", "l"]),
+    ("vun",  ["v", "u.fu", "n"]),
+    ("vum",  ["v", "u.fu", "m"]),
+    ("vut",  ["v", "u.fu", "t"]),
+    ("vud",  ["v", "u.fu", "d"]),
+    ("vup",  ["v", "u.up", "p"]),
+    ("vub",  ["v", "u.up", "b"]),
+    ("vuf",  ["v", "u.fuf", "f"]),
+    ("vuv",  ["v", "u.fuf", "v"]),
+    ("vush", ["v", "u.fuch", "sh"]),
+    ("vuch", ["v", "u.fuch", "ch"]),
+    ("vuj",  ["v", "u.fuch", "j"]),
+    ("vus(", ["v", "u.up", "s.left"]),
+    ("vus",  ["v", "u.fuf", "s.right"]),
+    ("vuth", ["v", "u.fu", "th.over.skew30"]),
+])
+def test_v_u(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

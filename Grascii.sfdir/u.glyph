@@ -53,4 +53,13 @@ MultipleSubs2: "Between r ch" u.ru
 MultipleSubs2: "Between r ng" u.ru
 MultipleSubs2: "Between r tn" u.ru
 MultipleSubs2: "Between r nt" u.ru
+MultipleSubs2: "Between f k" u.fu
+MultipleSubs2: "Between f r" u.fur
+MultipleSubs2: "Between f n" u.fu
+MultipleSubs2: "Between f t" u.fu
+MultipleSubs2: "Between f f" u.fuf
+MultipleSubs2: "Between f ch" u.fuch
+MultipleSubs2: "Between f ng" u.fu
+MultipleSubs2: "Between f tn" u.fu
+MultipleSubs2: "Between f nt" u.fu
 EndChar
