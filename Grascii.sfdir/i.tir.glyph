@@ -1,0 +1,10 @@
+StartChar: i.tir
+Encoding: 1282 -1 306
+Width: 182
+Flags: W
+AnchorPoint: "Join" 90.3066 29.4453 exit 0
+AnchorPoint: "Join" 107.307 0 entry 0
+LayerCount: 2
+Fore
+Refer: 305 -1 N 0.866025 0.5 -0.5 0.866025 38.024 -40 2
+EndChar

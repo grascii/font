@@ -169,3 +169,45 @@ def test_m_i(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
 
 
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("tik",   ["t", "i.ti", "k"]),
+    ("tig",   ["t", "i.ti", "g"]),
+    ("tir",   ["t", "i.tir", "r"]),
+    ("til",   ["t", "i.tir", "l"]),
+    ("tin",   ["t", "i.tir", "n"]),
+    ("tim",   ["t", "i.tir", "m"]),
+    ("tit",   ["t", "i.ti", "t"]),
+    ("tid",   ["t", "i.ti", "d"]),
+    ("tip",   ["t", "i.tip", "p"]),
+    ("tib",   ["t", "i.tip", "b"]),
+    ("tif",   ["t", "i.tir", "f.cut"]),
+    ("tiv",   ["t", "i.tir", "v.cut"]),
+    ("tis)",  ["t", "i.tir", "s.right.cut"]),
+    ("tis",   ["t", "i.tip", "s.left"]),
+    ("tith",  ["t", "i.ti", "th.over"]),
+])
+def test_t_i(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("dik",   ["d", "i.ti", "k"]),
+    ("dig",   ["d", "i.ti", "g"]),
+    ("dir",   ["d", "i.tir", "r"]),
+    ("dil",   ["d", "i.tir", "l"]),
+    ("din",   ["d", "i.tir", "n"]),
+    ("dim",   ["d", "i.tir", "m"]),
+    ("dit",   ["d", "i.ti", "t"]),
+    ("did",   ["d", "i.ti", "d"]),
+    ("dip",   ["d", "i.tip", "p"]),
+    ("dib",   ["d", "i.tip", "b"]),
+    ("dif",   ["d", "i.tir", "f.cut"]),
+    ("div",   ["d", "i.tir", "v.cut"]),
+    ("dis)",  ["d", "i.tir", "s.right.cut"]),
+    ("dis",   ["d", "i.tip", "s.left"]),
+    ("dith",  ["d", "i.ti", "th.over"]),
+])
+def test_d_i(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+

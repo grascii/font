@@ -1,0 +1,15 @@
+StartChar: i.tip
+Encoding: 1284 -1 307
+Width: 181
+Flags: W
+AnchorPoint: "Join" 139 32 exit 0
+AnchorPoint: "Join" 107 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+107 0 m 0
+ 152 26 188 52 164 94 c 0
+ 131 145 1 72 11 21 c 0
+ 21 -15 107 0 139 32 c 1024
+EndSplineSet
+EndChar
