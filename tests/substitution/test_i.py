@@ -129,3 +129,43 @@ def test_l_i(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
 
 
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("nik",   ["n", "i.ni", "k"]),
+    ("nig",   ["n", "i.ni", "g"]),
+    ("nir",   ["n", "i.nir", "r"]),
+    ("nil",   ["n", "i.nir", "l"]),
+    ("nin",   ["n", "i.ni", "n"]),
+    ("nim",   ["n", "i.ni", "m"]),
+    ("nit",   ["n", "i.ni", "t"]),
+    ("nid",   ["n", "i.ni", "d"]),
+    ("nip",   ["n", "i.nir", "p"]),
+    ("nib",   ["n", "i.nir", "b"]),
+    ("nif",   ["n", "i.nir", "f.cut"]),
+    ("niv",   ["n", "i.nir", "v.cut"]),
+    ("nis)",  ["n", "i.nir", "s.right.cut"]),
+    ("nis",   ["n", "i.nir", "s.left"]),
+])
+def test_n_i(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("mik",   ["m", "i.ni", "k"]),
+    ("mig",   ["m", "i.ni", "g"]),
+    ("mir",   ["m", "i.nir", "r"]),
+    ("mil",   ["m", "i.nir", "l"]),
+    ("min",   ["m", "i.ni", "n"]),
+    ("mim",   ["m", "i.ni", "m"]),
+    ("mit",   ["m", "i.ni", "t"]),
+    ("mid",   ["m", "i.ni", "d"]),
+    ("mip",   ["m", "i.nir", "p"]),
+    ("mib",   ["m", "i.nir", "b"]),
+    ("mif",   ["m", "i.nir", "f.cut"]),
+    ("miv",   ["m", "i.nir", "v.cut"]),
+    ("mis)",  ["m", "i.nir", "s.right.cut"]),
+    ("mis",   ["m", "i.nir", "s.left"]),
+])
+def test_m_i(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+

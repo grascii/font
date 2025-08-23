@@ -1,0 +1,15 @@
+StartChar: i.nir
+Encoding: 1280 -1 305
+Width: 185
+Flags: W
+AnchorPoint: "Join" 80 34 exit 0
+AnchorPoint: "Join" 80 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+80 0 m 0
+ 132 0 176 4 176 52 c 0
+ 172 126 28 123 11 74 c 0
+ 1 38 45 14 80 34 c 1024
+EndSplineSet
+EndChar

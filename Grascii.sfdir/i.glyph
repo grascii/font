@@ -15,39 +15,49 @@ SplineSet
  277 175 231 210 194 213 c 0
  150 213 91 182 114 97 c 1024
 EndSplineSet
-MultipleSubs2: "Between r ng" i.ri
-MultipleSubs2: "After ch" i.chi
-MultipleSubs2: "After tn" i.tni
-MultipleSubs2: "After t" i.ti
-MultipleSubs2: "After r" i.ri
-MultipleSubs2: "After p" i.pi
-MultipleSubs2: "After ng" i.ngi
-MultipleSubs2: "After n" i.ni
-MultipleSubs2: "After k" i.ki
-MultipleSubs2: "After f" i.fi
-MultipleSubs2: "Before ch" i.ich
-MultipleSubs2: "Before f" i.if
-MultipleSubs2: "Before k" i.ik
-MultipleSubs2: "Before n" i.in
-MultipleSubs2: "Before p" i.ip
-MultipleSubs2: "Before r" i.ir
-MultipleSubs2: "Before t" i.it
-MultipleSubs2: "Between k k" i.ki
-MultipleSubs2: "Between k r" i.kir
-MultipleSubs2: "Between k n" i.kin
-MultipleSubs2: "Between k t" i.kin
-MultipleSubs2: "Between k p" i.ki
-MultipleSubs2: "Between k f" i.kin
-MultipleSubs2: "Between k ch" i.ki
-MultipleSubs2: "Between k ng" i.ki
-MultipleSubs2: "Between k tn" i.ki
-MultipleSubs2: "Between k nt" i.ki
-MultipleSubs2: "Between r k" i.rik
-MultipleSubs2: "Between r r" i.ri
-MultipleSubs2: "Between r n" i.ri
-MultipleSubs2: "Between r t" i.ri
-MultipleSubs2: "Between r p" i.ri
-MultipleSubs2: "Between r f" i.ri
-MultipleSubs2: "Between r ch" i.ri
+MultipleSubs2: "Between n nt" i.ni
+MultipleSubs2: "Between n tn" i.ni
+MultipleSubs2: "Between n ng" i.nir
+MultipleSubs2: "Between n ch" i.nir
+MultipleSubs2: "Between n f" i.nir
+MultipleSubs2: "Between n p" i.nir
+MultipleSubs2: "Between n t" i.ni
+MultipleSubs2: "Between n n" i.ni
+MultipleSubs2: "Between n r" i.nir
+MultipleSubs2: "Between n k" i.ni
 MultipleSubs2: "Between r nt" i.ri
+MultipleSubs2: "Between r ch" i.ri
+MultipleSubs2: "Between r f" i.ri
+MultipleSubs2: "Between r p" i.ri
+MultipleSubs2: "Between r t" i.ri
+MultipleSubs2: "Between r n" i.ri
+MultipleSubs2: "Between r r" i.ri
+MultipleSubs2: "Between r k" i.rik
+MultipleSubs2: "Between k nt" i.ki
+MultipleSubs2: "Between k tn" i.ki
+MultipleSubs2: "Between k ng" i.ki
+MultipleSubs2: "Between k ch" i.ki
+MultipleSubs2: "Between k f" i.kin
+MultipleSubs2: "Between k p" i.ki
+MultipleSubs2: "Between k t" i.kin
+MultipleSubs2: "Between k n" i.kin
+MultipleSubs2: "Between k r" i.kir
+MultipleSubs2: "Between k k" i.ki
+MultipleSubs2: "Before t" i.it
+MultipleSubs2: "Before r" i.ir
+MultipleSubs2: "Before p" i.ip
+MultipleSubs2: "Before n" i.in
+MultipleSubs2: "Before k" i.ik
+MultipleSubs2: "Before f" i.if
+MultipleSubs2: "Before ch" i.ich
+MultipleSubs2: "After f" i.fi
+MultipleSubs2: "After k" i.ki
+MultipleSubs2: "After n" i.ni
+MultipleSubs2: "After ng" i.ngi
+MultipleSubs2: "After p" i.pi
+MultipleSubs2: "After r" i.ri
+MultipleSubs2: "After t" i.ti
+MultipleSubs2: "After tn" i.tni
+MultipleSubs2: "After ch" i.chi
+MultipleSubs2: "Between r ng" i.ri
 EndChar
