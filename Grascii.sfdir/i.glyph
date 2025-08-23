@@ -15,6 +15,7 @@ SplineSet
  277 175 231 210 194 213 c 0
  150 213 91 182 114 97 c 1024
 EndSplineSet
+MultipleSubs2: "Between r ng" i.ri
 MultipleSubs2: "After ch" i.chi
 MultipleSubs2: "After tn" i.tni
 MultipleSubs2: "After t" i.ti
@@ -41,4 +42,12 @@ MultipleSubs2: "Between k ch" i.ki
 MultipleSubs2: "Between k ng" i.ki
 MultipleSubs2: "Between k tn" i.ki
 MultipleSubs2: "Between k nt" i.ki
+MultipleSubs2: "Between r k" i.rik
+MultipleSubs2: "Between r r" i.ri
+MultipleSubs2: "Between r n" i.ri
+MultipleSubs2: "Between r t" i.ri
+MultipleSubs2: "Between r p" i.ri
+MultipleSubs2: "Between r f" i.ri
+MultipleSubs2: "Between r ch" i.ri
+MultipleSubs2: "Between r nt" i.ri
 EndChar

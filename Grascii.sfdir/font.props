@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1755985064
+ModificationTime: 1755985897
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -1596,15 +1596,15 @@ ChainSub2: class "th Direction" 5 5 5 7
   Class: 2 th
   Class: 3 r l
   Class: 1 o
-  Class: 3 a e
+  Class: 5 a e i
   BClass: 2 th
   BClass: 3 r l
   BClass: 1 o
-  BClass: 3 a e
+  BClass: 5 a e i
   FClass: 2 th
   FClass: 3 r l
   FClass: 1 o
-  FClass: 3 a e
+  FClass: 5 a e i
  1 0 1
   ClsList: 1
   BClsList:

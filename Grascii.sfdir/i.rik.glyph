@@ -1,0 +1,16 @@
+StartChar: i.rik
+Encoding: 1278 -1 304
+Width: 212
+VWidth: 1111
+Flags: W
+AnchorPoint: "Join" 119 82 exit 0
+AnchorPoint: "Join" 98 111 entry 0
+LayerCount: 2
+Fore
+SplineSet
+98 111 m 0
+ 172 143 218 98 198 63 c 0
+ 175 22 39 -32 13 24 c 0
+ -5 63 67 111 119 82 c 1024
+EndSplineSet
+EndChar
