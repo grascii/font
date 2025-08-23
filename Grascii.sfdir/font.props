@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1755978582
+ModificationTime: 1755985064
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -46,7 +46,7 @@ OS2Vendor: 'PfEd'
 Lookup: 4 0 0 "Multichar strokes" { "ch sh th ng nk"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Annotated Directions" { "Annotated Directions"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Directions" { "s Direction"  "th Direction"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "Consonant Joinings" { "k Joinings 1"  "k Joinings 2"  "r Joinings Overrides"  "r Joinings 1"  "r Joinings 2"  "r Joinings 3"  "p Joinings 1"  "p Joinings 2"  "p Joinings 3"  "f Joinings 1"  "f Joinings 2"  "s.right Joinings 1"  "s.right Joinings 2"  "s.left Joinings 1"  "s.left Joinings 2"  "th.over Joinings 1"  "th.over Joinings 2"  "th.over Joinings 3"  "th.under Joinings 1"  "th.under Joinings 2"  "th.under Joinings 3"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "Consonant Joinings" { "k Joinings 1"  "k Joinings 2"  "r Joinings Overrides"  "r Joinings 1"  "r Joinings 2"  "r Joinings 3"  "p Joinings 1"  "p Joinings 2"  "p Joinings 3"  "f Joinings 1"  "f Joinings 2"  "f Joinings 3"  "s.right Joinings 1"  "s.right Joinings 2"  "s.right Joinings 3"  "s.left Joinings 1"  "s.left Joinings 2"  "th.over Joinings 1"  "th.over Joinings 2"  "th.over Joinings 3"  "th.under Joinings 1"  "th.under Joinings 2"  "th.under Joinings 3"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 1 "Vowel Between" { "Between k *"  "Between r *"  "Between n *"  "Between t *"  "Between p *"  "Between f *"  "Between ch *"  "Between ng *"  "Between tn *"  "Between nt *"  } ['rclt' ('latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Vowel Before/After" { "Vowel Before Overrides"  "Vowel Before"  "Vowel After Overrides"  "Vowel After"  "Unlock Vowel"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Cut Consonant" { "Cut Consonant" ("cut") } []
@@ -210,6 +210,20 @@ Lookup: 257 0 0 "Position Before th" { "Position Before th"  } []
 Lookup: 257 0 0 "Position Before v" { "Position Before v"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "s.right Joinings 2" 0 0 0 1
+ 1 2 0
+  Coverage: 7 s.right
+  BCoverage: 1 i
+  BCoverage: 11 k.cut g.cut
+ 0
+EndFPST
+ChainSub2: coverage "f Joinings 2" 0 0 0 1
+ 1 2 0
+  Coverage: 3 f v
+  BCoverage: 1 i
+  BCoverage: 11 k.cut g.cut
+ 0
+EndFPST
 ChainSub2: coverage "s.left Joinings 2" 0 0 0 1
  1 0 1
   Coverage: 6 s.left
@@ -231,14 +245,14 @@ ChainSub2: coverage "k Joinings 2" 0 0 0 1
  1
   SeqLookup: 0 "Cut Consonant"
 EndFPST
-ChainSub2: coverage "s.right Joinings 2" 0 0 0 1
+ChainSub2: coverage "s.right Joinings 3" 0 0 0 1
  1 1 0
   Coverage: 7 s.right
   BCoverage: 1 i
  1
   SeqLookup: 0 "Cut Consonant"
 EndFPST
-ChainSub2: coverage "f Joinings 2" 0 0 0 1
+ChainSub2: coverage "f Joinings 3" 0 0 0 1
  1 1 0
   Coverage: 3 f v
   BCoverage: 1 i

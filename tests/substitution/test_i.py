@@ -49,3 +49,34 @@ def test_i_before(font, text, expected_glyphs):
 ])
 def test_i_after(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("kir",  ["k.cut", "i.kir", "r"]),
+    ("kil",  ["k.cut", "i.kir", "l"]),
+    ("kin",  ["k.cut", "i.kin", "n"]),
+    ("kim",  ["k.cut", "i.kin", "m"]),
+    ("kit",  ["k.cut", "i.kin", "t"]),
+    ("kid",  ["k.cut", "i.kin", "d"]),
+    ("kif",  ["k.cut", "i.kin", "f"]),
+    ("kiv",  ["k.cut", "i.kin", "v"]),
+    ("kis)", ["k.cut", "i.kin", "s.right"]),
+])
+def test_k_i(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("gir",  ["g.cut", "i.kir", "r"]),
+    ("gil",  ["g.cut", "i.kir", "l"]),
+    ("gin",  ["g.cut", "i.kin", "n"]),
+    ("gim",  ["g.cut", "i.kin", "m"]),
+    ("git",  ["g.cut", "i.kin", "t"]),
+    ("gid",  ["g.cut", "i.kin", "d"]),
+    ("gif",  ["g.cut", "i.kin", "f"]),
+    ("giv",  ["g.cut", "i.kin", "v"]),
+    ("gis)", ["g.cut", "i.kin", "s.right"]),
+])
+def test_g_i(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+

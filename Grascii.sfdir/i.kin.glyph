@@ -1,0 +1,17 @@
+StartChar: i.kin
+Encoding: 1276 -1 303
+Width: 199
+VWidth: 1148
+Flags: W
+AnchorPoint: "Join" 120 88 exit 0
+AnchorPoint: "Join" 144 148 entry 0
+LayerCount: 2
+Fore
+SplineSet
+144 148 m 0
+ 267 77 106 -14 47 2 c 0
+ -3 15 4 72 28 96 c 0
+ 47 115 68 131 96 131 c 0
+ 112 131 149 117 120 88 c 1024
+EndSplineSet
+EndChar

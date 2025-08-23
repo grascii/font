@@ -31,4 +31,14 @@ MultipleSubs2: "Before n" i.in
 MultipleSubs2: "Before p" i.ip
 MultipleSubs2: "Before r" i.ir
 MultipleSubs2: "Before t" i.it
+MultipleSubs2: "Between k k" i.ki
+MultipleSubs2: "Between k r" i.kir
+MultipleSubs2: "Between k n" i.kin
+MultipleSubs2: "Between k t" i.kin
+MultipleSubs2: "Between k p" i.ki
+MultipleSubs2: "Between k f" i.kin
+MultipleSubs2: "Between k ch" i.ki
+MultipleSubs2: "Between k ng" i.ki
+MultipleSubs2: "Between k tn" i.ki
+MultipleSubs2: "Between k nt" i.ki
 EndChar
