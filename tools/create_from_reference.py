@@ -38,6 +38,10 @@ transformations = {
         "matrix": psMat.rotate(math.radians(-15)),
         "reverse": False,
     },
+    "N to CH": {
+        "matrix": psMat.rotate(math.radians(-120)),
+        "reverse": False,
+    },
     "Skew 30": {
         "matrix": psMat.skew(math.radians(30)),
         "reverse": False,
@@ -81,6 +85,11 @@ def create_from_reference(data, glyph):
                 "question": "transformation",
                 "answers": list({"name": t, "default": t == "Identity"} for t in transformations.keys())
             },
+            {
+                "type": "choice",
+                "question": "transformation2",
+                "answers": list({"name": t, "default": t == "Identity"} for t in transformations.keys())
+            },
         ]
     )
 
@@ -99,8 +108,12 @@ def create_from_reference(data, glyph):
                 exit_anchor = (anchor[2], anchor[3])
 
     transformation = transformations[answers["transformation"]]
+    transformation2 = transformations[answers["transformation2"]]
 
     if transformation["reverse"]:
+        entry_anchor, exit_anchor = exit_anchor, entry_anchor
+
+    if transformation2["reverse"]:
         entry_anchor, exit_anchor = exit_anchor, entry_anchor
 
     if entry_anchor:
@@ -110,7 +123,7 @@ def create_from_reference(data, glyph):
 
     glyph.addReference(reference_glyph.glyphname)
 
-    glyph.transform(transformation["matrix"])
+    glyph.transform(compose(transformation["matrix"], transformation2["matrix"]))
     glyph.left_side_bearing = 0
     glyph.right_side_bearing = 0
 

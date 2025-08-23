@@ -1,0 +1,18 @@
+StartChar: i.tni
+Encoding: 1256 -1 300
+Width: 211
+VWidth: 1107
+Flags: W
+AnchorPoint: "Join" 116 62 exit 0
+AnchorPoint: "Join" 111 108 entry 0
+LayerCount: 2
+Fore
+SplineSet
+111 108 m 0
+ 150 108 202 104 202 72 c 0
+ 202 44 178 15 146 6 c 0
+ 94 -8 10 3 10 48 c 0
+ 10 84 80 108 111 108 c 0
+ 145 108 121 73 116 62 c 1024
+EndSplineSet
+EndChar

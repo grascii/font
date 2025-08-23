@@ -1,0 +1,11 @@
+StartChar: i.pi
+Encoding: 1252 -1 297
+Width: 191
+VWidth: 1280
+Flags: W
+AnchorPoint: "Join" 73.9619 61.9307 exit 0
+AnchorPoint: "Join" 10 71.1465 entry 0
+LayerCount: 2
+Fore
+Refer: 293 -1 N -0.5 -0.866025 -0.866025 0.5 204.646 134.282 2
+EndChar

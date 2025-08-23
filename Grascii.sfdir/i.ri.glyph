@@ -1,0 +1,11 @@
+StartChar: i.ri
+Encoding: 1249 -1 294
+Width: 206
+VWidth: 1128
+Flags: W
+AnchorPoint: "Join" 127.421 57.2412 exit 0
+AnchorPoint: "Join" 134.421 21.2412 entry 0
+LayerCount: 2
+Fore
+Refer: 286 -1 N -1 1.22465e-16 -1.22465e-16 -1 205.421 128.241 2
+EndChar

@@ -1,0 +1,17 @@
+StartChar: i.ip
+Encoding: 1226 -1 290
+Width: 241
+VWidth: 1121
+Flags: W
+AnchorPoint: "Join" 105 72 exit 0
+AnchorPoint: "Join" 210 122 entry 0
+LayerCount: 2
+Fore
+SplineSet
+210 122 m 0
+ 69 160 20 90 11 57 c 0
+ 1 19 65 0 102 0 c 0
+ 177 0 274 105 210 122 c 0
+ 182 130 140 103 105 72 c 1024
+EndSplineSet
+EndChar

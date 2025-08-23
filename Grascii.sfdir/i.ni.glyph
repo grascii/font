@@ -1,0 +1,18 @@
+StartChar: i.ni
+Encoding: 1250 -1 295
+Width: 200
+VWidth: 1103
+Flags: W
+AnchorPoint: "Join" 102 56 exit 0
+AnchorPoint: "Join" 87 103 entry 0
+LayerCount: 2
+Fore
+SplineSet
+87 103 m 0
+ 139 103 190 99 190 51 c 0
+ 190 28 174 18 146 7 c 0
+ 96 -12 10 8 10 53 c 0
+ 10 76 28 89 52 98 c 0
+ 87 107 125 96 102 56 c 1024
+EndSplineSet
+EndChar

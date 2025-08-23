@@ -15,4 +15,20 @@ SplineSet
  277 175 231 210 194 213 c 0
  150 213 91 182 114 97 c 1024
 EndSplineSet
+MultipleSubs2: "After ch" i.chi
+MultipleSubs2: "After tn" i.tni
+MultipleSubs2: "After t" i.ti
+MultipleSubs2: "After r" i.ri
+MultipleSubs2: "After p" i.pi
+MultipleSubs2: "After ng" i.ngi
+MultipleSubs2: "After n" i.ni
+MultipleSubs2: "After k" i.ki
+MultipleSubs2: "After f" i.fi
+MultipleSubs2: "Before ch" i.ich
+MultipleSubs2: "Before f" i.if
+MultipleSubs2: "Before k" i.ik
+MultipleSubs2: "Before n" i.in
+MultipleSubs2: "Before p" i.ip
+MultipleSubs2: "Before r" i.ir
+MultipleSubs2: "Before t" i.it
 EndChar

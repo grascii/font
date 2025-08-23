@@ -1,0 +1,11 @@
+StartChar: i.ngi
+Encoding: 1255 -1 299
+Width: 196
+VWidth: 1031
+Flags: W
+AnchorPoint: "Join" 100.812 59.1953 exit 0
+AnchorPoint: "Join" 98.4873 108.476 entry 0
+LayerCount: 2
+Fore
+Refer: 295 -1 N 0.965926 -0.258819 0.258819 0.965926 -12.2071 31.5027 2
+EndChar

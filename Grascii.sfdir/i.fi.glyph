@@ -1,0 +1,11 @@
+StartChar: i.fi
+Encoding: 1253 -1 298
+Width: 197
+VWidth: 1299
+Flags: W
+AnchorPoint: "Join" 91.9473 49.1543 exit 0
+AnchorPoint: "Join" 119.624 25.0928 entry 0
+LayerCount: 2
+Fore
+Refer: 286 -1 N 0.5 0.866025 0.866025 -0.5 -8.5406 17.1049 2
+EndChar

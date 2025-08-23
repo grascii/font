@@ -1,0 +1,11 @@
+StartChar: i.chi
+Encoding: 1254 -1 301
+Width: 150
+VWidth: 1197
+Flags: W
+AnchorPoint: "Join" 76.6943 80.6768 exit 0
+AnchorPoint: "Join" 124.897 70.168 entry 0
+LayerCount: 2
+Fore
+Refer: 295 -1 N -0.5 -0.866025 0.866025 -0.5 79.1975 197.011 2
+EndChar
