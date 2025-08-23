@@ -245,3 +245,40 @@ def test_b_i(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
 
 
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("fik",   ["f", "i.fi", "k"]),
+    ("fig",   ["f", "i.fi", "g"]),
+    ("fir",   ["f", "i.fi", "r"]),
+    ("fil",   ["f", "i.fi", "l"]),
+    ("fin",   ["f", "i.fi", "n"]),
+    ("fim",   ["f", "i.fi", "m"]),
+    ("fit",   ["f", "i.fit", "t"]),
+    ("fid",   ["f", "i.fit", "d"]),
+    ("fip",   ["f", "i.fip", "p"]),
+    ("fib",   ["f", "i.fip", "b"]),
+    ("fif",   ["f", "i.fi", "f"]),
+    ("fiv",   ["f", "i.fi", "v"]),
+    ("fis)",  ["f", "i.fi", "s.right"]),
+])
+def test_f_i(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("vik",   ["v", "i.fi", "k"]),
+    ("vig",   ["v", "i.fi", "g"]),
+    ("vir",   ["v", "i.fi", "r"]),
+    ("vil",   ["v", "i.fi", "l"]),
+    ("vin",   ["v", "i.fi", "n"]),
+    ("vim",   ["v", "i.fi", "m"]),
+    ("vit",   ["v", "i.fit", "t"]),
+    ("vid",   ["v", "i.fit", "d"]),
+    ("vip",   ["v", "i.fip", "p"]),
+    ("vib",   ["v", "i.fip", "b"]),
+    ("vif",   ["v", "i.fi", "f"]),
+    ("viv",   ["v", "i.fi", "v"]),
+    ("vis)",  ["v", "i.fi", "s.right"]),
+])
+def test_v_i(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+

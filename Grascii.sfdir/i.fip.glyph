@@ -1,0 +1,11 @@
+StartChar: i.fip
+Encoding: 1292 -1 311
+Width: 188
+VWidth: 1139
+Flags: W
+AnchorPoint: "Join" 68.2646 77.9189 exit 0
+AnchorPoint: "Join" 53.6494 110.605 entry 0
+LayerCount: 2
+Fore
+Refer: 304 -1 N -0.5 -0.866025 -0.866025 0.5 198.778 139.975 2
+EndChar
