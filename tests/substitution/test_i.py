@@ -211,3 +211,37 @@ def test_d_i(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
 
 
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("pik",   ["p.cut", "i.pik", "k"]),
+    ("pig",   ["p.cut", "i.pik", "g"]),
+    ("pir",   ["p.cut", "i.pir", "r.cut"]),
+    ("pil",   ["p.cut", "i.pir", "l.cut"]),
+    ("pin",   ["p.cut", "i.pik", "n"]),
+    ("pim",   ["p.cut", "i.pik", "m"]),
+    ("pit",   ["p.cut", "i.pik", "t"]),
+    ("pid",   ["p.cut", "i.pik", "d"]),
+    ("pip",   ["p.cut", "i.pi", "p"]),
+    ("pib",   ["p.cut", "i.pi", "b"]),
+    ("pis",   ["p.cut", "i.pi", "s.left"]),
+])
+def test_p_i(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("bik",   ["b.cut", "i.pik", "k"]),
+    ("big",   ["b.cut", "i.pik", "g"]),
+    ("bir",   ["b.cut", "i.pir", "r.cut"]),
+    ("bil",   ["b.cut", "i.pir", "l.cut"]),
+    ("bin",   ["b.cut", "i.pik", "n"]),
+    ("bim",   ["b.cut", "i.pik", "m"]),
+    ("bit",   ["b.cut", "i.pik", "t"]),
+    ("bid",   ["b.cut", "i.pik", "d"]),
+    ("bip",   ["b.cut", "i.pi", "p"]),
+    ("bib",   ["b.cut", "i.pi", "b"]),
+    ("bis",   ["b.cut", "i.pi", "s.left"]),
+])
+def test_b_i(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+

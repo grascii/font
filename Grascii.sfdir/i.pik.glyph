@@ -1,0 +1,17 @@
+StartChar: i.pik
+Encoding: 1286 -1 308
+Width: 199
+VWidth: 1113
+Flags: W
+AnchorPoint: "Join" 143 60 exit 0
+AnchorPoint: "Join" 189 114 entry 0
+LayerCount: 2
+Fore
+SplineSet
+189 114 m 0
+ 189 36 105 -13 46 3 c 0
+ -3 16 2 43 32 73 c 0
+ 61 102 102 107 135 107 c 0
+ 158 107 181 82 143 60 c 1024
+EndSplineSet
+EndChar
