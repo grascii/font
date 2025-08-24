@@ -1,0 +1,17 @@
+StartChar: i.chif
+Encoding: 1300 -1 315
+Width: 183
+VWidth: 1070
+Flags: W
+AnchorPoint: "Join" 127 43 exit 0
+AnchorPoint: "Join" 173 70 entry 0
+LayerCount: 2
+Fore
+SplineSet
+173 70 m 0
+ 139 12 116 0 77 0 c 0
+ 37 0 2 14 12 50 c 0
+ 19 75 85 109 125 109 c 0
+ 156 109 173 70 127 43 c 1024
+EndSplineSet
+EndChar

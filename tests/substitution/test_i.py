@@ -282,3 +282,60 @@ def test_f_i(font, text, expected_glyphs):
 def test_v_i(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
 
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("shik",   ["sh", "i.chik", "k"]),
+    ("shig",   ["sh", "i.chik", "g"]),
+    ("shir",   ["sh", "i.chir", "r.cut"]),
+    ("shil",   ["sh", "i.chir", "l.cut"]),
+    ("shin",   ["sh", "i.chik", "n"]),
+    ("shim",   ["sh", "i.chik", "m"]),
+    ("shit",   ["sh", "i.chik", "t"]),
+    ("shid",   ["sh", "i.chik", "d"]),
+    ("ship",   ["sh", "i.chip", "p"]),
+    ("shib",   ["sh", "i.chip", "b"]),
+    ("shif",   ["sh", "i.chif", "f"]),
+    ("shiv",   ["sh", "i.chif", "v"]),
+    ("shis",   ["sh", "i.chif", "s.right"]),
+])
+def test_sh_i(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("chik",   ["ch", "i.chik", "k"]),
+    ("chig",   ["ch", "i.chik", "g"]),
+    ("chir",   ["ch", "i.chir", "r.cut"]),
+    ("chil",   ["ch", "i.chir", "l.cut"]),
+    ("chin",   ["ch", "i.chik", "n"]),
+    ("chim",   ["ch", "i.chik", "m"]),
+    ("chit",   ["ch", "i.chik", "t"]),
+    ("chid",   ["ch", "i.chik", "d"]),
+    ("chip",   ["ch", "i.chip", "p"]),
+    ("chib",   ["ch", "i.chip", "b"]),
+    ("chif",   ["ch", "i.chif", "f"]),
+    ("chiv",   ["ch", "i.chif", "v"]),
+    ("chis",   ["ch", "i.chif", "s.right"]),
+])
+def test_ch_i(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("jik",   ["j", "i.chik", "k"]),
+    ("jig",   ["j", "i.chik", "g"]),
+    ("jir",   ["j", "i.chir", "r.cut"]),
+    ("jil",   ["j", "i.chir", "l.cut"]),
+    ("jin",   ["j", "i.chik", "n"]),
+    ("jim",   ["j", "i.chik", "m"]),
+    ("jit",   ["j", "i.chik", "t"]),
+    ("jid",   ["j", "i.chik", "d"]),
+    ("jip",   ["j", "i.chip", "p"]),
+    ("jib",   ["j", "i.chip", "b"]),
+    ("jif",   ["j", "i.chif", "f"]),
+    ("jiv",   ["j", "i.chif", "v"]),
+    ("jis",   ["j", "i.chif", "s.right"]),
+])
+def test_j_i(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+

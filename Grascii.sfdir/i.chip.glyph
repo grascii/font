@@ -1,0 +1,16 @@
+StartChar: i.chip
+Encoding: 1298 -1 314
+Width: 162
+VWidth: 1099
+Flags: W
+AnchorPoint: "Join" 52 73 exit 0
+AnchorPoint: "Join" 29 100 entry 0
+LayerCount: 2
+Fore
+SplineSet
+29 100 m 0
+ -18 38 33 -9 74 2 c 0
+ 150 22 176 114 127 127 c 0
+ 83 139 -13 110 52 73 c 1024
+EndSplineSet
+EndChar

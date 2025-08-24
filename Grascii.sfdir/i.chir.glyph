@@ -1,0 +1,16 @@
+StartChar: i.chir
+Encoding: 1296 -1 313
+Width: 183
+VWidth: 1061
+Flags: W
+AnchorPoint: "Join" 64 52 exit 0
+AnchorPoint: "Join" 20 62 entry 0
+LayerCount: 2
+Fore
+SplineSet
+20 62 m 0
+ -33 -30 145 -16 172 83 c 0
+ 185 132 141 144 116 144 c 0
+ 72 144 3 87 64 52 c 1024
+EndSplineSet
+EndChar

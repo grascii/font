@@ -1,0 +1,17 @@
+StartChar: i.chik
+Encoding: 1294 -1 312
+Width: 183
+VWidth: 1071
+Flags: W
+AnchorPoint: "Join" 127 62 exit 0
+AnchorPoint: "Join" 173 71 entry 0
+LayerCount: 2
+Fore
+SplineSet
+173 71 m 0
+ 153 36 116 0 77 0 c 0
+ 37 0 2 22 12 58 c 0
+ 19 83 85 120 125 120 c 0
+ 156 120 173 89 127 62 c 1024
+EndSplineSet
+EndChar
