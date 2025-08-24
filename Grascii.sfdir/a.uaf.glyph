@@ -1,0 +1,16 @@
+StartChar: a.uaf
+Encoding: 382 -1 323
+Width: 155
+VWidth: 1072
+Flags: W
+AnchorPoint: "Join" 145 27 exit 0
+AnchorPoint: "Join" 143 73 entry 0
+LayerCount: 2
+Fore
+SplineSet
+143 73 m 0
+ 122 37 78 -10 33 2 c 0
+ 10 8 0 48 23 71 c 0
+ 53 101 145 143 145 27 c 1024
+EndSplineSet
+EndChar

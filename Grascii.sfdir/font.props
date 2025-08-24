@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1755998212
+ModificationTime: 1756014191
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -46,9 +46,9 @@ OS2Vendor: 'PfEd'
 Lookup: 4 0 0 "Multichar strokes" { "ch sh th ng nk"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Annotated Directions" { "Annotated Directions"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Directions" { "s Direction"  "th Direction"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "Consonant Joinings" { "k Joinings 1"  "k Joinings 2"  "r Joinings Overrides"  "r Joinings 1"  "r Joinings 2"  "r Joinings 3"  "r Joinings 4"  "p Joinings 1"  "p Joinings 2"  "p Joinings 3"  "f Joinings 1"  "f Joinings 2"  "f Joinings 3"  "s.right Joinings 1"  "s.right Joinings 2"  "s.right Joinings 3"  "s.left Joinings 1"  "s.left Joinings 2"  "th.over Joinings 1"  "th.over Joinings 2"  "th.over Joinings 3"  "th.under Joinings 1"  "th.under Joinings 2"  "th.under Joinings 3"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 1 "Vowel Between" { "Between k *"  "Between r *"  "Between n *"  "Between t *"  "Between p *"  "Between f *"  "Between ch *"  "Between ng *"  "Between tn *"  "Between nt *"  } ['rclt' ('latn' <'dflt' > ) ]
-Lookup: 6 0 0 "Vowel Before/After" { "Vowel Before Overrides"  "Vowel Before"  "Vowel After Overrides"  "Vowel After"  "Unlock Vowel"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "Consonant Joinings" { "k Joinings 1"  "k Joinings 2"  "r Joinings Overrides"  "r Joinings 1"  "r Joinings 2"  "r Joinings 3"  "r Joinings 4"  "r Joinings 5"  "p Joinings 1"  "p Joinings 2"  "p Joinings 3"  "f Joinings 1"  "f Joinings 2"  "f Joinings 3"  "f Joinings 4"  "s.right Joinings 1"  "s.right Joinings 2"  "s.right Joinings 3"  "s.right Joinings 4"  "s.left Joinings 1"  "s.left Joinings 2"  "th.over Joinings 1"  "th.over Joinings 2"  "th.over Joinings 3"  "th.under Joinings 1"  "th.under Joinings 2"  "th.under Joinings 3"  "u Joinings 1"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 1 "Vowel Between" { "Between k *"  "Between r *"  "Between n *"  "Between t *"  "Between p *"  "Between f *"  "Between ch *"  "Between ng *"  "Between tn *"  "Between nt *"  "Between u *"  } ['rclt' ('latn' <'dflt' > ) ]
+Lookup: 6 0 0 "Vowel Before/After" { "Vowel Before Overrides"  "Vowel Before"  "Vowel After Overrides"  "Vowel After"  "Vowel After u"  "Unlock Vowel"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Cut Consonant" { "Cut Consonant" ("cut") } []
 Lookup: 1 0 0 "Angled" { "Angled" ("angled") } []
 Lookup: 1 0 0 "Skewed 30" { "Skewed 30" ("skew30") } []
@@ -84,6 +84,7 @@ Lookup: 2 0 0 "After s.right" { "After s.right"  } []
 Lookup: 2 0 0 "After s.left" { "After s.left"  } []
 Lookup: 2 0 0 "After t" { "After t"  } []
 Lookup: 2 0 0 "After tn" { "After tn"  } []
+Lookup: 2 0 0 "After u" { "After u"  } []
 Lookup: 2 0 0 "Between k k" { "Between k k"  } []
 Lookup: 2 0 0 "Between k r" { "Between k r"  } []
 Lookup: 2 0 0 "Between k n" { "Between k n"  } []
@@ -184,6 +185,16 @@ Lookup: 2 0 0 "Between nt ch" { "Between nt ch"  } []
 Lookup: 2 0 0 "Between nt ng" { "Between nt ng"  } []
 Lookup: 2 0 0 "Between nt tn" { "Between nt tn"  } []
 Lookup: 2 0 0 "Between nt nt" { "Between nt nt"  } []
+Lookup: 2 0 0 "Between u k" { "Between u k"  } []
+Lookup: 2 0 0 "Between u r" { "Between u r"  } []
+Lookup: 2 0 0 "Between u n" { "Between u n"  } []
+Lookup: 2 0 0 "Between u t" { "Between u t"  } []
+Lookup: 2 0 0 "Between u p" { "Between u p"  } []
+Lookup: 2 0 0 "Between u f" { "Between u f"  } []
+Lookup: 2 0 0 "Between u ch" { "Between u ch"  } []
+Lookup: 2 0 0 "Between u ng" { "Between u ng"  } []
+Lookup: 2 0 0 "Between u tn" { "Between u tn"  } []
+Lookup: 2 0 0 "Between u nt" { "Between u nt"  } []
 Lookup: 264 0 0 "Line of Writing" { "Starts with a"  "Starts with e"  "Starts with o"  "Starts with u"  } [' RQD' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 259 0 0 "Cursive Attachment" { "Join"  } ['curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 257 0 0 "Position Before b" { "Position Before b"  } []
@@ -210,6 +221,44 @@ Lookup: 257 0 0 "Position Before th" { "Position Before th"  } []
 Lookup: 257 0 0 "Position Before v" { "Position Before v"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "s.right Joinings 4" 0 0 0 1
+ 1 2 0
+  Coverage: 7 s.right
+  BCoverage: 1 a
+  BCoverage: 7 u u.cut
+ 1
+  SeqLookup: 0 "Cut Consonant"
+EndFPST
+ChainSub2: coverage "f Joinings 4" 0 0 0 1
+ 1 2 0
+  Coverage: 3 f v
+  BCoverage: 1 a
+  BCoverage: 7 u u.cut
+ 1
+  SeqLookup: 0 "Cut Consonant"
+EndFPST
+ChainSub2: coverage "r Joinings 5" 0 0 0 1
+ 1 2 0
+  Coverage: 3 r l
+  BCoverage: 1 a
+  BCoverage: 7 u u.cut
+ 1
+  SeqLookup: 0 "Cut Consonant"
+EndFPST
+ChainSub2: coverage "Vowel After u" 0 0 0 1
+ 1 1 0
+  Coverage: 5 a e i
+  BCoverage: 7 u u.cut
+ 1
+  SeqLookup: 0 "After u"
+EndFPST
+ChainSub2: coverage "u Joinings 1" 0 0 0 1
+ 1 0 1
+  Coverage: 1 u
+  FCoverage: 5 a e i
+ 1
+  SeqLookup: 0 "Cut Consonant"
+EndFPST
 ChainSub2: coverage "r Joinings 4" 0 0 0 1
  1 2 0
   Coverage: 3 r l
@@ -1600,6 +1649,107 @@ ChainSub2: class "Between nt *" 12 12 12 10
   BClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
   FClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
 EndFPST
+ChainSub2: class "Between u *" 13 13 13 10
+  Class: 7 a e i o
+  Class: 15 k g k.cut g.cut
+  Class: 15 r l r.cut l.cut
+  Class: 3 n m
+  Class: 3 t d
+  Class: 33 p b p.cut b.cut s.left s.left.cut
+  Class: 35 f v f.cut v.cut s.right s.right.cut
+  Class: 7 sh ch j
+  Class: 5 ng nk
+  Class: 52 th.over th.over.angled th.over.skew30 th.over.skew45
+  Class: 56 th.under th.under.angled th.under.skew30 th.under.skew45
+  Class: 7 u u.cut
+  BClass: 7 a e i o
+  BClass: 15 k g k.cut g.cut
+  BClass: 15 r l r.cut l.cut
+  BClass: 3 n m
+  BClass: 3 t d
+  BClass: 33 p b p.cut b.cut s.left s.left.cut
+  BClass: 35 f v f.cut v.cut s.right s.right.cut
+  BClass: 7 sh ch j
+  BClass: 5 ng nk
+  BClass: 52 th.over th.over.angled th.over.skew30 th.over.skew45
+  BClass: 56 th.under th.under.angled th.under.skew30 th.under.skew45
+  BClass: 7 u u.cut
+  FClass: 7 a e i o
+  FClass: 15 k g k.cut g.cut
+  FClass: 15 r l r.cut l.cut
+  FClass: 3 n m
+  FClass: 3 t d
+  FClass: 33 p b p.cut b.cut s.left s.left.cut
+  FClass: 35 f v f.cut v.cut s.right s.right.cut
+  FClass: 7 sh ch j
+  FClass: 5 ng nk
+  FClass: 52 th.over th.over.angled th.over.skew30 th.over.skew45
+  FClass: 56 th.under th.under.angled th.under.skew30 th.under.skew45
+  FClass: 7 u u.cut
+ 1 1 1
+  ClsList: 1
+  BClsList: 12
+  FClsList: 2
+ 1
+  SeqLookup: 0 "Between u k"
+ 1 1 1
+  ClsList: 1
+  BClsList: 12
+  FClsList: 3
+ 1
+  SeqLookup: 0 "Between u r"
+ 1 1 1
+  ClsList: 1
+  BClsList: 12
+  FClsList: 4
+ 1
+  SeqLookup: 0 "Between u n"
+ 1 1 1
+  ClsList: 1
+  BClsList: 12
+  FClsList: 5
+ 1
+  SeqLookup: 0 "Between u t"
+ 1 1 1
+  ClsList: 1
+  BClsList: 12
+  FClsList: 6
+ 1
+  SeqLookup: 0 "Between u p"
+ 1 1 1
+  ClsList: 1
+  BClsList: 12
+  FClsList: 7
+ 1
+  SeqLookup: 0 "Between u f"
+ 1 1 1
+  ClsList: 1
+  BClsList: 12
+  FClsList: 8
+ 1
+  SeqLookup: 0 "Between u ch"
+ 1 1 1
+  ClsList: 1
+  BClsList: 12
+  FClsList: 9
+ 1
+  SeqLookup: 0 "Between u ng"
+ 1 1 1
+  ClsList: 1
+  BClsList: 12
+  FClsList: 10
+ 1
+  SeqLookup: 0 "Between u tn"
+ 1 1 1
+  ClsList: 1
+  BClsList: 12
+  FClsList: 11
+ 1
+  SeqLookup: 0 "Between u nt"
+  ClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt" "u"
+  BClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt" "u"
+  FClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt" "u"
+EndFPST
 ChainSub2: class "th Direction" 5 5 5 7
   Class: 2 th
   Class: 3 r l
@@ -2246,7 +2396,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 416 26 10
+WinInfo: 182 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
