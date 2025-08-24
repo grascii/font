@@ -1,0 +1,16 @@
+StartChar: i.ntir
+Encoding: 1302 -1 316
+Width: 177
+VWidth: 1050
+Flags: W
+AnchorPoint: "Join" 114 41 exit 0
+AnchorPoint: "Join" 168 51 entry 0
+LayerCount: 2
+Fore
+SplineSet
+168 51 m 0
+ 168 88 146 116 101 116 c 0
+ 52 116 20 85 12 54 c 0
+ 1 11 37 -36 114 41 c 1024
+EndSplineSet
+EndChar
