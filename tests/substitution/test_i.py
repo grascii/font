@@ -339,3 +339,28 @@ def test_ch_i(font, text, expected_glyphs):
 def test_j_i(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
 
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("s)ik",   ["s.right", "i.fi", "k"]),
+    ("s)ig",   ["s.right", "i.fi", "g"]),
+    ("s)ir",   ["s.right", "i.fi", "r"]),
+    ("s)il",   ["s.right", "i.fi", "l"]),
+    ("s)in",   ["s.right", "i.fi", "n"]),
+    ("s)im",   ["s.right", "i.fi", "m"]),
+    ("s)it",   ["s.right", "i.fit", "t"]),
+    ("s)id",   ["s.right", "i.fit", "d"]),
+    ("s)if",   ["s.right", "i.fi", "f"]),
+    ("s)iv",   ["s.right", "i.fi", "v"]),
+    ("s)is)",  ["s.right", "i.fi", "s.right"]),
+])
+def test_sR_i(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("s(ip",   ["s.left.cut", "i.pi", "p"]),
+    ("s(ib",   ["s.left.cut", "i.pi", "b"]),
+    ("s(is",   ["s.left.cut", "i.pi", "s.left"]),
+])
+def test_sL_i(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
