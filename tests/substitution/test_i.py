@@ -364,3 +364,14 @@ def test_sR_i(font, text, expected_glyphs):
 ])
 def test_sL_i(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("thin",   ["th.over", "i.tni", "n"]),
+    ("thim",   ["th.over", "i.tni", "m"]),
+    ("thif",   ["th.over", "i.tni", "f"]),
+    ("thiv",   ["th.over", "i.tni", "v"]),
+    ("this)",  ["th.over", "i.tni", "s.right"]),
+])
+def test_thO_i(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

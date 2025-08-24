@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1755995942
+ModificationTime: 1755997970
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -222,14 +222,14 @@ ChainSub2: coverage "s.right Joinings 2" 0 0 0 1
  1 2 0
   Coverage: 7 s.right
   BCoverage: 1 i
-  BCoverage: 55 k.cut g.cut f v f.cut v.cut sh ch j s.right s.right.cut
+  BCoverage: 93 k.cut g.cut f v f.cut v.cut sh ch j s.right s.right.cut th.over th.over.skew30 th.over.skew45
  0
 EndFPST
 ChainSub2: coverage "f Joinings 2" 0 0 0 1
  1 2 0
   Coverage: 3 f v
   BCoverage: 1 i
-  BCoverage: 55 k.cut g.cut f v f.cut v.cut sh ch j s.right s.right.cut
+  BCoverage: 93 k.cut g.cut f v f.cut v.cut sh ch j s.right s.right.cut th.over th.over.skew30 th.over.skew45
  0
 EndFPST
 ChainSub2: coverage "s.left Joinings 2" 0 0 0 1
