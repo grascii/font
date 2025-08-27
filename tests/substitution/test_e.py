@@ -51,6 +51,7 @@ def test_e_before(font, text, expected_glyphs):
     ("th)e", ["th.under", "e.thUe"]),
     ("nge",  ["ng", "e.nge"]),
     ("nke",  ["nk", "e.nge"]),
+    ("ue",   ["u.cut", "e.ue"]),
 ])
 def test_e_after(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -559,4 +560,31 @@ def test_thO_e(font, text, expected_glyphs):
     ("th)ed",    ["th.under", "e.ntet", "d"]),
 ])
 def test_thU_e(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("uek",   ["u.cut", "e.uek", "k"]),
+    ("ueg",   ["u.cut", "e.uek", "g"]),
+    ("uer",   ["u.cut", "e.uer", "r"]),
+    ("uel",   ["u.cut", "e.uer", "l"]),
+    ("uen",   ["u.cut", "e.uen", "n"]),
+    ("uem",   ["u.cut", "e.uen", "m"]),
+    ("uet",   ["u.cut", "e.uet", "t"]),
+    ("ued",   ["u.cut", "e.uet", "d"]),
+    ("uep",   ["u.cut", "e.uep", "p"]),
+    ("ueb",   ["u.cut", "e.uep", "b"]),
+    ("uef",   ["u.cut", "e.uef", "f.cut"]),
+    ("uev",   ["u.cut", "e.uef", "v.cut"]),
+    ("uesh",  ["u.cut", "e.uech", "sh"]),
+    ("uech",  ["u.cut", "e.uech", "ch"]),
+    ("uej",   ["u.cut", "e.uech", "j"]),
+    ("ues(",  ["u.cut", "e.uep", "s.left"]),
+    ("ues",   ["u.cut", "e.uef", "s.right.cut"]),
+    ("ueng",  ["u.cut", "e.ueng", "ng"]),
+    ("uenk",  ["u.cut", "e.ueng", "nk"]),
+    ("ueth",  ["u.cut", "e.uetn", "th.over.skew30"]),
+    ("ueth)", ["u.cut", "e.uen", "th.under"]),
+])
+def test_t_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

@@ -1,0 +1,16 @@
+StartChar: e.uech
+Encoding: 721 -1 332
+Width: 96
+VWidth: 1023
+Flags: W
+AnchorPoint: "Join" 81 24 exit 0
+AnchorPoint: "Join" 81 24 entry 0
+LayerCount: 2
+Fore
+SplineSet
+81 24 m 0
+ 75 14 62 5 47 1 c 0
+ 30 -4 10 7 10 27 c 0
+ 10 60 111 76 81 24 c 1024
+EndSplineSet
+EndChar

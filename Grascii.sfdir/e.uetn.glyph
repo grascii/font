@@ -1,0 +1,11 @@
+StartChar: e.uetn
+Encoding: 723 -1 334
+Width: 102
+VWidth: 999
+Flags: W
+AnchorPoint: "Join" 28.8154 53.7529 exit 0
+AnchorPoint: "Join" 91.8154 53.7529 entry 0
+LayerCount: 2
+Fore
+Refer: 224 -1 N 1 0 0 1 -0.184902 -0.24741 2
+EndChar

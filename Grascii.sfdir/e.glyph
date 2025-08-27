@@ -14,6 +14,16 @@ SplineSet
  64 -2 98 22 99 47 c 0
  100 59 84 71 72 72 c 1024
 EndSplineSet
+MultipleSubs2: "Between u nt" e.uen
+MultipleSubs2: "Between u tn" e.uetn
+MultipleSubs2: "Between u ng" e.ueng
+MultipleSubs2: "Between u ch" e.uech
+MultipleSubs2: "Between u f" e.uef
+MultipleSubs2: "Between u p" e.uep
+MultipleSubs2: "Between u t" e.uet
+MultipleSubs2: "Between u n" e.uen
+MultipleSubs2: "Between u r" e.uer
+MultipleSubs2: "Between u k" e.uek
 MultipleSubs2: "Between nt t" e.ntet
 MultipleSubs2: "Between nt n" e.nten
 MultipleSubs2: "Between nt r" e.nter
@@ -103,4 +113,5 @@ MultipleSubs2: "Between tn n" e.tnen
 MultipleSubs2: "Between tn t" e.tnet
 MultipleSubs2: "Between tn f" e.tnef
 MultipleSubs2: "Between tn tn" e.tnetn
+MultipleSubs2: "After u" e.ue
 EndChar
