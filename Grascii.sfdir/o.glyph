@@ -8,65 +8,75 @@ AnchorPoint: "Join" 40.2959 105 entry 0
 LayerCount: 2
 Fore
 Refer: 237 -1 N 1 0 0.57735 1 -30.3265 0 2
-Position2: "Position Before v" dx=285 dy=622 dh=0 dv=0
-Position2: "Position Before sh" dx=0 dy=103 dh=0 dv=0
-Position2: "Position Before s.right" dx=0 dy=51 dh=0 dv=0
-Position2: "Position Before p.cut" dx=112 dy=201 dh=0 dv=0
-Position2: "Position Before p" dx=110 dy=259 dh=0 dv=0
-Position2: "Position Before nk" dx=0 dy=19 dh=0 dv=0
-Position2: "Position Before ng" dx=0 dy=-43 dh=0 dv=0
-Position2: "Position Before j" dx=285 dy=622 dh=0 dv=0
-Position2: "Position Before f" dx=75 dy=259 dh=0 dv=0
 Position2: "Position Before ch" dx=75 dy=259 dh=0 dv=0
-MultipleSubs2: "Between nt ng" o.ntong
-MultipleSubs2: "Between f nt" o.fo
-MultipleSubs2: "Between f tn" o.fo
-MultipleSubs2: "Between f ng" o.fo
-MultipleSubs2: "Between f ch" o.fo
-MultipleSubs2: "Between f f" o.fo
-MultipleSubs2: "Between f p" o.fop
-MultipleSubs2: "Between f t" o.fo
-MultipleSubs2: "Between f n" o.fo
-MultipleSubs2: "Between f r" o.fo
-MultipleSubs2: "Between f k" o.fok
-MultipleSubs2: "Between t ng" o.tong
-MultipleSubs2: "Between t n" o.ton
-MultipleSubs2: "Between k ch" o.ko
-MultipleSubs2: "Between k p" o.kop
-MultipleSubs2: "Between k t" o.kot
-MultipleSubs2: "Between k k" o.kok
-MultipleSubs2: "Before l" o.ol
-MultipleSubs2: "Before p" o.op
-MultipleSubs2: "Before t" o.ot
-MultipleSubs2: "Before n" o.on
-MultipleSubs2: "Before r" o.or
-MultipleSubs2: "Before k" o.ok
-MultipleSubs2: "Before ng" o.ong
-MultipleSubs2: "After k" o.ko
-MultipleSubs2: "After f" o.fo
-MultipleSubs2: "After p" o.po
-MultipleSubs2: "Between k f" o.ko
-MultipleSubs2: "Between r n" o.ron
-MultipleSubs2: "Between r ng" o.rong
-MultipleSubs2: "Between p k" o.po
-MultipleSubs2: "Between p r" o.po
-MultipleSubs2: "Between p n" o.po
-MultipleSubs2: "Between p t" o.po
-MultipleSubs2: "Between p p" o.pop
-MultipleSubs2: "Between p f" o.po
-MultipleSubs2: "Between p ch" o.po
-MultipleSubs2: "Between p ng" o.po
-MultipleSubs2: "Between p tn" o.po
-MultipleSubs2: "Between p nt" o.po
-MultipleSubs2: "Between ch k" o.chok
-MultipleSubs2: "Between ch r" o.lock
-MultipleSubs2: "Between ch n" o.lock
-MultipleSubs2: "Between ch t" o.lock
-MultipleSubs2: "Between ch p" o.chop
-MultipleSubs2: "Between ch f" o.lock
-MultipleSubs2: "Between ch ch" o.lock
-MultipleSubs2: "Between ch ng" o.lock
-MultipleSubs2: "Between ch tn" o.lock
-MultipleSubs2: "Between ch nt" o.lock
+Position2: "Position Before f" dx=75 dy=259 dh=0 dv=0
+Position2: "Position Before j" dx=285 dy=622 dh=0 dv=0
+Position2: "Position Before ng" dx=0 dy=-43 dh=0 dv=0
+Position2: "Position Before nk" dx=0 dy=19 dh=0 dv=0
+Position2: "Position Before p" dx=110 dy=259 dh=0 dv=0
+Position2: "Position Before p.cut" dx=112 dy=201 dh=0 dv=0
+Position2: "Position Before s.right" dx=0 dy=51 dh=0 dv=0
+Position2: "Position Before sh" dx=0 dy=103 dh=0 dv=0
+Position2: "Position Before v" dx=285 dy=622 dh=0 dv=0
+MultipleSubs2: "Between u nt" o.lock
+MultipleSubs2: "Between u tn" o.lock
+MultipleSubs2: "Between u ng" o.lock
+MultipleSubs2: "Between u ch" o.lock
+MultipleSubs2: "Between u f" o.lock
+MultipleSubs2: "Between u p" o.chop
+MultipleSubs2: "Between u t" o.lock
+MultipleSubs2: "Between u n" o.lock
+MultipleSubs2: "Between u r" o.lock
+MultipleSubs2: "Between u k" o.chok
 MultipleSubs2: "Between tn ng" o.tnong
+MultipleSubs2: "Between ch nt" o.lock
+MultipleSubs2: "Between ch tn" o.lock
+MultipleSubs2: "Between ch ng" o.lock
+MultipleSubs2: "Between ch ch" o.lock
+MultipleSubs2: "Between ch f" o.lock
+MultipleSubs2: "Between ch p" o.chop
+MultipleSubs2: "Between ch t" o.lock
+MultipleSubs2: "Between ch n" o.lock
+MultipleSubs2: "Between ch r" o.lock
+MultipleSubs2: "Between ch k" o.chok
+MultipleSubs2: "Between p nt" o.po
+MultipleSubs2: "Between p tn" o.po
+MultipleSubs2: "Between p ng" o.po
+MultipleSubs2: "Between p ch" o.po
+MultipleSubs2: "Between p f" o.po
+MultipleSubs2: "Between p p" o.pop
+MultipleSubs2: "Between p t" o.po
+MultipleSubs2: "Between p n" o.po
+MultipleSubs2: "Between p r" o.po
+MultipleSubs2: "Between p k" o.po
+MultipleSubs2: "Between r ng" o.rong
+MultipleSubs2: "Between r n" o.ron
+MultipleSubs2: "Between k f" o.ko
+MultipleSubs2: "After p" o.po
+MultipleSubs2: "After f" o.fo
+MultipleSubs2: "After k" o.ko
+MultipleSubs2: "Before ng" o.ong
+MultipleSubs2: "Before k" o.ok
+MultipleSubs2: "Before r" o.or
+MultipleSubs2: "Before n" o.on
+MultipleSubs2: "Before t" o.ot
+MultipleSubs2: "Before p" o.op
+MultipleSubs2: "Before l" o.ol
+MultipleSubs2: "Between k k" o.kok
+MultipleSubs2: "Between k t" o.kot
+MultipleSubs2: "Between k p" o.kop
+MultipleSubs2: "Between k ch" o.ko
+MultipleSubs2: "Between t n" o.ton
+MultipleSubs2: "Between t ng" o.tong
+MultipleSubs2: "Between f k" o.fok
+MultipleSubs2: "Between f r" o.fo
+MultipleSubs2: "Between f n" o.fo
+MultipleSubs2: "Between f t" o.fo
+MultipleSubs2: "Between f p" o.fop
+MultipleSubs2: "Between f f" o.fo
+MultipleSubs2: "Between f ch" o.fo
+MultipleSubs2: "Between f ng" o.fo
+MultipleSubs2: "Between f tn" o.fo
+MultipleSubs2: "Between f nt" o.fo
+MultipleSubs2: "Between nt ng" o.ntong
 EndChar
