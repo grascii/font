@@ -566,8 +566,8 @@ def test_thU_e(font, text, expected_glyphs):
 @pytest.mark.parametrize("text,expected_glyphs", [
     ("uek",   ["u.cut", "e.uek", "k"]),
     ("ueg",   ["u.cut", "e.uek", "g"]),
-    ("uer",   ["u.cut", "e.uer", "r"]),
-    ("uel",   ["u.cut", "e.uer", "l"]),
+    ("uer",   ["u.cut", "e.uer", "r.cut"]),
+    ("uel",   ["u.cut", "e.uer", "l.cut"]),
     ("uen",   ["u.cut", "e.uen", "n"]),
     ("uem",   ["u.cut", "e.uen", "m"]),
     ("uet",   ["u.cut", "e.uet", "t"]),
@@ -586,5 +586,5 @@ def test_thU_e(font, text, expected_glyphs):
     ("ueth",  ["u.cut", "e.uetn", "th.over.skew30"]),
     ("ueth)", ["u.cut", "e.uen", "th.under"]),
 ])
-def test_t_u(font, text, expected_glyphs):
+def test_u_e(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

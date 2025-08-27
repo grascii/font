@@ -1,0 +1,16 @@
+StartChar: i.ui
+Encoding: 1231 -1 335
+Width: 165
+VWidth: 1094
+Flags: W
+AnchorPoint: "Join" 99 62 exit 0
+AnchorPoint: "Join" 155 95 entry 0
+LayerCount: 2
+Fore
+SplineSet
+155 95 m 0
+ 134 59 89 -7 45 1 c 0
+ -58 21 96 176 154 118 c 0
+ 162 110 139 51 99 62 c 1024
+EndSplineSet
+EndChar

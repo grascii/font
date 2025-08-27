@@ -1,0 +1,16 @@
+StartChar: i.uip
+Encoding: 1306 -1 337
+Width: 196
+VWidth: 1039
+Flags: W
+AnchorPoint: "Join" 97 19 exit 0
+AnchorPoint: "Join" 14 39 entry 0
+LayerCount: 2
+Fore
+SplineSet
+14 39 m 0
+ -23 -25 186 -2 186 43 c 0
+ 186 122 44 92 14 39 c 0
+ 5 23 41 -14 97 19 c 1024
+EndSplineSet
+EndChar

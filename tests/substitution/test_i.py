@@ -46,6 +46,7 @@ def test_i_before(font, text, expected_glyphs):
     ("thi",  ["th.over", "i.tni"]),
     ("ngi",  ["ng", "i.ngi"]),
     ("nki",  ["nk", "i.ngi"]),
+    ("ui",   ["u.cut", "i.ui"]),
 ])
 def test_i_after(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -382,4 +383,21 @@ def test_thO_i(font, text, expected_glyphs):
     ("thil",   ["th.under", "i.ntir", "l"]),
 ])
 def test_thU_i(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("uir",  ["u.cut", "i.uit", "r.cut"]),
+    ("uil",  ["u.cut", "i.uit", "l.cut"]),
+    ("uin",  ["u.cut", "i.uit", "n"]),
+    ("uim",  ["u.cut", "i.uit", "m"]),
+    ("uit",  ["u.cut", "i.uit", "t"]),
+    ("uid",  ["u.cut", "i.uit", "d"]),
+    ("uip",  ["u.cut", "i.uip", "p"]),
+    ("uib",  ["u.cut", "i.uip", "b"]),
+    ("uif",  ["u.cut", "i.uit", "f"]),
+    ("uiv",  ["u.cut", "i.uit", "v"]),
+    ("uis)", ["u.cut", "i.uit", "s.right"]),
+])
+def test_u_i(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
