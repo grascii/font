@@ -46,6 +46,6 @@ MultipleSubs2: "Between ch n" a.chan eadot
 MultipleSubs2: "Between ch t" a.chat eadot
 MultipleSubs2: "Between tn n" a.tnan eadot
 MultipleSubs2: "Between ch ch" a.chach eadot
-Substitution2: "To a" a
+Substitution2: "Fallback" a
 LCarets2: 2 0 0
 EndChar

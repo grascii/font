@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1756772417
+ModificationTime: 1756778211
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -59,7 +59,7 @@ Lookup: 1 0 0 "Left s" { "Left s"  } []
 Lookup: 1 0 0 "Over th" { "Over th"  } []
 Lookup: 1 0 0 "Under th" { "Under th"  } []
 Lookup: 1 0 0 "Unlock" { "Unlock"  } []
-Lookup: 1 0 0 "To a" { "To a"  } []
+Lookup: 1 0 0 "Fallback" { "Fallback"  } []
 Lookup: 2 0 0 "Before ch" { "Before ch"  } []
 Lookup: 2 0 0 "Before f" { "Before f"  } []
 Lookup: 2 0 0 "Before k" { "Before k"  } []
@@ -224,14 +224,19 @@ Lookup: 257 0 0 "Position Before th" { "Position Before th"  } []
 Lookup: 257 0 0 "Position Before v" { "Position Before v"  } []
 MarkAttachClasses: 1
 DEI: 91125
-ContextSub2: glyph "Vowel Fallback" 0 0 0 1
- String: 2 ea
- BString: 0 
- FString: 0 
+ContextSub2: class "Vowel Fallback" 2 1 1 1
+  Class: 5 ea ae
+ 1 0 0
+  ClsList: 1
+  BClsList:
+  FClsList:
  3
-  SeqLookup: 0 "To a"
+  SeqLookup: 0 "Fallback"
   SeqLookup: 0 "Vowel Between"
   SeqLookup: 0 "Vowel Before/After"
+  ClassNames: "All_Others" "vowel"
+  BClassNames: "All_Others"
+  FClassNames: "All_Others"
 EndFPST
 ChainSub2: coverage "r Joinings 2a" 0 0 0 1
  1 2 0
@@ -1978,32 +1983,32 @@ EndFPST
 ChainSub2: glyph "Vowel After Overrides" 0 0 0 6
  String: 1 a
  BString: 1 b
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "After b"
  String: 2 ea
  BString: 1 b
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "After b"
  String: 1 a
  BString: 7 s.right
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "After s.right"
  String: 1 a
  BString: 6 s.left
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "After s.left"
  String: 1 e
  BString: 6 s.left
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "After s.left"
  String: 2 ea
  BString: 6 s.left
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "After s.left"
 EndFPST
@@ -2347,7 +2352,7 @@ ChainSub2: glyph "Vowel Before Overrides" 0 0 0 5
   SeqLookup: 0 "Before l"
 EndFPST
 ChainSub2: class "Vowel Before" 12 1 12 10
-  Class: 12 a e o u i ea
+  Class: 15 a e o u i ea ae
   Class: 7 sh ch j
   Class: 35 f v f.cut v.cut s.right s.right.cut
   Class: 15 k g k.cut g.cut
@@ -2358,7 +2363,7 @@ ChainSub2: class "Vowel Before" 12 1 12 10
   Class: 52 th.over th.over.angled th.over.skew30 th.over.skew45
   Class: 56 th.under th.under.angled th.under.skew30 th.under.skew45
   Class: 5 ng nk
-  FClass: 12 a e o u i ea
+  FClass: 15 a e o u i ea ae
   FClass: 7 sh ch j
   FClass: 35 f v f.cut v.cut s.right s.right.cut
   FClass: 15 k g k.cut g.cut
@@ -2439,7 +2444,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 130 26 10
+WinInfo: 442 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
