@@ -3,6 +3,7 @@ Encoding: 341 -1 43
 Width: 166
 VWidth: 1055
 Flags: W
+AnchorPoint: "aedot" 92 60 basechar 0
 AnchorPoint: "Join" 104 124 exit 0
 AnchorPoint: "Join" 156 56 entry 0
 LayerCount: 2

@@ -2,6 +2,7 @@ StartChar: a.rant
 Encoding: 399 -1 96
 Width: 201
 Flags: W
+AnchorPoint: "aedot" 93 53 basechar 0
 AnchorPoint: "Join" 113 0 exit 0
 AnchorPoint: "Join" 113 0 entry 0
 LayerCount: 2

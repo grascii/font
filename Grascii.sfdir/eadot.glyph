@@ -1,0 +1,15 @@
+StartChar: eadot
+Encoding: 303 -1 338
+Width: 0
+Flags: W
+AnchorPoint: "aedot" 15 15 mark 0
+LayerCount: 2
+Fore
+SplineSet
+0 15 m 0
+ 0 23 7 30 15 30 c 0
+ 23 30 30 23 30 15 c 0
+ 30 7 23 0 15 0 c 0
+ 7 0 0 7 0 15 c 0
+EndSplineSet
+EndChar

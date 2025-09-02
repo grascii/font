@@ -2,6 +2,7 @@ StartChar: a.rap
 Encoding: 394 -1 92
 Width: 303
 Flags: W
+AnchorPoint: "aedot" 207 107 basechar 0
 AnchorPoint: "Join" 10 0 exit 0
 AnchorPoint: "Join" 10 0 entry 0
 LayerCount: 2

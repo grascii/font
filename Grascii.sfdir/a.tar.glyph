@@ -2,6 +2,7 @@ StartChar: a.tar
 Encoding: 443 -1 107
 Width: 162
 Flags: W
+AnchorPoint: "aedot" 73 93 basechar 0
 AnchorPoint: "Join" 17 0 exit 0
 AnchorPoint: "Join" 17 0 entry 0
 LayerCount: 2

@@ -1,0 +1,51 @@
+StartChar: ea
+Encoding: 302 -1 339
+Width: 0
+Flags: W
+AnchorPoint: "Join" 0 0 exit 0
+AnchorPoint: "Join" 0 0 entry 0
+LayerCount: 2
+Ligature2: "ch sh th ng nk" a ampersand quotesingle
+MultipleSubs2: "After b" a.ba eadot
+MultipleSubs2: "After tn" a.thOa eadot
+MultipleSubs2: "After nt" a.thUa eadot
+MultipleSubs2: "After s.left" a.sLa eadot
+MultipleSubs2: "After ch" a.cha eadot
+MultipleSubs2: "After p" a.pa eadot
+MultipleSubs2: "After t" a.ta eadot
+MultipleSubs2: "After n" a.na eadot
+MultipleSubs2: "After r" a.ra eadot
+MultipleSubs2: "After k" a.ka eadot
+MultipleSubs2: "Between p p" a.pap eadot
+MultipleSubs2: "Between r k" a.rak eadot
+MultipleSubs2: "Between r r" a.rar eadot
+MultipleSubs2: "Between r n" a.ran eadot
+MultipleSubs2: "Between r t" a.rat eadot
+MultipleSubs2: "Between r p" a.rap eadot
+MultipleSubs2: "Between r ch" a.rach eadot
+MultipleSubs2: "Between n k" a.nak eadot
+MultipleSubs2: "Between n r" a.nar eadot
+MultipleSubs2: "Between n n" a.nan eadot
+MultipleSubs2: "Between n t" a.nat eadot
+MultipleSubs2: "Between n ch" a.nach eadot
+MultipleSubs2: "Between t k" a.tak eadot
+MultipleSubs2: "Between t r" a.tar eadot
+MultipleSubs2: "Between t n" a.tan eadot
+MultipleSubs2: "Between t t" a.tat eadot
+MultipleSubs2: "Between t ch" a.tach eadot
+MultipleSubs2: "Between p r" a.par eadot
+MultipleSubs2: "Between p n" a.pan eadot
+MultipleSubs2: "Between p t" a.pat eadot
+MultipleSubs2: "Between p ch" a.pach eadot
+MultipleSubs2: "Between f r" a.far eadot
+MultipleSubs2: "Between f n" a.fan eadot
+MultipleSubs2: "Between f t" a.fat eadot
+MultipleSubs2: "Between f ch" a.fach eadot
+MultipleSubs2: "Between f f" a.faf eadot
+MultipleSubs2: "Between ch n" a.chan eadot
+MultipleSubs2: "Between ch t" a.chat eadot
+MultipleSubs2: "Between tn n" a.tnan eadot
+MultipleSubs2: "Between ch ch" a.chach eadot
+Substitution2: "To a" a
+LCarets2: 2 0 0
+EndChar

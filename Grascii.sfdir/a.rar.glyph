@@ -2,6 +2,7 @@ StartChar: a.rar
 Encoding: 391 -1 89
 Width: 237
 Flags: W
+AnchorPoint: "aedot" 107 80 basechar 0
 AnchorPoint: "Join" 13 0 exit 0
 AnchorPoint: "Join" 13 0 entry 0
 LayerCount: 2
