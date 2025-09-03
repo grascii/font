@@ -1,0 +1,19 @@
+StartChar: ae.kaet
+Encoding: 1406 -1 350
+Width: 167
+VWidth: 1142
+Flags: W
+AnchorPoint: "Join" 150 175 exit 0
+AnchorPoint: "Join" 157 143 entry 0
+LayerCount: 2
+Fore
+SplineSet
+157 143 m 0
+ 157 128 169 63 111 26 c 0
+ 1 -45 -13 46 39 94 c 0
+ 80 132 149 173 153 166 c 0
+ 159 156 156 101 135 80 c 0
+ 89 34 41 107 94 137 c 0
+ 106 144 142 170 150 175 c 1024
+EndSplineSet
+EndChar
