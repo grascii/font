@@ -125,3 +125,33 @@ def test_t_ae(font, text, expected_glyphs):
 def test_d_ae(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
 
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("pa&en",  ["p.cut", "a.pan", "e.pen", "n"]),
+    ("pa&em",  ["p.cut", "a.pan", "e.pen", "m"]),
+    ("pa&et",  ["p.cut", "ae.paet", "t"]),
+    ("pa&ed",  ["p.cut", "ae.paet", "d"]),
+    ("pa&ep",  ["p", "ae.paep", "p"]),
+    ("pa&eb",  ["p", "ae.paep", "b"]),
+    ("pa&es",  ["p", "ae.paep", "s.left"]),
+    ("pa&eng", ["p.cut", "a.pang", "e.peng", "ng"]),
+    ("pa&enk", ["p.cut", "a.pang", "e.peng", "nk"]),
+])
+def test_p_ae(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("ba&en",  ["b.cut", "a.pan", "e.pen", "n"]),
+    ("ba&em",  ["b.cut", "a.pan", "e.pen", "m"]),
+    ("ba&et",  ["b.cut", "ae.paet", "t"]),
+    ("ba&ed",  ["b.cut", "ae.paet", "d"]),
+    ("ba&ep",  ["b", "ae.paep", "p"]),
+    ("ba&eb",  ["b", "ae.paep", "b"]),
+    ("ba&es",  ["b", "ae.paep", "s.left"]),
+    ("ba&eng", ["b.cut", "a.pang", "e.peng", "ng"]),
+    ("ba&enk", ["b.cut", "a.pang", "e.peng", "nk"]),
+])
+def test_b_ae(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+

@@ -1,0 +1,17 @@
+StartChar: ae.paep
+Encoding: 1424 -1 359
+Width: 216
+VWidth: 1011
+Flags: W
+AnchorPoint: "Join" 22 12 exit 0
+AnchorPoint: "Join" 22 12 entry 0
+LayerCount: 2
+Fore
+SplineSet
+22 12 m 0
+ 98 -32 229 57 203 102 c 0
+ 178 145 38 149 12 53 c 0
+ -13 -40 215 11 156 70 c 0
+ 119 107 41 27 22 12 c 1024
+EndSplineSet
+EndChar
