@@ -1,0 +1,17 @@
+StartChar: ae.faer
+Encoding: 1426 -1 360
+Width: 336
+VWidth: 1066
+Flags: W
+AnchorPoint: "Join" 327 66 exit 0
+AnchorPoint: "Join" 327 66 entry 0
+LayerCount: 2
+Fore
+SplineSet
+327 66 m 0
+ 183 -37 21 1 11 39 c 0
+ -9 114 293 161 316 76 c 0
+ 329 29 162 23 148 48 c 0
+ 122 93 277 125 327 66 c 1024
+EndSplineSet
+EndChar

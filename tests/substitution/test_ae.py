@@ -155,3 +155,39 @@ def test_p_ae(font, text, expected_glyphs):
 def test_b_ae(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
 
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("fa&er",  ["f", "ae.faer", "r.cut"]),
+    ("fa&el",  ["f", "ae.faer", "l.cut"]),
+    ("fa&en",  ["f", "a.fan", "e.fen", "n"]),
+    ("fa&em",  ["f", "a.fan", "e.fen", "m"]),
+    ("fa&et",  ["f", "a.fat", "e.fet", "t"]),
+    ("fa&ed",  ["f", "a.fat", "e.fet", "d"]),
+])
+def test_f_ae(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("va&er",  ["v", "ae.faer", "r.cut"]),
+    ("va&el",  ["v", "ae.faer", "l.cut"]),
+    ("va&en",  ["v", "a.fan", "e.fen", "n"]),
+    ("va&em",  ["v", "a.fan", "e.fen", "m"]),
+    ("va&et",  ["v", "a.fat", "e.fet", "t"]),
+    ("va&ed",  ["v", "a.fat", "e.fet", "d"]),
+])
+def test_v_ae(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("s)a&er",  ["s.right", "ae.faer", "r.cut"]),
+    ("s)a&el",  ["s.right", "ae.faer", "l.cut"]),
+    ("s)a&en",  ["s.right", "a.fan", "e.fen", "n"]),
+    ("s)a&em",  ["s.right", "a.fan", "e.fen", "m"]),
+    ("s)a&et",  ["s.right", "a.fat", "e.fet", "t"]),
+    ("s)a&ed",  ["s.right", "a.fat", "e.fet", "d"]),
+])
+def test_sR_ae(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
