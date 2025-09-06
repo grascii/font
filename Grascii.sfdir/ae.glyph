@@ -16,18 +16,21 @@ SplineSet
  206 101 349 201 267 223 c 1024
 EndSplineSet
 Ligature2: "ch sh th ng nk" a ampersand e
-MultipleSubs2: "Between n f" ae.naef
-MultipleSubs2: "Between n p" ae.naep
-MultipleSubs2: "Between r t" ae.raet
-MultipleSubs2: "Between r r" ae.raer
-MultipleSubs2: "Between k n" ae.kaen
-MultipleSubs2: "After t" ae.tae
-MultipleSubs2: "After k" ae.kae
-MultipleSubs2: "Before n" ae.aen
-MultipleSubs2: "Before t" ae.aet
-MultipleSubs2: "After r" ae.rae
-MultipleSubs2: "After s.left" ae.sLae
-MultipleSubs2: "Between k t" ae.kaet
-MultipleSubs2: "Between r n" a.ran e.ren
+MultipleSubs2: "Between t t" ae.taet
+MultipleSubs2: "Between t k" ae.taek
 MultipleSubs2: "Between r ng" a.rang e.reng
+MultipleSubs2: "Between r n" a.ran e.ren
+MultipleSubs2: "Between k t" ae.kaet
+MultipleSubs2: "After s.left" ae.sLae
+MultipleSubs2: "After r" ae.rae
+MultipleSubs2: "Before t" ae.aet
+MultipleSubs2: "Before n" ae.aen
+MultipleSubs2: "After k" ae.kae
+MultipleSubs2: "After t" ae.tae
+MultipleSubs2: "Between k n" ae.kaen
+MultipleSubs2: "Between r r" ae.raer
+MultipleSubs2: "Between r t" ae.raet
+MultipleSubs2: "Between n p" ae.naep
+MultipleSubs2: "Between n f" ae.naef
+MultipleSubs2: "Between t r" ae.taer
 EndChar

@@ -1,0 +1,16 @@
+StartChar: ae.taer
+Encoding: 1418 -1 356
+Width: 223
+Flags: W
+AnchorPoint: "Join" 72 0 exit 0
+AnchorPoint: "Join" 72 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+72 0 m 0
+ 139 39 247 137 203 181 c 0
+ 150 234 -42 86 23 21 c 0
+ 54 -10 187 47 122 85 c 0
+ 73 113 72 26 72 0 c 1024
+EndSplineSet
+EndChar

@@ -101,3 +101,27 @@ def test_n_ae(font, text, expected_glyphs):
 def test_m_ae(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
 
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("ta&ek",  ["t", "ae.taek", "k"]),
+    ("ta&eg",  ["t", "ae.taek", "g"]),
+    ("ta&er",  ["t", "ae.taer", "r"]),
+    ("ta&el",  ["t", "ae.taer", "l"]),
+    ("ta&et",  ["t", "ae.taet", "t"]),
+    ("ta&ed",  ["t", "ae.taet", "d"]),
+])
+def test_t_ae(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("da&ek",  ["d", "ae.taek", "k"]),
+    ("da&eg",  ["d", "ae.taek", "g"]),
+    ("da&er",  ["d", "ae.taer", "r"]),
+    ("da&el",  ["d", "ae.taer", "l"]),
+    ("da&et",  ["d", "ae.taet", "t"]),
+    ("da&ed",  ["d", "ae.taet", "d"]),
+])
+def test_d_ae(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
