@@ -79,3 +79,25 @@ def test_r_ae(font, text, expected_glyphs):
 def test_l_ae(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
 
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("na&ep",  ["n", "ae.naep", "p"]),
+    ("na&eb",  ["n", "ae.naep", "b"]),
+    ("na&ef",  ["n", "ae.naef", "f.cut"]),
+    ("na&ev",  ["n", "ae.naef", "v.cut"]),
+    ("na&es",  ["n", "ae.naep", "s.left"]),
+])
+def test_n_ae(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("ma&ep",  ["m", "ae.naep", "p"]),
+    ("ma&eb",  ["m", "ae.naep", "b"]),
+    ("ma&ef",  ["m", "ae.naef", "f.cut"]),
+    ("ma&ev",  ["m", "ae.naef", "v.cut"]),
+    ("ma&es",  ["m", "ae.naep", "s.left"]),
+])
+def test_m_ae(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+

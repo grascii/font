@@ -1,0 +1,16 @@
+StartChar: ae.naep
+Encoding: 1412 -1 353
+Width: 316
+Flags: W
+AnchorPoint: "Join" 13 0 exit 0
+AnchorPoint: "Join" 13 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+13 0 m 0
+ 84 0 322 5 306 77 c 0
+ 284 175 10 94 10 26 c 0
+ 10 -25 203 11 191 55 c 0
+ 183 86 98 66 13 0 c 1024
+EndSplineSet
+EndChar
