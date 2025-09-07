@@ -359,6 +359,8 @@ def test_sR_i(font, text, expected_glyphs):
 
 
 @pytest.mark.parametrize("text,expected_glyphs", [
+    ("s(ir",   ["s.left.cut", "i.pir", "r.cut"]),
+    ("s(il",   ["s.left.cut", "i.pir", "l.cut"]),
     ("s(ip",   ["s.left.cut", "i.pi", "p"]),
     ("s(ib",   ["s.left.cut", "i.pi", "b"]),
     ("s(is",   ["s.left.cut", "i.pi", "s.left"]),

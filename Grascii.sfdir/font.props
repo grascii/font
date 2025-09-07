@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1757194713
+ModificationTime: 1757204082
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -317,7 +317,7 @@ ChainSub2: coverage "r Joinings 4" 0 0 0 1
  1 2 0
   Coverage: 3 r l
   BCoverage: 1 i
-  BCoverage: 19 p.cut b.cut sh ch j
+  BCoverage: 30 p.cut b.cut s.left.cut sh ch j
  1
   SeqLookup: 0 "Cut Consonant"
 EndFPST
