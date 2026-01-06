@@ -1,0 +1,15 @@
+StartChar: a.au
+Encoding: 1456 -1 362
+Width: 203
+VWidth: 1180
+Flags: W
+AnchorPoint: "Join" 186 180 exit 0
+AnchorPoint: "Join" 186 180 entry 0
+LayerCount: 2
+Fore
+SplineSet
+186 180 m 0
+ 226 110 96 -35 24 7 c 0
+ -12 28 17 135 186 180 c 1024
+EndSplineSet
+EndChar

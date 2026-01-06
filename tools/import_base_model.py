@@ -3,7 +3,7 @@ import psMat
 from svgpathtools import Document, SVG_GROUP_TAG, SVG_NAMESPACE, Line, CubicBezier, QuadraticBezier
 
 
-MODEL_ID = "model"
+DEFAULT_MODEL_ID = "model"
 
 
 def bbox(paths) -> tuple[float, float, float, float]:
@@ -21,8 +21,14 @@ def import_base_model(data: None, glyph: fontforge.glyph):
     if not filename:
         return
 
+    model_id = fontforge.askString(
+        "Provide Model ID",
+        "Provide the ID of the model within the file",
+        DEFAULT_MODEL_ID,
+    )
+
     doc = Document(filename)
-    groups = doc.root.findall(f".//{SVG_GROUP_TAG}[@id='{MODEL_ID}']", SVG_NAMESPACE)
+    groups = doc.root.findall(f".//{SVG_GROUP_TAG}[@id='{model_id}']", SVG_NAMESPACE)
     assert len(groups) == 1
     paths = doc.paths_from_group(groups[0])
 
