@@ -1,19 +1,23 @@
 import math
 from functools import reduce
+from typing import TypedDict
 
 import fontforge
 import psMat
 
 
-def compose(*mats):
+def compose(*mats: tuple[float, float, float, float, float, float]):
     return reduce(psMat.compose, mats, psMat.identity())
 
 
 flip_vertical = psMat.scale(1, -1)
 flip_horizontal = psMat.scale(-1, 1)
 
+class Transformation(TypedDict):
+    matrix: tuple[float, float, float, float, float, float]
+    reverse: bool
 
-transformations = {
+transformations: dict[str, Transformation] = {
     "Identity": {
         "matrix": psMat.identity(),
         "reverse": False,
@@ -71,7 +75,7 @@ transformations = {
 }
 
 
-def create_from_reference(data, glyph):
+def create_from_reference(data: None, glyph: fontforge.glyph):
     answers = fontforge.askMulti(
         "Select glyph and transformation",
         [

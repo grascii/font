@@ -5,7 +5,7 @@ import fontforge
 POSITION_BEFORE_REGEX = re.compile(r"Position Before ([.\w]+)")
 
 
-def recalculate_line_of_writing_positions(data, font):
+def recalculate_line_of_writing_positions(data: None, font: fontforge.font):
     for glyph in font.glyphs():
         for pos in glyph.getPosSub("*"):
             subtable, kind, *others = pos

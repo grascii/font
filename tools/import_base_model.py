@@ -6,7 +6,7 @@ from svgpathtools import Document, SVG_GROUP_TAG, SVG_NAMESPACE, Line, CubicBezi
 MODEL_ID = "model"
 
 
-def bbox(paths):
+def bbox(paths) -> tuple[float, float, float, float]:
     bbs = [path.bbox() for path in paths]
     xmins, xmaxs, ymins, ymaxs = list(zip(*bbs))
     xmin = min(xmins)
@@ -16,7 +16,7 @@ def bbox(paths):
     return xmin, -ymax, xmax, -ymin
 
 
-def import_base_model(data, glyph):
+def import_base_model(data: None, glyph: fontforge.glyph):
     filename = fontforge.openFilename("Select a base model file", "", "*.svg")
     if not filename:
         return
