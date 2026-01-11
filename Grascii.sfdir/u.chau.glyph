@@ -1,0 +1,13 @@
+StartChar: u.chau
+Encoding: -1 -1 379
+Width: 293
+Flags: W
+AnchorPoint: "Join" 242 4 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 0 m 0
+ 69 59 396 158 242 4 c 1024
+EndSplineSet
+EndChar

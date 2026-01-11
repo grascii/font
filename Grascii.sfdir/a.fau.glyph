@@ -1,0 +1,15 @@
+StartChar: a.fau
+Encoding: 1472 -1 376
+Width: 254
+VWidth: 1140
+Flags: W
+AnchorPoint: "Join" 245 140 exit 0
+AnchorPoint: "Join" 245 140 entry 0
+LayerCount: 2
+Fore
+SplineSet
+245 140 m 0
+ 166 61 53 -42 18 18 c 0
+ -18 80 69 140 245 140 c 1024
+EndSplineSet
+EndChar

@@ -3,7 +3,7 @@ FontName: Grascii
 FullName: Grascii
 FamilyName: Grascii
 Weight: Regular
-Copyright: Copyright (c) 2025, Grascii: Language and Tools for Gregg Shorthand
+Copyright: Copyright (c) 2026, Grascii: Language and Tools for Gregg Shorthand
 UComments: "2025-5-9: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 StrokeWidth: 10
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1767682416
+ModificationTime: 1768090875
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -339,21 +339,21 @@ EndFPST
 ChainSub2: coverage "s.left Joinings 2" 0 0 0 1
  1 0 1
   Coverage: 6 s.left
-  FCoverage: 1 i
+  FCoverage: 4 i au
  1
   SeqLookup: 0 "Cut Consonant"
 EndFPST
 ChainSub2: coverage "p Joinings 3" 0 0 0 1
  1 0 1
   Coverage: 3 p b
-  FCoverage: 1 i
+  FCoverage: 4 i au
  1
   SeqLookup: 0 "Cut Consonant"
 EndFPST
 ChainSub2: coverage "k Joinings 2" 0 0 0 1
  1 0 1
   Coverage: 3 k g
-  FCoverage: 1 i
+  FCoverage: 4 i au
  1
   SeqLookup: 0 "Cut Consonant"
 EndFPST
@@ -2466,7 +2466,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1222 26 10
+WinInfo: 1248 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144

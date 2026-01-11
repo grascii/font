@@ -1,0 +1,15 @@
+StartChar: a.kau
+Encoding: 1462 -1 367
+Width: 209
+VWidth: 1177
+Flags: W
+AnchorPoint: "Join" 157 156 exit 0
+AnchorPoint: "Join" 127 177 entry 0
+LayerCount: 2
+Fore
+SplineSet
+127 177 m 0
+ 286 85 98 -48 33 17 c 0
+ -8 58 54 97 157 156 c 1024
+EndSplineSet
+EndChar

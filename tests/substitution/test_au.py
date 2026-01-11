@@ -28,3 +28,26 @@ def test_au(font, text, expected_glyphs):
 ])
 def test_au_before(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("kau",  ["k.cut", "a.kau", "u.kau"]),
+    ("gau",  ["g.cut", "a.kau", "u.kau"]),
+    ("rau",  ["r", "a.rau", "u.rau"]),
+    ("lau",  ["l", "a.rau", "u.rau"]),
+    ("nau",  ["n", "a.nau", "u.nau"]),
+    ("mau",  ["m", "a.nau", "u.nau"]),
+    ("tau",  ["t", "a.tau", "u.tau"]),
+    ("dau",  ["d", "a.tau", "u.tau"]),
+    ("pau",  ["p.cut", "a.pau", "u.au"]),
+    ("bau",  ["b.cut", "a.pau", "u.au"]),
+    ("fau",  ["f", "a.fau", "u.fau"]),
+    ("vau",  ["v", "a.fau", "u.fau"]),
+    ("sau",  ["s.right", "a.fau", "u.fau"]),
+    ("shau", ["sh", "a.chau", "u.au"]),
+    ("chau", ["ch", "a.chau", "u.au"]),
+    ("jau",  ["j", "a.chau", "u.au"]),
+    ("thau", ["th.over", "a.tnau", "u.tnau"]),
+])
+def test_au(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

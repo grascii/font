@@ -1,0 +1,15 @@
+StartChar: a.tnau
+Encoding: 1476 -1 381
+Width: 222
+VWidth: 1113
+Flags: W
+AnchorPoint: "Join" 42 113 exit 0
+AnchorPoint: "Join" 42 113 entry 0
+LayerCount: 2
+Fore
+SplineSet
+42 113 m 0
+ 136 113 242 122 206 55 c 0
+ 153 -44 -72 -1 42 113 c 1024
+EndSplineSet
+EndChar

@@ -1,0 +1,15 @@
+StartChar: a.pau
+Encoding: 1470 -1 375
+Width: 195
+VWidth: 1180
+Flags: W
+AnchorPoint: "Join" 186 181 exit 0
+AnchorPoint: "Join" 186 181 entry 0
+LayerCount: 2
+Fore
+SplineSet
+186 181 m 0
+ 186 95 96 -34 24 8 c 0
+ -12 29 17 136 186 181 c 1024
+EndSplineSet
+EndChar
