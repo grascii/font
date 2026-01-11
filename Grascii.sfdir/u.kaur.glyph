@@ -1,0 +1,15 @@
+StartChar: u.kaur
+Encoding: 1483 -1 382
+Width: 140
+VWidth: 1103
+Flags: W
+AnchorPoint: "Join" 130 0 exit 0
+AnchorPoint: "Join" 10 104 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 104 m 0
+ 66 136 142 118 111 64 c 0
+ 100 45 94 27 130 0 c 1024
+EndSplineSet
+EndChar

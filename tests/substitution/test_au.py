@@ -49,5 +49,29 @@ def test_au_before(font, text, expected_glyphs):
     ("jau",  ["j", "a.chau", "u.au"]),
     ("thau", ["th.over", "a.tnau", "u.tnau"]),
 ])
-def test_au(font, text, expected_glyphs):
+def test_au_after(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("kaur",  ["k.cut", "a.kau", "u.kaur", "r.cut"]),
+    ("kaul",  ["k.cut", "a.kau", "u.kaur", "l.cut"]),
+    ("kaut",  ["k.cut", "a.kau", "u.kau", "t"]),
+    ("kaud",  ["k.cut", "a.kau", "u.kau", "d"]),
+    ("kaush", ["k.cut", "a.kau", "u.kauch", "sh"]),
+    ("kauch", ["k.cut", "a.kau", "u.kauch", "ch"]),
+    ("kauj",  ["k.cut", "a.kau", "u.kauch", "j"]),
+])
+def test_k_au(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("gaur",  ["g.cut", "a.kau", "u.kaur", "r.cut"]),
+    ("gaul",  ["g.cut", "a.kau", "u.kaur", "l.cut"]),
+    ("gaut",  ["g.cut", "a.kau", "u.kau", "t"]),
+    ("gaud",  ["g.cut", "a.kau", "u.kau", "d"]),
+    ("gaush", ["g.cut", "a.kau", "u.kauch", "sh"]),
+    ("gauch", ["g.cut", "a.kau", "u.kauch", "ch"]),
+    ("gauj",  ["g.cut", "a.kau", "u.kauch", "j"]),
+])
+def test_g_au(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

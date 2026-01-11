@@ -5,17 +5,20 @@ Flags: W
 AnchorPoint: "Join" 0 0 exit 0
 AnchorPoint: "Join" 0 0 entry 0
 LayerCount: 2
-MultipleSubs2: "After ch" a.chau u.au
-MultipleSubs2: "After tn" a.tnau u.tnau
-MultipleSubs2: "After f" a.fau u.fau
-MultipleSubs2: "After p" a.pau u.au
-MultipleSubs2: "After t" a.tau u.tau
-MultipleSubs2: "After n" a.nau u.nau
-MultipleSubs2: "After r" a.rau u.rau
-MultipleSubs2: "After k" a.kau u.kau
-MultipleSubs2: "Before ch" a.auch u.auch
-MultipleSubs2: "Before r" a.au u.aur
-MultipleSubs2: "Decompose" a.au u.au
-LCarets2: 1 0
+MultipleSubs2: "Between k ch" a.kau u.kauch
 Ligature2: "Diphthongs" a u
+MultipleSubs2: "Between k t" a.kau u.kau
+MultipleSubs2: "Decompose" a.au u.au
+MultipleSubs2: "Before r" a.au u.aur
+MultipleSubs2: "Before ch" a.auch u.auch
+MultipleSubs2: "After k" a.kau u.kau
+MultipleSubs2: "After r" a.rau u.rau
+MultipleSubs2: "After n" a.nau u.nau
+MultipleSubs2: "After t" a.tau u.tau
+MultipleSubs2: "After p" a.pau u.au
+MultipleSubs2: "After f" a.fau u.fau
+MultipleSubs2: "After tn" a.tnau u.tnau
+MultipleSubs2: "After ch" a.chau u.au
+MultipleSubs2: "Between k r" a.kau u.kaur
+LCarets2: 1 0
 EndChar
