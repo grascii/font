@@ -1,0 +1,15 @@
+StartChar: u.taur
+Encoding: 1489 -1 385
+Width: 135
+VWidth: 1079
+Flags: W
+AnchorPoint: "Join" 125 0 exit 0
+AnchorPoint: "Join" 10 80 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 80 m 0
+ 53 100 108 101 116 75 c 0
+ 124 49 87 22 125 0 c 1024
+EndSplineSet
+EndChar

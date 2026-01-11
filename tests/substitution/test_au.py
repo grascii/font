@@ -119,3 +119,35 @@ def test_n_au(font, text, expected_glyphs):
 ])
 def test_m_au(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("taur",   ["t", "a.tau", "u.taur", "r.cut"]),
+    ("taul",   ["t", "a.tau", "u.taur", "l.cut"]),
+    ("taut",   ["t", "a.tau", "u.tau", "t"]),
+    ("taud",   ["t", "a.tau", "u.tau", "d"]),
+    ("tauf",   ["t", "a.tau", "u.tau", "f"]),
+    ("tauv",   ["t", "a.tau", "u.tau", "v"]),
+    ("taush",  ["t", "a.tau", "u.tauch", "sh"]),
+    ("tauch",  ["t", "a.tau", "u.tauch", "ch"]),
+    ("tauj",   ["t", "a.tau", "u.tauch", "j"]),
+    ("taus",   ["t", "a.tau", "u.tau", "s.right"]),
+    ("tauth",  ["t", "a.tau", "u.tau", "th.over.skew30"]),
+])
+def test_t_au(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("daur",   ["d", "a.tau", "u.taur", "r.cut"]),
+    ("daul",   ["d", "a.tau", "u.taur", "l.cut"]),
+    ("daut",   ["d", "a.tau", "u.tau", "t"]),
+    ("daud",   ["d", "a.tau", "u.tau", "d"]),
+    ("dauf",   ["d", "a.tau", "u.tau", "f"]),
+    ("dauv",   ["d", "a.tau", "u.tau", "v"]),
+    ("daush",  ["d", "a.tau", "u.tauch", "sh"]),
+    ("dauch",  ["d", "a.tau", "u.tauch", "ch"]),
+    ("dauj",   ["d", "a.tau", "u.tauch", "j"]),
+    ("daus",   ["d", "a.tau", "u.tau", "s.right"]),
+    ("dauth",  ["d", "a.tau", "u.tau", "th.over.skew30"]),
+])
+def test_d_au(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
