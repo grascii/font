@@ -101,3 +101,21 @@ def test_r_au(font, text, expected_glyphs):
 ])
 def test_l_au(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("naut",  ["n", "a.nau", "u.nau", "t"]),
+    ("naud",  ["n", "a.nau", "u.nau", "d"]),
+    ("naus",  ["n", "a.nau", "u.nau", "s.right"]),
+    ("nauth", ["n", "a.nau", "u.nau", "th.over.skew30"]),
+])
+def test_n_au(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("maut",  ["m", "a.nau", "u.nau", "t"]),
+    ("maud",  ["m", "a.nau", "u.nau", "d"]),
+    ("maus",  ["m", "a.nau", "u.nau", "s.right"]),
+    ("mauth", ["m", "a.nau", "u.nau", "th.over.skew30"]),
+])
+def test_m_au(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
