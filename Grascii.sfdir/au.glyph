@@ -5,6 +5,10 @@ Flags: W
 AnchorPoint: "Join" 0 0 exit 0
 AnchorPoint: "Join" 0 0 entry 0
 LayerCount: 2
+MultipleSubs2: "Between p ch" a.pau u.auch
+MultipleSubs2: "Between p f" a.pau u.au
+MultipleSubs2: "Between p t" a.pau u.au
+MultipleSubs2: "Between p r" a.pau u.aur
 MultipleSubs2: "Between t tn" a.tau u.tau
 MultipleSubs2: "Between t ch" a.tau u.tauch
 MultipleSubs2: "Between t f" a.tau u.tau

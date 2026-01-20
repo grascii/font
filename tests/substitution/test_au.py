@@ -151,3 +151,33 @@ def test_t_au(font, text, expected_glyphs):
 ])
 def test_d_au(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("paur",   ["p.cut", "a.pau", "u.aur", "r.cut"]),
+    ("paul",   ["p.cut", "a.pau", "u.aur", "l.cut"]),
+    ("paut",   ["p.cut", "a.pau", "u.au", "t"]),
+    ("paud",   ["p.cut", "a.pau", "u.au", "d"]),
+    ("pauf",   ["p.cut", "a.pau", "u.au", "f"]),
+    ("pauv",   ["p.cut", "a.pau", "u.au", "v"]),
+    ("paush",  ["p.cut", "a.pau", "u.auch", "sh"]),
+    ("pauch",  ["p.cut", "a.pau", "u.auch", "ch"]),
+    ("pauj",   ["p.cut", "a.pau", "u.auch", "j"]),
+    ("paus",   ["p.cut", "a.pau", "u.au", "s.right"]),
+])
+def test_p_au(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("baur",   ["b.cut", "a.pau", "u.aur", "r.cut"]),
+    ("baul",   ["b.cut", "a.pau", "u.aur", "l.cut"]),
+    ("baut",   ["b.cut", "a.pau", "u.au", "t"]),
+    ("baud",   ["b.cut", "a.pau", "u.au", "d"]),
+    ("bauf",   ["b.cut", "a.pau", "u.au", "f"]),
+    ("bauv",   ["b.cut", "a.pau", "u.au", "v"]),
+    ("baush",  ["b.cut", "a.pau", "u.auch", "sh"]),
+    ("bauch",  ["b.cut", "a.pau", "u.auch", "ch"]),
+    ("bauj",   ["b.cut", "a.pau", "u.auch", "j"]),
+    ("baus",   ["b.cut", "a.pau", "u.au", "s.right"]),
+])
+def test_b_au(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
