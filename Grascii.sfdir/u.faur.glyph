@@ -1,0 +1,15 @@
+StartChar: u.faur
+Encoding: 1493 -1 387
+Width: 108
+VWidth: 1110
+Flags: W
+AnchorPoint: "Join" 98 0 exit 0
+AnchorPoint: "Join" 10 111 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 111 m 0
+ 74 111 93 91 73 56 c 0
+ 53 22 86 7 98 0 c 1024
+EndSplineSet
+EndChar
