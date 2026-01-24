@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1768889499
+ModificationTime: 1769285642
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -414,7 +414,7 @@ EndFPST
 ChainSub2: coverage "th.over Joinings 3" 0 0 0 1
  1 1 0
   Coverage: 7 th.over
-  BCoverage: 4 u au
+  BCoverage: 7 u au eu
  1
   SeqLookup: 0 "Skewed 30"
 EndFPST
@@ -656,7 +656,7 @@ EndFPST
 ChainSub2: coverage "r Joinings 2" 0 0 0 1
  1 1 0
   Coverage: 3 r l
-  BCoverage: 4 o au
+  BCoverage: 7 o au eu
  1
   SeqLookup: 0 "Cut Consonant"
 EndFPST
@@ -2374,7 +2374,7 @@ ChainSub2: glyph "Vowel Before Overrides" 0 0 0 5
   SeqLookup: 0 "Before l"
 EndFPST
 ChainSub2: class "Vowel Before" 12 1 12 10
-  Class: 18 a e o u i ea ae au
+  Class: 21 a e o u i ea ae au eu
   Class: 7 sh ch j
   Class: 35 f v f.cut v.cut s.right s.right.cut
   Class: 15 k g k.cut g.cut
@@ -2385,7 +2385,7 @@ ChainSub2: class "Vowel Before" 12 1 12 10
   Class: 52 th.over th.over.angled th.over.skew30 th.over.skew45
   Class: 56 th.under th.under.angled th.under.skew30 th.under.skew45
   Class: 5 ng nk
-  FClass: 18 a e o u i ea ae au
+  FClass: 21 a e o u i ea ae au eu
   FClass: 7 sh ch j
   FClass: 35 f v f.cut v.cut s.right s.right.cut
   FClass: 15 k g k.cut g.cut
@@ -2466,7 +2466,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1274 26 10
+WinInfo: 1300 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144

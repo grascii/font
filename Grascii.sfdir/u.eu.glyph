@@ -1,0 +1,14 @@
+StartChar: u.eu
+Encoding: 1535 -1 390
+Width: 142
+VWidth: 1060
+Flags: W
+AnchorPoint: "Join" 101 0 exit 0
+AnchorPoint: "Join" 10 61 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 61 m 0
+ 53 73 193 92 101 0 c 1024
+EndSplineSet
+EndChar
