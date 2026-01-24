@@ -1,0 +1,15 @@
+StartChar: e.feu
+Encoding: 1548 -1 392
+Width: 242
+VWidth: 125
+Flags: W
+AnchorPoint: "Join" 208 114 exit 0
+AnchorPoint: "Join" 222 126 entry 0
+LayerCount: 2
+Fore
+SplineSet
+222 126 m 0
+ 147 60 58 -22 30 6 c 0
+ -18 54 119 90 208 114 c 1024
+EndSplineSet
+EndChar

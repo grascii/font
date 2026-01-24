@@ -1,0 +1,13 @@
+StartChar: u.neu
+Encoding: 1543 -1 400
+Width: 213
+Flags: W
+AnchorPoint: "Join" 185 2 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 0 m 0
+ 177 96 236 58 185 2 c 1024
+EndSplineSet
+EndChar

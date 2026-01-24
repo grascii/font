@@ -29,3 +29,22 @@ def test_eu(font, text, expected_glyphs):
 ])
 def test_eu_before(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("keu",  ["k.cut", "e.keu", "u.keu"]),
+    ("geu",  ["g.cut", "e.keu", "u.keu"]),
+    ("reu",  ["r", "e.reu", "u.reu"]),
+    ("leu",  ["l", "e.reu", "u.reu"]),
+    ("neu",  ["n", "e.neu", "u.neu"]),
+    ("meu",  ["m", "e.neu", "u.neu"]),
+    ("teu",  ["t", "e.teu", "u.teu"]),
+    ("deu",  ["d", "e.teu", "u.teu"]),
+    ("peu",  ["p.cut", "e.peu", "u.peu"]),
+    ("beu",  ["b.cut", "e.peu", "u.peu"]),
+    ("feu",  ["f", "e.feu", "u.feu"]),
+    ("veu",  ["v", "e.feu", "u.feu"]),
+    ("seu",  ["s.right", "e.feu", "u.feu"]),
+])
+def test_eu_after(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
