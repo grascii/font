@@ -48,3 +48,45 @@ def test_eu_before(font, text, expected_glyphs):
 ])
 def test_eu_after(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("keuk",  ["k.cut", "e.keu", "u.keu", "k"]),
+    ("keuk",  ["k.cut", "e.keu", "u.keu", "k"]),
+    ("keur",  ["k.cut", "e.keu", "u.keur", "r.cut"]),
+    ("keul",  ["k.cut", "e.keu", "u.keur", "l.cut"]),
+    ("keun",  ["k.cut", "e.keu", "u.keu", "n"]),
+    ("keum",  ["k.cut", "e.keu", "u.keu", "m"]),
+    ("keut",  ["k.cut", "e.keu", "u.keu", "t"]),
+    ("keud",  ["k.cut", "e.keu", "u.keu", "d"]),
+    ("keup",  ["k.cut", "e.keu", "u.keu", "p"]),
+    ("keub",  ["k.cut", "e.keu", "u.keu", "b"]),
+    ("keuf",  ["k.cut", "e.keu", "u.keu", "f"]),
+    ("keuv",  ["k.cut", "e.keu", "u.keu", "v"]),
+    ("keush", ["k.cut", "e.keu", "u.keuch", "sh"]),
+    ("keuch", ["k.cut", "e.keu", "u.keuch", "ch"]),
+    ("keuj",  ["k.cut", "e.keu", "u.keuch", "j"]),
+])
+def test_k_eu(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("geuk",  ["g.cut", "e.keu", "u.keu", "k"]),
+    ("geuk",  ["g.cut", "e.keu", "u.keu", "k"]),
+    ("geur",  ["g.cut", "e.keu", "u.keur", "r.cut"]),
+    ("geul",  ["g.cut", "e.keu", "u.keur", "l.cut"]),
+    ("geun",  ["g.cut", "e.keu", "u.keu", "n"]),
+    ("geum",  ["g.cut", "e.keu", "u.keu", "m"]),
+    ("geut",  ["g.cut", "e.keu", "u.keu", "t"]),
+    ("geud",  ["g.cut", "e.keu", "u.keu", "d"]),
+    ("geup",  ["g.cut", "e.keu", "u.keu", "p"]),
+    ("geub",  ["g.cut", "e.keu", "u.keu", "b"]),
+    ("geuf",  ["g.cut", "e.keu", "u.keu", "f"]),
+    ("geuv",  ["g.cut", "e.keu", "u.keu", "v"]),
+    ("geush", ["g.cut", "e.keu", "u.keuch", "sh"]),
+    ("geuch", ["g.cut", "e.keu", "u.keuch", "ch"]),
+    ("geuj",  ["g.cut", "e.keu", "u.keuch", "j"]),
+])
+def test_g_eu(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

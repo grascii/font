@@ -1,0 +1,15 @@
+StartChar: u.keur
+Encoding: 1551 -1 406
+Width: 137
+VWidth: 1112
+Flags: W
+AnchorPoint: "Join" 127 0 exit 0
+AnchorPoint: "Join" 10 113 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 113 m 0
+ 65 145 154 151 115 84 c 0
+ 97 53 81 34 127 0 c 1024
+EndSplineSet
+EndChar
