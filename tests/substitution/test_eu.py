@@ -90,3 +90,21 @@ def test_k_eu(font, text, expected_glyphs):
 ])
 def test_g_eu(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("reush", ["r", "e.reu", "u.reu", "sh"]),
+    ("reuch", ["r", "e.reu", "u.reu", "ch"]),
+    ("reuj",  ["r", "e.reu", "u.reu", "j"]),
+])
+def test_r_eu(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("leush", ["l", "e.reu", "u.reu", "sh"]),
+    ("leuch", ["l", "e.reu", "u.reu", "ch"]),
+    ("leuj",  ["l", "e.reu", "u.reu", "j"]),
+])
+def test_l_eu(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
