@@ -1,0 +1,13 @@
+StartChar: u.neuch
+Encoding: 1557 -1 409
+Width: 207
+Flags: W
+AnchorPoint: "Join" 185 2 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 0 m 0
+ 177 96 222 65 185 2 c 1024
+EndSplineSet
+EndChar

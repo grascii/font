@@ -52,7 +52,7 @@ def test_eu_after(font, text, expected_glyphs):
 
 @pytest.mark.parametrize("text,expected_glyphs", [
     ("keuk",  ["k.cut", "e.keu", "u.keu", "k"]),
-    ("keuk",  ["k.cut", "e.keu", "u.keu", "k"]),
+    ("keug",  ["k.cut", "e.keu", "u.keu", "g"]),
     ("keur",  ["k.cut", "e.keu", "u.keur", "r.cut"]),
     ("keul",  ["k.cut", "e.keu", "u.keur", "l.cut"]),
     ("keun",  ["k.cut", "e.keu", "u.keu", "n"]),
@@ -73,7 +73,7 @@ def test_k_eu(font, text, expected_glyphs):
 
 @pytest.mark.parametrize("text,expected_glyphs", [
     ("geuk",  ["g.cut", "e.keu", "u.keu", "k"]),
-    ("geuk",  ["g.cut", "e.keu", "u.keu", "k"]),
+    ("geug",  ["g.cut", "e.keu", "u.keu", "g"]),
     ("geur",  ["g.cut", "e.keu", "u.keur", "r.cut"]),
     ("geul",  ["g.cut", "e.keu", "u.keur", "l.cut"]),
     ("geun",  ["g.cut", "e.keu", "u.keu", "n"]),
@@ -107,4 +107,40 @@ def test_r_eu(font, text, expected_glyphs):
     ("leuj",  ["l", "e.reu", "u.reu", "j"]),
 ])
 def test_l_eu(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("neur",  ["n", "e.neu", "u.neur", "r.cut"]),
+    ("neul",  ["n", "e.neu", "u.neur", "l.cut"]),
+    ("neun",  ["n", "e.neu", "u.neu", "n"]),
+    ("neum",  ["n", "e.neu", "u.neu", "m"]),
+    ("neut",  ["n", "e.neu", "u.neu", "t"]),
+    ("neud",  ["n", "e.neu", "u.neu", "d"]),
+    ("neuf",  ["n", "e.neu", "u.neu", "f"]),
+    ("neuv",  ["n", "e.neu", "u.neu", "v"]),
+    ("neus",  ["n", "e.neu", "u.neu", "s.right"]),
+    ("neush", ["n", "e.neu", "u.neuch", "sh"]),
+    ("neuch", ["n", "e.neu", "u.neuch", "ch"]),
+    ("neuj",  ["n", "e.neu", "u.neuch", "j"]),
+])
+def test_n_eu(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("meur",  ["m", "e.neu", "u.neur", "r.cut"]),
+    ("meul",  ["m", "e.neu", "u.neur", "l.cut"]),
+    ("meun",  ["m", "e.neu", "u.neu", "n"]),
+    ("meum",  ["m", "e.neu", "u.neu", "m"]),
+    ("meut",  ["m", "e.neu", "u.neu", "t"]),
+    ("meud",  ["m", "e.neu", "u.neu", "d"]),
+    ("meuf",  ["m", "e.neu", "u.neu", "f"]),
+    ("meuv",  ["m", "e.neu", "u.neu", "v"]),
+    ("meus",  ["m", "e.neu", "u.neu", "s.right"]),
+    ("meush", ["m", "e.neu", "u.neuch", "sh"]),
+    ("meuch", ["m", "e.neu", "u.neuch", "ch"]),
+    ("meuj",  ["m", "e.neu", "u.neuch", "j"]),
+])
+def test_m_eu(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
