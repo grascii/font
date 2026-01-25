@@ -40,4 +40,10 @@ MultipleSubs2: "Between p n" e.peu u.peu
 MultipleSubs2: "Between p t" e.peu u.peu
 MultipleSubs2: "Between p f" e.peu u.peu
 MultipleSubs2: "Between p ch" e.peu u.peuch
+MultipleSubs2: "Between f r" e.feu u.feur
+MultipleSubs2: "Between f n" e.feu u.feu
+MultipleSubs2: "Between f t" e.feu u.feu
+MultipleSubs2: "Between f p" e.feu u.feu
+MultipleSubs2: "Between f f" e.feu u.feu
+MultipleSubs2: "Between f ch" e.feu u.feuch
 EndChar

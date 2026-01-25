@@ -187,10 +187,10 @@ def test_d_eu(font, text, expected_glyphs):
     ("peug",  ["p.cut", "e.peu", "u.peu", "g"]),
     ("peur",  ["p.cut", "e.peu", "u.peur", "r.cut"]),
     ("peul",  ["p.cut", "e.peu", "u.peur", "l.cut"]),
-    ("peut",  ["p.cut", "e.peu", "u.peu", "t"]),
-    ("peud",  ["p.cut", "e.peu", "u.peu", "d"]),
     ("peun",  ["p.cut", "e.peu", "u.peu", "n"]),
     ("peum",  ["p.cut", "e.peu", "u.peu", "m"]),
+    ("peut",  ["p.cut", "e.peu", "u.peu", "t"]),
+    ("peud",  ["p.cut", "e.peu", "u.peu", "d"]),
     ("peuf",  ["p.cut", "e.peu", "u.peu", "f"]),
     ("peuv",  ["p.cut", "e.peu", "u.peu", "v"]),
     ("peus",  ["p.cut", "e.peu", "u.peu", "s.right"]),
@@ -207,10 +207,10 @@ def test_p_eu(font, text, expected_glyphs):
     ("beug",  ["b.cut", "e.peu", "u.peu", "g"]),
     ("beur",  ["b.cut", "e.peu", "u.peur", "r.cut"]),
     ("beul",  ["b.cut", "e.peu", "u.peur", "l.cut"]),
-    ("beut",  ["b.cut", "e.peu", "u.peu", "t"]),
-    ("beud",  ["b.cut", "e.peu", "u.peu", "d"]),
     ("beun",  ["b.cut", "e.peu", "u.peu", "n"]),
     ("beum",  ["b.cut", "e.peu", "u.peu", "m"]),
+    ("beut",  ["b.cut", "e.peu", "u.peu", "t"]),
+    ("beud",  ["b.cut", "e.peu", "u.peu", "d"]),
     ("beuf",  ["b.cut", "e.peu", "u.peu", "f"]),
     ("beuv",  ["b.cut", "e.peu", "u.peu", "v"]),
     ("beus",  ["b.cut", "e.peu", "u.peu", "s.right"]),
@@ -219,4 +219,64 @@ def test_p_eu(font, text, expected_glyphs):
     ("beuj",  ["b.cut", "e.peu", "u.peuch", "j"]),
 ])
 def test_b_eu(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("feur",  ["f", "e.feu", "u.feur", "r.cut"]),
+    ("feul",  ["f", "e.feu", "u.feur", "l.cut"]),
+    ("feun",  ["f", "e.feu", "u.feu", "n"]),
+    ("feum",  ["f", "e.feu", "u.feu", "m"]),
+    ("feut",  ["f", "e.feu", "u.feu", "t"]),
+    ("feud",  ["f", "e.feu", "u.feu", "d"]),
+    ("feup",  ["f", "e.feu", "u.feu", "p"]),
+    ("feub",  ["f", "e.feu", "u.feu", "b"]),
+    ("feuf",  ["f", "e.feu", "u.feu", "f"]),
+    ("feuv",  ["f", "e.feu", "u.feu", "v"]),
+    ("feus",  ["f", "e.feu", "u.feu", "s.right"]),
+    ("feush", ["f", "e.feu", "u.feuch", "sh"]),
+    ("feuch", ["f", "e.feu", "u.feuch", "ch"]),
+    ("feuj",  ["f", "e.feu", "u.feuch", "j"]),
+])
+def test_f_eu(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("veur",  ["v", "e.feu", "u.feur", "r.cut"]),
+    ("veul",  ["v", "e.feu", "u.feur", "l.cut"]),
+    ("veun",  ["v", "e.feu", "u.feu", "n"]),
+    ("veum",  ["v", "e.feu", "u.feu", "m"]),
+    ("veut",  ["v", "e.feu", "u.feu", "t"]),
+    ("veud",  ["v", "e.feu", "u.feu", "d"]),
+    ("veup",  ["v", "e.feu", "u.feu", "p"]),
+    ("veub",  ["v", "e.feu", "u.feu", "b"]),
+    ("veuf",  ["v", "e.feu", "u.feu", "f"]),
+    ("veuv",  ["v", "e.feu", "u.feu", "v"]),
+    ("veus",  ["v", "e.feu", "u.feu", "s.right"]),
+    ("veush", ["v", "e.feu", "u.feuch", "sh"]),
+    ("veuch", ["v", "e.feu", "u.feuch", "ch"]),
+    ("veuj",  ["v", "e.feu", "u.feuch", "j"]),
+])
+def test_v_eu(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("seur",  ["s.right", "e.feu", "u.feur", "r.cut"]),
+    ("seul",  ["s.right", "e.feu", "u.feur", "l.cut"]),
+    ("seun",  ["s.right", "e.feu", "u.feu", "n"]),
+    ("seum",  ["s.right", "e.feu", "u.feu", "m"]),
+    ("seut",  ["s.right", "e.feu", "u.feu", "t"]),
+    ("seud",  ["s.right", "e.feu", "u.feu", "d"]),
+    ("seup",  ["s.right", "e.feu", "u.feu", "p"]),
+    ("seub",  ["s.right", "e.feu", "u.feu", "b"]),
+    ("seuf",  ["s.right", "e.feu", "u.feu", "f"]),
+    ("seuv",  ["s.right", "e.feu", "u.feu", "v"]),
+    ("seus",  ["s.right", "e.feu", "u.feu", "s.right"]),
+    ("seush", ["s.right", "e.feu", "u.feuch", "sh"]),
+    ("seuch", ["s.right", "e.feu", "u.feuch", "ch"]),
+    ("seuj",  ["s.right", "e.feu", "u.feuch", "j"]),
+])
+def test_sR_eu(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

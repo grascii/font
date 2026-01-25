@@ -1,0 +1,14 @@
+StartChar: u.feuch
+Encoding: 1567 -1 414
+Width: 70
+VWidth: 1072
+Flags: W
+AnchorPoint: "Join" 38 0 exit 0
+AnchorPoint: "Join" 10 73 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 73 m 0
+ 56 85 82 76 38 0 c 1024
+EndSplineSet
+EndChar

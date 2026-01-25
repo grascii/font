@@ -1,0 +1,15 @@
+StartChar: u.feur
+Encoding: 1565 -1 413
+Width: 169
+VWidth: 1084
+Flags: W
+AnchorPoint: "Join" 159 0 exit 0
+AnchorPoint: "Join" 10 84 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 84 m 0
+ 63 98 164 126 129 65 c 0
+ 112 36 123 21 159 0 c 1024
+EndSplineSet
+EndChar
