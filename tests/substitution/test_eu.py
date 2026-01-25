@@ -180,3 +180,43 @@ def test_t_eu(font, text, expected_glyphs):
 ])
 def test_d_eu(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("peuk",  ["p.cut", "e.peu", "u.peu", "k"]),
+    ("peug",  ["p.cut", "e.peu", "u.peu", "g"]),
+    ("peur",  ["p.cut", "e.peu", "u.peur", "r.cut"]),
+    ("peul",  ["p.cut", "e.peu", "u.peur", "l.cut"]),
+    ("peut",  ["p.cut", "e.peu", "u.peu", "t"]),
+    ("peud",  ["p.cut", "e.peu", "u.peu", "d"]),
+    ("peun",  ["p.cut", "e.peu", "u.peu", "n"]),
+    ("peum",  ["p.cut", "e.peu", "u.peu", "m"]),
+    ("peuf",  ["p.cut", "e.peu", "u.peu", "f"]),
+    ("peuv",  ["p.cut", "e.peu", "u.peu", "v"]),
+    ("peus",  ["p.cut", "e.peu", "u.peu", "s.right"]),
+    ("peush", ["p.cut", "e.peu", "u.peuch", "sh"]),
+    ("peuch", ["p.cut", "e.peu", "u.peuch", "ch"]),
+    ("peuj",  ["p.cut", "e.peu", "u.peuch", "j"]),
+])
+def test_p_eu(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("beuk",  ["b.cut", "e.peu", "u.peu", "k"]),
+    ("beug",  ["b.cut", "e.peu", "u.peu", "g"]),
+    ("beur",  ["b.cut", "e.peu", "u.peur", "r.cut"]),
+    ("beul",  ["b.cut", "e.peu", "u.peur", "l.cut"]),
+    ("beut",  ["b.cut", "e.peu", "u.peu", "t"]),
+    ("beud",  ["b.cut", "e.peu", "u.peu", "d"]),
+    ("beun",  ["b.cut", "e.peu", "u.peu", "n"]),
+    ("beum",  ["b.cut", "e.peu", "u.peu", "m"]),
+    ("beuf",  ["b.cut", "e.peu", "u.peu", "f"]),
+    ("beuv",  ["b.cut", "e.peu", "u.peu", "v"]),
+    ("beus",  ["b.cut", "e.peu", "u.peu", "s.right"]),
+    ("beush", ["b.cut", "e.peu", "u.peuch", "sh"]),
+    ("beuch", ["b.cut", "e.peu", "u.peuch", "ch"]),
+    ("beuj",  ["b.cut", "e.peu", "u.peuch", "j"]),
+])
+def test_b_eu(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

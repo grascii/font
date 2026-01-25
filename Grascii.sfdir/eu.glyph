@@ -34,4 +34,10 @@ MultipleSubs2: "After t" e.teu u.teu
 MultipleSubs2: "After p" e.peu u.peu
 MultipleSubs2: "After f" e.feu u.feu
 MultipleSubs2: "Between r ch" e.reu u.reu
+MultipleSubs2: "Between p k" e.peu u.peu
+MultipleSubs2: "Between p r" e.peu u.peur
+MultipleSubs2: "Between p n" e.peu u.peu
+MultipleSubs2: "Between p t" e.peu u.peu
+MultipleSubs2: "Between p f" e.peu u.peu
+MultipleSubs2: "Between p ch" e.peu u.peuch
 EndChar
