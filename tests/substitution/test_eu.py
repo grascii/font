@@ -144,3 +144,39 @@ def test_n_eu(font, text, expected_glyphs):
 ])
 def test_m_eu(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("teuk",  ["t", "e.teu", "u.teu", "k"]),
+    ("teug",  ["t", "e.teu", "u.teu", "g"]),
+    ("teut",  ["t", "e.teu", "u.teu", "t"]),
+    ("teud",  ["t", "e.teu", "u.teu", "d"]),
+    ("teup",  ["t", "e.teu", "u.teup", "p"]),
+    ("teub",  ["t", "e.teu", "u.teup", "b"]),
+    ("teuf",  ["t", "e.teu", "u.teu", "f"]),
+    ("teuv",  ["t", "e.teu", "u.teu", "v"]),
+    ("teus",  ["t", "e.teu", "u.teu", "s.right"]),
+    ("teush", ["t", "e.teu", "u.teu", "sh"]),
+    ("teuch", ["t", "e.teu", "u.teu", "ch"]),
+    ("teuj",  ["t", "e.teu", "u.teu", "j"]),
+])
+def test_t_eu(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("deuk",  ["d", "e.teu", "u.teu", "k"]),
+    ("deug",  ["d", "e.teu", "u.teu", "g"]),
+    ("deut",  ["d", "e.teu", "u.teu", "t"]),
+    ("deud",  ["d", "e.teu", "u.teu", "d"]),
+    ("deup",  ["d", "e.teu", "u.teup", "p"]),
+    ("deub",  ["d", "e.teu", "u.teup", "b"]),
+    ("deuf",  ["d", "e.teu", "u.teu", "f"]),
+    ("deuv",  ["d", "e.teu", "u.teu", "v"]),
+    ("deus",  ["d", "e.teu", "u.teu", "s.right"]),
+    ("deush", ["d", "e.teu", "u.teu", "sh"]),
+    ("deuch", ["d", "e.teu", "u.teu", "ch"]),
+    ("deuj",  ["d", "e.teu", "u.teu", "j"]),
+])
+def test_d_eu(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

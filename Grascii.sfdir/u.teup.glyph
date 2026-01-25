@@ -1,0 +1,14 @@
+StartChar: u.teup
+Encoding: 1559 -1 410
+Width: 203
+VWidth: 1012
+Flags: W
+AnchorPoint: "Join" 166 0 exit 0
+AnchorPoint: "Join" 10 12 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 12 m 0
+ 169 104 235 58 166 0 c 1024
+EndSplineSet
+EndChar
