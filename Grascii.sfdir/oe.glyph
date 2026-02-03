@@ -1,0 +1,14 @@
+StartChar: oe
+Encoding: 308 -1 415
+Width: 0
+Flags: W
+AnchorPoint: "Join" 0 0 exit 0
+AnchorPoint: "Join" 0 0 entry 0
+LayerCount: 2
+MultipleSubs2: "Before p" o.oep e.oep
+MultipleSubs2: "Before f" o.oe e.oef
+MultipleSubs2: "Before n" o.oe e.oen
+MultipleSubs2: "Before r" o.oe e.oer
+MultipleSubs2: "Decompose" o.oe e.oe
+Ligature2: "Diphthongs" o e
+EndChar

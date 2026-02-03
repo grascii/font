@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1769311201
+ModificationTime: 1769582168
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -360,14 +360,14 @@ EndFPST
 ChainSub2: coverage "s.right Joinings 4" 0 0 0 1
  1 1 0
   Coverage: 7 s.right
-  BCoverage: 1 i
+  BCoverage: 4 i oe
  1
   SeqLookup: 0 "Cut Consonant"
 EndFPST
 ChainSub2: coverage "f Joinings 4" 0 0 0 1
  1 1 0
   Coverage: 3 f v
-  BCoverage: 1 i
+  BCoverage: 4 i oe
  1
   SeqLookup: 0 "Cut Consonant"
 EndFPST
@@ -656,7 +656,7 @@ EndFPST
 ChainSub2: coverage "r Joinings 2" 0 0 0 1
  1 1 0
   Coverage: 3 r l
-  BCoverage: 7 o au eu
+  BCoverage: 10 o au eu oe
  1
   SeqLookup: 0 "Cut Consonant"
 EndFPST
@@ -1869,21 +1869,21 @@ ChainSub2: class "s Direction" 8 8 8 15
   Class: 23 k g f v sh ch j s.right
   Class: 14 r l p b s.left
   Class: 9 a e ea ae
-  Class: 15 n m t d ng nk o
+  Class: 18 n m t d ng nk o oe
   Class: 1 u
   Class: 1 i
   BClass: 1 s
   BClass: 23 k g f v sh ch j s.right
   BClass: 14 r l p b s.left
   BClass: 9 a e ea ae
-  BClass: 15 n m t d ng nk o
+  BClass: 18 n m t d ng nk o oe
   BClass: 1 u
   BClass: 1 i
   FClass: 1 s
   FClass: 23 k g f v sh ch j s.right
   FClass: 14 r l p b s.left
   FClass: 9 a e ea ae
-  FClass: 15 n m t d ng nk o
+  FClass: 18 n m t d ng nk o oe
   FClass: 1 u
   FClass: 1 i
  1 2 0
@@ -2374,7 +2374,7 @@ ChainSub2: glyph "Vowel Before Overrides" 0 0 0 5
   SeqLookup: 0 "Before l"
 EndFPST
 ChainSub2: class "Vowel Before" 12 1 12 10
-  Class: 21 a e o u i ea ae au eu
+  Class: 24 a e o u i ea ae au eu oe
   Class: 7 sh ch j
   Class: 35 f v f.cut v.cut s.right s.right.cut
   Class: 15 k g k.cut g.cut
@@ -2385,7 +2385,7 @@ ChainSub2: class "Vowel Before" 12 1 12 10
   Class: 52 th.over th.over.angled th.over.skew30 th.over.skew45
   Class: 56 th.under th.under.angled th.under.skew30 th.under.skew45
   Class: 5 ng nk
-  FClass: 21 a e o u i ea ae au eu
+  FClass: 24 a e o u i ea ae au eu oe
   FClass: 7 sh ch j
   FClass: 35 f v f.cut v.cut s.right s.right.cut
   FClass: 15 k g k.cut g.cut
@@ -2466,7 +2466,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 260 26 10
+WinInfo: 1326 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
