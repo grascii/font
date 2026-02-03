@@ -1,0 +1,15 @@
+StartChar: o.koe
+Encoding: 1622 -1 423
+Width: 184
+VWidth: 1094
+Flags: W
+AnchorPoint: "Join" 175 61 exit 0
+AnchorPoint: "Join" 11 94 entry 0
+LayerCount: 2
+Fore
+SplineSet
+11 94 m 0
+ 58 67 -5 42 13 11 c 0
+ 36 -28 149 46 175 61 c 1024
+EndSplineSet
+EndChar

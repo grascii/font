@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1769582168
+ModificationTime: 1770095172
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -353,7 +353,7 @@ EndFPST
 ChainSub2: coverage "k Joinings 2" 0 0 0 1
  1 0 1
   Coverage: 3 k g
-  FCoverage: 7 i au eu
+  FCoverage: 10 i au eu oe
  1
   SeqLookup: 0 "Cut Consonant"
 EndFPST
@@ -1997,45 +1997,50 @@ ChainSub2: class "p Joinings 1" 3 3 3 1
   BClassNames: "All_Others" "p" "r"
   FClassNames: "All_Others" "p" "r"
 EndFPST
-ChainSub2: glyph "Vowel After Overrides" 0 0 0 7
+ChainSub2: glyph "Vowel After Overrides" 0 0 0 8
  String: 1 a
  BString: 1 b
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "After b"
  String: 2 ea
  BString: 1 b
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "After b"
  String: 1 a
  BString: 7 s.right
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "After s.right"
  String: 1 a
  BString: 6 s.left
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "After s.left"
  String: 1 e
  BString: 6 s.left
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "After s.left"
  String: 2 ea
  BString: 6 s.left
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "After s.left"
  String: 2 ae
  BString: 6 s.left
- FString: 0 
+ FString: 0
+ 1
+  SeqLookup: 0 "After s.left"
+ String: 2 oe
+ BString: 6 s.left
+ FString: 0
  1
   SeqLookup: 0 "After s.left"
 EndFPST
 ChainSub2: class "Vowel After" 12 12 12 10
-  Class: 21 a e o u i ea ae au eu
+  Class: 24 a e o u i ea ae au eu oe
   Class: 7 sh ch j
   Class: 35 f v f.cut v.cut s.right s.right.cut
   Class: 15 k g k.cut g.cut
@@ -2046,7 +2051,7 @@ ChainSub2: class "Vowel After" 12 12 12 10
   Class: 52 th.over th.over.angled th.over.skew30 th.over.skew45
   Class: 56 th.under th.under.angled th.under.skew30 th.under.skew45
   Class: 5 ng nk
-  BClass: 21 a e o u i ea ae au eu
+  BClass: 24 a e o u i ea ae au eu oe
   BClass: 7 sh ch j
   BClass: 35 f v f.cut v.cut s.right s.right.cut
   BClass: 15 k g k.cut g.cut
@@ -2057,7 +2062,7 @@ ChainSub2: class "Vowel After" 12 12 12 10
   BClass: 52 th.over th.over.angled th.over.skew30 th.over.skew45
   BClass: 56 th.under th.under.angled th.under.skew30 th.under.skew45
   BClass: 5 ng nk
-  FClass: 21 a e o u i ea ae au eu
+  FClass: 24 a e o u i ea ae au eu oe
   FClass: 7 sh ch j
   FClass: 35 f v f.cut v.cut s.right s.right.cut
   FClass: 15 k g k.cut g.cut
@@ -2466,7 +2471,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1326 26 10
+WinInfo: 1378 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
