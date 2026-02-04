@@ -47,3 +47,27 @@ def test_oe_before(font, text, expected_glyphs):
 ])
 def test_oe_after(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("koer",  ["k.cut", "o.koer", "e.koer", "r.cut"]),
+    ("koel",  ["k.cut", "o.koer", "e.koer", "l.cut"]),
+    ("koen",  ["k.cut", "o.koen", "e.koen", "n"]),
+    ("koem",  ["k.cut", "o.koen", "e.koen", "m"]),
+    ("koet",  ["k.cut", "o.koet", "e.koet", "t"]),
+    ("koed",  ["k.cut", "o.koet", "e.koet", "d"]),
+])
+def test_k_oe(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("goer",  ["g.cut", "o.koer", "e.koer", "r.cut"]),
+    ("goel",  ["g.cut", "o.koer", "e.koer", "l.cut"]),
+    ("goen",  ["g.cut", "o.koen", "e.koen", "n"]),
+    ("goem",  ["g.cut", "o.koen", "e.koen", "m"]),
+    ("goet",  ["g.cut", "o.koet", "e.koet", "t"]),
+    ("goed",  ["g.cut", "o.koet", "e.koet", "d"]),
+])
+def test_g_oe(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

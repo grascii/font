@@ -1,0 +1,15 @@
+StartChar: o.koen
+Encoding: 1634 -1 433
+Width: 223
+VWidth: 1098
+Flags: W
+AnchorPoint: "Join" 213 35 exit 0
+AnchorPoint: "Join" 11 99 entry 0
+LayerCount: 2
+Fore
+SplineSet
+11 99 m 0
+ 58 72 -5 47 13 16 c 0
+ 36 -23 187 20 213 35 c 1024
+EndSplineSet
+EndChar

@@ -1,0 +1,15 @@
+StartChar: e.koer
+Encoding: 1633 -1 432
+Width: 109
+VWidth: 1030
+Flags: W
+AnchorPoint: "Join" 68 0 exit 0
+AnchorPoint: "Join" 27 30 entry 0
+LayerCount: 2
+Fore
+SplineSet
+27 30 m 0
+ 148 100 87 131 63 125 c 0
+ -17 103 1 39 68 0 c 1024
+EndSplineSet
+EndChar
