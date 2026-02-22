@@ -1,0 +1,15 @@
+StartChar: o.noep
+Encoding: 1640 -1 439
+Width: 153
+VWidth: 1072
+Flags: W
+AnchorPoint: "Join" 143 17 exit 0
+AnchorPoint: "Join" 80 72 entry 0
+LayerCount: 2
+Fore
+SplineSet
+80 72 m 0
+ 23 72 -1 43 15 16 c 0
+ 33 -15 108 8 143 17 c 1024
+EndSplineSet
+EndChar

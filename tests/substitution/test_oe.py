@@ -102,3 +102,29 @@ def test_r_oe(font, text, expected_glyphs):
 def test_l_oe(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
 
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("noen",  ["n", "o.oe", "e.oen", "n"]),
+    ("noem",  ["n", "o.oe", "e.oen", "m"]),
+    ("noet",  ["n", "o.roet", "e.roet", "t"]),
+    ("noed",  ["n", "o.roet", "e.roet", "d"]),
+    ("noep",  ["n", "o.noep", "e.noep", "p"]),
+    ("noeb",  ["n", "o.noep", "e.noep", "b"]),
+    ("noes",  ["n", "o.noep", "e.noep", "s.left"]),
+])
+def test_n_oe(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("moen",  ["m", "o.oe", "e.oen", "n"]),
+    ("moem",  ["m", "o.oe", "e.oen", "m"]),
+    ("moet",  ["m", "o.roet", "e.roet", "t"]),
+    ("moed",  ["m", "o.roet", "e.roet", "d"]),
+    ("moep",  ["m", "o.noep", "e.noep", "p"]),
+    ("moeb",  ["m", "o.noep", "e.noep", "b"]),
+    ("moes",  ["m", "o.noep", "e.noep", "s.left"]),
+])
+def test_m_oe(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
