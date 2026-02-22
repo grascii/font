@@ -1,0 +1,15 @@
+StartChar: o.roet
+Encoding: 1638 -1 437
+Width: 293
+VWidth: 1094
+Flags: W
+AnchorPoint: "Join" 283 107 exit 0
+AnchorPoint: "Join" 84 94 entry 0
+LayerCount: 2
+Fore
+SplineSet
+84 94 m 0
+ 58 79 -8 48 15 9 c 0
+ 38 -30 208 63 283 107 c 1024
+EndSplineSet
+EndChar
