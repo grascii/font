@@ -128,3 +128,25 @@ def test_n_oe(font, text, expected_glyphs):
 def test_m_oe(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
 
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("toer",  ["t", "o.oe", "e.oer", "r.cut"]),
+    ("toel",  ["t", "o.oe", "e.oer", "l.cut"]),
+    ("toef",  ["t", "o.oe", "e.oef", "f.cut"]),
+    ("toev",  ["t", "o.oe", "e.oef", "v.cut"]),
+    ("toes)", ["t", "o.oe", "e.oef", "s.right.cut"]),
+])
+def test_t_oe(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("doer",  ["d", "o.oe", "e.oer", "r.cut"]),
+    ("doel",  ["d", "o.oe", "e.oer", "l.cut"]),
+    ("doef",  ["d", "o.oe", "e.oef", "f.cut"]),
+    ("doev",  ["d", "o.oe", "e.oef", "v.cut"]),
+    ("does)", ["d", "o.oe", "e.oef", "s.right.cut"]),
+])
+def test_d_oe(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
