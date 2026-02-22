@@ -1,0 +1,14 @@
+StartChar: e.poen
+Encoding: 1645 -1 444
+Width: 93
+Flags: W
+AnchorPoint: "Join" 65 0 exit 0
+AnchorPoint: "Join" 65 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+65 0 m 0
+ 109 44 67 76 37 68 c 0
+ 4 59 -12 0 65 0 c 1024
+EndSplineSet
+EndChar

@@ -1,0 +1,13 @@
+StartChar: e.poep
+Encoding: 1647 -1 446
+Width: 120
+Flags: W
+AnchorPoint: "Join" 60 86 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 0 m 0
+ 165 89 105 125 60 86 c 1024
+EndSplineSet
+EndChar

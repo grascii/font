@@ -150,3 +150,34 @@ def test_t_oe(font, text, expected_glyphs):
 def test_d_oe(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
 
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("poer",  ["p", "o.poer", "e.poer", "r.cut"]),
+    ("poel",  ["p", "o.poer", "e.poer", "l.cut"]),
+    ("poen",  ["p", "o.poen", "e.poen", "n"]),
+    ("poem",  ["p", "o.poen", "e.poen", "m"]),
+    ("poep",  ["p", "o.poep", "e.poep", "p"]),
+    ("poeb",  ["p", "o.poep", "e.poep", "b"]),
+    ("poef",  ["p", "o.poef", "e.poef", "f.cut"]),
+    ("poev",  ["p", "o.poef", "e.poef", "v.cut"]),
+    ("poes",  ["p", "o.poep", "e.poep", "s.left"]),
+    ("poes)", ["p", "o.poef", "e.poef", "s.right.cut"]),
+])
+def test_p_oe(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("boer",  ["b", "o.poer", "e.poer", "r.cut"]),
+    ("boel",  ["b", "o.poer", "e.poer", "l.cut"]),
+    ("boen",  ["b", "o.poen", "e.poen", "n"]),
+    ("boem",  ["b", "o.poen", "e.poen", "m"]),
+    ("boep",  ["b", "o.poep", "e.poep", "p"]),
+    ("boeb",  ["b", "o.poep", "e.poep", "b"]),
+    ("boef",  ["b", "o.poef", "e.poef", "f.cut"]),
+    ("boev",  ["b", "o.poef", "e.poef", "v.cut"]),
+    ("boes",  ["b", "o.poep", "e.poep", "s.left"]),
+    ("boes)", ["b", "o.poef", "e.poef", "s.right.cut"]),
+])
+def test_b_oe(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

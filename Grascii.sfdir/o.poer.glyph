@@ -1,0 +1,14 @@
+StartChar: o.poer
+Encoding: 1642 -1 441
+Width: 141
+VWidth: 1004
+Flags: W
+AnchorPoint: "Join" 131 57 exit 0
+AnchorPoint: "Join" 10 4 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 4 m 0
+ 35 -10 84 10 131 57 c 1024
+EndSplineSet
+EndChar
