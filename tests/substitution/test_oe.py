@@ -225,3 +225,51 @@ def test_v_oe(font, text, expected_glyphs):
 ])
 def test_sR_oe(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("shoer",  ["sh", "o.choer", "e.choer", "r.cut"]),
+    ("shoel",  ["sh", "o.choer", "e.choer", "l.cut"]),
+    ("shoen",  ["sh", "o.choen", "e.choen", "n"]),
+    ("shoem",  ["sh", "o.choen", "e.choen", "m"]),
+    ("shoep",  ["sh", "o.choep", "e.choep", "p"]),
+    ("shoeb",  ["sh", "o.choep", "e.choep", "b"]),
+    ("shoef",  ["sh", "o.choef", "e.choef", "f.cut"]),
+    ("shoev",  ["sh", "o.choef", "e.choef", "v.cut"]),
+    ("shoes",  ["sh", "o.choep", "e.choep", "s.left"]),
+    ("shoes)", ["sh", "o.choef", "e.choef", "s.right.cut"]),
+])
+def test_sh_oe(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("choer",  ["ch", "o.choer", "e.choer", "r.cut"]),
+    ("choel",  ["ch", "o.choer", "e.choer", "l.cut"]),
+    ("choen",  ["ch", "o.choen", "e.choen", "n"]),
+    ("choem",  ["ch", "o.choen", "e.choen", "m"]),
+    ("choep",  ["ch", "o.choep", "e.choep", "p"]),
+    ("choeb",  ["ch", "o.choep", "e.choep", "b"]),
+    ("choef",  ["ch", "o.choef", "e.choef", "f.cut"]),
+    ("choev",  ["ch", "o.choef", "e.choef", "v.cut"]),
+    ("choes",  ["ch", "o.choep", "e.choep", "s.left"]),
+    ("choes)", ["ch", "o.choef", "e.choef", "s.right.cut"]),
+])
+def test_ch_oe(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("joer",  ["j", "o.choer", "e.choer", "r.cut"]),
+    ("joel",  ["j", "o.choer", "e.choer", "l.cut"]),
+    ("joen",  ["j", "o.choen", "e.choen", "n"]),
+    ("joem",  ["j", "o.choen", "e.choen", "m"]),
+    ("joep",  ["j", "o.choep", "e.choep", "p"]),
+    ("joeb",  ["j", "o.choep", "e.choep", "b"]),
+    ("joef",  ["j", "o.choef", "e.choef", "f.cut"]),
+    ("joev",  ["j", "o.choef", "e.choef", "v.cut"]),
+    ("joes",  ["j", "o.choep", "e.choep", "s.left"]),
+    ("joes)", ["j", "o.choef", "e.choef", "s.right.cut"]),
+])
+def test_j_oe(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

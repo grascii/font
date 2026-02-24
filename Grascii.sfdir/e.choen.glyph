@@ -1,0 +1,14 @@
+StartChar: e.choen
+Encoding: 1659 -1 458
+Width: 115
+Flags: W
+AnchorPoint: "Join" 52 0 exit 0
+AnchorPoint: "Join" 52 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+52 0 m 0
+ 152 58 90 105 47 80 c 0
+ -17 43 13 0 52 0 c 1024
+EndSplineSet
+EndChar

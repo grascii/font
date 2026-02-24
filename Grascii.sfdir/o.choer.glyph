@@ -1,0 +1,15 @@
+StartChar: o.choer
+Encoding: 1656 -1 455
+Width: 123
+VWidth: 1091
+Flags: W
+AnchorPoint: "Join" 113 26 exit 0
+AnchorPoint: "Join" 34 91 entry 0
+LayerCount: 2
+Fore
+SplineSet
+34 91 m 0
+ 8 46 3 24 19 8 c 0
+ 35 -8 71 2 113 26 c 1024
+EndSplineSet
+EndChar
