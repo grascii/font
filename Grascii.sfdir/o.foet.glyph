@@ -1,0 +1,15 @@
+StartChar: o.foet
+Encoding: 1650 -1 449
+Width: 212
+VWidth: 1085
+Flags: W
+AnchorPoint: "Join" 202 54 exit 0
+AnchorPoint: "Join" 31 85 entry 0
+LayerCount: 2
+Fore
+SplineSet
+31 85 m 0
+ -14 43 24 8 47 2 c 0
+ 84 -8 150 24 202 54 c 1024
+EndSplineSet
+EndChar

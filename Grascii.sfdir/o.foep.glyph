@@ -1,0 +1,14 @@
+StartChar: o.foep
+Encoding: 1652 -1 451
+Width: 108
+VWidth: 100
+Flags: W
+AnchorPoint: "Join" 89 1 exit 0
+AnchorPoint: "Join" 42 101 entry 0
+LayerCount: 2
+Fore
+SplineSet
+42 101 m 0
+ -13 50 48 -10 89 1 c 1024
+EndSplineSet
+EndChar

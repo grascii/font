@@ -181,3 +181,47 @@ def test_p_oe(font, text, expected_glyphs):
 ])
 def test_b_oe(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("foer",  ["f", "o.foe", "e.oer", "r.cut"]),
+    ("foel",  ["f", "o.foe", "e.oer", "l.cut"]),
+    ("foen",  ["f", "o.foe", "e.oen", "n"]),
+    ("foem",  ["f", "o.foe", "e.oen", "m"]),
+    ("foet",  ["f", "o.foet", "e.foet", "t"]),
+    ("foed",  ["f", "o.foet", "e.foet", "d"]),
+    ("foep",  ["f", "o.foep", "e.foep", "p"]),
+    ("foeb",  ["f", "o.foep", "e.foep", "b"]),
+    ("foes",  ["f", "o.foep", "e.foep", "s.left"]),
+    ("foesh", ["f", "o.foech", "e.foech", "sh"]),
+    ("foech", ["f", "o.foech", "e.foech", "ch"]),
+    ("foej",  ["f", "o.foech", "e.foech", "j"]),
+])
+def test_f_oe(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("voer",  ["v", "o.foe", "e.oer", "r.cut"]),
+    ("voel",  ["v", "o.foe", "e.oer", "l.cut"]),
+    ("voen",  ["v", "o.foe", "e.oen", "n"]),
+    ("voem",  ["v", "o.foe", "e.oen", "m"]),
+    ("voet",  ["v", "o.foet", "e.foet", "t"]),
+    ("voed",  ["v", "o.foet", "e.foet", "d"]),
+    ("voep",  ["v", "o.foep", "e.foep", "p"]),
+    ("voeb",  ["v", "o.foep", "e.foep", "b"]),
+    ("voes",  ["v", "o.foep", "e.foep", "s.left"]),
+    ("voesh", ["v", "o.foech", "e.foech", "sh"]),
+    ("voech", ["v", "o.foech", "e.foech", "ch"]),
+    ("voej",  ["v", "o.foech", "e.foech", "j"]),
+])
+def test_v_oe(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("soer",  ["s.right", "o.foe", "e.oer", "r.cut"]),
+    ("soel",  ["s.right", "o.foe", "e.oer", "l.cut"]),
+])
+def test_sR_oe(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

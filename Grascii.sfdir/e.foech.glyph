@@ -1,0 +1,14 @@
+StartChar: e.foech
+Encoding: 1655 -1 454
+Width: 141
+Flags: W
+AnchorPoint: "Join" 11 4 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 0 m 0
+ 184 47 124 90 109 90 c 0
+ 64 90 34 43 11 4 c 1024
+EndSplineSet
+EndChar

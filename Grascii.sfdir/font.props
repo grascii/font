@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1771742178
+ModificationTime: 1771907812
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -1215,7 +1215,7 @@ ChainSub2: class "Between p *" 12 12 12 10
   FClassNames: "0" "vowel" "k" "r" "n" "t" "p" "f" "ch" "ng" "tn" "nt"
 EndFPST
 ChainSub2: class "Between f *" 12 12 12 10
-  Class: 21 a e i o u ea ae au eu
+  Class: 24 a e i o u ea ae au eu oe
   Class: 15 k g k.cut g.cut
   Class: 15 r l r.cut l.cut
   Class: 3 n m
@@ -1226,7 +1226,7 @@ ChainSub2: class "Between f *" 12 12 12 10
   Class: 5 ng nk
   Class: 52 th.over th.over.angled th.over.skew30 th.over.skew45
   Class: 56 th.under th.under.angled th.under.skew30 th.under.skew45
-  BClass: 21 a e i o u ea ae au eu
+  BClass: 24 a e i o u ea ae au eu oe
   BClass: 15 k g k.cut g.cut
   BClass: 15 r l r.cut l.cut
   BClass: 3 n m
@@ -1237,7 +1237,7 @@ ChainSub2: class "Between f *" 12 12 12 10
   BClass: 5 ng nk
   BClass: 52 th.over th.over.angled th.over.skew30 th.over.skew45
   BClass: 56 th.under th.under.angled th.under.skew30 th.under.skew45
-  FClass: 21 a e i o u ea ae au eu
+  FClass: 24 a e i o u ea ae au eu oe
   FClass: 15 k g k.cut g.cut
   FClass: 15 r l r.cut l.cut
   FClass: 3 n m
@@ -2471,7 +2471,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1404 26 10
+WinInfo: 1430 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
