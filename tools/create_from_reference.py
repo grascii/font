@@ -71,7 +71,15 @@ transformations: dict[str, Transformation] = {
     "Rotate 90": {
         "matrix": psMat.rotate(math.radians(-90)),
         "reverse": False,
-    }
+    },
+    "TH to TN": {
+        "matrix": psMat.scale(2.25),
+        "reverse": False,
+    },
+    "TH to TM": {
+        "matrix": psMat.scale(4),
+        "reverse": False,
+    },
 }
 
 

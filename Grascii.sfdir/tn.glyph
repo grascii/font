@@ -1,0 +1,13 @@
+StartChar: tn
+Encoding: 332 -1 463
+Width: 463
+VWidth: 2250
+Flags: W
+AnchorPoint: "Join" 453.25 310.5 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+Refer: 66 -1 N 2.25 0 0 2.25 -12.5 0 2
+Ligature2: "tn tm" d n
+Ligature2: "tn tm" t n
+EndChar

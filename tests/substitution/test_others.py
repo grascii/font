@@ -21,3 +21,33 @@ def test_multichar_ligatures(font, text, expected_glyphs):
 ])
 def test_consonant_blends(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("tn", ["tn"]),
+    ("dn", ["tn"]),
+    ("tm", ["tm"]),
+    ("dm", ["tm"]),
+    ("nt", ["nt"]),
+    ("nd", ["nt"]),
+    ("mt", ["mt"]),
+    ("md", ["mt"]),
+])
+def test_blended_consonants(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("tnt", ["tn", "t"]),
+    ("dnd", ["tn", "d"]),
+    ("tmd", ["tm", "d"]),
+    ("dmt", ["tm", "t"]),
+    ("ntn", ["n", "tn"]),
+    ("ndm", ["n", "tm"]),
+    ("mtm", ["m", "tm"]),
+    ("mdn", ["m", "tn"]),
+    ("nth", ["n", "th.over"]),
+    ("mth", ["m", "th.over"]),
+])
+def test_blended_consonants_priority(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
