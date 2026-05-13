@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1771988984
+ModificationTime: 1771997891
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -2389,8 +2389,8 @@ ChainSub2: class "Vowel Before" 12 1 12 10
   Class: 33 p b p.cut b.cut s.left s.left.cut
   Class: 15 r l r.cut l.cut
   Class: 3 t d
-  Class: 52 th.over th.over.angled th.over.skew30 th.over.skew45
-  Class: 56 th.under th.under.angled th.under.skew30 th.under.skew45
+  Class: 58 th.over th.over.angled th.over.skew30 th.over.skew45 tn tm
+  Class: 62 th.under th.under.angled th.under.skew30 th.under.skew45 nt mt
   Class: 5 ng nk
   FClass: 24 a e o u i ea ae au eu oe
   FClass: 7 sh ch j
@@ -2400,8 +2400,8 @@ ChainSub2: class "Vowel Before" 12 1 12 10
   FClass: 33 p b p.cut b.cut s.left s.left.cut
   FClass: 15 r l r.cut l.cut
   FClass: 3 t d
-  FClass: 52 th.over th.over.angled th.over.skew30 th.over.skew45
-  FClass: 56 th.under th.under.angled th.under.skew30 th.under.skew45
+  FClass: 58 th.over th.over.angled th.over.skew30 th.over.skew45 tn tm
+  FClass: 62 th.under th.under.angled th.under.skew30 th.under.skew45 nt mt
   FClass: 5 ng nk
  1 0 1
   ClsList: 1
@@ -2473,7 +2473,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 182 26 10
+WinInfo: 104 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
