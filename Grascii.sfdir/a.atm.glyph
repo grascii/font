@@ -1,0 +1,15 @@
+StartChar: a.atm
+Encoding: 379 -1 468
+Width: 114
+VWidth: 1173
+Flags: W
+AnchorPoint: "Join" 10 39 exit 0
+AnchorPoint: "Join" 38 174 entry 0
+LayerCount: 2
+Fore
+SplineSet
+38 174 m 0
+ 158 142 79 25 68 14 c 0
+ 48 -6 11 -10 10 39 c 1024
+EndSplineSet
+EndChar

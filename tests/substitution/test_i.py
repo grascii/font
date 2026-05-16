@@ -20,6 +20,10 @@ from shape import shape
     ("ij",   ["i.ich", "j"]),
     ("is)",  ["i.if", "s.right.cut"]),
     ("is(",  ["i.ip", "s.left"]),
+    ("itn",  ["i.itn", "tn"]),
+    ("idn",  ["i.itn", "tn"]),
+    ("itm",  ["i.itn", "tm"]),
+    ("idm",  ["i.itn", "tm"]),
 ])
 def test_i_before(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

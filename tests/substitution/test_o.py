@@ -20,10 +20,14 @@ from shape import shape
     ("oj",   ["o", "j"]),
     ("os)",  ["o", "s.right"]),
     ("os(",  ["o.op", "s.left"]),
-    ("oth(", ["o", "th.over"]),
+    ("oth(", ["o", "th.over.angled"]),
     # ("oth)", ["o", "th.under"]),
     ("ong",  ["o.ong", "ng"]),
     ("onk",  ["o.ong", "nk"]),
+    ("otn",  ["o", "tn.angled"]),
+    ("odn",  ["o", "tn.angled"]),
+    ("otm",  ["o", "tm.angled"]),
+    ("odm",  ["o", "tm.angled"]),
 ])
 def test_o_before(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -567,7 +571,7 @@ def test_thU_o(font, text, expected_glyphs):
     ("uos)",  ["u", "o", "s.right"]),
     ("uong",  ["u", "o", "ng"]),
     ("uonk",  ["u", "o", "nk"]),
-    ("uoth(", ["u", "o", "th.over"]),
+    ("uoth(", ["u", "o", "th.over.angled"]),
     ("uoth",  ["u", "o", "th.under"]),
 ])
 def test_u_o(font, text, expected_glyphs):

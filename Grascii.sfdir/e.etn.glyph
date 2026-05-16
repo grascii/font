@@ -1,0 +1,15 @@
+StartChar: e.etn
+Encoding: 714 -1 469
+Width: 82
+VWidth: 1086
+Flags: W
+AnchorPoint: "Join" 10 29 exit 0
+AnchorPoint: "Join" 19 87 entry 0
+LayerCount: 2
+Fore
+SplineSet
+19 87 m 0
+ 90 80 71 29 64 16 c 0
+ 50 -8 10 -6 10 29 c 1024
+EndSplineSet
+EndChar

@@ -1,0 +1,11 @@
+StartChar: tm.angled
+Encoding: 317 -1 471
+Width: 808
+VWidth: 4000
+Flags: W
+AnchorPoint: "Join" 798 552 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+Refer: 82 -1 N 4 0 0 4 -30 0 2
+EndChar

@@ -24,6 +24,10 @@ from shape import shape
     ("uth)", ["u", "th.under"]),
     ("ung",  ["u", "ng"]),
     ("unk",  ["u", "nk"]),
+    ("utn",  ["u", "tn.skew30"]),
+    ("udn",  ["u", "tn.skew30"]),
+    ("utm",  ["u", "tm.skew30"]),
+    ("udm",  ["u", "tm.skew30"]),
 ])
 def test_u_before(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
