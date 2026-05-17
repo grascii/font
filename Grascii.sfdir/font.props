@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1778985307
+ModificationTime: 1778990991
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -75,6 +75,7 @@ Lookup: 2 0 0 "Before r" { "Before r"  } []
 Lookup: 2 0 0 "Before s.right" { "Before s.right"  } []
 Lookup: 2 0 0 "Before t" { "Before t"  } []
 Lookup: 2 0 0 "Before th.over" { "Before th.over"  } []
+Lookup: 2 0 0 "Before th.under" { "Before th.under"  } []
 Lookup: 2 0 0 "Before tm" { "Before tm"  } []
 Lookup: 2 0 0 "Before tn" { "Before tn"  } []
 Lookup: 2 0 0 "Before v" { "Before v"  } []
@@ -2407,47 +2408,57 @@ ChainPos2: class "Starts with e" 6 6 14 13
   BClassNames: "All_Others" "e.ech" "e.ef" "e.eng" "e.ep" "e.esR"
   FClassNames: "All_Others" "b" "b.cut" "ch" "f" "j" "ng" "nk" "p" "p.cut" "sh" "v" "s.right" "s.left"
 EndFPST
-ChainSub2: glyph "Vowel Before Overrides" 0 0 0 8
+ChainSub2: glyph "Vowel Before Overrides" 0 0 0 10
  String: 1 a
- BString: 0 
+ BString: 0
  FString: 1 l
  1
   SeqLookup: 0 "Before l"
  String: 1 a
- BString: 0 
+ BString: 0
  FString: 1 v
  1
   SeqLookup: 0 "Before v"
  String: 1 a
- BString: 0 
+ BString: 0
  FString: 7 s.right
  1
   SeqLookup: 0 "Before s.right"
  String: 1 e
- BString: 0 
+ BString: 0
  FString: 7 s.right
  1
   SeqLookup: 0 "Before s.right"
  String: 1 o
- BString: 0 
+ BString: 0
  FString: 5 l.cut
  1
   SeqLookup: 0 "Before l"
  String: 1 a
- BString: 0 
+ BString: 0
  FString: 7 th.over
  1
   SeqLookup: 0 "Before th.over"
  String: 1 a
- BString: 0 
+ BString: 0
  FString: 2 tm
  1
   SeqLookup: 0 "Before tm"
  String: 1 e
- BString: 0 
+ BString: 0
  FString: 7 th.over
  1
   SeqLookup: 0 "Before th.over"
+ String: 1 a
+ BString: 0
+ FString: 8 th.under
+ 1
+  SeqLookup: 0 "Before th.under"
+ String: 1 e
+ BString: 0
+ FString: 8 th.under
+ 1
+  SeqLookup: 0 "Before th.under"
 EndFPST
 ChainSub2: class "Vowel Before" 12 1 12 10
   Class: 24 a e o u i ea ae au eu oe
@@ -2543,7 +2554,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 234 26 10
+WinInfo: 0 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144

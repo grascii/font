@@ -1,0 +1,11 @@
+StartChar: a.ant
+Encoding: 380 -1 486
+Width: 185
+VWidth: 1081
+Flags: W
+AnchorPoint: "Join" 54.5889 0 exit 0
+AnchorPoint: "Join" 174.589 20 entry 0
+LayerCount: 2
+Fore
+Refer: 484 -1 N -1 1.22465e-16 -1.22465e-16 -1 184.589 81 2
+EndChar

@@ -28,6 +28,10 @@ from shape import shape
     ("odn",  ["o", "tn.angled"]),
     ("otm",  ["o", "tm.angled"]),
     ("odm",  ["o", "tm.angled"]),
+    ("ont",  ["o.ont", "nt"]),
+    ("ond",  ["o.ont", "nt"]),
+    ("omt",  ["o.ont", "mt"]),
+    ("omd",  ["o.ont", "mt"]),
 ])
 def test_o_before(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

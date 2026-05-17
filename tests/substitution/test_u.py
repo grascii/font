@@ -28,6 +28,10 @@ from shape import shape
     ("udn",  ["u", "tn.skew30"]),
     ("utm",  ["u", "tm.skew30"]),
     ("udm",  ["u", "tm.skew30"]),
+    ("unt",  ["u", "nt"]),
+    ("und",  ["u", "nt"]),
+    ("umt",  ["u", "mt"]),
+    ("umd",  ["u", "mt"]),
 ])
 def test_u_before(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

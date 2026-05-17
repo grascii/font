@@ -1,0 +1,11 @@
+StartChar: i.int
+Encoding: 1285 -1 489
+Width: 212
+VWidth: 1108
+Flags: W
+AnchorPoint: "Join" 101 0 exit 0
+AnchorPoint: "Join" 96 46 entry 0
+LayerCount: 2
+Fore
+Refer: 300 -1 N -1 1.22465e-16 -1.22465e-16 -1 212 108 2
+EndChar

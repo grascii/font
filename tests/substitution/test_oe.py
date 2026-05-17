@@ -20,6 +20,10 @@ def test_oe(font, text, expected_glyphs):
     ("oev",   ["o.oe", "e.oef", "v.cut"]),
     ("oes)",  ["o.oe", "e.oef", "s.right.cut"]),
     ("oes",   ["o.oep", "e.oep", "s.left"]),
+    ("oent",  ["o.oe", "e.oen", "nt"]),
+    ("oend",  ["o.oe", "e.oen", "nt"]),
+    ("oemt",  ["o.oe", "e.oen", "mt"]),
+    ("oemd",  ["o.oe", "e.oen", "mt"]),
 ])
 def test_oe_before(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

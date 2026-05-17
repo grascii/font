@@ -28,6 +28,10 @@ from shape import shape
     ("edn",  ["e.etn", "tn"]),
     ("etm",  ["e.etn", "tm"]),
     ("edm",  ["e.etn", "tm"]),
+    ("ent",  ["e.ent", "nt"]),
+    ("end",  ["e.ent", "nt"]),
+    ("emt",  ["e.ent", "mt"]),
+    ("emd",  ["e.ent", "mt"]),
 ])
 def test_e_before(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

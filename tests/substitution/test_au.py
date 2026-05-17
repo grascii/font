@@ -29,6 +29,10 @@ def test_au(font, text, expected_glyphs):
     ("audn",  ["a.au", "u.au", "tn.skew30"]),
     ("autm",  ["a.au", "u.au", "tm.skew30"]),
     ("audm",  ["a.au", "u.au", "tm.skew30"]),
+    ("aunt",  ["a.au", "u.au", "nt"]),
+    ("aund",  ["a.au", "u.au", "nt"]),
+    ("aumt",  ["a.au", "u.au", "mt"]),
+    ("aumd",  ["a.au", "u.au", "mt"]),
 ])
 def test_au_before(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

@@ -24,6 +24,10 @@ from shape import shape
     ("idn",  ["i.itn", "tn"]),
     ("itm",  ["i.itn", "tm"]),
     ("idm",  ["i.itn", "tm"]),
+    ("int",  ["i.in", "nt"]),
+    ("ind",  ["i.in", "nt"]),
+    ("imt",  ["i.in", "mt"]),
+    ("imd",  ["i.in", "mt"]),
 ])
 def test_i_before(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
