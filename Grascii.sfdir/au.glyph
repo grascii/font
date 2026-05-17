@@ -5,6 +5,7 @@ Flags: W
 AnchorPoint: "Join" 0 0 exit 0
 AnchorPoint: "Join" 0 0 entry 0
 LayerCount: 2
+MultipleSubs2: "After nt" a.tau u.tau
 MultipleSubs2: "Between ch t" a.chau u.au
 MultipleSubs2: "Between ch r" a.chau u.aur
 MultipleSubs2: "Between f ch" a.fau u.fauch

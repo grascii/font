@@ -49,6 +49,10 @@ def test_eu_before(font, text, expected_glyphs):
     ("feu",  ["f", "e.feu", "u.feu"]),
     ("veu",  ["v", "e.feu", "u.feu"]),
     ("seu",  ["s.right", "e.feu", "u.feu"]),
+    ("nteu", ["nt.skew30", "e.teu", "u.teu"]),
+    ("ndeu", ["nt.skew30", "e.teu", "u.teu"]),
+    ("mteu", ["mt.skew30", "e.teu", "u.teu"]),
+    ("mdeu", ["mt.skew30", "e.teu", "u.teu"]),
 ])
 def test_eu_after(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

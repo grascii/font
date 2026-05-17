@@ -1,0 +1,11 @@
+StartChar: a.nta
+Encoding: 406 -1 475
+Width: 116
+VWidth: 1167
+Flags: W
+AnchorPoint: "Join" 59.0205 0 exit 0
+AnchorPoint: "Join" 106.021 128 entry 0
+LayerCount: 2
+Fore
+Refer: 467 -1 N -1 1.22465e-16 -1.22465e-16 -1 116.021 167 2
+EndChar

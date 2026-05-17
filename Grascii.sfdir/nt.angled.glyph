@@ -1,0 +1,11 @@
+StartChar: nt.angled
+Encoding: 339 -1 480
+Width: 463
+VWidth: 1310
+Flags: W
+AnchorPoint: "Join" 453.25 310.5 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+Refer: 470 -1 N -1 1.22465e-16 -1.22465e-16 -1 463.25 310.5 2
+EndChar

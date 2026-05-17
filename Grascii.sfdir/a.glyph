@@ -15,8 +15,10 @@ SplineSet
  171 -6 272 63 275 138 c 0
  277 175 231 210 194 213 c 1024
 EndSplineSet
-Substitution2: "Before tm" a.atm
-Substitution2: "Before th.over" a.athO
+MultipleSubs2: "After mt" a.mta
+MultipleSubs2: "After th.under" a.thUa
+MultipleSubs2: "Before tm" a.atm
+MultipleSubs2: "Before th.over" a.athO
 MultipleSubs2: "Between u ch" a.uach
 MultipleSubs2: "Between u f" a.uaf
 MultipleSubs2: "Between u t" a.uat
@@ -52,7 +54,7 @@ MultipleSubs2: "Between k p" a.kap
 MultipleSubs2: "Between k t" a.kat
 MultipleSubs2: "Between k r" a.kar
 MultipleSubs2: "Between k k" a.kak
-MultipleSubs2: "After nt" a.thUa
+MultipleSubs2: "After nt" a.nta
 MultipleSubs2: "Before nt" a.athU
 MultipleSubs2: "After s.left" a.sLa
 MultipleSubs2: "Before s.right" a.asR

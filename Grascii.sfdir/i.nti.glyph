@@ -1,0 +1,11 @@
+StartChar: i.nti
+Encoding: 1311 -1 482
+Width: 136
+VWidth: 1143
+Flags: W
+AnchorPoint: "Join" 77.9844 68.0957 exit 0
+AnchorPoint: "Join" 125.984 102.096 entry 0
+LayerCount: 2
+Fore
+Refer: 474 -1 N -1 1.22465e-16 -1.22465e-16 -1 135.984 143.096 2
+EndChar

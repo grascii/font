@@ -27,6 +27,10 @@ def test_ae_before(font, text, expected_glyphs):
     ("ta&e",   ["t", "ae.tae"]),
     ("da&e",   ["d", "ae.tae"]),
     ("s(a&e",  ["s.left", "ae.sLae"]),
+    ("nta&e",  ["nt", "ae.ntae"]),
+    ("nda&e",  ["nt", "ae.ntae"]),
+    ("mta&e",  ["mt", "ae.ntae"]),
+    ("mda&e",  ["mt", "ae.ntae"]),
 ])
 def test_ae_after(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

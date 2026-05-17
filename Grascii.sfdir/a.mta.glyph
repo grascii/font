@@ -1,0 +1,11 @@
+StartChar: a.mta
+Encoding: 407 -1 476
+Width: 114
+VWidth: 1174
+Flags: W
+AnchorPoint: "Join" 75.6709 0 exit 0
+AnchorPoint: "Join" 103.671 135 entry 0
+LayerCount: 2
+Fore
+Refer: 468 -1 N -1 1.22465e-16 -1.22465e-16 -1 113.671 174 2
+EndChar

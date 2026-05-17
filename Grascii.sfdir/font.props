@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1778969847
+ModificationTime: 1778980628
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -48,7 +48,7 @@ Lookup: 4 0 0 "Blended Consonants 1" { "tn tm"  } ['rlig' ('DFLT' <'dflt' > 'lat
 Lookup: 4 0 1 "Blended Consonants 2" { "nt mt"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Annotated Directions" { "Annotated Directions"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Directions" { "s Direction"  "th Direction"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 8 0 "Consonant Joinings" { "k Joinings 1"  "k Joinings 2"  "r Joinings Overrides"  "r Joinings 1"  "r Joinings 2a"  "r Joinings 2"  "r Joinings 3"  "r Joinings 4"  "r Joinings 5"  "r Joinings 6"  "p Joinings 1"  "p Joinings 2"  "p Joinings 3"  "p Joinings 4"  "f Joinings 1"  "f Joinings 2"  "f Joinings 3"  "f Joinings 4"  "f Joinings 5"  "s.right Joinings 1"  "s.right Joinings 2"  "s.right Joinings 3"  "s.right Joinings 4"  "s.right Joinings 5"  "s.left Joinings 1"  "s.left Joinings 2"  "th.under Joinings 1"  "th.under Joinings 2"  "th.under Joinings 3"  "tn Joinings 1"  "tn Joinings 2"  "tn Joinings 3"  "tn Joinings 4"  "u Joinings 1"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 8 0 "Consonant Joinings" { "k Joinings 1"  "k Joinings 2"  "r Joinings Overrides"  "r Joinings 1"  "r Joinings 2a"  "r Joinings 2"  "r Joinings 3"  "r Joinings 4"  "r Joinings 5"  "r Joinings 6"  "p Joinings 1"  "p Joinings 2"  "p Joinings 3"  "p Joinings 4"  "f Joinings 1"  "f Joinings 2"  "f Joinings 3"  "f Joinings 4"  "f Joinings 5"  "s.right Joinings 1"  "s.right Joinings 2"  "s.right Joinings 3"  "s.right Joinings 4"  "s.right Joinings 5"  "s.left Joinings 1"  "s.left Joinings 2"  "tn Joinings 1"  "tn Joinings 2"  "tn Joinings 3"  "tn Joinings 4"  "nt Joinings 1"  "nt Joinings 2"  "nt Joinings 3"  "nt Joinings 4"  "u Joinings 1"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 8 0 "Vowel Between" { "Between k *"  "Between r *"  "Between n *"  "Between t *"  "Between p *"  "Between f *"  "Between ch *"  "Between ng *"  "Between tn *"  "Between nt *"  "Between u *"  } ['rclt' ('latn' <'dflt' > ) ]
 Lookup: 6 8 0 "Vowel Before/After" { "Vowel Before Overrides"  "Vowel Before"  "Vowel After Overrides"  "Vowel After"  "Vowel After u"  "Unlock Vowel"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 5 0 0 "Vowel Fallback" { "Vowel Fallback"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -74,14 +74,15 @@ Lookup: 2 0 0 "Before p" { "Before p"  } []
 Lookup: 2 0 0 "Before r" { "Before r"  } []
 Lookup: 2 0 0 "Before s.right" { "Before s.right"  } []
 Lookup: 2 0 0 "Before t" { "Before t"  } []
-Lookup: 1 0 0 "Before th.over" { "Before th.over"  } []
-Lookup: 1 0 0 "Before tm" { "Before tm"  } []
+Lookup: 2 0 0 "Before th.over" { "Before th.over"  } []
+Lookup: 2 0 0 "Before tm" { "Before tm"  } []
 Lookup: 2 0 0 "Before tn" { "Before tn"  } []
 Lookup: 2 0 0 "Before v" { "Before v"  } []
 Lookup: 2 0 0 "After b" { "After b"  } []
 Lookup: 2 0 0 "After ch" { "After ch"  } []
 Lookup: 2 0 0 "After f" { "After f"  } []
 Lookup: 2 0 0 "After k" { "After k"  } []
+Lookup: 2 0 0 "After mt" { "After mt"  } []
 Lookup: 2 0 0 "After n" { "After n"  } []
 Lookup: 2 0 0 "After ng" { "After ng"  } []
 Lookup: 2 0 0 "After nt" { "After nt"  } []
@@ -90,6 +91,7 @@ Lookup: 2 0 0 "After r" { "After r"  } []
 Lookup: 2 0 0 "After s.right" { "After s.right"  } []
 Lookup: 2 0 0 "After s.left" { "After s.left"  } []
 Lookup: 2 0 0 "After t" { "After t"  } []
+Lookup: 2 0 0 "After th.under" { "After th.under"  } []
 Lookup: 2 0 0 "After tn" { "After tn"  } []
 Lookup: 2 0 0 "After u" { "After u"  } []
 Lookup: 2 0 0 "Between k k" { "Between k k"  } []
@@ -229,6 +231,13 @@ Lookup: 257 0 0 "Position Before th" { "Position Before th"  } []
 Lookup: 257 0 0 "Position Before v" { "Position Before v"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "nt Joinings 4" 0 0 0 1
+ 1 0 1
+  Coverage: 14 th.under nt mt
+  FCoverage: 1 u
+ 1
+  SeqLookup: 0 "Angled"
+EndFPST
 ChainSub2: coverage "tn Joinings 4" 0 0 0 1
  1 1 0
   Coverage: 13 th.over tn tm
@@ -429,7 +438,7 @@ ChainSub2: coverage "tn Joinings 3" 0 0 0 1
  1
   SeqLookup: 0 "Skewed 30"
 EndFPST
-ChainSub2: coverage "th.under Joinings 2" 0 0 0 1
+ChainSub2: coverage "nt Joinings 2" 0 0 0 1
  1 0 2
   Coverage: 8 th.under
   FCoverage: 1 o
@@ -657,10 +666,10 @@ ChainPos2: class "Starts with u" 5 5 14 13
   BClassNames: "All_Others" "u" "u.ur" "u.up" "u.uf"
   FClassNames: "All_Others" "b" "b.cut" "ch" "f" "j" "ng" "nk" "p" "p.cut" "sh" "v" "s.right" "s.left"
 EndFPST
-ChainSub2: coverage "th.under Joinings 3" 0 0 0 1
+ChainSub2: coverage "nt Joinings 3" 0 0 0 1
  1 0 1
-  Coverage: 8 th.under
-  FCoverage: 1 o
+  Coverage: 14 th.under nt mt
+  FCoverage: 7 o eu au
  1
   SeqLookup: 0 "Skewed 30"
 EndFPST
@@ -671,7 +680,7 @@ ChainSub2: coverage "r Joinings 2" 0 0 0 1
  1
   SeqLookup: 0 "Cut Consonant"
 EndFPST
-ChainSub2: coverage "th.under Joinings 1" 0 0 0 1
+ChainSub2: coverage "nt Joinings 1" 0 0 0 1
  1 0 2
   Coverage: 8 th.under
   FCoverage: 3 a e
@@ -2008,7 +2017,7 @@ ChainSub2: class "p Joinings 1" 3 3 3 1
   BClassNames: "All_Others" "p" "r"
   FClassNames: "All_Others" "p" "r"
 EndFPST
-ChainSub2: glyph "Vowel After Overrides" 0 0 0 8
+ChainSub2: glyph "Vowel After Overrides" 0 0 0 12
  String: 1 a
  BString: 1 b
  FString: 0 
@@ -2049,6 +2058,26 @@ ChainSub2: glyph "Vowel After Overrides" 0 0 0 8
  FString: 0 
  1
   SeqLookup: 0 "After s.left"
+ String: 1 a
+ BString: 8 th.under
+ FString: 0 
+ 1
+  SeqLookup: 0 "After th.under"
+ String: 1 e
+ BString: 8 th.under
+ FString: 0 
+ 1
+  SeqLookup: 0 "After th.under"
+ String: 2 ea
+ BString: 8 th.under
+ FString: 0 
+ 1
+  SeqLookup: 0 "After th.under"
+ String: 1 a
+ BString: 2 mt
+ FString: 0 
+ 1
+  SeqLookup: 0 "After mt"
 EndFPST
 ChainSub2: class "Vowel After" 12 12 12 10
   Class: 24 a e o u i ea ae au eu oe
@@ -2059,8 +2088,8 @@ ChainSub2: class "Vowel After" 12 12 12 10
   Class: 33 p b p.cut b.cut s.left s.left.cut
   Class: 15 r l r.cut l.cut
   Class: 3 t d
-  Class: 52 th.over th.over.angled th.over.skew30 th.over.skew45
-  Class: 56 th.under th.under.angled th.under.skew30 th.under.skew45
+  Class: 98 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tm tm.angled tm.skew30
+  Class: 102 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 mt mt.angled mt.skew30
   Class: 5 ng nk
   BClass: 24 a e o u i ea ae au eu oe
   BClass: 7 sh ch j
@@ -2070,8 +2099,8 @@ ChainSub2: class "Vowel After" 12 12 12 10
   BClass: 33 p b p.cut b.cut s.left s.left.cut
   BClass: 15 r l r.cut l.cut
   BClass: 3 t d
-  BClass: 52 th.over th.over.angled th.over.skew30 th.over.skew45
-  BClass: 56 th.under th.under.angled th.under.skew30 th.under.skew45
+  BClass: 98 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tm tm.angled tm.skew30
+  BClass: 102 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 mt mt.angled mt.skew30
   BClass: 5 ng nk
   FClass: 24 a e o u i ea ae au eu oe
   FClass: 7 sh ch j
@@ -2081,8 +2110,8 @@ ChainSub2: class "Vowel After" 12 12 12 10
   FClass: 33 p b p.cut b.cut s.left s.left.cut
   FClass: 15 r l r.cut l.cut
   FClass: 3 t d
-  FClass: 52 th.over th.over.angled th.over.skew30 th.over.skew45
-  FClass: 56 th.under th.under.angled th.under.skew30 th.under.skew45
+  FClass: 98 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tm tm.angled tm.skew30
+  FClass: 102 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 mt mt.angled mt.skew30
   FClass: 5 ng nk
  1 1 0
   ClsList: 1
@@ -2364,42 +2393,42 @@ ChainPos2: class "Starts with e" 6 6 14 13
 EndFPST
 ChainSub2: glyph "Vowel Before Overrides" 0 0 0 8
  String: 1 a
- BString: 0
+ BString: 0 
  FString: 1 l
  1
   SeqLookup: 0 "Before l"
  String: 1 a
- BString: 0
+ BString: 0 
  FString: 1 v
  1
   SeqLookup: 0 "Before v"
  String: 1 a
- BString: 0
+ BString: 0 
  FString: 7 s.right
  1
   SeqLookup: 0 "Before s.right"
  String: 1 e
- BString: 0
+ BString: 0 
  FString: 7 s.right
  1
   SeqLookup: 0 "Before s.right"
  String: 1 o
- BString: 0
+ BString: 0 
  FString: 5 l.cut
  1
   SeqLookup: 0 "Before l"
  String: 1 a
- BString: 0
+ BString: 0 
  FString: 7 th.over
  1
   SeqLookup: 0 "Before th.over"
  String: 1 a
- BString: 0
+ BString: 0 
  FString: 2 tm
  1
   SeqLookup: 0 "Before tm"
  String: 1 e
- BString: 0
+ BString: 0 
  FString: 7 th.over
  1
   SeqLookup: 0 "Before th.over"
@@ -2413,8 +2442,8 @@ ChainSub2: class "Vowel Before" 12 1 12 10
   Class: 33 p b p.cut b.cut s.left s.left.cut
   Class: 15 r l r.cut l.cut
   Class: 3 t d
-  Class: 58 th.over th.over.angled th.over.skew30 th.over.skew45 tn tm
-  Class: 62 th.under th.under.angled th.under.skew30 th.under.skew45 nt mt
+  Class: 98 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tm tm.angled tm.skew30
+  Class: 102 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 mt mt.angled mt.skew30
   Class: 5 ng nk
   FClass: 24 a e o u i ea ae au eu oe
   FClass: 7 sh ch j
@@ -2424,8 +2453,8 @@ ChainSub2: class "Vowel Before" 12 1 12 10
   FClass: 33 p b p.cut b.cut s.left s.left.cut
   FClass: 15 r l r.cut l.cut
   FClass: 3 t d
-  FClass: 58 th.over th.over.angled th.over.skew30 th.over.skew45 tn tm
-  FClass: 62 th.under th.under.angled th.under.skew30 th.under.skew45 nt mt
+  FClass: 98 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tm tm.angled tm.skew30
+  FClass: 102 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 mt mt.angled mt.skew30
   FClass: 5 ng nk
  1 0 1
   ClsList: 1
@@ -2498,7 +2527,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1118 26 10
+WinInfo: 1456 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144

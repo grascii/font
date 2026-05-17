@@ -56,6 +56,10 @@ def test_a_before(font, text, expected_glyphs):
     ("nga", ["ng", "a.nga"]),
     ("nka", ["nk", "a.nga"]),
     ("ua", ["u.cut", "a.ua"]),
+    ("nta", ["nt", "a.nta"]),
+    ("nda", ["nt", "a.nta"]),
+    ("mta", ["mt", "a.mta"]),
+    ("mda", ["mt", "a.mta"]),
 ])
 def test_a_after(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

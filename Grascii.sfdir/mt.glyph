@@ -8,6 +8,8 @@ AnchorPoint: "Join" 10 0 entry 0
 LayerCount: 2
 Fore
 Refer: 464 -1 N -1 1.22465e-16 -1.22465e-16 -1 808 552 2
+Substitution2: "Angled" mt.angled
+Substitution2: "Skewed 30" mt.skew30
 Ligature2: "nt mt" m d
 Ligature2: "nt mt" m t
 EndChar

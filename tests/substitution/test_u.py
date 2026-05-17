@@ -52,9 +52,13 @@ def test_u_before(font, text, expected_glyphs):
     ("su",   ["s.right", "u.fu"]),
     ("s(u",  ["s.left", "u"]),
     ("th(u", ["th.over", "u.tnu"]),
-    ("th)u", ["th.under", "u"]),
+    ("th)u", ["th.under.angled", "u"]),
     ("ngu",  ["ng", "u.ngu"]),
     ("nku",  ["nk", "u.ngu"]),
+    ("ntu",  ["nt.angled", "u"]),
+    ("ndu",  ["nt.angled", "u"]),
+    ("mtu",  ["mt.angled", "u"]),
+    ("mdu",  ["mt.angled", "u"]),
 ])
 def test_u_after(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
