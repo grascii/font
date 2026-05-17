@@ -14,6 +14,7 @@ SplineSet
  64 -2 98 22 99 47 c 0
  100 59 84 71 72 72 c 1024
 EndSplineSet
+MultipleSubs2: "After th.over" e.thOe
 MultipleSubs2: "After th.under" e.thUe
 MultipleSubs2: "Before th.over" e.ethO
 MultipleSubs2: "Between u nt" e.uen
@@ -80,7 +81,7 @@ MultipleSubs2: "After p" e.pe
 MultipleSubs2: "After r" e.re
 MultipleSubs2: "After s.left" e.sLe
 MultipleSubs2: "After t" e.te
-MultipleSubs2: "After tn" e.thOe
+MultipleSubs2: "After tn" e.tne
 MultipleSubs2: "Between r n" e.ren
 MultipleSubs2: "Between r p" e.rep
 MultipleSubs2: "Between r f" e.ref

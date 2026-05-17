@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1778980628
+ModificationTime: 1778985307
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -91,6 +91,7 @@ Lookup: 2 0 0 "After r" { "After r"  } []
 Lookup: 2 0 0 "After s.right" { "After s.right"  } []
 Lookup: 2 0 0 "After s.left" { "After s.left"  } []
 Lookup: 2 0 0 "After t" { "After t"  } []
+Lookup: 2 0 0 "After th.over" { "After th.over"  } []
 Lookup: 2 0 0 "After th.under" { "After th.under"  } []
 Lookup: 2 0 0 "After tn" { "After tn"  } []
 Lookup: 2 0 0 "After u" { "After u"  } []
@@ -2017,67 +2018,82 @@ ChainSub2: class "p Joinings 1" 3 3 3 1
   BClassNames: "All_Others" "p" "r"
   FClassNames: "All_Others" "p" "r"
 EndFPST
-ChainSub2: glyph "Vowel After Overrides" 0 0 0 12
+ChainSub2: glyph "Vowel After Overrides" 0 0 0 15
  String: 1 a
  BString: 1 b
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "After b"
  String: 2 ea
  BString: 1 b
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "After b"
  String: 1 a
  BString: 7 s.right
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "After s.right"
  String: 1 a
  BString: 6 s.left
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "After s.left"
  String: 1 e
  BString: 6 s.left
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "After s.left"
  String: 2 ea
  BString: 6 s.left
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "After s.left"
  String: 2 ae
  BString: 6 s.left
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "After s.left"
  String: 2 oe
  BString: 6 s.left
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "After s.left"
  String: 1 a
  BString: 8 th.under
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "After th.under"
  String: 1 e
  BString: 8 th.under
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "After th.under"
  String: 2 ea
  BString: 8 th.under
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "After th.under"
  String: 1 a
  BString: 2 mt
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "After mt"
+ String: 1 a
+ BString: 7 th.over
+ FString: 0
+ 1
+  SeqLookup: 0 "After th.over"
+ String: 1 e
+ BString: 7 th.over
+ FString: 0
+ 1
+  SeqLookup: 0 "After th.over"
+ String: 2 ea
+ BString: 7 th.over
+ FString: 0
+ 1
+  SeqLookup: 0 "After th.over"
 EndFPST
 ChainSub2: class "Vowel After" 12 12 12 10
   Class: 24 a e o u i ea ae au eu oe
@@ -2527,7 +2543,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1456 26 10
+WinInfo: 234 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144

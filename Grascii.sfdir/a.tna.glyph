@@ -1,0 +1,16 @@
+StartChar: a.tna
+Encoding: 404 -1 484
+Width: 184
+VWidth: 1080
+Flags: W
+AnchorPoint: "aedot" 100 40 basechar 0
+AnchorPoint: "Join" 10 61 exit 0
+AnchorPoint: "Join" 130 81 entry 0
+LayerCount: 2
+Fore
+SplineSet
+130 81 m 0
+ 188 80 178 32 163 17 c 0
+ 140 -6 31 -18 10 61 c 1024
+EndSplineSet
+EndChar

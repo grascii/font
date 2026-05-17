@@ -18,6 +18,10 @@ from shape import shape
     ("ja&'", ["j", "a.cha", "eadot"]),
     ("tha&'", ["th.over", "a.thOa", "eadot"]),
     ("th)a&'", ["th.under", "a.thUa", "eadot"]),
+    ("tna&'",  ["tn", "a.tna", "eadot"]),
+    ("dna&'",  ["tn", "a.tna", "eadot"]),
+    ("tma&'",  ["tm", "a.tna", "eadot"]),
+    ("dma&'",  ["tm", "a.tna", "eadot"]),
 ])
 def test_ea_after(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
