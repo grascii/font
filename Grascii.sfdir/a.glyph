@@ -15,6 +15,9 @@ SplineSet
  171 -6 272 63 275 138 c 0
  277 175 231 210 194 213 c 1024
 EndSplineSet
+MultipleSubs2: "Between tn f" a.tnaf
+MultipleSubs2: "Between tn p" a.nap
+MultipleSubs2: "Between tn t" a.nat
 MultipleSubs2: "Between tn tn" a.tnatn
 MultipleSubs2: "Between t tn" a.tatn
 MultipleSubs2: "Between r tn" a.ratn

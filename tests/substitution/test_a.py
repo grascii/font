@@ -694,6 +694,21 @@ def test_u_a(font, text, expected_glyphs):
 
 
 @pytest.mark.parametrize("text,expected_glyphs", [
+    ("tnak",   ["tn", "a.tnak", "k"]),
+    ("tnag",   ["tn", "a.tnak", "g"]),
+    ("tnan",   ["tn", "a.tnan", "n"]),
+    ("tnam",   ["tn", "a.tnan", "m"]),
+    ("tnat",   ["tn", "a.nat", "t"]),
+    ("tnad",   ["tn", "a.nat", "d"]),
+    ("tnap",   ["tn", "a.nap", "p"]),
+    ("tnab",   ["tn", "a.nap", "b"]),
+    ("tnaf",   ["tn", "a.tnaf", "f"]),
+    ("tnav",   ["tn", "a.tnaf", "v"]),
+    ("tnash",  ["tn", "a.tnach", "sh"]),
+    ("tnach",  ["tn", "a.tnach", "ch"]),
+    ("tnaj",   ["tn", "a.tnach", "j"]),
+    ("tnas",   ["tn", "a.tnaf", "s.right"]),
+    ("tnas(",  ["tn", "a.nap", "s.left"]),
     ("tnatn",  ["tn", "a.tnatn", "tn.angled"]),
     ("tnadn",  ["tn", "a.tnatn", "tn.angled"]),
     ("tnatm",  ["tn", "a.tnatn", "tm.angled"]),
@@ -704,6 +719,21 @@ def test_tn_a(font, text, expected_glyphs):
 
 
 @pytest.mark.parametrize("text,expected_glyphs", [
+    ("tmak",   ["tm", "a.tnak", "k"]),
+    ("tmag",   ["tm", "a.tnak", "g"]),
+    ("tman",   ["tm", "a.tnan", "n"]),
+    ("tmam",   ["tm", "a.tnan", "m"]),
+    ("tmat",   ["tm", "a.nat", "t"]),
+    ("tmad",   ["tm", "a.nat", "d"]),
+    ("tmap",   ["tm", "a.nap", "p"]),
+    ("tmab",   ["tm", "a.nap", "b"]),
+    ("tmaf",   ["tm", "a.tnaf", "f"]),
+    ("tmav",   ["tm", "a.tnaf", "v"]),
+    ("tmash",  ["tm", "a.tnach", "sh"]),
+    ("tmach",  ["tm", "a.tnach", "ch"]),
+    ("tmaj",   ["tm", "a.tnach", "j"]),
+    ("tmas",   ["tm", "a.tnaf", "s.right"]),
+    ("tmas(",  ["tm", "a.nap", "s.left"]),
     ("tmatn",  ["tm", "a.tnatn", "tn.angled"]),
     ("tmadn",  ["tm", "a.tnatn", "tn.angled"]),
     ("tmatm",  ["tm", "a.tnatn", "tm.angled"]),
