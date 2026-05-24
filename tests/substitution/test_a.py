@@ -94,6 +94,14 @@ def test_a_after(font, text, expected_glyphs):
     ("kang", ["k", "a.kang", "ng"]),
     ("kank", ["k", "a.kang", "nk"]),
     ("kath", ["k", "a.katn", "th.over.skew30"]),
+    ("katn", ["k", "a.katn", "tn.skew30"]),
+    ("kadn", ["k", "a.katn", "tn.skew30"]),
+    ("katm", ["k", "a.katn", "tm.skew30"]),
+    ("kadm", ["k", "a.katn", "tm.skew30"]),
+    ("kant", ["k", "a.kan", "nt"]),
+    ("kand", ["k", "a.kan", "nt"]),
+    ("kamt", ["k", "a.kan", "mt"]),
+    ("kamd", ["k", "a.kan", "mt"]),
 ])
 def test_k_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -120,6 +128,14 @@ def test_k_a(font, text, expected_glyphs):
     ("gang", ["g", "a.kang", "ng"]),
     ("gank", ["g", "a.kang", "nk"]),
     ("gath", ["g", "a.katn", "th.over.skew30"]),
+    ("gatn", ["g", "a.katn", "tn.skew30"]),
+    ("gadn", ["g", "a.katn", "tn.skew30"]),
+    ("gatm", ["g", "a.katn", "tm.skew30"]),
+    ("gadm", ["g", "a.katn", "tm.skew30"]),
+    ("gant", ["g", "a.kan", "nt"]),
+    ("gand", ["g", "a.kan", "nt"]),
+    ("gamt", ["g", "a.kan", "mt"]),
+    ("gamd", ["g", "a.kan", "mt"]),
 ])
 def test_g_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -146,6 +162,14 @@ def test_g_a(font, text, expected_glyphs):
     ("rang", ["r", "a.rang", "ng"]),
     ("rank", ["r", "a.rang", "nk"]),
     ("rath", ["r", "a.rant", "th.under"]),
+    ("ratn", ["r", "a.ratn", "tn.skew30"]),
+    ("radn", ["r", "a.ratn", "tn.skew30"]),
+    ("ratm", ["r", "a.ratn", "tm.skew30"]),
+    ("radm", ["r", "a.ratn", "tm.skew30"]),
+    ("rant", ["r", "a.rant", "nt"]),
+    ("rand", ["r", "a.rant", "nt"]),
+    ("ramt", ["r", "a.rant", "mt"]),
+    ("ramd", ["r", "a.rant", "mt"]),
 ])
 def test_r_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -172,6 +196,14 @@ def test_r_a(font, text, expected_glyphs):
     ("lang", ["l", "a.rang", "ng"]),
     ("lank", ["l", "a.rang", "nk"]),
     ("lath", ["l", "a.rant", "th.under"]),
+    ("latn", ["l", "a.ratn", "tn.skew30"]),
+    ("ladn", ["l", "a.ratn", "tn.skew30"]),
+    ("latm", ["l", "a.ratn", "tm.skew30"]),
+    ("ladm", ["l", "a.ratn", "tm.skew30"]),
+    ("lant", ["l", "a.rant", "nt"]),
+    ("land", ["l", "a.rant", "nt"]),
+    ("lamt", ["l", "a.rant", "mt"]),
+    ("lamd", ["l", "a.rant", "mt"]),
 ])
 def test_l_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -198,6 +230,14 @@ def test_l_a(font, text, expected_glyphs):
     ("nang", ["n", "a.nang", "ng"]),
     ("nank", ["n", "a.nang", "nk"]),
     ("nath", ["n", "a.natn", "th.over"]),
+    ("natn", ["n", "a.natn", "tn"]),
+    ("nadn", ["n", "a.natn", "tn"]),
+    ("natm", ["n", "a.natn", "tm"]),
+    ("nadm", ["n", "a.natn", "tm"]),
+    ("nant", ["n", "a.nan", "nt"]),
+    ("nand", ["n", "a.nan", "nt"]),
+    ("namt", ["n", "a.nan", "mt"]),
+    ("namd", ["n", "a.nan", "mt"]),
 ])
 def test_n_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -224,6 +264,14 @@ def test_n_a(font, text, expected_glyphs):
     ("mang", ["m", "a.nang", "ng"]),
     ("mank", ["m", "a.nang", "nk"]),
     ("math", ["m", "a.natn", "th.over"]),
+    ("matn", ["m", "a.natn", "tn"]),
+    ("madn", ["m", "a.natn", "tn"]),
+    ("matm", ["m", "a.natn", "tm"]),
+    ("madm", ["m", "a.natn", "tm"]),
+    ("mant", ["m", "a.nan", "nt"]),
+    ("mand", ["m", "a.nan", "nt"]),
+    ("mamt", ["m", "a.nan", "mt"]),
+    ("mamd", ["m", "a.nan", "mt"]),
 ])
 def test_m_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -249,6 +297,14 @@ def test_m_a(font, text, expected_glyphs):
     ("tas)", ["t", "a.taf", "s.right.cut"]),
     ("tang", ["t", "a.tang", "ng"]),
     ("tank", ["t", "a.tang", "nk"]),
+    ("tatn", ["t", "a.tatn", "tn.angled"]),
+    ("tadn", ["t", "a.tatn", "tn.angled"]),
+    ("tatm", ["t", "a.tatn", "tm.angled"]),
+    ("tadm", ["t", "a.tatn", "tm.angled"]),
+    ("tant", ["t", "a.tan", "nt"]),
+    ("tand", ["t", "a.tan", "nt"]),
+    ("tamt", ["t", "a.tan", "mt"]),
+    ("tamd", ["t", "a.tan", "mt"]),
 ])
 def test_t_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -274,6 +330,14 @@ def test_t_a(font, text, expected_glyphs):
     ("das)", ["d", "a.taf", "s.right.cut"]),
     ("dang", ["d", "a.tang", "ng"]),
     ("dank", ["d", "a.tang", "nk"]),
+    ("datn", ["d", "a.tatn", "tn.angled"]),
+    ("dadn", ["d", "a.tatn", "tn.angled"]),
+    ("datm", ["d", "a.tatn", "tm.angled"]),
+    ("dadm", ["d", "a.tatn", "tm.angled"]),
+    ("dant", ["d", "a.tan", "nt"]),
+    ("dand", ["d", "a.tan", "nt"]),
+    ("damt", ["d", "a.tan", "mt"]),
+    ("damd", ["d", "a.tan", "mt"]),
 ])
 def test_d_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -300,6 +364,14 @@ def test_d_a(font, text, expected_glyphs):
     ("pang", ["p.cut", "a.pang", "ng"]),
     ("pank", ["p.cut", "a.pang", "nk"]),
     ("path", ["p.cut", "a.patn", "th.over.skew30"]),
+    ("patn", ["p.cut", "a.patn", "tn.skew30"]),
+    ("padn", ["p.cut", "a.patn", "tn.skew30"]),
+    ("patm", ["p.cut", "a.patn", "tm.skew30"]),
+    ("padm", ["p.cut", "a.patn", "tm.skew30"]),
+    ("pant", ["p", "a.pant", "nt"]),
+    ("pand", ["p", "a.pant", "nt"]),
+    ("pamt", ["p", "a.pant", "mt"]),
+    ("pamd", ["p", "a.pant", "mt"]),
 ])
 def test_p_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -326,6 +398,14 @@ def test_p_a(font, text, expected_glyphs):
     ("bang", ["b.cut", "a.pang", "ng"]),
     ("bank", ["b.cut", "a.pang", "nk"]),
     ("bath", ["b.cut", "a.patn", "th.over.skew30"]),
+    ("batn", ["b.cut", "a.patn", "tn.skew30"]),
+    ("badn", ["b.cut", "a.patn", "tn.skew30"]),
+    ("batm", ["b.cut", "a.patn", "tm.skew30"]),
+    ("badm", ["b.cut", "a.patn", "tm.skew30"]),
+    ("bant", ["b", "a.pant", "nt"]),
+    ("band", ["b", "a.pant", "nt"]),
+    ("bamt", ["b", "a.pant", "mt"]),
+    ("bamd", ["b", "a.pant", "mt"]),
 ])
 def test_b_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -353,6 +433,14 @@ def test_b_a(font, text, expected_glyphs):
     ("fank", ["f", "a.fang", "nk"]),
     ("fath", ["f", "a.fatn", "th.over.skew45"]),
     ("fath)", ["f", "a.fant", "th.under"]),
+    ("fatn", ["f", "a.fatn", "tn.skew45"]),
+    ("fadn", ["f", "a.fatn", "tn.skew45"]),
+    ("fatm", ["f", "a.fatn", "tm.skew45"]),
+    ("fadm", ["f", "a.fatn", "tm.skew45"]),
+    ("fant", ["f", "a.fant", "nt"]),
+    ("fand", ["f", "a.fant", "nt"]),
+    ("famt", ["f", "a.fant", "mt"]),
+    ("famd", ["f", "a.fant", "mt"]),
 ])
 def test_f_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -380,6 +468,14 @@ def test_f_a(font, text, expected_glyphs):
     ("vank", ["v", "a.fang", "nk"]),
     ("vath", ["v", "a.fatn", "th.over.skew45"]),
     ("vath)", ["v", "a.fant", "th.under"]),
+    ("vatn", ["v", "a.fatn", "tn.skew45"]),
+    ("vadn", ["v", "a.fatn", "tn.skew45"]),
+    ("vatm", ["v", "a.fatn", "tm.skew45"]),
+    ("vadm", ["v", "a.fatn", "tm.skew45"]),
+    ("vant", ["v", "a.fant", "nt"]),
+    ("vand", ["v", "a.fant", "nt"]),
+    ("vamt", ["v", "a.fant", "mt"]),
+    ("vamd", ["v", "a.fant", "mt"]),
 ])
 def test_v_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -405,6 +501,10 @@ def test_v_a(font, text, expected_glyphs):
     ("shas(", ["sh", "a.chap", "s.left"]),
     ("shang", ["sh", "a.chang", "ng"]),
     ("shank", ["sh", "a.chang", "nk"]),
+    ("shant", ["sh", "a.chan", "nt"]),
+    ("shand", ["sh", "a.chan", "nt"]),
+    ("shamt", ["sh", "a.chan", "mt"]),
+    ("shamd", ["sh", "a.chan", "mt"]),
 ])
 def test_sh_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -430,6 +530,10 @@ def test_sh_a(font, text, expected_glyphs):
     ("chas(", ["ch", "a.chap", "s.left"]),
     ("chang", ["ch", "a.chang", "ng"]),
     ("chank", ["ch", "a.chang", "nk"]),
+    ("chant", ["ch", "a.chan", "nt"]),
+    ("chand", ["ch", "a.chan", "nt"]),
+    ("chamt", ["ch", "a.chan", "mt"]),
+    ("chamd", ["ch", "a.chan", "mt"]),
 ])
 def test_ch_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -455,6 +559,10 @@ def test_ch_a(font, text, expected_glyphs):
     ("jas(", ["j", "a.chap", "s.left"]),
     ("jang", ["j", "a.chang", "ng"]),
     ("jank", ["j", "a.chang", "nk"]),
+    ("jant", ["j", "a.chan", "nt"]),
+    ("jand", ["j", "a.chan", "nt"]),
+    ("jamt", ["j", "a.chan", "mt"]),
+    ("jamd", ["j", "a.chan", "mt"]),
 ])
 def test_j_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -482,6 +590,10 @@ def test_j_a(font, text, expected_glyphs):
     ("s)ank", ["s.right", "a.fang", "nk"]),
     ("s)ath", ["s.right", "a.fatn", "th.over.skew45"]),
     ("s)ath)", ["s.right", "a.fant", "th.under"]),
+    ("s)ant", ["s.right", "a.fant", "nt"]),
+    ("s)and", ["s.right", "a.fant", "nt"]),
+    ("s)amt", ["s.right", "a.fant", "mt"]),
+    ("s)amd", ["s.right", "a.fant", "mt"]),
 ])
 def test_sR_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -542,6 +654,10 @@ def test_nk_a(font, text, expected_glyphs):
     ("th(ash",  ["th.over", "a.tnach", "sh"]),
     ("th(ach",  ["th.over", "a.tnach", "ch"]),
     ("th(aj",   ["th.over", "a.tnach", "j"]),
+    ("th(atn",  ["th.over", "a.tnatn", "tn.angled"]),
+    ("th(adn",  ["th.over", "a.tnatn", "tn.angled"]),
+    ("th(atm",  ["th.over", "a.tnatn", "tm.angled"]),
+    ("th(adm",  ["th.over", "a.tnatn", "tm.angled"]),
 ])
 def test_thO_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -574,4 +690,24 @@ def test_thU_a(font, text, expected_glyphs):
     ("uas",  ["u.cut", "a.uaf", "s.right.cut"]),
 ])
 def test_u_a(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("tnatn",  ["tn", "a.tnatn", "tn.angled"]),
+    ("tnadn",  ["tn", "a.tnatn", "tn.angled"]),
+    ("tnatm",  ["tn", "a.tnatn", "tm.angled"]),
+    ("tnadm",  ["tn", "a.tnatn", "tm.angled"]),
+])
+def test_tn_a(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("tmatn",  ["tm", "a.tnatn", "tn.angled"]),
+    ("tmadn",  ["tm", "a.tnatn", "tn.angled"]),
+    ("tmatm",  ["tm", "a.tnatn", "tm.angled"]),
+    ("tmadm",  ["tm", "a.tnatn", "tm.angled"]),
+])
+def test_tm_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

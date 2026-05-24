@@ -8,6 +8,7 @@ AnchorPoint: "Join" 10 0 entry 0
 LayerCount: 2
 Fore
 Refer: 66 -1 N 4 0 0 4 -30 0 2
+Substitution2: "Skewed 45" tm.skew45
 Substitution2: "Skewed 30" tm.skew30
 Substitution2: "Angled" tm.angled
 Ligature2: "tn tm" d m

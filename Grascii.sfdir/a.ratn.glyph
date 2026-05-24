@@ -1,0 +1,16 @@
+StartChar: a.ratn
+Encoding: 450 -1 494
+Width: 247
+VWidth: 1179
+Flags: W
+AnchorPoint: "Join" 87 179 exit 0
+AnchorPoint: "Join" 87 179 entry 0
+LayerCount: 2
+Fore
+SplineSet
+87 179 m 0
+ -20 72 10 25 28 7 c 0
+ 66 -31 238 95 238 159 c 0
+ 238 198 180 210 87 179 c 1024
+EndSplineSet
+EndChar

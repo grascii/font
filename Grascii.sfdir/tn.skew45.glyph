@@ -1,0 +1,10 @@
+StartChar: tn.skew45
+Encoding: 315 -1 490
+Width: 774
+Flags: W
+AnchorPoint: "Join" 763.75 310.5 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+Refer: 470 -1 N 1 0 1 1 0 0 2
+EndChar

@@ -1,0 +1,16 @@
+StartChar: a.tnatn
+Encoding: 632 -1 497
+Width: 189
+VWidth: 1123
+Flags: W
+AnchorPoint: "Join" 56 124 exit 0
+AnchorPoint: "Join" 56 124 entry 0
+LayerCount: 2
+Fore
+SplineSet
+56 124 m 0
+ 122 124 172 128 179 102 c 0
+ 191 56 97 0 40 0 c 0
+ -18 0 18 59 56 124 c 1024
+EndSplineSet
+EndChar

@@ -8,6 +8,7 @@ AnchorPoint: "Join" 10 0 entry 0
 LayerCount: 2
 Fore
 Refer: 66 -1 N 2.25 0 0 2.25 -12.5 0 2
+Substitution2: "Skewed 45" tn.skew45
 Substitution2: "Skewed 30" tn.skew30
 Substitution2: "Angled" tn.angled
 LCarets2: 1 0

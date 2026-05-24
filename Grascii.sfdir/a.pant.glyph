@@ -1,0 +1,15 @@
+StartChar: a.pant
+Encoding: 529 -1 496
+Width: 220
+VWidth: 1017
+Flags: W
+AnchorPoint: "Join" 67 0 exit 0
+AnchorPoint: "Join" 10 18 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 18 m 0
+ 99 -46 251 87 200 138 c 0
+ 110 228 -75 0 67 0 c 1024
+EndSplineSet
+EndChar
