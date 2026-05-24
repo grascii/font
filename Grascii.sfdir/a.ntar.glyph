@@ -1,0 +1,11 @@
+StartChar: a.ntar
+Encoding: 651 -1 499
+Width: 181
+VWidth: 1118
+Flags: W
+AnchorPoint: "Join" 10 0 exit 0
+AnchorPoint: "Join" 113 0 entry 0
+LayerCount: 2
+Fore
+Refer: 78 -1 N -1 1.22465e-16 -1.22465e-16 -1 181 118 2
+EndChar

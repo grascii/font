@@ -1,16 +1,15 @@
 StartChar: a.natn
 Encoding: 476 -1 105
-Width: 152
-VWidth: 1068
+Width: 180
+VWidth: 1091
 Flags: W
-AnchorPoint: "Join" 10 68 exit 0
-AnchorPoint: "Join" 10 68 entry 0
+AnchorPoint: "Join" 31 91 exit 0
+AnchorPoint: "Join" 31 91 entry 0
 LayerCount: 2
 Fore
 SplineSet
-10 68 m 0
- 124 68 148 65 141 37 c 0
- 130 -4 45 -5 30 4 c 0
- 15 13 10 29 10 68 c 1024
+31 91 m 0
+ 126 91 180 95 169 53 c 0
+ 158 12 -56 -59 31 91 c 1024
 EndSplineSet
 EndChar

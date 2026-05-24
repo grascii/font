@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1779589170
+ModificationTime: 1779602629
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -48,7 +48,7 @@ Lookup: 4 0 0 "Blended Consonants 1" { "tn tm"  } ['rlig' ('DFLT' <'dflt' > 'lat
 Lookup: 4 0 1 "Blended Consonants 2" { "nt mt"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Annotated Directions" { "Annotated Directions"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Directions" { "s Direction"  "th Direction"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 8 0 "Consonant Joinings" { "k Joinings 1"  "k Joinings 2"  "r Joinings Overrides"  "r Joinings 1"  "r Joinings 2a"  "r Joinings 2"  "r Joinings 3"  "r Joinings 4"  "r Joinings 5"  "r Joinings 6"  "p Joinings 1"  "p Joinings 2"  "p Joinings 3"  "p Joinings 4"  "f Joinings 1"  "f Joinings 2"  "f Joinings 3"  "f Joinings 4"  "f Joinings 5"  "s.right Joinings 1"  "s.right Joinings 2"  "s.right Joinings 3"  "s.right Joinings 4"  "s.right Joinings 5"  "s.left Joinings 1"  "s.left Joinings 2"  "tn Joinings 1"  "tn Joinings 2"  "tn Joinings 3"  "tn Joinings 4"  "tn Joinings 5"  "nt Joinings 1"  "nt Joinings 2"  "nt Joinings 3"  "nt Joinings 4"  "u Joinings 1"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 8 0 "Consonant Joinings" { "k Joinings 1"  "k Joinings 2"  "r Joinings Overrides"  "r Joinings 1"  "r Joinings 2a"  "r Joinings 2"  "r Joinings 3"  "r Joinings 4"  "r Joinings 5"  "r Joinings 6"  "p Joinings 1"  "p Joinings 2"  "p Joinings 3"  "p Joinings 4"  "f Joinings 1"  "f Joinings 2"  "f Joinings 3"  "f Joinings 4"  "f Joinings 5"  "s.right Joinings 1"  "s.right Joinings 2"  "s.right Joinings 3"  "s.right Joinings 4"  "s.right Joinings 5"  "s.left Joinings 1"  "s.left Joinings 2"  "tn Joinings 1"  "tn Joinings 2"  "tn Joinings 3"  "tn Joinings 4"  "tn Joinings 5"  "nt Joinings 1"  "nt Joinings 2"  "nt Joinings 3"  "nt Joinings 4"  "nt Joinings 5"  "nt Joinings 6"  "u Joinings 1"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 8 0 "Vowel Between" { "Between k *"  "Between r *"  "Between n *"  "Between t *"  "Between p *"  "Between f *"  "Between ch *"  "Between ng *"  "Between tn *"  "Between nt *"  "Between u *"  } ['rclt' ('latn' <'dflt' > ) ]
 Lookup: 6 8 0 "Vowel Before/After" { "Vowel Before Overrides"  "Vowel Before"  "Vowel After Overrides"  "Vowel After"  "Vowel After u"  "Unlock Vowel"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 5 0 0 "Vowel Fallback" { "Vowel Fallback"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -233,11 +233,27 @@ Lookup: 257 0 0 "Position Before th" { "Position Before th"  } []
 Lookup: 257 0 0 "Position Before v" { "Position Before v"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "nt Joinings 6" 0 0 0 1
+ 1 0 2
+  Coverage: 14 th.under nt mt
+  FCoverage: 1 a
+  FCoverage: 7 n m t d
+ 1
+  SeqLookup: 0 "Skewed 30"
+EndFPST
+ChainSub2: coverage "nt Joinings 5" 0 0 0 1
+ 1 0 2
+  Coverage: 14 th.under nt mt
+  FCoverage: 1 a
+  FCoverage: 18 s.left p b sh ch j
+ 1
+  SeqLookup: 0 "Skewed 45"
+EndFPST
 ChainSub2: coverage "tn Joinings 5" 0 0 0 1
  1 2 0
   Coverage: 13 th.over tn tm
   BCoverage: 1 a
-  BCoverage: 122 t d th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  BCoverage: 126 t d th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 n m
  1
   SeqLookup: 0 "Angled"
 EndFPST
@@ -444,7 +460,7 @@ EndFPST
 ChainSub2: coverage "tn Joinings 3" 0 0 0 1
  1 1 0
   Coverage: 13 th.over tn tm
-  BCoverage: 7 u au eu
+  BCoverage: 43 u au eu s.right s.right.cut f f.cut v v.cut
  1
   SeqLookup: 0 "Skewed 30"
 EndFPST
@@ -679,7 +695,7 @@ EndFPST
 ChainSub2: coverage "nt Joinings 3" 0 0 0 1
  1 0 1
   Coverage: 14 th.under nt mt
-  FCoverage: 7 o eu au
+  FCoverage: 41 o eu au s.left s.left.cut p p.cut b b.cut
  1
   SeqLookup: 0 "Skewed 30"
 EndFPST
@@ -692,9 +708,9 @@ ChainSub2: coverage "r Joinings 2" 0 0 0 1
 EndFPST
 ChainSub2: coverage "nt Joinings 1" 0 0 0 1
  1 0 2
-  Coverage: 8 th.under
+  Coverage: 14 th.under nt mt
   FCoverage: 3 a e
-  FCoverage: 31 r l r.cut l.cut f v f.cut v.cut
+  FCoverage: 57 r l r.cut l.cut f v f.cut v.cut ng nk s.right s.right.cut
  1
   SeqLookup: 0 "Skewed 30"
 EndFPST
@@ -750,7 +766,7 @@ ChainSub2: coverage "f Joinings 1" 0 0 0 1
  1 2 0
   Coverage: 3 f v
   BCoverage: 6 a e ae
-  BCoverage: 74 r l k g n m t d p b p.cut b.cut s.left s.left.cut th.under th.under.skew30
+  BCoverage: 100 r l k g n m t d p b p.cut b.cut s.left s.left.cut th.under th.under.skew30 nt nt.skew30 mt mt.skew30
  1
   SeqLookup: 0 "Cut Consonant"
 EndFPST
@@ -1897,23 +1913,23 @@ EndFPST
 ChainSub2: class "s Direction" 8 8 8 15
   Class: 1 s
   Class: 23 k g f v sh ch j s.right
-  Class: 14 r l p b s.left
+  Class: 23 r l p b s.left th.under
   Class: 9 a e ea ae
-  Class: 18 n m t d ng nk o oe
+  Class: 30 n m t d ng nk o oe tn tm nt mt
   Class: 1 u
   Class: 1 i
   BClass: 1 s
   BClass: 23 k g f v sh ch j s.right
-  BClass: 14 r l p b s.left
+  BClass: 23 r l p b s.left th.under
   BClass: 9 a e ea ae
-  BClass: 18 n m t d ng nk o oe
+  BClass: 30 n m t d ng nk o oe tn tm nt mt
   BClass: 1 u
   BClass: 1 i
   FClass: 1 s
   FClass: 23 k g f v sh ch j s.right
-  FClass: 14 r l p b s.left
+  FClass: 23 r l p b s.left th.under
   FClass: 9 a e ea ae
-  FClass: 18 n m t d ng nk o oe
+  FClass: 30 n m t d ng nk o oe tn tm nt mt
   FClass: 1 u
   FClass: 1 i
  1 2 0
@@ -2562,7 +2578,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 442 26 10
+WinInfo: 572 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
