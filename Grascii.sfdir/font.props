@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1779602629
+ModificationTime: 1779738099
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -252,7 +252,7 @@ EndFPST
 ChainSub2: coverage "tn Joinings 5" 0 0 0 1
  1 2 0
   Coverage: 13 th.over tn tm
-  BCoverage: 1 a
+  BCoverage: 3 a e
   BCoverage: 126 t d th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 n m
  1
   SeqLookup: 0 "Angled"
@@ -1760,8 +1760,8 @@ ChainSub2: class "Between u *" 13 13 13 10
   Class: 35 f v f.cut v.cut s.right s.right.cut
   Class: 7 sh ch j
   Class: 5 ng nk
-  Class: 52 th.over th.over.angled th.over.skew30 th.over.skew45
-  Class: 56 th.under th.under.angled th.under.skew30 th.under.skew45
+  Class: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  Class: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   Class: 7 u u.cut
   BClass: 7 a e i o
   BClass: 15 k g k.cut g.cut
@@ -1772,8 +1772,8 @@ ChainSub2: class "Between u *" 13 13 13 10
   BClass: 35 f v f.cut v.cut s.right s.right.cut
   BClass: 7 sh ch j
   BClass: 5 ng nk
-  BClass: 52 th.over th.over.angled th.over.skew30 th.over.skew45
-  BClass: 56 th.under th.under.angled th.under.skew30 th.under.skew45
+  BClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  BClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   BClass: 7 u u.cut
   FClass: 7 a e i o
   FClass: 15 k g k.cut g.cut
@@ -1784,8 +1784,8 @@ ChainSub2: class "Between u *" 13 13 13 10
   FClass: 35 f v f.cut v.cut s.right s.right.cut
   FClass: 7 sh ch j
   FClass: 5 ng nk
-  FClass: 52 th.over th.over.angled th.over.skew30 th.over.skew45
-  FClass: 56 th.under th.under.angled th.under.skew30 th.under.skew45
+  FClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  FClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   FClass: 7 u u.cut
  1 1 1
   ClsList: 1
@@ -2578,7 +2578,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 572 26 10
+WinInfo: 754 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
