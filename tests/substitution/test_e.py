@@ -728,3 +728,33 @@ def test_thU_e(font, text, expected_glyphs):
 ])
 def test_u_e(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("tnek", ["tn", "e.tnek", "k"]),
+    ("tneg", ["tn", "e.tnek", "g"]),
+    ("tnen", ["tn", "e.tnen", "n"]),
+    ("tnem", ["tn", "e.tnen", "m"]),
+    ("tnet", ["tn", "e.tnet", "t"]),
+    ("tned", ["tn", "e.tnet", "d"]),
+    ("tnef", ["tn", "e.tnef", "f"]),
+    ("tnev", ["tn", "e.tnef", "v"]),
+    ("tnes", ["tn", "e.tnef", "s.right"]),
+])
+def test_tn_e(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("tmek", ["tm", "e.tnek", "k"]),
+    ("tmeg", ["tm", "e.tnek", "g"]),
+    ("tmen", ["tm", "e.tnen", "n"]),
+    ("tmem", ["tm", "e.tnen", "m"]),
+    ("tmet", ["tm", "e.tnet", "t"]),
+    ("tmed", ["tm", "e.tnet", "d"]),
+    ("tmef", ["tm", "e.tnef", "f"]),
+    ("tmev", ["tm", "e.tnef", "v"]),
+    ("tmes", ["tm", "e.tnef", "s.right"]),
+])
+def test_tm_e(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

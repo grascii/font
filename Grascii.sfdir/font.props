@@ -1910,28 +1910,31 @@ ChainSub2: class "th Direction" 5 5 5 7
   BClassNames: "All_Others" "th" "r" "o" "circle"
   FClassNames: "All_Others" "th" "r" "o" "circle"
 EndFPST
-ChainSub2: class "s Direction" 8 8 8 15
+ChainSub2: class "s Direction" 9 9 9 17
   Class: 1 s
   Class: 23 k g f v sh ch j s.right
   Class: 23 r l p b s.left th.under
   Class: 9 a e ea ae
-  Class: 30 n m t d ng nk o oe tn tm nt mt
+  Class: 24 n m t d ng nk o oe nt mt
   Class: 1 u
   Class: 1 i
+  Class: 5 tn tm
   BClass: 1 s
   BClass: 23 k g f v sh ch j s.right
   BClass: 23 r l p b s.left th.under
   BClass: 9 a e ea ae
-  BClass: 30 n m t d ng nk o oe tn tm nt mt
+  BClass: 24 n m t d ng nk o oe nt mt
   BClass: 1 u
   BClass: 1 i
+  BClass: 5 tn tm
   FClass: 1 s
   FClass: 23 k g f v sh ch j s.right
   FClass: 23 r l p b s.left th.under
   FClass: 9 a e ea ae
-  FClass: 30 n m t d ng nk o oe tn tm nt mt
+  FClass: 24 n m t d ng nk o oe nt mt
   FClass: 1 u
   FClass: 1 i
+  FClass: 5 tn tm
  1 2 0
   ClsList: 1
   BClsList: 4 2
@@ -1968,6 +1971,12 @@ ChainSub2: class "s Direction" 8 8 8 15
   FClsList:
  1
   SeqLookup: 0 "Left s"
+ 1 2 0
+  ClsList: 1
+  BClsList: 7 8
+  FClsList:
+ 1
+  SeqLookup: 0 "Right s"
  1 1 0
   ClsList: 1
   BClsList: 2
@@ -1983,6 +1992,12 @@ ChainSub2: class "s Direction" 8 8 8 15
  1 1 0
   ClsList: 1
   BClsList: 5
+  FClsList:
+ 1
+  SeqLookup: 0 "Left s"
+ 1 1 0
+  ClsList: 1
+  BClsList: 8
   FClsList:
  1
   SeqLookup: 0 "Left s"
@@ -2022,9 +2037,9 @@ ChainSub2: class "s Direction" 8 8 8 15
   FClsList:
  1
   SeqLookup: 0 "Right s"
-  ClassNames: "All_Others" "s" "right" "left" "circle" "sharp" "u" "i"
-  BClassNames: "All_Others" "s" "right" "left" "circle" "sharp" "u" "i"
-  FClassNames: "All_Others" "s" "right" "left" "circle" "sharp" "u" "i"
+  ClassNames: "All_Others" "s" "right" "left" "circle" "sharp" "u" "i" "over"
+  BClassNames: "All_Others" "s" "right" "left" "circle" "sharp" "u" "i" "over"
+  FClassNames: "All_Others" "s" "right" "left" "circle" "sharp" "u" "i" "over"
 EndFPST
 ChainSub2: class "p Joinings 1" 3 3 3 1
   Class: 3 p b
@@ -2578,7 +2593,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 754 26 10
+WinInfo: 364 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
