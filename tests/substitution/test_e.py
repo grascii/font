@@ -286,8 +286,8 @@ def test_m_e(font, text, expected_glyphs):
     ("tel",   ["t", "e.ter", "l"]),
     ("ten",   ["t", "e.ten", "n"]),
     ("tem",   ["t", "e.ten", "m"]),
-    ("tet",   ["t", "e.et", "t"]),
-    ("ted",   ["t", "e.et", "d"]),
+    ("tet",   ["t", "e.tet", "t"]),
+    ("ted",   ["t", "e.tet", "d"]),
     ("tep",   ["t", "e.tep", "p"]),
     ("teb",   ["t", "e.tep", "b"]),
     ("tef",   ["t", "e.tef", "f.cut"]),
@@ -321,8 +321,8 @@ def test_t_e(font, text, expected_glyphs):
     ("del",   ["d", "e.ter", "l"]),
     ("den",   ["d", "e.ten", "n"]),
     ("dem",   ["d", "e.ten", "m"]),
-    ("det",   ["d", "e.et", "t"]),
-    ("ded",   ["d", "e.et", "d"]),
+    ("det",   ["d", "e.tet", "t"]),
+    ("ded",   ["d", "e.tet", "d"]),
     ("dep",   ["d", "e.tep", "p"]),
     ("deb",   ["d", "e.tep", "b"]),
     ("def",   ["d", "e.tef", "f.cut"]),
@@ -686,10 +686,10 @@ def test_thO_e(font, text, expected_glyphs):
 @pytest.mark.parametrize("text,expected_glyphs", [
     ("th)er",    ["th.under.skew30", "e.nter", "r"]),
     ("th)el",    ["th.under.skew30", "e.nter", "l"]),
-    ("th)en",    ["th.under", "e.nten", "n"]),
-    ("th)em",    ["th.under", "e.nten", "m"]),
-    ("th)et",    ["th.under", "e.ntet", "t"]),
-    ("th)ed",    ["th.under", "e.ntet", "d"]),
+    ("th)en",    ["th.under.angled", "e.nten", "n"]),
+    ("th)em",    ["th.under.angled", "e.nten", "m"]),
+    ("th)et",    ["th.under.angled", "e.ntet", "t"]),
+    ("th)ed",    ["th.under.angled", "e.ntet", "d"]),
 ])
 def test_thU_e(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -757,4 +757,28 @@ def test_tn_e(font, text, expected_glyphs):
     ("tmes", ["tm", "e.tnef", "s.right"]),
 ])
 def test_tm_e(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("nter", ["nt.skew30", "e.nter", "r"]),
+    ("ntel", ["nt.skew30", "e.nter", "l"]),
+    ("nten", ["nt.angled", "e.nten", "n"]),
+    ("ntem", ["nt.angled", "e.nten", "m"]),
+    ("ntet", ["nt.angled", "e.ntet", "t"]),
+    ("nted", ["nt.angled", "e.ntet", "d"]),
+])
+def test_nt_e(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("mter", ["mt.skew30", "e.nter", "r"]),
+    ("mtel", ["mt.skew30", "e.nter", "l"]),
+    ("mten", ["mt.angled", "e.nten", "n"]),
+    ("mtem", ["mt.angled", "e.nten", "m"]),
+    ("mtet", ["mt.angled", "e.ntet", "t"]),
+    ("mted", ["mt.angled", "e.ntet", "d"]),
+])
+def test_mt_e(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

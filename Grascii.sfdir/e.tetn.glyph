@@ -1,15 +1,15 @@
 StartChar: e.tetn
 Encoding: 840 -1 199
-Width: 82
-VWidth: 1045
+Width: 88
+VWidth: 1046
 Flags: W
-AnchorPoint: "Join" 10 45 exit 0
-AnchorPoint: "Join" 10 45 entry 0
+AnchorPoint: "Join" 17 46 exit 0
+AnchorPoint: "Join" 17 46 entry 0
 LayerCount: 2
 Fore
 SplineSet
-10 45 m 0
- 73 82 89 24 54 4 c 0
- 29 -10 10 17 10 45 c 1024
+17 46 m 0
+ 80 83 96 25 61 5 c 0
+ 36 -9 -6 6 17 46 c 1024
 EndSplineSet
 EndChar

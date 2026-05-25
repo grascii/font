@@ -1,11 +1,11 @@
 StartChar: e.nten
 Encoding: 990 -1 235
-Width: 81
-VWidth: 1050
+Width: 124
+VWidth: 1130
 Flags: W
-AnchorPoint: "Join" 70.6318 0 exit 0
-AnchorPoint: "Join" 70.6318 0 entry 0
+AnchorPoint: "Join" 99.5635 0 exit 0
+AnchorPoint: "Join" 99.5635 0 entry 0
 LayerCount: 2
 Fore
-Refer: 192 -1 N -1 1.22465e-16 -1.22465e-16 -1 80.6315 50 2
+Refer: 192 -1 N -1 1.22465e-16 -1.22465e-16 -1 124.563 80 2
 EndChar
