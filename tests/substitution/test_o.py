@@ -626,7 +626,7 @@ def test_nk_o(font, text, expected_glyphs):
     ("th(ol",   ["th.over", "o.ol", "l.cut"]),
     ("th(ot",   ["th.over", "o.ot", "t"]),
     ("th(od",   ["th.over", "o.ot", "d"]),
-    # ("th(os(",  ["th.under", "o.op", "s.left"]),
+    ("th(os(",  ["th.over", "o.tnop", "s.left"]),
     ("th(ong",  ["th.over", "o.tnong", "ng"]),
     ("th(onk",  ["th.over", "o.tnong", "nk"]),
 ])
@@ -675,4 +675,30 @@ def test_thU_o(font, text, expected_glyphs):
     ("uoth",  ["u", "o", "th.under"]),
 ])
 def test_u_o(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("tnor",   ["tn", "o.or", "r.cut"]),
+    ("tnol",   ["tn", "o.ol", "l.cut"]),
+    ("tnon",   ["tn", "o.on", "n"]),
+    ("tnom",   ["tn", "o.on", "m"]),
+    ("tnop",   ["tn", "o.tnop", "p"]),
+    ("tnob",   ["tn", "o.tnop", "b"]),
+    ("tnos(",  ["tn", "o.tnop", "s.left"]),
+])
+def test_tn_o(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("tmor",   ["tm", "o.or", "r.cut"]),
+    ("tmol",   ["tm", "o.ol", "l.cut"]),
+    ("tmon",   ["tm", "o.on", "n"]),
+    ("tmom",   ["tm", "o.on", "m"]),
+    ("tmop",   ["tm", "o.tnop", "p"]),
+    ("tmob",   ["tm", "o.tnop", "b"]),
+    ("tmos(",  ["tm", "o.tnop", "s.left"]),
+])
+def test_tm_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
