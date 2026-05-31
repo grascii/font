@@ -635,17 +635,17 @@ def test_thO_o(font, text, expected_glyphs):
 
 
 @pytest.mark.parametrize("text,expected_glyphs", [
-    # ("th)or",   ["th.under.skew45", "o.or", "r.cut"]),
-    # ("th)ol",   ["th.under.skew45", "o.ol", "l.cut"]),
-    # ("th)on",   ["th.under", "o.on", "n"]),
-    # ("th)om",   ["th.under", "o.on", "m"]),
+    ("th)or",   ["th.under.angled", "o.ntor", "r.cut"]),
+    ("th)ol",   ["th.under.angled", "o.ntor", "l.cut"]),
+    ("th)on",   ["th.under.angled", "o.nton", "n"]),
+    ("th)om",   ["th.under.angled", "o.nton", "m"]),
     ("th)ot",   ["th.under.skew45", "o.ot", "t"]),
     ("th)od",   ["th.under.skew45", "o.ot", "d"]),
     ("th)op",   ["th.under.skew30", "o.op", "p"]),
     ("th)ob",   ["th.under.skew30", "o.op", "b"]),
-    # ("th)os)",  ["th.under", "o.of", "s.right"]),
-    ("th)ong",  ["th.under.skew30", "o.ntong", "ng"]),
-    ("th)onk",  ["th.under.skew30", "o.ntong", "nk"]),
+    ("th)os)",  ["th.under.skew30", "o", "s.right"]),
+    ("th)ong",  ["th.under.angled", "o.ntong", "ng"]),
+    ("th)onk",  ["th.under.angled", "o.ntong", "nk"]),
 ])
 def test_thU_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -701,4 +701,34 @@ def test_tn_o(font, text, expected_glyphs):
     ("tmos(",  ["tm", "o.tnop", "s.left"]),
 ])
 def test_tm_o(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("ntor",   ["nt.angled", "o.ntor", "r.cut"]),
+    ("ntol",   ["nt.angled", "o.ntor", "l.cut"]),
+    ("nton",   ["nt.angled", "o.nton", "n"]),
+    ("ntom",   ["nt.angled", "o.nton", "m"]),
+    ("ntop",   ["nt.skew30", "o.op", "p"]),
+    ("ntob",   ["nt.skew30", "o.op", "b"]),
+    ("ntos(",  ["nt.skew30", "o.op", "s.left"]),
+    ("ntong",  ["nt.angled", "o.ntong", "ng"]),
+    ("ntonk",  ["nt.angled", "o.ntong", "nk"]),
+])
+def test_nt_o(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("mtor",   ["mt.angled", "o.ntor", "r.cut"]),
+    ("mtol",   ["mt.angled", "o.ntor", "l.cut"]),
+    ("mton",   ["mt.angled", "o.nton", "n"]),
+    ("mtom",   ["mt.angled", "o.nton", "m"]),
+    ("mtop",   ["mt.skew30", "o.op", "p"]),
+    ("mtob",   ["mt.skew30", "o.op", "b"]),
+    ("mtos(",  ["mt.skew30", "o.op", "s.left"]),
+    ("mtong",  ["mt.angled", "o.ntong", "ng"]),
+    ("mtonk",  ["mt.angled", "o.ntong", "nk"]),
+])
+def test_mt_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

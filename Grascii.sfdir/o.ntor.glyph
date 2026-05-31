@@ -1,0 +1,15 @@
+StartChar: o.ntor
+Encoding: 1145 -1 507
+Width: 44
+VWidth: 1089
+Flags: W
+AnchorPoint: "Join" 34 0 exit 0
+AnchorPoint: "Join" 32 90 entry 0
+LayerCount: 2
+Fore
+SplineSet
+32 90 m 0
+ 21 71 14 54 11 44 c 0
+ 8 34 6 16 34 0 c 1024
+EndSplineSet
+EndChar
