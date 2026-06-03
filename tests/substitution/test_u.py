@@ -20,14 +20,14 @@ from shape import shape
     ("uj",   ["u", "j"]),
     ("us)",  ["u.uf", "s.right"]),
     ("us(",  ["u.up", "s.left"]),
-    ("uth(", ["u", "th.over.skew30"]),
+    ("uth(", ["u", "th.over.angled"]),
     ("uth)", ["u", "th.under"]),
     ("ung",  ["u", "ng"]),
     ("unk",  ["u", "nk"]),
-    ("utn",  ["u", "tn.skew30"]),
-    ("udn",  ["u", "tn.skew30"]),
-    ("utm",  ["u", "tm.skew30"]),
-    ("udm",  ["u", "tm.skew30"]),
+    ("utn",  ["u", "tn.angled"]),
+    ("udn",  ["u", "tn.angled"]),
+    ("utm",  ["u", "tm.angled"]),
+    ("udm",  ["u", "tm.angled"]),
     ("unt",  ["u", "nt"]),
     ("und",  ["u", "nt"]),
     ("umt",  ["u", "mt"]),
@@ -90,7 +90,7 @@ def test_u_after(font, text, expected_glyphs):
     ("kuj",  ["k", "u", "j"]),
     ("kus)", ["k", "u.uf", "s.right"]),
     ("kus(", ["k", "u.up", "s.left"]),
-    ("kuth", ["k", "u", "th.over.skew30"]),
+    ("kuth", ["k", "u", "th.over.angled"]),
 ])
 def test_k_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -114,7 +114,7 @@ def test_k_u(font, text, expected_glyphs):
     ("guj",  ["g", "u", "j"]),
     ("gus)", ["g", "u.uf", "s.right"]),
     ("gus(", ["g", "u.up", "s.left"]),
-    ("guth", ["g", "u", "th.over.skew30"]),
+    ("guth", ["g", "u", "th.over.angled"]),
 ])
 def test_g_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -125,8 +125,8 @@ def test_g_u(font, text, expected_glyphs):
     ("rug",   ["r", "u.ru", "g"]),
     ("rur",   ["r", "u.rur", "r"]),
     ("rul",   ["r", "u.rur", "l"]),
-    ("run",   ["r", "u.ru", "n"]),
-    ("rum",   ["r", "u.ru", "m"]),
+    ("run",   ["r", "u.run", "n"]),
+    ("rum",   ["r", "u.run", "m"]),
     ("rut",   ["r", "u.ru", "t"]),
     ("rud",   ["r", "u.ru", "d"]),
     ("rup",   ["r", "u.rup", "p"]),
@@ -138,7 +138,15 @@ def test_g_u(font, text, expected_glyphs):
     ("ruj",   ["r", "u.ru", "j"]),
     ("rus(",  ["r", "u.rup", "s.left"]),
     ("rus",   ["r", "u.ru", "s.right"]),
-    ("ruth",  ["r", "u.ru", "th.over.skew30"]),
+    ("ruth",  ["r", "u.ru", "th.over.angled"]),
+    ("rutn",  ["r", "u.ru", "tn.angled"]),
+    ("rudn",  ["r", "u.ru", "tn.angled"]),
+    ("rutm",  ["r", "u.ru", "tm.angled"]),
+    ("rudm",  ["r", "u.ru", "tm.angled"]),
+    ("runt",  ["r", "u.run", "nt"]),
+    ("rund",  ["r", "u.run", "nt"]),
+    ("rumt",  ["r", "u.run", "mt"]),
+    ("rumd",  ["r", "u.run", "mt"]),
 ])
 def test_r_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -149,8 +157,8 @@ def test_r_u(font, text, expected_glyphs):
     ("lug",   ["l", "u.ru", "g"]),
     ("lur",   ["l", "u.rur", "r"]),
     ("lul",   ["l", "u.rur", "l"]),
-    ("lun",   ["l", "u.ru", "n"]),
-    ("lum",   ["l", "u.ru", "m"]),
+    ("lun",   ["l", "u.run", "n"]),
+    ("lum",   ["l", "u.run", "m"]),
     ("lut",   ["l", "u.ru", "t"]),
     ("lud",   ["l", "u.ru", "d"]),
     ("lup",   ["l", "u.rup", "p"]),
@@ -162,7 +170,15 @@ def test_r_u(font, text, expected_glyphs):
     ("luj",   ["l", "u.ru", "j"]),
     ("lus(",  ["l", "u.rup", "s.left"]),
     ("lus",   ["l", "u.ru", "s.right"]),
-    ("luth",  ["l", "u.ru", "th.over.skew30"]),
+    ("luth",  ["l", "u.ru", "th.over.angled"]),
+    ("lutn",  ["l", "u.ru", "tn.angled"]),
+    ("ludn",  ["l", "u.ru", "tn.angled"]),
+    ("lutm",  ["l", "u.ru", "tm.angled"]),
+    ("ludm",  ["l", "u.ru", "tm.angled"]),
+    ("lunt",  ["l", "u.run", "nt"]),
+    ("lund",  ["l", "u.run", "nt"]),
+    ("lumt",  ["l", "u.run", "mt"]),
+    ("lumd",  ["l", "u.run", "mt"]),
 ])
 def test_l_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -186,7 +202,11 @@ def test_l_u(font, text, expected_glyphs):
     ("nuj",  ["n", "u.nu", "j"]),
     ("nus(", ["n", "u.nup", "s.left"]),
     ("nus",  ["n", "u.nu", "s.right"]),
-    ("nuth", ["n", "u.nut", "th.over.skew30"]),
+    ("nuth", ["n", "u.nutn", "th.over.skew30"]),
+    ("nutn", ["n", "u.nutn", "tn.skew30"]),
+    ("nudn", ["n", "u.nutn", "tn.skew30"]),
+    ("nutm", ["n", "u.nutn", "tm.skew30"]),
+    ("nudm", ["n", "u.nutn", "tm.skew30"]),
 ])
 def test_n_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -210,7 +230,11 @@ def test_n_u(font, text, expected_glyphs):
     ("muj",  ["m", "u.nu", "j"]),
     ("mus(", ["m", "u.nup", "s.left"]),
     ("mus",  ["m", "u.nu", "s.right"]),
-    ("muth", ["m", "u.nut", "th.over.skew30"]),
+    ("muth", ["m", "u.nutn", "th.over.skew30"]),
+    ("mutn", ["m", "u.nutn", "tn.skew30"]),
+    ("mudn", ["m", "u.nutn", "tn.skew30"]),
+    ("mutm", ["m", "u.nutn", "tm.skew30"]),
+    ("mudm", ["m", "u.nutn", "tm.skew30"]),
 ])
 def test_m_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -282,7 +306,11 @@ def test_d_u(font, text, expected_glyphs):
     ("puj",  ["p", "u", "j"]),
     ("pus(", ["p", "u.up", "s.left"]),
     ("pus",  ["p", "u.uf", "s.right"]),
-    ("puth", ["p", "u", "th.over.skew30"]),
+    ("puth", ["p", "u", "th.over.angled"]),
+    ("putn", ["p", "u", "tn.angled"]),
+    ("pudn", ["p", "u", "tn.angled"]),
+    ("putm", ["p", "u", "tm.angled"]),
+    ("pudm", ["p", "u", "tm.angled"]),
 ])
 def test_p_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -306,7 +334,11 @@ def test_p_u(font, text, expected_glyphs):
     ("buj",  ["b", "u", "j"]),
     ("bus(", ["b", "u.up", "s.left"]),
     ("bus",  ["b", "u.uf", "s.right"]),
-    ("buth", ["b", "u", "th.over.skew30"]),
+    ("buth", ["b", "u", "th.over.angled"]),
+    ("butn", ["b", "u", "tn.angled"]),
+    ("budn", ["b", "u", "tn.angled"]),
+    ("butm", ["b", "u", "tm.angled"]),
+    ("budm", ["b", "u", "tm.angled"]),
 ])
 def test_b_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -331,6 +363,14 @@ def test_b_u(font, text, expected_glyphs):
     ("fus(", ["f", "u.up", "s.left"]),
     ("fus",  ["f", "u.fuf", "s.right"]),
     ("futh", ["f", "u.fu", "th.over.skew30"]),
+    ("futn", ["f", "u.fu", "tn.skew30"]),
+    ("fudn", ["f", "u.fu", "tn.skew30"]),
+    ("futm", ["f", "u.fu", "tm.skew30"]),
+    ("fudm", ["f", "u.fu", "tm.skew30"]),
+    ("funt", ["f", "u.fu", "nt"]),
+    ("fund", ["f", "u.fu", "nt"]),
+    ("fumt", ["f", "u.fu", "mt"]),
+    ("fumd", ["f", "u.fu", "mt"]),
 ])
 def test_f_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -355,6 +395,14 @@ def test_f_u(font, text, expected_glyphs):
     ("vus(", ["v", "u.up", "s.left"]),
     ("vus",  ["v", "u.fuf", "s.right"]),
     ("vuth", ["v", "u.fu", "th.over.skew30"]),
+    ("vutn", ["v", "u.fu", "tn.skew30"]),
+    ("vudn", ["v", "u.fu", "tn.skew30"]),
+    ("vutm", ["v", "u.fu", "tm.skew30"]),
+    ("vudm", ["v", "u.fu", "tm.skew30"]),
+    ("vunt", ["v", "u.fu", "nt"]),
+    ("vund", ["v", "u.fu", "nt"]),
+    ("vumt", ["v", "u.fu", "mt"]),
+    ("vumd", ["v", "u.fu", "mt"]),
 ])
 def test_v_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -378,7 +426,11 @@ def test_v_u(font, text, expected_glyphs):
     ("shuj",  ["sh", "u", "j"]),
     ("shus(", ["sh", "u.up", "s.left"]),
     ("shus",  ["sh", "u.uf", "s.right"]),
-    ("shuth", ["sh", "u", "th.over.skew30"]),
+    ("shuth", ["sh", "u", "th.over.angled"]),
+    ("shutn", ["sh", "u", "tn.angled"]),
+    ("shudn", ["sh", "u", "tn.angled"]),
+    ("shutm", ["sh", "u", "tm.angled"]),
+    ("shudm", ["sh", "u", "tm.angled"]),
 ])
 def test_sh_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -402,7 +454,11 @@ def test_sh_u(font, text, expected_glyphs):
     ("chuj",  ["ch", "u", "j"]),
     ("chus(", ["ch", "u.up", "s.left"]),
     ("chus",  ["ch", "u.uf", "s.right"]),
-    ("chuth", ["ch", "u", "th.over.skew30"]),
+    ("chuth", ["ch", "u", "th.over.angled"]),
+    ("chutn", ["ch", "u", "tn.angled"]),
+    ("chudn", ["ch", "u", "tn.angled"]),
+    ("chutm", ["ch", "u", "tm.angled"]),
+    ("chudm", ["ch", "u", "tm.angled"]),
 ])
 def test_ch_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -426,7 +482,11 @@ def test_ch_u(font, text, expected_glyphs):
     ("juj",  ["j", "u", "j"]),
     ("jus(", ["j", "u.up", "s.left"]),
     ("jus",  ["j", "u.uf", "s.right"]),
-    ("juth", ["j", "u", "th.over.skew30"]),
+    ("juth", ["j", "u", "th.over.angled"]),
+    ("jutn", ["j", "u", "tn.angled"]),
+    ("judn", ["j", "u", "tn.angled"]),
+    ("jutm", ["j", "u", "tm.angled"]),
+    ("judm", ["j", "u", "tm.angled"]),
 ])
 def test_j_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -451,6 +511,14 @@ def test_j_u(font, text, expected_glyphs):
     ("s)us(", ["s.right", "u.up", "s.left"]),
     ("s)us",  ["s.right", "u.fuf", "s.right"]),
     ("s)uth", ["s.right", "u.fu", "th.over.skew30"]),
+    ("s)utn", ["s.right", "u.fu", "tn.skew30"]),
+    ("s)udn", ["s.right", "u.fu", "tn.skew30"]),
+    ("s)utm", ["s.right", "u.fu", "tm.skew30"]),
+    ("s)udm", ["s.right", "u.fu", "tm.skew30"]),
+    ("s)unt", ["s.right", "u.fu", "nt"]),
+    ("s)und", ["s.right", "u.fu", "nt"]),
+    ("s)umt", ["s.right", "u.fu", "mt"]),
+    ("s)umd", ["s.right", "u.fu", "mt"]),
 ])
 def test_sR_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -474,7 +542,7 @@ def test_sR_u(font, text, expected_glyphs):
     ("s(uj",  ["s.left", "u", "j"]),
     ("s(us(", ["s.left", "u.up", "s.left"]),
     ("s(us",  ["s.left", "u.uf", "s.right"]),
-    ("s(uth", ["s.left", "u", "th.over.skew30"]),
+    ("s(uth", ["s.left", "u", "th.over.angled"]),
 ])
 def test_sL_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

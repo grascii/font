@@ -26,14 +26,14 @@ MultipleSubs2: "Between f t" u.fu
 MultipleSubs2: "Between f n" u.fu
 MultipleSubs2: "Between f r" u.fur
 MultipleSubs2: "Between f k" u.fu
-MultipleSubs2: "Between r nt" u.ru
+MultipleSubs2: "Between r nt" u.run
 MultipleSubs2: "Between r tn" u.ru
 MultipleSubs2: "Between r ng" u.ru
 MultipleSubs2: "Between r ch" u.ru
 MultipleSubs2: "Between r f" u.ru
 MultipleSubs2: "Between r p" u.rup
 MultipleSubs2: "Between r t" u.ru
-MultipleSubs2: "Between r n" u.ru
+MultipleSubs2: "Between r n" u.run
 MultipleSubs2: "Between r r" u.rur
 MultipleSubs2: "Between k r" u.kur
 MultipleSubs2: "Before f" u.uf
@@ -54,7 +54,7 @@ MultipleSubs2: "Between n p" u.nup
 MultipleSubs2: "Between n f" u.nu
 MultipleSubs2: "Between n ch" u.nu
 MultipleSubs2: "Between n ng" u.nu
-MultipleSubs2: "Between n tn" u.nut
+MultipleSubs2: "Between n tn" u.nutn
 MultipleSubs2: "Between n nt" u.nu
 MultipleSubs2: "Between t k" u.tu
 MultipleSubs2: "Between t r" u.tur
