@@ -581,3 +581,25 @@ def test_nk_u(font, text, expected_glyphs):
 ])
 def test_thO_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("tnur",   ["tn", "u.tnu", "r"]),
+    ("tnul",   ["tn", "u.tnu", "l"]),
+    ("tnun",   ["tn", "u.tnu", "n"]),
+    ("tnum",   ["tn", "u.tnu", "m"]),
+    ("tnus)",  ["tn", "u.tnu", "s.right"]),
+])
+def test_tn_u(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("tmur",   ["tm", "u.tnu", "r"]),
+    ("tmul",   ["tm", "u.tnu", "l"]),
+    ("tmun",   ["tm", "u.tnu", "n"]),
+    ("tmum",   ["tm", "u.tnu", "m"]),
+    ("tmus)",  ["tm", "u.tnu", "s.right"]),
+])
+def test_tm_u(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
