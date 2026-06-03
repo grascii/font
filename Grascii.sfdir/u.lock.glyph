@@ -1,0 +1,11 @@
+StartChar: u.lock
+Encoding: 1183 -1 510
+Width: 155
+Flags: W
+AnchorPoint: "Join" 115 0 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+Refer: 10 117 N 1 0 0 1 0 0 2
+Substitution2: "Unlock" u
+EndChar

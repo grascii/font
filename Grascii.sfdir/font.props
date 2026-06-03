@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1780456807
+ModificationTime: 1780464900
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -527,10 +527,15 @@ ChainSub2: coverage "nt Joinings 2" 0 0 0 1
  1
   SeqLookup: 0 "Skewed 45"
 EndFPST
-ChainSub2: glyph "Unlock Vowel" 0 0 0 1
+ChainSub2: glyph "Unlock Vowel" 0 0 0 2
  String: 6 o.lock
- BString: 0 
- FString: 0 
+ BString: 0
+ FString: 0
+ 1
+  SeqLookup: 0 "Unlock"
+ String: 6 u.lock
+ BString: 0
+ FString: 0
  1
   SeqLookup: 0 "Unlock"
 EndFPST
@@ -2648,7 +2653,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1092 26 10
+WinInfo: 988 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144

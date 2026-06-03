@@ -603,3 +603,17 @@ def test_tn_u(font, text, expected_glyphs):
 ])
 def test_tm_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("ntus)",  ["nt.angled", "u", "s.right"]),
+])
+def test_nt_u(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("mtus)",  ["mt.angled", "u", "s.right"]),
+])
+def test_mt_u(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
