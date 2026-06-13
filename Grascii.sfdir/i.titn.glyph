@@ -1,0 +1,17 @@
+StartChar: i.titn
+Encoding: 1337 -1 511
+Width: 190
+VWidth: 1101
+Flags: W
+AnchorPoint: "Join" 53 65 exit 0
+AnchorPoint: "Join" 61 102 entry 0
+LayerCount: 2
+Fore
+SplineSet
+61 102 m 0
+ 106 128 152 150 176 108 c 0
+ 188 88 178 71 159 48 c 0
+ 125 7 42 -20 19 19 c 0
+ -4 59 22 96 53 65 c 1024
+EndSplineSet
+EndChar

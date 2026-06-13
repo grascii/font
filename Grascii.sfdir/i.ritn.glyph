@@ -1,0 +1,16 @@
+StartChar: i.ritn
+Encoding: 1331 -1 512
+Width: 270
+VWidth: 1142
+Flags: W
+AnchorPoint: "Join" 118 105 exit 0
+AnchorPoint: "Join" 110 142 entry 0
+LayerCount: 2
+Fore
+SplineSet
+110 142 m 0
+ 203 173 260 161 260 122 c 0
+ 260 58 99 -29 33 9 c 0
+ -30 45 47 176 118 105 c 1024
+EndSplineSet
+EndChar
