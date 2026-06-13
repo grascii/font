@@ -509,3 +509,33 @@ def test_tn_i(font, text, expected_glyphs):
 ])
 def test_tm_i(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("ntik",   ["nt.skew45", "i.ti", "k"]),
+    ("ntig",   ["nt.skew45", "i.ti", "g"]),
+    ("ntir",   ["nt", "i.ntir", "r"]),
+    ("ntil",   ["nt", "i.ntir", "l"]),
+    ("ntin",   ["nt.angled", "i.ntin", "n"]),
+    ("ntim",   ["nt.angled", "i.ntin", "m"]),
+    ("ntit",   ["nt.angled", "i.ntin", "t"]),
+    ("ntid",   ["nt.angled", "i.ntin", "d"]),
+    ("ntis(",  ["nt.skew45", "i.ntip", "s.left"]),
+])
+def test_nt_i(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("mtik",   ["mt.skew45", "i.ti", "k"]),
+    ("mtig",   ["mt.skew45", "i.ti", "g"]),
+    ("mtir",   ["mt", "i.ntir", "r"]),
+    ("mtil",   ["mt", "i.ntir", "l"]),
+    ("mtin",   ["mt.angled", "i.ntin", "n"]),
+    ("mtim",   ["mt.angled", "i.ntin", "m"]),
+    ("mtit",   ["mt.angled", "i.ntin", "t"]),
+    ("mtid",   ["mt.angled", "i.ntin", "d"]),
+    ("mtis(",  ["mt.skew45", "i.ntip", "s.left"]),
+])
+def test_mt_i(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1781379402
+ModificationTime: 1781383402
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -48,7 +48,7 @@ Lookup: 4 0 0 "Blended Consonants 1" { "tn tm"  } ['rlig' ('DFLT' <'dflt' > 'lat
 Lookup: 4 0 1 "Blended Consonants 2" { "nt mt"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Annotated Directions" { "Annotated Directions"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Directions" { "s Direction"  "th Direction"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 8 0 "Consonant Joinings" { "k Joinings 1"  "k Joinings 2"  "r Joinings Overrides"  "r Joinings 1"  "r Joinings 2a"  "r Joinings 2"  "r Joinings 3"  "r Joinings 4"  "r Joinings 5"  "r Joinings 6"  "p Joinings 1"  "p Joinings 2"  "p Joinings 3"  "p Joinings 4"  "f Joinings 1"  "f Joinings 2"  "f Joinings 3"  "f Joinings 4"  "f Joinings 5"  "s.right Joinings 1"  "s.right Joinings 2"  "s.right Joinings 3"  "s.right Joinings 4"  "s.right Joinings 5"  "s.left Joinings 1"  "s.left Joinings 2"  "tn Joinings 1"  "tn Joinings 2"  "tn Joinings 3a"  "tn Joinings 3b"  "tn Joinings 3"  "tn Joinings 4"  "tn Joinings 5"  "tn Joinings 6"  "tn Joinings 7"  "nt Joinings 1"  "nt Joinings 2"  "nt Joinings 3a"  "nt Joinings 3"  "nt Joinings 4"  "nt Joinings 5"  "nt Joinings 6"  "nt Joinings 7"  "u Joinings 1"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 8 0 "Consonant Joinings" { "k Joinings 1"  "k Joinings 2"  "r Joinings Overrides"  "r Joinings 1"  "r Joinings 2a"  "r Joinings 2"  "r Joinings 3"  "r Joinings 4"  "r Joinings 5"  "r Joinings 6"  "p Joinings 1"  "p Joinings 2"  "p Joinings 3"  "p Joinings 4"  "f Joinings 1"  "f Joinings 2"  "f Joinings 3"  "f Joinings 4"  "f Joinings 5"  "s.right Joinings 1"  "s.right Joinings 2"  "s.right Joinings 3"  "s.right Joinings 4"  "s.right Joinings 5"  "s.left Joinings 1"  "s.left Joinings 2"  "tn Joinings 1"  "tn Joinings 2"  "tn Joinings 3a"  "tn Joinings 3b"  "tn Joinings 3"  "tn Joinings 4"  "tn Joinings 5"  "tn Joinings 6"  "tn Joinings 7"  "nt Joinings 1"  "nt Joinings 2"  "nt Joinings 3a"  "nt Joinings 3"  "nt Joinings 4"  "nt Joinings 5"  "nt Joinings 6"  "nt Joinings 7"  "nt Joinings 8"  "nt Joinings 9"  "u Joinings 1"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 8 0 "Vowel Between" { "Between Overrides 1"  "Between Overrides 2"  "Between k *"  "Between r *"  "Between n *"  "Between t *"  "Between p *"  "Between f *"  "Between ch *"  "Between ng *"  "Between tn *"  "Between nt *"  "Between u *"  } ['rclt' ('latn' <'dflt' > ) ]
 Lookup: 6 8 0 "Vowel Before/After" { "Vowel Before Overrides"  "Vowel Before"  "Vowel After Overrides"  "Vowel After"  "Vowel After u"  "Unlock Vowel"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 5 0 0 "Vowel Fallback" { "Vowel Fallback"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -233,6 +233,22 @@ Lookup: 257 0 0 "Position Before th" { "Position Before th"  } []
 Lookup: 257 0 0 "Position Before v" { "Position Before v"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "nt Joinings 9" 0 0 0 1
+ 1 0 2
+  Coverage: 14 th.under nt mt
+  FCoverage: 1 i
+  FCoverage: 7 n m t d
+ 1
+  SeqLookup: 0 "Angled"
+EndFPST
+ChainSub2: coverage "nt Joinings 8" 0 0 0 1
+ 1 0 2
+  Coverage: 14 th.under nt mt
+  FCoverage: 1 i
+  FCoverage: 3 k g
+ 1
+  SeqLookup: 0 "Skewed 45"
+EndFPST
 ChainSub2: coverage "tn Joinings 7" 0 0 0 1
  1 2 0
   Coverage: 13 th.over tn tm
@@ -307,7 +323,7 @@ EndFPST
 ChainSub2: coverage "nt Joinings 5" 0 0 0 1
  1 0 2
   Coverage: 14 th.under nt mt
-  FCoverage: 1 a
+  FCoverage: 3 a i
   FCoverage: 18 s.left p b sh ch j
  1
   SeqLookup: 0 "Skewed 45"
