@@ -491,3 +491,21 @@ def test_thU_i(font, text, expected_glyphs):
 ])
 def test_u_i(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("tnir",   ["tn", "i.nir", "r"]),
+    ("tnil",   ["tn", "i.nir", "l"]),
+    ("tnis)",  ["tn", "i.tni", "s.right"]),
+])
+def test_tn_i(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("tmir",   ["tm", "i.nir", "r"]),
+    ("tmil",   ["tm", "i.nir", "l"]),
+    ("tmis)",  ["tm", "i.tni", "s.right"]),
+])
+def test_tm_i(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

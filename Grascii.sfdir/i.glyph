@@ -15,6 +15,7 @@ SplineSet
  277 175 231 210 194 213 c 0
  150 213 91 182 114 97 c 1024
 EndSplineSet
+MultipleSubs2: "Between tn r" i.nir
 MultipleSubs2: "Between ch nt" i.chik
 MultipleSubs2: "Between f nt" i.fi
 MultipleSubs2: "Between p nt" i.pint
