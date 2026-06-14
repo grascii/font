@@ -260,3 +260,19 @@ def test_j_ea(font, text, expected_glyphs):
 ])
 def test_thO_ea(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("nta&'n", ["nt.skew30", "a.tan", "eadot", "n"]),
+    ("nta&'m", ["nt.skew30", "a.tan", "eadot", "m"]),
+])
+def test_nt_ea(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("mta&'n", ["mt.skew30", "a.tan", "eadot", "n"]),
+    ("mta&'m", ["mt.skew30", "a.tan", "eadot", "m"]),
+])
+def test_mt_ea(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

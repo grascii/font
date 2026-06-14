@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1781383402
+ModificationTime: 1781395689
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -315,7 +315,7 @@ EndFPST
 ChainSub2: coverage "nt Joinings 6" 0 0 0 1
  1 0 2
   Coverage: 14 th.under nt mt
-  FCoverage: 1 a
+  FCoverage: 4 a ea
   FCoverage: 7 n m t d
  1
   SeqLookup: 0 "Skewed 30"
