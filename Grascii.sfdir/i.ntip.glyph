@@ -2,7 +2,7 @@ StartChar: i.ntip
 Encoding: 1353 -1 515
 Width: 224
 VWidth: 1006
-Flags: WO
+Flags: W
 AnchorPoint: "Join" 116 42 exit 0
 AnchorPoint: "Join" 109 6 entry 0
 LayerCount: 2

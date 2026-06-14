@@ -5,6 +5,8 @@ Flags: W
 AnchorPoint: "Join" 0 0 exit 0
 AnchorPoint: "Join" 0 0 entry 0
 LayerCount: 2
+MultipleSubs2: "Between n nt" a.nan eadot
+MultipleSubs2: "Between r nt" a.rant eadot
 MultipleSubs2: "After th.over" a.thOa eadot
 Ligature2: "ch sh th ng nk" a ampersand quotesingle
 MultipleSubs2: "After th.under" a.thUa eadot

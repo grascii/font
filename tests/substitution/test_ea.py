@@ -42,6 +42,10 @@ def test_ea_after(font, text, expected_glyphs):
     ("ra&'ch", ["r", "a.rach", "eadot", "ch"]),
     ("ra&'j",  ["r", "a.rach", "eadot", "j"]),
     ("ra&'s",  ["r", "a.rap", "eadot", "s.left"]),
+    ("ra&'nt", ["r", "a.rant", "eadot", "nt"]),
+    ("ra&'nd", ["r", "a.rant", "eadot", "nt"]),
+    ("ra&'mt", ["r", "a.rant", "eadot", "mt"]),
+    ("ra&'md", ["r", "a.rant", "eadot", "mt"]),
 ])
 def test_r_ea(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -61,7 +65,11 @@ def test_r_ea(font, text, expected_glyphs):
     ("la&'sh", ["l", "a.rach", "eadot", "sh"]),
     ("la&'ch", ["l", "a.rach", "eadot", "ch"]),
     ("la&'j",  ["l", "a.rach", "eadot", "j"]),
-    ("la&'s", ["l", "a.rap", "eadot", "s.left"]),
+    ("la&'s",  ["l", "a.rap", "eadot", "s.left"]),
+    ("la&'nt", ["l", "a.rant", "eadot", "nt"]),
+    ("la&'nd", ["l", "a.rant", "eadot", "nt"]),
+    ("la&'mt", ["l", "a.rant", "eadot", "mt"]),
+    ("la&'md", ["l", "a.rant", "eadot", "mt"]),
 ])
 def test_l_ea(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -79,6 +87,10 @@ def test_l_ea(font, text, expected_glyphs):
     ("na&'sh", ["n", "a.nach", "eadot", "sh"]),
     ("na&'ch", ["n", "a.nach", "eadot", "ch"]),
     ("na&'j",  ["n", "a.nach", "eadot", "j"]),
+    ("na&'nt", ["n", "a.nan", "eadot", "nt"]),
+    ("na&'nd", ["n", "a.nan", "eadot", "nt"]),
+    ("na&'mt", ["n", "a.nan", "eadot", "mt"]),
+    ("na&'md", ["n", "a.nan", "eadot", "mt"]),
 ])
 def test_n_ea(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -96,6 +108,10 @@ def test_n_ea(font, text, expected_glyphs):
     ("ma&'sh", ["m", "a.nach", "eadot", "sh"]),
     ("ma&'ch", ["m", "a.nach", "eadot", "ch"]),
     ("ma&'j",  ["m", "a.nach", "eadot", "j"]),
+    ("ma&'nt", ["m", "a.nan", "eadot", "nt"]),
+    ("ma&'nd", ["m", "a.nan", "eadot", "nt"]),
+    ("ma&'mt", ["m", "a.nan", "eadot", "mt"]),
+    ("ma&'md", ["m", "a.nan", "eadot", "mt"]),
 ])
 def test_m_ea(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
