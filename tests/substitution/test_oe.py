@@ -91,6 +91,10 @@ def test_g_oe(font, text, expected_glyphs):
     ("roep",  ["r", "o.oep", "e.oep", "p"]),
     ("roeb",  ["r", "o.oep", "e.oep", "b"]),
     ("roes",  ["r", "o.oep", "e.oep", "s.left"]),
+    ("roent", ["r", "o.oe", "e.oen", "nt"]),
+    ("roend", ["r", "o.oe", "e.oen", "nt"]),
+    ("roemt", ["r", "o.oe", "e.oen", "mt"]),
+    ("roemd", ["r", "o.oe", "e.oen", "mt"]),
 ])
 def test_r_oe(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -106,6 +110,10 @@ def test_r_oe(font, text, expected_glyphs):
     ("loep",  ["l", "o.oep", "e.oep", "p"]),
     ("loeb",  ["l", "o.oep", "e.oep", "b"]),
     ("loes",  ["l", "o.oep", "e.oep", "s.left"]),
+    ("loent", ["l", "o.oe", "e.oen", "nt"]),
+    ("loend", ["l", "o.oe", "e.oen", "nt"]),
+    ("loemt", ["l", "o.oe", "e.oen", "mt"]),
+    ("loemd", ["l", "o.oe", "e.oen", "mt"]),
 ])
 def test_l_oe(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -119,6 +127,10 @@ def test_l_oe(font, text, expected_glyphs):
     ("noep",  ["n", "o.noep", "e.noep", "p"]),
     ("noeb",  ["n", "o.noep", "e.noep", "b"]),
     ("noes",  ["n", "o.noep", "e.noep", "s.left"]),
+    ("noent", ["n", "o.oe", "e.oen", "nt"]),
+    ("noend", ["n", "o.oe", "e.oen", "nt"]),
+    ("noemt", ["n", "o.oe", "e.oen", "mt"]),
+    ("noemd", ["n", "o.oe", "e.oen", "mt"]),
 ])
 def test_n_oe(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -132,6 +144,10 @@ def test_n_oe(font, text, expected_glyphs):
     ("moep",  ["m", "o.noep", "e.noep", "p"]),
     ("moeb",  ["m", "o.noep", "e.noep", "b"]),
     ("moes",  ["m", "o.noep", "e.noep", "s.left"]),
+    ("moent", ["m", "o.oe", "e.oen", "nt"]),
+    ("moend", ["m", "o.oe", "e.oen", "nt"]),
+    ("moemt", ["m", "o.oe", "e.oen", "mt"]),
+    ("moemd", ["m", "o.oe", "e.oen", "mt"]),
 ])
 def test_m_oe(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -170,6 +186,10 @@ def test_d_oe(font, text, expected_glyphs):
     ("poev",  ["p", "o.poef", "e.poef", "v.cut"]),
     ("poes",  ["p", "o.poep", "e.poep", "s.left"]),
     ("poes)", ["p", "o.poef", "e.poef", "s.right.cut"]),
+    ("poent", ["p", "o.poen", "e.poen", "nt"]),
+    ("poend", ["p", "o.poen", "e.poen", "nt"]),
+    ("poemt", ["p", "o.poen", "e.poen", "mt"]),
+    ("poemd", ["p", "o.poen", "e.poen", "mt"]),
 ])
 def test_p_oe(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -186,6 +206,10 @@ def test_p_oe(font, text, expected_glyphs):
     ("boev",  ["b", "o.poef", "e.poef", "v.cut"]),
     ("boes",  ["b", "o.poep", "e.poep", "s.left"]),
     ("boes)", ["b", "o.poef", "e.poef", "s.right.cut"]),
+    ("boent", ["b", "o.poen", "e.poen", "nt"]),
+    ("boend", ["b", "o.poen", "e.poen", "nt"]),
+    ("boemt", ["b", "o.poen", "e.poen", "mt"]),
+    ("boemd", ["b", "o.poen", "e.poen", "mt"]),
 ])
 def test_b_oe(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -246,6 +270,10 @@ def test_sR_oe(font, text, expected_glyphs):
     ("shoev",  ["sh", "o.choef", "e.choef", "v.cut"]),
     ("shoes",  ["sh", "o.choep", "e.choep", "s.left"]),
     ("shoes)", ["sh", "o.choef", "e.choef", "s.right.cut"]),
+    ("shoent", ["sh", "o.choen", "e.choen", "nt"]),
+    ("shoend", ["sh", "o.choen", "e.choen", "nt"]),
+    ("shoemt", ["sh", "o.choen", "e.choen", "mt"]),
+    ("shoemd", ["sh", "o.choen", "e.choen", "mt"]),
 ])
 def test_sh_oe(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -262,6 +290,10 @@ def test_sh_oe(font, text, expected_glyphs):
     ("choev",  ["ch", "o.choef", "e.choef", "v.cut"]),
     ("choes",  ["ch", "o.choep", "e.choep", "s.left"]),
     ("choes)", ["ch", "o.choef", "e.choef", "s.right.cut"]),
+    ("choent", ["ch", "o.choen", "e.choen", "nt"]),
+    ("choend", ["ch", "o.choen", "e.choen", "nt"]),
+    ("choemt", ["ch", "o.choen", "e.choen", "mt"]),
+    ("choemd", ["ch", "o.choen", "e.choen", "mt"]),
 ])
 def test_ch_oe(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -278,6 +310,10 @@ def test_ch_oe(font, text, expected_glyphs):
     ("joev",  ["j", "o.choef", "e.choef", "v.cut"]),
     ("joes",  ["j", "o.choep", "e.choep", "s.left"]),
     ("joes)", ["j", "o.choef", "e.choef", "s.right.cut"]),
+    ("joent", ["j", "o.choen", "e.choen", "nt"]),
+    ("joend", ["j", "o.choen", "e.choen", "nt"]),
+    ("joemt", ["j", "o.choen", "e.choen", "mt"]),
+    ("joemd", ["j", "o.choen", "e.choen", "mt"]),
 ])
 def test_j_oe(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
