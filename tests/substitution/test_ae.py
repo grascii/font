@@ -113,6 +113,10 @@ def test_m_ae(font, text, expected_glyphs):
     ("ta&el",  ["t", "ae.taer", "l"]),
     ("ta&et",  ["t", "ae.taet", "t"]),
     ("ta&ed",  ["t", "ae.taet", "d"]),
+    ("ta&etn", ["t", "ae.taet", "tn.skew45"]),
+    ("ta&edn", ["t", "ae.taet", "tn.skew45"]),
+    ("ta&etm", ["t", "ae.taet", "tm.skew45"]),
+    ("ta&edm", ["t", "ae.taet", "tm.skew45"]),
 ])
 def test_t_ae(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -125,6 +129,10 @@ def test_t_ae(font, text, expected_glyphs):
     ("da&el",  ["d", "ae.taer", "l"]),
     ("da&et",  ["d", "ae.taet", "t"]),
     ("da&ed",  ["d", "ae.taet", "d"]),
+    ("da&etn", ["d", "ae.taet", "tn.skew45"]),
+    ("da&edn", ["d", "ae.taet", "tn.skew45"]),
+    ("da&etm", ["d", "ae.taet", "tm.skew45"]),
+    ("da&edm", ["d", "ae.taet", "tm.skew45"]),
 ])
 def test_d_ae(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -167,6 +175,10 @@ def test_b_ae(font, text, expected_glyphs):
     ("fa&em",  ["f", "a.fan", "e.fen", "m"]),
     ("fa&et",  ["f", "a.fat", "e.fet", "t"]),
     ("fa&ed",  ["f", "a.fat", "e.fet", "d"]),
+    ("fa&ent", ["f", "a.fan", "e.fen", "nt"]),
+    ("fa&end", ["f", "a.fan", "e.fen", "nt"]),
+    ("fa&emt", ["f", "a.fan", "e.fen", "mt"]),
+    ("fa&emd", ["f", "a.fan", "e.fen", "mt"]),
 ])
 def test_f_ae(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -179,6 +191,10 @@ def test_f_ae(font, text, expected_glyphs):
     ("va&em",  ["v", "a.fan", "e.fen", "m"]),
     ("va&et",  ["v", "a.fat", "e.fet", "t"]),
     ("va&ed",  ["v", "a.fat", "e.fet", "d"]),
+    ("va&ent", ["v", "a.fan", "e.fen", "nt"]),
+    ("va&end", ["v", "a.fan", "e.fen", "nt"]),
+    ("va&emt", ["v", "a.fan", "e.fen", "mt"]),
+    ("va&emd", ["v", "a.fan", "e.fen", "mt"]),
 ])
 def test_v_ae(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -191,6 +207,10 @@ def test_v_ae(font, text, expected_glyphs):
     ("s)a&em",  ["s.right", "a.fan", "e.fen", "m"]),
     ("s)a&et",  ["s.right", "a.fat", "e.fet", "t"]),
     ("s)a&ed",  ["s.right", "a.fat", "e.fet", "d"]),
+    ("s)a&ent", ["s.right", "a.fan", "e.fen", "nt"]),
+    ("s)a&end", ["s.right", "a.fan", "e.fen", "nt"]),
+    ("s)a&emt", ["s.right", "a.fan", "e.fen", "mt"]),
+    ("s)a&emd", ["s.right", "a.fan", "e.fen", "mt"]),
 ])
 def test_sR_ae(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
