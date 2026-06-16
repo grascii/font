@@ -317,3 +317,19 @@ def test_ch_oe(font, text, expected_glyphs):
 ])
 def test_j_oe(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("tnoen", ["tn", "o.oe", "e.oen", "n"]),
+    ("tnoem", ["tn", "o.oe", "e.oen", "m"]),
+])
+def test_tn_oe(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("tmoen", ["tm", "o.oe", "e.oen", "n"]),
+    ("tmoem", ["tm", "o.oe", "e.oen", "m"]),
+])
+def test_tm_oe(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
