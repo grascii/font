@@ -316,3 +316,37 @@ def test_v_eu(font, text, expected_glyphs):
 ])
 def test_sR_eu(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("tneur",   ["tn", "e.neu", "u.neur", "r.cut"]),
+    ("tneul",   ["tn", "e.neu", "u.neur", "l.cut"]),
+    ("tneun",   ["tn", "e.neu", "u.neu", "n"]),
+    ("tneum",   ["tn", "e.neu", "u.neu", "m"]),
+    ("tneut",   ["tn", "e.neu", "u.neu", "t"]),
+    ("tneud",   ["tn", "e.neu", "u.neu", "d"]),
+    ("tneush",  ["tn", "e.neu", "u.neuch", "sh"]),
+    ("tneuch",  ["tn", "e.neu", "u.neuch", "ch"]),
+    ("tneuj",   ["tn", "e.neu", "u.neuch", "j"]),
+    ("tneus",   ["tn", "e.neu", "u.neu", "s.right"]),
+    ("tneuth",  ["tn", "e.neu", "u.neu", "th.over.skew30"]),
+])
+def test_tn_eu(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("tmeur",   ["tm", "e.neu", "u.neur", "r.cut"]),
+    ("tmeul",   ["tm", "e.neu", "u.neur", "l.cut"]),
+    ("tmeun",   ["tm", "e.neu", "u.neu", "n"]),
+    ("tmeum",   ["tm", "e.neu", "u.neu", "m"]),
+    ("tmeut",   ["tm", "e.neu", "u.neu", "t"]),
+    ("tmeud",   ["tm", "e.neu", "u.neu", "d"]),
+    ("tmeush",  ["tm", "e.neu", "u.neuch", "sh"]),
+    ("tmeuch",  ["tm", "e.neu", "u.neuch", "ch"]),
+    ("tmeuj",   ["tm", "e.neu", "u.neuch", "j"]),
+    ("tmeus",   ["tm", "e.neu", "u.neu", "s.right"]),
+    ("tmeuth",  ["tm", "e.neu", "u.neu", "th.over.skew30"]),
+])
+def test_tm_eu(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
