@@ -78,6 +78,10 @@ def test_eu_after(font, text, expected_glyphs):
     ("keush", ["k.cut", "e.keu", "u.keuch", "sh"]),
     ("keuch", ["k.cut", "e.keu", "u.keuch", "ch"]),
     ("keuj",  ["k.cut", "e.keu", "u.keuch", "j"]),
+    ("keutn", ["k.cut", "e.keu", "u.keu", "tn.skew30"]),
+    ("keudn", ["k.cut", "e.keu", "u.keu", "tn.skew30"]),
+    ("keutm", ["k.cut", "e.keu", "u.keu", "tm.skew30"]),
+    ("keudm", ["k.cut", "e.keu", "u.keu", "tm.skew30"]),
 ])
 def test_k_eu(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -99,6 +103,10 @@ def test_k_eu(font, text, expected_glyphs):
     ("geush", ["g.cut", "e.keu", "u.keuch", "sh"]),
     ("geuch", ["g.cut", "e.keu", "u.keuch", "ch"]),
     ("geuj",  ["g.cut", "e.keu", "u.keuch", "j"]),
+    ("geutn", ["g.cut", "e.keu", "u.keu", "tn.skew30"]),
+    ("geudn", ["g.cut", "e.keu", "u.keu", "tn.skew30"]),
+    ("geutm", ["g.cut", "e.keu", "u.keu", "tm.skew30"]),
+    ("geudm", ["g.cut", "e.keu", "u.keu", "tm.skew30"]),
 ])
 def test_g_eu(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -135,6 +143,10 @@ def test_l_eu(font, text, expected_glyphs):
     ("neush", ["n", "e.neu", "u.neuch", "sh"]),
     ("neuch", ["n", "e.neu", "u.neuch", "ch"]),
     ("neuj",  ["n", "e.neu", "u.neuch", "j"]),
+    ("neutn", ["n", "e.neu", "u.neu", "tn.skew30"]),
+    ("neudn", ["n", "e.neu", "u.neu", "tn.skew30"]),
+    ("neutm", ["n", "e.neu", "u.neu", "tm.skew30"]),
+    ("neudm", ["n", "e.neu", "u.neu", "tm.skew30"]),
 ])
 def test_n_eu(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -153,6 +165,10 @@ def test_n_eu(font, text, expected_glyphs):
     ("meush", ["m", "e.neu", "u.neuch", "sh"]),
     ("meuch", ["m", "e.neu", "u.neuch", "ch"]),
     ("meuj",  ["m", "e.neu", "u.neuch", "j"]),
+    ("meutn", ["m", "e.neu", "u.neu", "tn.skew30"]),
+    ("meudn", ["m", "e.neu", "u.neu", "tn.skew30"]),
+    ("meutm", ["m", "e.neu", "u.neu", "tm.skew30"]),
+    ("meudm", ["m", "e.neu", "u.neu", "tm.skew30"]),
 ])
 def test_m_eu(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -209,6 +225,10 @@ def test_d_eu(font, text, expected_glyphs):
     ("peush", ["p.cut", "e.peu", "u.peuch", "sh"]),
     ("peuch", ["p.cut", "e.peu", "u.peuch", "ch"]),
     ("peuj",  ["p.cut", "e.peu", "u.peuch", "j"]),
+    ("peutn", ["p.cut", "e.peu", "u.peu", "tn.skew30"]),
+    ("peudn", ["p.cut", "e.peu", "u.peu", "tn.skew30"]),
+    ("peutm", ["p.cut", "e.peu", "u.peu", "tm.skew30"]),
+    ("peudm", ["p.cut", "e.peu", "u.peu", "tm.skew30"]),
 ])
 def test_p_eu(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -229,6 +249,10 @@ def test_p_eu(font, text, expected_glyphs):
     ("beush", ["b.cut", "e.peu", "u.peuch", "sh"]),
     ("beuch", ["b.cut", "e.peu", "u.peuch", "ch"]),
     ("beuj",  ["b.cut", "e.peu", "u.peuch", "j"]),
+    ("beutn", ["b.cut", "e.peu", "u.peu", "tn.skew30"]),
+    ("beudn", ["b.cut", "e.peu", "u.peu", "tn.skew30"]),
+    ("beutm", ["b.cut", "e.peu", "u.peu", "tm.skew30"]),
+    ("beudm", ["b.cut", "e.peu", "u.peu", "tm.skew30"]),
 ])
 def test_b_eu(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
