@@ -350,3 +350,25 @@ def test_tn_eu(font, text, expected_glyphs):
 ])
 def test_tm_eu(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("nteuk",   ["nt.skew30", "e.teu", "u.teu", "k"]),
+    ("nteug",   ["nt.skew30", "e.teu", "u.teu", "g"]),
+    ("nteush",  ["nt.skew30", "e.teu", "u.teu", "sh"]),
+    ("nteuch",  ["nt.skew30", "e.teu", "u.teu", "ch"]),
+    ("nteuj",   ["nt.skew30", "e.teu", "u.teu", "j"]),
+])
+def test_nt_eu(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("mteuk",   ["mt.skew30", "e.teu", "u.teu", "k"]),
+    ("mteug",   ["mt.skew30", "e.teu", "u.teu", "g"]),
+    ("mteush",  ["mt.skew30", "e.teu", "u.teu", "sh"]),
+    ("mteuch",  ["mt.skew30", "e.teu", "u.teu", "ch"]),
+    ("mteuj",   ["mt.skew30", "e.teu", "u.teu", "j"]),
+])
+def test_mt_eu(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
