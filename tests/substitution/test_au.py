@@ -175,6 +175,10 @@ def test_d_au(font, text, expected_glyphs):
     ("pauch",  ["p.cut", "a.pau", "u.auch", "ch"]),
     ("pauj",   ["p.cut", "a.pau", "u.auch", "j"]),
     ("paus",   ["p.cut", "a.pau", "u.au", "s.right"]),
+    ("pautn",  ["p.cut", "a.pau", "u.au", "tn.skew30"]),
+    ("paudn",  ["p.cut", "a.pau", "u.au", "tn.skew30"]),
+    ("pautm",  ["p.cut", "a.pau", "u.au", "tm.skew30"]),
+    ("paudm",  ["p.cut", "a.pau", "u.au", "tm.skew30"]),
 ])
 def test_p_au(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -190,6 +194,10 @@ def test_p_au(font, text, expected_glyphs):
     ("bauch",  ["b.cut", "a.pau", "u.auch", "ch"]),
     ("bauj",   ["b.cut", "a.pau", "u.auch", "j"]),
     ("baus",   ["b.cut", "a.pau", "u.au", "s.right"]),
+    ("bautn",  ["b.cut", "a.pau", "u.au", "tn.skew30"]),
+    ("baudn",  ["b.cut", "a.pau", "u.au", "tn.skew30"]),
+    ("bautm",  ["b.cut", "a.pau", "u.au", "tm.skew30"]),
+    ("baudm",  ["b.cut", "a.pau", "u.au", "tm.skew30"]),
 ])
 def test_b_au(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
