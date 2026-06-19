@@ -1,6 +1,6 @@
 StartChar: i.ntip
 Encoding: 1353 -1 515
-Width: 224
+Width: 225
 VWidth: 1006
 Flags: W
 AnchorPoint: "Join" 116 42 exit 0
@@ -9,7 +9,7 @@ LayerCount: 2
 Fore
 SplineSet
 109 6 m 0
- 164 61 243 114 204 153 c 0
+ 176 45 243 114 204 153 c 0
  146 211 10 81 10 38 c 0
  10 -11 82 -16 116 42 c 1024
 EndSplineSet

@@ -767,6 +767,9 @@ def test_tm_e(font, text, expected_glyphs):
     ("ntem", ["nt.angled", "e.nten", "m"]),
     ("ntet", ["nt.angled", "e.ntet", "t"]),
     ("nted", ["nt.angled", "e.ntet", "d"]),
+    ("ntep", ["nt.skew45", "e.ntep", "p"]),
+    ("nteb", ["nt.skew45", "e.ntep", "b"]),
+    ("ntes", ["nt.skew45", "e.ntep", "s.left"]),
 ])
 def test_nt_e(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -779,6 +782,9 @@ def test_nt_e(font, text, expected_glyphs):
     ("mtem", ["mt.angled", "e.nten", "m"]),
     ("mtet", ["mt.angled", "e.ntet", "t"]),
     ("mted", ["mt.angled", "e.ntet", "d"]),
+    ("mtep", ["mt.skew45", "e.ntep", "p"]),
+    ("mteb", ["mt.skew45", "e.ntep", "b"]),
+    ("mtes", ["mt.skew45", "e.ntep", "s.left"]),
 ])
 def test_mt_e(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

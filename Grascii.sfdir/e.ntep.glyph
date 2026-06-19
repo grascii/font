@@ -1,0 +1,11 @@
+StartChar: e.ntep
+Encoding: 992 -1 516
+Width: 95
+VWidth: 1044
+Flags: W
+AnchorPoint: "Join" 10 2 exit 0
+AnchorPoint: "Join" 59 0 entry 0
+LayerCount: 2
+Fore
+Refer: 216 -1 N -1 1.22465e-16 -1.22465e-16 -1 95 44 2
+EndChar
