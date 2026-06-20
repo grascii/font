@@ -32,6 +32,7 @@ from shape import shape
     ("und",  ["u", "nt"]),
     ("umt",  ["u", "mt"]),
     ("umd",  ["u", "mt"]),
+    ("udf",  ["u", "df.angled"]),
 ])
 def test_u_before(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

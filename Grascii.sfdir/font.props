@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1781929465
+ModificationTime: 1781973210
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -235,7 +235,7 @@ MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "tn Joinings 8" 0 0 0 1
  1 2 0
-  Coverage: 13 th.over tn tm
+  Coverage: 16 th.over tn tm df
   BCoverage: 2 ae
   BCoverage: 3 t d
  1
@@ -259,7 +259,7 @@ ChainSub2: coverage "nt Joinings 8" 0 0 0 1
 EndFPST
 ChainSub2: coverage "tn Joinings 7" 0 0 0 1
  1 2 0
-  Coverage: 13 th.over tn tm
+  Coverage: 16 th.over tn tm df
   BCoverage: 1 i
   BCoverage: 29 r r.cut l l.cut n m t d u.cut
  1
@@ -267,7 +267,7 @@ ChainSub2: coverage "tn Joinings 7" 0 0 0 1
 EndFPST
 ChainSub2: coverage "tn Joinings 3a" 0 0 0 1
  1 2 0
-  Coverage: 13 th.over tn tm
+  Coverage: 16 th.over tn tm df
   BCoverage: 1 u
   BCoverage: 43 n m t d f f.cut v v.cut s.right s.right.cut
  1
@@ -275,7 +275,7 @@ ChainSub2: coverage "tn Joinings 3a" 0 0 0 1
 EndFPST
 ChainSub2: coverage "tn Joinings 3b" 0 0 0 1
  1 1 0
-  Coverage: 13 th.over tn tm
+  Coverage: 16 th.over tn tm df
   BCoverage: 1 u
  1
   SeqLookup: 0 "Angled"
@@ -306,7 +306,7 @@ ChainSub2: coverage "Between Overrides 1" 0 0 0 1
 EndFPST
 ChainSub2: coverage "tn Joinings 4" 0 0 0 1
  1 2 0
-  Coverage: 13 th.over tn tm
+  Coverage: 16 th.over tn tm df
   BCoverage: 1 o
   BCoverage: 55 r r.cut l l.cut n m f f.cut v v.cut s.right s.right.cut
  1
@@ -338,7 +338,7 @@ ChainSub2: coverage "nt Joinings 5" 0 0 0 1
 EndFPST
 ChainSub2: coverage "tn Joinings 5" 0 0 0 1
  1 2 0
-  Coverage: 13 th.over tn tm
+  Coverage: 16 th.over tn tm df
   BCoverage: 3 a e
   BCoverage: 126 t d th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 n m
  1
@@ -353,7 +353,7 @@ ChainSub2: coverage "nt Joinings 4" 0 0 0 1
 EndFPST
 ChainSub2: coverage "tn Joinings 6" 0 0 0 1
  1 1 0
-  Coverage: 13 th.over tn tm
+  Coverage: 16 th.over tn tm df
   BCoverage: 1 o
  1
   SeqLookup: 0 "Angled"
@@ -546,7 +546,7 @@ ChainSub2: class "k Joinings 1" 4 4 4 1
 EndFPST
 ChainSub2: coverage "tn Joinings 3" 0 0 0 1
  1 1 0
-  Coverage: 13 th.over tn tm
+  Coverage: 16 th.over tn tm df
   BCoverage: 41 au eu s.right s.right.cut f f.cut v v.cut
  1
   SeqLookup: 0 "Skewed 30"
@@ -824,7 +824,7 @@ ChainSub2: coverage "s.left Joinings 1" 0 0 0 1
 EndFPST
 ChainSub2: coverage "tn Joinings 2" 0 0 0 1
  1 2 0
-  Coverage: 13 th.over tn tm
+  Coverage: 16 th.over tn tm df
   BCoverage: 3 a e
   BCoverage: 35 f v f.cut v.cut s.right s.right.cut
  1
@@ -840,7 +840,7 @@ ChainSub2: coverage "p Joinings 2" 0 0 0 1
 EndFPST
 ChainSub2: coverage "tn Joinings 1" 0 0 0 1
  1 2 0
-  Coverage: 13 th.over tn tm
+  Coverage: 16 th.over tn tm df
   BCoverage: 3 a e
   BCoverage: 69 k g r l r.cut l.cut p b p.cut b.cut s.left s.left.cut sh ch j u u.cut
  1
@@ -2597,10 +2597,10 @@ ChainSub2: class "Vowel Before" 12 1 12 10
   Class: 35 f v f.cut v.cut s.right s.right.cut
   Class: 15 k g k.cut g.cut
   Class: 3 n m
-  Class: 33 p b p.cut b.cut s.left s.left.cut
+  Class: 37 p b p.cut b.cut s.left s.left.cut jnt
   Class: 15 r l r.cut l.cut
   Class: 3 t d
-  Class: 98 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tm tm.angled tm.skew30
+  Class: 101 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tm tm.angled tm.skew30 df
   Class: 102 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 mt mt.angled mt.skew30
   Class: 5 ng nk
   FClass: 24 a e o u i ea ae au eu oe
@@ -2608,10 +2608,10 @@ ChainSub2: class "Vowel Before" 12 1 12 10
   FClass: 35 f v f.cut v.cut s.right s.right.cut
   FClass: 15 k g k.cut g.cut
   FClass: 3 n m
-  FClass: 33 p b p.cut b.cut s.left s.left.cut
+  FClass: 37 p b p.cut b.cut s.left s.left.cut jnt
   FClass: 15 r l r.cut l.cut
   FClass: 3 t d
-  FClass: 98 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tm tm.angled tm.skew30
+  FClass: 101 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tm tm.angled tm.skew30 df
   FClass: 102 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 mt mt.angled mt.skew30
   FClass: 5 ng nk
  1 0 1

@@ -1,0 +1,11 @@
+StartChar: jnt.angled
+Encoding: 351 -1 520
+Width: 647
+VWidth: 1378
+Flags: W
+AnchorPoint: "Join" 636.502 378.506 exit 0
+AnchorPoint: "Join" 255.502 378.506 entry 0
+LayerCount: 2
+Fore
+Refer: 519 -1 N -1 1.22465e-16 -1.22465e-16 -1 646.502 378.506 2
+EndChar
