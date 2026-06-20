@@ -63,6 +63,7 @@ def test_i_before(font, text, expected_glyphs):
     ("ndi",  ["nt", "i.nti"]),
     ("mti",  ["mt", "i.nti"]),
     ("mdi",  ["mt", "i.nti"]),
+    ("dfi",  ["df", "i.fi"]),
 ])
 def test_i_after(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

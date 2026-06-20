@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1781973210
+ModificationTime: 1781976624
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -2230,36 +2230,36 @@ EndFPST
 ChainSub2: class "Vowel After" 12 12 12 10
   Class: 24 a e o u i ea ae au eu oe
   Class: 7 sh ch j
-  Class: 35 f v f.cut v.cut s.right s.right.cut
+  Class: 48 f v f.cut v.cut s.right s.right.cut df df.angled
   Class: 15 k g k.cut g.cut
   Class: 3 n m
   Class: 33 p b p.cut b.cut s.left s.left.cut
   Class: 15 r l r.cut l.cut
   Class: 3 t d
   Class: 98 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tm tm.angled tm.skew30
-  Class: 102 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 mt mt.angled mt.skew30
+  Class: 117 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 mt mt.angled mt.skew30 jnt jnt.angled
   Class: 5 ng nk
   BClass: 24 a e o u i ea ae au eu oe
   BClass: 7 sh ch j
-  BClass: 35 f v f.cut v.cut s.right s.right.cut
+  BClass: 48 f v f.cut v.cut s.right s.right.cut df df.angled
   BClass: 15 k g k.cut g.cut
   BClass: 3 n m
   BClass: 33 p b p.cut b.cut s.left s.left.cut
   BClass: 15 r l r.cut l.cut
   BClass: 3 t d
   BClass: 98 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tm tm.angled tm.skew30
-  BClass: 102 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 mt mt.angled mt.skew30
+  BClass: 117 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 mt mt.angled mt.skew30 jnt jnt.angled
   BClass: 5 ng nk
   FClass: 24 a e o u i ea ae au eu oe
   FClass: 7 sh ch j
-  FClass: 35 f v f.cut v.cut s.right s.right.cut
+  FClass: 48 f v f.cut v.cut s.right s.right.cut df df.angled
   FClass: 15 k g k.cut g.cut
   FClass: 3 n m
   FClass: 33 p b p.cut b.cut s.left s.left.cut
   FClass: 15 r l r.cut l.cut
   FClass: 3 t d
   FClass: 98 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tm tm.angled tm.skew30
-  FClass: 102 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 mt mt.angled mt.skew30
+  FClass: 117 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 mt mt.angled mt.skew30 jnt jnt.angled
   FClass: 5 ng nk
  1 1 0
   ClsList: 1

@@ -70,6 +70,7 @@ def test_a_before(font, text, expected_glyphs):
     ("nda", ["nt", "a.nta"]),
     ("mta", ["mt", "a.mta"]),
     ("mda", ["mt", "a.mta"]),
+    ("jnta", ["jnt", "a.nta"]),
 ])
 def test_a_after(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

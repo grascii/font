@@ -68,6 +68,7 @@ def test_o_before(font, text, expected_glyphs):
     ("ndo",  ["nt.skew30", "o"]),
     ("mto",  ["mt.skew30", "o"]),
     ("mdo",  ["mt.skew30", "o"]),
+    ("dfo",  ["df", "o.fo"]),
 ])
 def test_o_after(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

@@ -70,6 +70,8 @@ def test_e_before(font, text, expected_glyphs):
     ("nde",  ["nt", "e.nte"]),
     ("mte",  ["mt", "e.nte"]),
     ("mde",  ["mt", "e.nte"]),
+    ("dfe",  ["df", "e.fe"]),
+    ("jnte", ["jnt", "e.nte"]),
 ])
 def test_e_after(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
