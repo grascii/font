@@ -1,0 +1,18 @@
+StartChar: df
+Encoding: 324 -1 517
+Width: 647
+Flags: W
+AnchorPoint: "Join" 391 0 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 0 m 0
+ 10 202 463 444 601 364 c 0
+ 722 289 504 98 391 0 c 1024
+EndSplineSet
+LCarets2: 1 0
+Ligature2: "tn tm df jnt" t v
+Ligature2: "tn tm df jnt" d v
+Ligature2: "tn tm df jnt" d f
+EndChar

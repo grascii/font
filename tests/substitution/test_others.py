@@ -32,6 +32,13 @@ def test_consonant_blends(font, text, expected_glyphs):
     ("nd", ["nt"]),
     ("mt", ["mt"]),
     ("md", ["mt"]),
+    ("df", ["df"]),
+    ("dv", ["df"]),
+    ("tv", ["df"]),
+    ("jnt", ["jnt"]),
+    ("jnd", ["jnt"]),
+    ("pnt", ["jnt"]),
+    ("pnd", ["jnt"]),
 ])
 def test_blended_consonants(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

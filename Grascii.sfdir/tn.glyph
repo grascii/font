@@ -12,6 +12,6 @@ Substitution2: "Skewed 45" tn.skew45
 Substitution2: "Skewed 30" tn.skew30
 Substitution2: "Angled" tn.angled
 LCarets2: 1 0
-Ligature2: "tn tm" d n
-Ligature2: "tn tm" t n
+Ligature2: "tn tm df jnt" d n
+Ligature2: "tn tm df jnt" t n
 EndChar

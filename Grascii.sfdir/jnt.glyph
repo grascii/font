@@ -1,0 +1,15 @@
+StartChar: jnt
+Encoding: 350 -1 518
+Width: 647
+VWidth: 1379
+Flags: W
+AnchorPoint: "Join" 636.502 379.686 exit 0
+AnchorPoint: "Join" 255.502 379.686 entry 0
+LayerCount: 2
+Fore
+Refer: 517 -1 N -1 1.22465e-16 -1.22465e-16 -1 646.502 379.686 2
+Ligature2: "tn tm df jnt" p n d
+Ligature2: "tn tm df jnt" p n t
+Ligature2: "tn tm df jnt" j n d
+Ligature2: "tn tm df jnt" j n t
+EndChar
