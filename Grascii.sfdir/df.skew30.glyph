@@ -1,0 +1,14 @@
+StartChar: df.skew30
+Encoding: 326 -1 521
+Width: 762
+Flags: W
+AnchorPoint: "Join" 506 0 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 0 m 0
+ 165 134 578 443 716 363 c 0
+ 837 289 619 98 506 0 c 1024
+EndSplineSet
+EndChar

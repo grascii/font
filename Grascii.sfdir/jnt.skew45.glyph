@@ -1,0 +1,11 @@
+StartChar: jnt.skew45
+Encoding: 353 -1 524
+Width: 862
+VWidth: 1375
+Flags: W
+AnchorPoint: "Join" 851.502 375.217 exit 0
+AnchorPoint: "Join" 255.502 375.217 entry 0
+LayerCount: 2
+Fore
+Refer: 522 -1 N -1 1.22465e-16 -1.22465e-16 -1 861.502 375.217 2
+EndChar

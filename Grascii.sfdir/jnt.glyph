@@ -8,6 +8,8 @@ AnchorPoint: "Join" 255.502 379.686 entry 0
 LayerCount: 2
 Fore
 Refer: 517 -1 N -1 1.22465e-16 -1.22465e-16 -1 646.502 379.686 2
+Substitution2: "Skewed 45" jnt.skew45
+Substitution2: "Skewed 30" jnt.skew30
 Substitution2: "Angled" jnt.angled
 Ligature2: "tn tm df jnt" p n d
 Ligature2: "tn tm df jnt" p n t

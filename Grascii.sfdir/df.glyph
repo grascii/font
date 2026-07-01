@@ -11,6 +11,8 @@ SplineSet
  10 202 463 444 601 364 c 0
  722 289 504 98 391 0 c 1024
 EndSplineSet
+Substitution2: "Skewed 45" df.skew45
+Substitution2: "Skewed 30" df.skew30
 Substitution2: "Angled" df.angled
 LCarets2: 1 0
 Ligature2: "tn tm df jnt" t v

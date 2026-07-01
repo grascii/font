@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1781976624
+ModificationTime: 1782875080
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -834,7 +834,7 @@ ChainSub2: coverage "p Joinings 2" 0 0 0 1
  1 0 2
   Coverage: 3 p b
   FCoverage: 9 a e ea ae
-  FCoverage: 43 k g r l n m f v s.right ng nk th.over tn tm
+  FCoverage: 46 k g r l n m f v s.right ng nk th.over tn tm df
  1
   SeqLookup: 0 "Cut Consonant"
 EndFPST
@@ -868,33 +868,33 @@ ChainSub2: class "Between k *" 12 12 12 10
   Class: 15 r l r.cut l.cut
   Class: 3 n m
   Class: 3 t d
-  Class: 33 p b p.cut b.cut s.left s.left.cut
+  Class: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   Class: 35 f v f.cut v.cut s.right s.right.cut
   Class: 7 sh ch j
   Class: 5 ng nk
-  Class: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  Class: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   Class: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   BClass: 24 a e i o u ea ae au eu oe
   BClass: 15 k g k.cut g.cut
   BClass: 15 r l r.cut l.cut
   BClass: 3 n m
   BClass: 3 t d
-  BClass: 33 p b p.cut b.cut s.left s.left.cut
+  BClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   BClass: 35 f v f.cut v.cut s.right s.right.cut
   BClass: 7 sh ch j
   BClass: 5 ng nk
-  BClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  BClass: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   BClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   FClass: 24 a e i o u ea ae au eu oe
   FClass: 15 k g k.cut g.cut
   FClass: 15 r l r.cut l.cut
   FClass: 3 n m
   FClass: 3 t d
-  FClass: 33 p b p.cut b.cut s.left s.left.cut
+  FClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   FClass: 35 f v f.cut v.cut s.right s.right.cut
   FClass: 7 sh ch j
   FClass: 5 ng nk
-  FClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  FClass: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   FClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
  1 1 1
   ClsList: 1
@@ -966,33 +966,33 @@ ChainSub2: class "Between r *" 12 12 12 10
   Class: 15 r l r.cut l.cut
   Class: 3 n m
   Class: 3 t d
-  Class: 33 p b p.cut b.cut s.left s.left.cut
+  Class: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   Class: 35 f v f.cut v.cut s.right s.right.cut
   Class: 7 sh ch j
   Class: 5 ng nk
-  Class: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  Class: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   Class: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   BClass: 24 a e i o u ea ae au eu oe
   BClass: 15 k g k.cut g.cut
   BClass: 15 r l r.cut l.cut
   BClass: 3 n m
   BClass: 3 t d
-  BClass: 33 p b p.cut b.cut s.left s.left.cut
+  BClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   BClass: 35 f v f.cut v.cut s.right s.right.cut
   BClass: 7 sh ch j
   BClass: 5 ng nk
-  BClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  BClass: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   BClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   FClass: 24 a e i o u ea ae au eu oe
   FClass: 15 k g k.cut g.cut
   FClass: 15 r l r.cut l.cut
   FClass: 3 n m
   FClass: 3 t d
-  FClass: 33 p b p.cut b.cut s.left s.left.cut
+  FClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   FClass: 35 f v f.cut v.cut s.right s.right.cut
   FClass: 7 sh ch j
   FClass: 5 ng nk
-  FClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  FClass: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   FClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
  1 1 1
   ClsList: 1
@@ -1064,33 +1064,33 @@ ChainSub2: class "Between n *" 12 12 12 10
   Class: 15 r l r.cut l.cut
   Class: 3 n m
   Class: 3 t d
-  Class: 33 p b p.cut b.cut s.left s.left.cut
+  Class: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   Class: 35 f v f.cut v.cut s.right s.right.cut
   Class: 7 sh ch j
   Class: 5 ng nk
-  Class: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  Class: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   Class: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   BClass: 24 a e i o u ea ae au eu oe
   BClass: 15 k g k.cut g.cut
   BClass: 15 r l r.cut l.cut
   BClass: 3 n m
   BClass: 3 t d
-  BClass: 33 p b p.cut b.cut s.left s.left.cut
+  BClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   BClass: 35 f v f.cut v.cut s.right s.right.cut
   BClass: 7 sh ch j
   BClass: 5 ng nk
-  BClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  BClass: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   BClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   FClass: 24 a e i o u ea ae au eu oe
   FClass: 15 k g k.cut g.cut
   FClass: 15 r l r.cut l.cut
   FClass: 3 n m
   FClass: 3 t d
-  FClass: 33 p b p.cut b.cut s.left s.left.cut
+  FClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   FClass: 35 f v f.cut v.cut s.right s.right.cut
   FClass: 7 sh ch j
   FClass: 5 ng nk
-  FClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  FClass: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   FClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
  1 1 1
   ClsList: 1
@@ -1162,33 +1162,33 @@ ChainSub2: class "Between t *" 12 12 12 10
   Class: 15 r l r.cut l.cut
   Class: 3 n m
   Class: 3 t d
-  Class: 33 p b p.cut b.cut s.left s.left.cut
+  Class: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   Class: 35 f v f.cut v.cut s.right s.right.cut
   Class: 7 sh ch j
   Class: 5 ng nk
-  Class: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  Class: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   Class: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   BClass: 24 a e i o u ea ae au eu oe
   BClass: 15 k g k.cut g.cut
   BClass: 15 r l r.cut l.cut
   BClass: 3 n m
   BClass: 3 t d
-  BClass: 33 p b p.cut b.cut s.left s.left.cut
+  BClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   BClass: 35 f v f.cut v.cut s.right s.right.cut
   BClass: 7 sh ch j
   BClass: 5 ng nk
-  BClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  BClass: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   BClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   FClass: 24 a e i o u ea ae au eu oe
   FClass: 15 k g k.cut g.cut
   FClass: 15 r l r.cut l.cut
   FClass: 3 n m
   FClass: 3 t d
-  FClass: 33 p b p.cut b.cut s.left s.left.cut
+  FClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   FClass: 35 f v f.cut v.cut s.right s.right.cut
   FClass: 7 sh ch j
   FClass: 5 ng nk
-  FClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  FClass: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   FClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
  1 1 1
   ClsList: 1
@@ -1260,33 +1260,33 @@ ChainSub2: class "Between p *" 12 12 12 10
   Class: 15 r l r.cut l.cut
   Class: 3 n m
   Class: 3 t d
-  Class: 33 p b p.cut b.cut s.left s.left.cut
+  Class: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   Class: 35 f v f.cut v.cut s.right s.right.cut
   Class: 7 sh ch j
   Class: 5 ng nk
-  Class: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  Class: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   Class: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   BClass: 24 a e i o u ea ae au eu oe
   BClass: 15 k g k.cut g.cut
   BClass: 15 r l r.cut l.cut
   BClass: 3 n m
   BClass: 3 t d
-  BClass: 33 p b p.cut b.cut s.left s.left.cut
+  BClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   BClass: 35 f v f.cut v.cut s.right s.right.cut
   BClass: 7 sh ch j
   BClass: 5 ng nk
-  BClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  BClass: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   BClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   FClass: 24 a e i o u ea ae au eu oe
   FClass: 15 k g k.cut g.cut
   FClass: 15 r l r.cut l.cut
   FClass: 3 n m
   FClass: 3 t d
-  FClass: 33 p b p.cut b.cut s.left s.left.cut
+  FClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   FClass: 35 f v f.cut v.cut s.right s.right.cut
   FClass: 7 sh ch j
   FClass: 5 ng nk
-  FClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  FClass: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   FClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
  1 1 1
   ClsList: 1
@@ -1358,33 +1358,33 @@ ChainSub2: class "Between f *" 12 12 12 10
   Class: 15 r l r.cut l.cut
   Class: 3 n m
   Class: 3 t d
-  Class: 33 p b p.cut b.cut s.left s.left.cut
+  Class: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   Class: 35 f v f.cut v.cut s.right s.right.cut
   Class: 7 sh ch j
   Class: 5 ng nk
-  Class: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  Class: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   Class: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   BClass: 24 a e i o u ea ae au eu oe
   BClass: 15 k g k.cut g.cut
   BClass: 15 r l r.cut l.cut
   BClass: 3 n m
   BClass: 3 t d
-  BClass: 33 p b p.cut b.cut s.left s.left.cut
+  BClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   BClass: 35 f v f.cut v.cut s.right s.right.cut
   BClass: 7 sh ch j
   BClass: 5 ng nk
-  BClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  BClass: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   BClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   FClass: 24 a e i o u ea ae au eu oe
   FClass: 15 k g k.cut g.cut
   FClass: 15 r l r.cut l.cut
   FClass: 3 n m
   FClass: 3 t d
-  FClass: 33 p b p.cut b.cut s.left s.left.cut
+  FClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   FClass: 35 f v f.cut v.cut s.right s.right.cut
   FClass: 7 sh ch j
   FClass: 5 ng nk
-  FClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  FClass: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   FClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
  1 1 1
   ClsList: 1
@@ -1456,33 +1456,33 @@ ChainSub2: class "Between ch *" 12 12 12 10
   Class: 15 r l r.cut l.cut
   Class: 3 n m
   Class: 3 t d
-  Class: 33 p b p.cut b.cut s.left s.left.cut
+  Class: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   Class: 35 f v f.cut v.cut s.right s.right.cut
   Class: 7 sh ch j
   Class: 5 ng nk
-  Class: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  Class: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   Class: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   BClass: 24 a e i o u ea ae au eu oe
   BClass: 15 k g k.cut g.cut
   BClass: 15 r l r.cut l.cut
   BClass: 3 n m
   BClass: 3 t d
-  BClass: 33 p b p.cut b.cut s.left s.left.cut
+  BClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   BClass: 35 f v f.cut v.cut s.right s.right.cut
   BClass: 7 sh ch j
   BClass: 5 ng nk
-  BClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  BClass: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   BClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   FClass: 24 a e i o u ea ae au eu oe
   FClass: 15 k g k.cut g.cut
   FClass: 15 r l r.cut l.cut
   FClass: 3 n m
   FClass: 3 t d
-  FClass: 33 p b p.cut b.cut s.left s.left.cut
+  FClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   FClass: 35 f v f.cut v.cut s.right s.right.cut
   FClass: 7 sh ch j
   FClass: 5 ng nk
-  FClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  FClass: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   FClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
  1 1 1
   ClsList: 1
@@ -1554,33 +1554,33 @@ ChainSub2: class "Between ng *" 12 12 12 10
   Class: 15 r l r.cut l.cut
   Class: 3 n m
   Class: 3 t d
-  Class: 33 p b p.cut b.cut s.left s.left.cut
+  Class: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   Class: 35 f v f.cut v.cut s.right s.right.cut
   Class: 7 sh ch j
   Class: 5 ng nk
-  Class: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  Class: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   Class: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   BClass: 24 a e i o u ea ae au eu oe
   BClass: 15 k g k.cut g.cut
   BClass: 15 r l r.cut l.cut
   BClass: 3 n m
   BClass: 3 t d
-  BClass: 33 p b p.cut b.cut s.left s.left.cut
+  BClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   BClass: 35 f v f.cut v.cut s.right s.right.cut
   BClass: 7 sh ch j
   BClass: 5 ng nk
-  BClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  BClass: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   BClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   FClass: 24 a e i o u ea ae au eu oe
   FClass: 15 k g k.cut g.cut
   FClass: 15 r l r.cut l.cut
   FClass: 3 n m
   FClass: 3 t d
-  FClass: 33 p b p.cut b.cut s.left s.left.cut
+  FClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   FClass: 35 f v f.cut v.cut s.right s.right.cut
   FClass: 7 sh ch j
   FClass: 5 ng nk
-  FClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  FClass: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   FClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
  1 1 1
   ClsList: 1
@@ -1652,33 +1652,33 @@ ChainSub2: class "Between tn *" 12 12 12 10
   Class: 15 r l r.cut l.cut
   Class: 3 n m
   Class: 3 t d
-  Class: 33 p b p.cut b.cut s.left s.left.cut
+  Class: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   Class: 35 f v f.cut v.cut s.right s.right.cut
   Class: 7 sh ch j
   Class: 5 ng nk
-  Class: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  Class: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   Class: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   BClass: 24 a e i o u ea ae au eu oe
   BClass: 15 k g k.cut g.cut
   BClass: 15 r l r.cut l.cut
   BClass: 3 n m
   BClass: 3 t d
-  BClass: 33 p b p.cut b.cut s.left s.left.cut
+  BClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   BClass: 35 f v f.cut v.cut s.right s.right.cut
   BClass: 7 sh ch j
   BClass: 5 ng nk
-  BClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  BClass: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   BClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   FClass: 24 a e i o u ea ae au eu oe
   FClass: 15 k g k.cut g.cut
   FClass: 15 r l r.cut l.cut
   FClass: 3 n m
   FClass: 3 t d
-  FClass: 33 p b p.cut b.cut s.left s.left.cut
+  FClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   FClass: 35 f v f.cut v.cut s.right s.right.cut
   FClass: 7 sh ch j
   FClass: 5 ng nk
-  FClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  FClass: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   FClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
  1 1 1
   ClsList: 1
@@ -1750,33 +1750,33 @@ ChainSub2: class "Between nt *" 12 12 12 10
   Class: 15 r l r.cut l.cut
   Class: 3 n m
   Class: 3 t d
-  Class: 33 p b p.cut b.cut s.left s.left.cut
+  Class: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   Class: 35 f v f.cut v.cut s.right s.right.cut
   Class: 7 sh ch j
   Class: 5 ng nk
-  Class: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  Class: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   Class: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   BClass: 24 a e i o u ea ae au eu oe
   BClass: 15 k g k.cut g.cut
   BClass: 15 r l r.cut l.cut
   BClass: 3 n m
   BClass: 3 t d
-  BClass: 33 p b p.cut b.cut s.left s.left.cut
+  BClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   BClass: 35 f v f.cut v.cut s.right s.right.cut
   BClass: 7 sh ch j
   BClass: 5 ng nk
-  BClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  BClass: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   BClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   FClass: 24 a e i o u ea ae au eu oe
   FClass: 15 k g k.cut g.cut
   FClass: 15 r l r.cut l.cut
   FClass: 3 n m
   FClass: 3 t d
-  FClass: 33 p b p.cut b.cut s.left s.left.cut
+  FClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   FClass: 35 f v f.cut v.cut s.right s.right.cut
   FClass: 7 sh ch j
   FClass: 5 ng nk
-  FClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  FClass: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   FClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
  1 1 1
   ClsList: 1
@@ -1848,11 +1848,11 @@ ChainSub2: class "Between u *" 13 13 13 10
   Class: 15 r l r.cut l.cut
   Class: 3 n m
   Class: 3 t d
-  Class: 33 p b p.cut b.cut s.left s.left.cut
+  Class: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   Class: 35 f v f.cut v.cut s.right s.right.cut
   Class: 7 sh ch j
   Class: 5 ng nk
-  Class: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  Class: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   Class: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   Class: 7 u u.cut
   BClass: 7 a e i o
@@ -1860,11 +1860,11 @@ ChainSub2: class "Between u *" 13 13 13 10
   BClass: 15 r l r.cut l.cut
   BClass: 3 n m
   BClass: 3 t d
-  BClass: 33 p b p.cut b.cut s.left s.left.cut
+  BClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   BClass: 35 f v f.cut v.cut s.right s.right.cut
   BClass: 7 sh ch j
   BClass: 5 ng nk
-  BClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  BClass: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   BClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   BClass: 7 u u.cut
   FClass: 7 a e i o
@@ -1872,11 +1872,11 @@ ChainSub2: class "Between u *" 13 13 13 10
   FClass: 15 r l r.cut l.cut
   FClass: 3 n m
   FClass: 3 t d
-  FClass: 33 p b p.cut b.cut s.left s.left.cut
+  FClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   FClass: 35 f v f.cut v.cut s.right s.right.cut
   FClass: 7 sh ch j
   FClass: 5 ng nk
-  FClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  FClass: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   FClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   FClass: 7 u u.cut
  1 1 1
