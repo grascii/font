@@ -802,3 +802,19 @@ def test_nt_a(font, text, expected_glyphs):
 ])
 def test_mt_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("dfar",  ["df", "a.far", "r"]),
+    ("dfal",  ["df", "a.far", "l"]),
+    ("dfan",  ["df", "a.fan", "n"]),
+    ("dfam",  ["df", "a.fan", "m"]),
+    ("dfat",  ["df", "a.fat", "t"]),
+    ("dfad",  ["df", "a.fat", "d"]),
+    ("dfash", ["df", "a.fach", "sh"]),
+    ("dfach", ["df", "a.fach", "ch"]),
+    ("dfaj",  ["df", "a.fach", "j"]),
+    ("dfas",  ["df", "a.faf", "s.right"]),
+])
+def test_df_a(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

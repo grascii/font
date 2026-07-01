@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1782875080
+ModificationTime: 1782876114
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -1370,10 +1370,10 @@ ChainSub2: class "Between f *" 12 12 12 10
   BClass: 3 n m
   BClass: 3 t d
   BClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
-  BClass: 35 f v f.cut v.cut s.right s.right.cut
+  BClass: 68 f v f.cut v.cut s.right s.right.cut df df.angled df.skew30 df.skew45
   BClass: 7 sh ch j
   BClass: 5 ng nk
-  BClass: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
+  BClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
   BClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   FClass: 24 a e i o u ea ae au eu oe
   FClass: 15 k g k.cut g.cut
