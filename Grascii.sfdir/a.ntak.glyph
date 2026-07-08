@@ -1,0 +1,15 @@
+StartChar: a.ntak
+Encoding: 650 -1 525
+Width: 240
+VWidth: 1152
+Flags: W
+AnchorPoint: "Join" 168 186 exit 0
+AnchorPoint: "Join" 103 153 entry 0
+LayerCount: 2
+Fore
+SplineSet
+103 153 m 0
+ 382 314 127 -25 32 1 c 0
+ -39 20 81 155 168 186 c 1024
+EndSplineSet
+EndChar

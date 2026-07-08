@@ -763,6 +763,8 @@ def test_tm_a(font, text, expected_glyphs):
 
 
 @pytest.mark.parametrize("text,expected_glyphs", [
+    ("ntak",   ["nt.skew45", "a.ntak", "k"]),
+    ("ntag",   ["nt.skew45", "a.ntak", "g"]),
     ("ntar",   ["nt.skew30", "a.ntar", "r"]),
     ("ntal",   ["nt.skew30", "a.ntar", "l"]),
     ("ntan",   ["nt.skew30", "a.tan", "n"]),
@@ -784,6 +786,8 @@ def test_nt_a(font, text, expected_glyphs):
 
 
 @pytest.mark.parametrize("text,expected_glyphs", [
+    ("mtak",   ["mt.skew45", "a.ntak", "k"]),
+    ("mtag",   ["mt.skew45", "a.ntak", "g"]),
     ("mtar",   ["mt.skew30", "a.ntar", "r"]),
     ("mtal",   ["mt.skew30", "a.ntar", "l"]),
     ("mtan",   ["mt.skew30", "a.tan", "n"]),
@@ -817,4 +821,14 @@ def test_mt_a(font, text, expected_glyphs):
     ("dfas",  ["df", "a.faf", "s.right"]),
 ])
 def test_df_a(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("jntak",   ["jnt.skew45", "a.ntak", "k"]),
+    ("jntag",   ["jnt.skew45", "a.ntak", "g"]),
+    ("jntan",   ["jnt.skew30", "a.tan", "n"]),
+    ("jntam",   ["jnt.skew30", "a.tan", "m"]),
+])
+def test_jnt_a(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
