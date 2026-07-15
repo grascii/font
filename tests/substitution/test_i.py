@@ -231,6 +231,7 @@ def test_m_i(font, text, expected_glyphs):
     ("tidn",  ["t", "i.titn", "tn.skew30"]),
     ("titm",  ["t", "i.titn", "tm.skew30"]),
     ("tidm",  ["t", "i.titn", "tm.skew30"]),
+    ("tijnt", ["t", "i.tip", "jnt"]),
 ])
 def test_t_i(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -256,6 +257,7 @@ def test_t_i(font, text, expected_glyphs):
     ("didn",  ["d", "i.titn", "tn.skew30"]),
     ("ditm",  ["d", "i.titn", "tm.skew30"]),
     ("didm",  ["d", "i.titn", "tm.skew30"]),
+    ("dijnt", ["d", "i.tip", "jnt"]),
 ])
 def test_d_i(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
