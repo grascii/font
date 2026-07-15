@@ -542,3 +542,32 @@ def test_nt_i(font, text, expected_glyphs):
 ])
 def test_mt_i(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("dfir",   ["df", "i.fi", "r"]),
+    ("dfil",   ["df", "i.fi", "l"]),
+    ("dfin",   ["df", "i.fi", "n"]),
+    ("dfim",   ["df", "i.fi", "m"]),
+    ("dfit",   ["df", "i.fit", "t"]),
+    ("dfid",   ["df", "i.fit", "d"]),
+    ("dfis)",  ["df", "i.fi", "s.right"]),
+    ("dfint",  ["df", "i.fi", "nt"]),
+    ("dfind",  ["df", "i.fi", "nt"]),
+    ("dfimt",  ["df", "i.fi", "mt"]),
+    ("dfimd",  ["df", "i.fi", "mt"]),
+])
+def test_df_i(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("jntir",   ["jnt", "i.ntir", "r"]),
+    ("jntil",   ["jnt", "i.ntir", "l"]),
+    ("jntin",   ["jnt.angled", "i.ntin", "n"]),
+    ("jntim",   ["jnt.angled", "i.ntin", "m"]),
+    ("jntit",   ["jnt.angled", "i.ntin", "t"]),
+    ("jntid",   ["jnt.angled", "i.ntin", "d"]),
+])
+def test_jnt_i(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

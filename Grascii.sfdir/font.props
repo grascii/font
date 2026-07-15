@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1784087728
+ModificationTime: 1784088933
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -459,7 +459,7 @@ ChainSub2: coverage "s.right Joinings 2" 0 0 0 1
  1 2 0
   Coverage: 7 s.right
   BCoverage: 1 i
-  BCoverage: 174 k.cut g.cut f v f.cut v.cut sh ch j s.right s.right.cut th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  BCoverage: 207 k.cut g.cut f v f.cut v.cut sh ch j s.right s.right.cut th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
  0
 EndFPST
 ChainSub2: coverage "f Joinings 2" 0 0 0 1
@@ -2004,7 +2004,7 @@ ChainSub2: class "th Direction" 5 5 5 7
 EndFPST
 ChainSub2: class "s Direction" 9 9 9 17
   Class: 1 s
-  Class: 23 k g f v sh ch j s.right
+  Class: 26 k g f v sh ch j s.right df
   Class: 27 r l p b s.left th.under jnt
   Class: 9 a e ea ae
   Class: 24 n m t d ng nk o oe nt mt
@@ -2012,7 +2012,7 @@ ChainSub2: class "s Direction" 9 9 9 17
   Class: 1 i
   Class: 5 tn tm
   BClass: 1 s
-  BClass: 23 k g f v sh ch j s.right
+  BClass: 26 k g f v sh ch j s.right df
   BClass: 27 r l p b s.left th.under jnt
   BClass: 9 a e ea ae
   BClass: 24 n m t d ng nk o oe nt mt
@@ -2020,7 +2020,7 @@ ChainSub2: class "s Direction" 9 9 9 17
   BClass: 1 i
   BClass: 5 tn tm
   FClass: 1 s
-  FClass: 23 k g f v sh ch j s.right
+  FClass: 26 k g f v sh ch j s.right df
   FClass: 27 r l p b s.left th.under jnt
   FClass: 9 a e ea ae
   FClass: 24 n m t d ng nk o oe nt mt
