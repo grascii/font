@@ -46,6 +46,7 @@ def test_ea_after(font, text, expected_glyphs):
     ("ra&'nd", ["r", "a.rant", "eadot", "nt"]),
     ("ra&'mt", ["r", "a.rant", "eadot", "mt"]),
     ("ra&'md", ["r", "a.rant", "eadot", "mt"]),
+    ("ra&'df", ["r", "a.ratn", "eadot", "df.skew30"]),
 ])
 def test_r_ea(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -70,6 +71,7 @@ def test_r_ea(font, text, expected_glyphs):
     ("la&'nd", ["l", "a.rant", "eadot", "nt"]),
     ("la&'mt", ["l", "a.rant", "eadot", "mt"]),
     ("la&'md", ["l", "a.rant", "eadot", "mt"]),
+    ("la&'df", ["l", "a.ratn", "eadot", "df.skew30"]),
 ])
 def test_l_ea(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
