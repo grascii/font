@@ -741,3 +741,19 @@ def test_nt_o(font, text, expected_glyphs):
 ])
 def test_mt_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("dfor",   ["df", "o.fo", "r"]),
+    ("dfol",   ["df", "o.fo", "l"]),
+    ("dfot",   ["df", "o.fo", "t"]),
+    ("dfod",   ["df", "o.fo", "d"]),
+    ("dfop",   ["df", "o.fop", "p"]),
+    ("dfob",   ["df", "o.fop", "b"]),
+    ("dfosh",  ["df", "o.fo", "sh"]),
+    ("dfoch",  ["df", "o.fo", "ch"]),
+    ("dfoj",   ["df", "o.fo", "j"]),
+    ("dfos(",  ["df", "o.fop", "s.left"]),
+])
+def test_df_o(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1784083249
+ModificationTime: 1784087728
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -575,7 +575,7 @@ ChainSub2: coverage "r Joinings Overrides" 0 0 0 1
  1 2 0
   Coverage: 3 r l
   BCoverage: 1 o
-  BCoverage: 54 p b f v f.cut v.cut s.right s.left s.right.cut sh ch j
+  BCoverage: 87 p b f v f.cut v.cut s.right s.left s.right.cut sh ch j df df.angled df.skew30 df.skew45
  0
 EndFPST
 ChainPos2: class "Starts with o" 4 4 14 13
