@@ -783,6 +783,8 @@ def test_tm_e(font, text, expected_glyphs):
 
 
 @pytest.mark.parametrize("text,expected_glyphs", [
+    ("ntek", ["nt.skew45", "e.ek", "k"]),
+    ("nteg", ["nt.skew45", "e.ek", "g"]),
     ("nter", ["nt.skew30", "e.nter", "r"]),
     ("ntel", ["nt.skew30", "e.nter", "l"]),
     ("nten", ["nt.angled", "e.nten", "n"]),
@@ -798,6 +800,8 @@ def test_nt_e(font, text, expected_glyphs):
 
 
 @pytest.mark.parametrize("text,expected_glyphs", [
+    ("mtek", ["mt.skew45", "e.ek", "k"]),
+    ("mteg", ["mt.skew45", "e.ek", "g"]),
     ("mter", ["mt.skew30", "e.nter", "r"]),
     ("mtel", ["mt.skew30", "e.nter", "l"]),
     ("mten", ["mt.angled", "e.nten", "n"]),
@@ -809,4 +813,39 @@ def test_nt_e(font, text, expected_glyphs):
     ("mtes", ["mt.skew45", "e.ntep", "s.left"]),
 ])
 def test_mt_e(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("dfek",   ["df", "e.fek", "k"]),
+    ("dfeg",   ["df", "e.fek", "g"]),
+    ("dfer",   ["df", "e.fer", "r"]),
+    ("dfel",   ["df", "e.fer", "l"]),
+    ("dfen",   ["df", "e.fen", "n"]),
+    ("dfem",   ["df", "e.fen", "m"]),
+    ("dfet",   ["df", "e.fet", "t"]),
+    ("dfed",   ["df", "e.fet", "d"]),
+    ("dfef",   ["df", "e.fef", "f"]),
+    ("dfev",   ["df", "e.fef", "v"]),
+    ("dfesh",  ["df", "e.ech", "sh"]),
+    ("dfech",  ["df", "e.ech", "ch"]),
+    ("dfej",   ["df", "e.ech", "j"]),
+    ("dfes",   ["df", "e.fef", "s.right"]),
+    ("dfejnt",  ["df", "e.fep", "jnt"]),
+])
+def test_df_e(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("jntek", ["jnt.skew45", "e.ek", "k"]),
+    ("jnteg", ["jnt.skew45", "e.ek", "g"]),
+    ("jnter", ["jnt.skew30", "e.nter", "r"]),
+    ("jntel", ["jnt.skew30", "e.nter", "l"]),
+    ("jnten", ["jnt.angled", "e.nten", "n"]),
+    ("jntem", ["jnt.angled", "e.nten", "m"]),
+    ("jntet", ["jnt.angled", "e.ntet", "t"]),
+    ("jnted", ["jnt.angled", "e.ntet", "d"]),
+])
+def test_jnt_e(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
