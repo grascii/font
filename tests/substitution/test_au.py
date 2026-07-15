@@ -294,3 +294,13 @@ def test_nt_au(font, text, expected_glyphs):
 ])
 def test_mt_au(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("dfaur",   ["df", "a.fau", "u.faur", "r.cut"]),
+    ("dfaul",   ["df", "a.fau", "u.faur", "l.cut"]),
+    ("dfaut",   ["df", "a.fau", "u.fau", "t"]),
+    ("dfaud",   ["df", "a.fau", "u.fau", "d"]),
+])
+def test_df_au(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
