@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1783486943
+ModificationTime: 1784083249
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -2005,7 +2005,7 @@ EndFPST
 ChainSub2: class "s Direction" 9 9 9 17
   Class: 1 s
   Class: 23 k g f v sh ch j s.right
-  Class: 23 r l p b s.left th.under
+  Class: 27 r l p b s.left th.under jnt
   Class: 9 a e ea ae
   Class: 24 n m t d ng nk o oe nt mt
   Class: 1 u
@@ -2013,7 +2013,7 @@ ChainSub2: class "s Direction" 9 9 9 17
   Class: 5 tn tm
   BClass: 1 s
   BClass: 23 k g f v sh ch j s.right
-  BClass: 23 r l p b s.left th.under
+  BClass: 27 r l p b s.left th.under jnt
   BClass: 9 a e ea ae
   BClass: 24 n m t d ng nk o oe nt mt
   BClass: 1 u
@@ -2021,7 +2021,7 @@ ChainSub2: class "s Direction" 9 9 9 17
   BClass: 5 tn tm
   FClass: 1 s
   FClass: 23 k g f v sh ch j s.right
-  FClass: 23 r l p b s.left th.under
+  FClass: 27 r l p b s.left th.under jnt
   FClass: 9 a e ea ae
   FClass: 24 n m t d ng nk o oe nt mt
   FClass: 1 u

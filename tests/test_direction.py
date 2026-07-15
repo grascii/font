@@ -53,6 +53,7 @@ def test_lone_s(font, text, expected):
     ("sals", [-1, 0, 0, -1]),
     ("setns", [1, 0, 0, -1]),
     ("sants", [1, 0, 0, -1]),
+    ("sejnts", [-1, 0, 0, -1]),
 ])
 def test_s_joined_to_curves(font, text, expected):
     assert map_s_direction(shape(text, font)) == expected
