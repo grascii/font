@@ -359,6 +359,7 @@ def test_tm_eu(font, text, expected_glyphs):
     ("nteush",  ["nt.skew30", "e.teu", "u.teu", "sh"]),
     ("nteuch",  ["nt.skew30", "e.teu", "u.teu", "ch"]),
     ("nteuj",   ["nt.skew30", "e.teu", "u.teu", "j"]),
+    ("nteudf",  ["nt.skew30", "e.teu", "u.teu", "df.skew30"]),
 ])
 def test_nt_eu(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -370,6 +371,7 @@ def test_nt_eu(font, text, expected_glyphs):
     ("mteush",  ["mt.skew30", "e.teu", "u.teu", "sh"]),
     ("mteuch",  ["mt.skew30", "e.teu", "u.teu", "ch"]),
     ("mteuj",   ["mt.skew30", "e.teu", "u.teu", "j"]),
+    ("mteudf",  ["mt.skew30", "e.teu", "u.teu", "df.skew30"]),
 ])
 def test_mt_eu(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
