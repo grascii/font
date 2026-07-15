@@ -375,3 +375,15 @@ def test_nt_eu(font, text, expected_glyphs):
 ])
 def test_mt_eu(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("dfeup",  ["df", "e.feu", "u.feu", "p"]),
+    ("dfeub",  ["df", "e.feu", "u.feu", "b"]),
+    ("dfeus",  ["df", "e.feu", "u.feu", "s.right"]),
+    ("dfeush", ["df", "e.feu", "u.feuch", "sh"]),
+    ("dfeuch", ["df", "e.feu", "u.feuch", "ch"]),
+    ("dfeuj",  ["df", "e.feu", "u.feuch", "j"]),
+])
+def test_df_eu(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
