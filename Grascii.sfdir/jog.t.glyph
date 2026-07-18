@@ -1,0 +1,11 @@
+StartChar: jog.t
+Encoding: 336 -1 530
+Width: 31
+VWidth: 995
+Flags: W
+AnchorPoint: "Join" 10 0 exit 0
+AnchorPoint: "Join" 21.3467 42.3467 entry 0
+LayerCount: 2
+Fore
+Refer: 529 -1 N 0.866025 0.5 -0.5 0.866025 1.33984 -5 2
+EndChar

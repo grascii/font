@@ -85,3 +85,25 @@ def test_blended_consonants_priority(font, text, expected_glyphs):
 ])
 def test_boundary(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("n-n",  ["n", "jog.n", "n"]),
+    ("n-m",  ["n", "jog.n", "m"]),
+    ("m-n",  ["m", "jog.n", "n"]),
+    ("m-m",  ["m", "jog.n", "m"]),
+    ("tn-n", ["tn", "jog.n", "n"]),
+    ("tn-m", ["tn", "jog.n", "m"]),
+    ("tm-n", ["tm", "jog.n", "n"]),
+    ("tm-m", ["tm", "jog.n", "m"]),
+    ("n-nt", ["n", "jog.n", "nt"]),
+    ("n-mt", ["n", "jog.n", "mt"]),
+    ("m-nt", ["m", "jog.n", "nt"]),
+    ("m-mt", ["m", "jog.n", "mt"]),
+    ("t-t",  ["t", "jog.t", "t"]),
+    ("t-d",  ["t", "jog.t", "d"]),
+    ("d-t",  ["d", "jog.t", "t"]),
+    ("d-d",  ["d", "jog.t", "d"]),
+])
+def test_jog(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

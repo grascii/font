@@ -1,0 +1,14 @@
+StartChar: jog.n
+Encoding: 335 -1 529
+Width: 51
+VWidth: 1031
+Flags: W
+AnchorPoint: "Join" 10 0 exit 0
+AnchorPoint: "Join" 41 31 entry 0
+LayerCount: 2
+Fore
+SplineSet
+41 31 m 0
+ 10 0 l 1024
+EndSplineSet
+EndChar

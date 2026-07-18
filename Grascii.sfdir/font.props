@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1784349672
+ModificationTime: 1784404269
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -47,6 +47,7 @@ Lookup: 4 0 0 "Multichar strokes" { "ch sh th ng nk"  "Diphthongs"  } ['rlig' ('
 Lookup: 6 0 0 "Blended Consonants Overrides" { "Blended Consonants Overrides"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Blended Consonants" { "Blended Consonants"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 2 0 0 "Blended Consonant Decomposition" { "Blended Consonant Decomposition"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "Jog" { "Jog"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Annotated Directions" { "Annotated Directions"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Directions" { "s Direction"  "th Direction"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 8 0 "Consonant Joinings" { "k Joinings 1"  "k Joinings 2"  "r Joinings Overrides"  "r Joinings 1"  "r Joinings 2a"  "r Joinings 2"  "r Joinings 3"  "r Joinings 4"  "r Joinings 5"  "r Joinings 6"  "p Joinings 1"  "p Joinings 2"  "p Joinings 3"  "p Joinings 4"  "f Joinings 1"  "f Joinings 2"  "f Joinings 3"  "f Joinings 4"  "f Joinings 5"  "s.right Joinings 1"  "s.right Joinings 2"  "s.right Joinings 3"  "s.right Joinings 4"  "s.right Joinings 5"  "s.left Joinings 1"  "s.left Joinings 2"  "tn Joinings 1"  "tn Joinings 2"  "tn Joinings 3a"  "tn Joinings 3b"  "tn Joinings 3"  "tn Joinings 4"  "tn Joinings 5"  "tn Joinings 6"  "tn Joinings 7"  "tn Joinings 8"  "nt Joinings 1"  "nt Joinings 2"  "nt Joinings 3a"  "nt Joinings 3"  "nt Joinings 4"  "nt Joinings 5"  "nt Joinings 6"  "nt Joinings 7"  "nt Joinings 8"  "nt Joinings 9"  "u Joinings 1"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -234,6 +235,28 @@ Lookup: 257 0 0 "Position Before th" { "Position Before th"  } []
 Lookup: 257 0 0 "Position Before v" { "Position Before v"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: class "Jog" 2 3 3 2
+  Class: 6 hyphen
+  BClass: 9 n m tn tm
+  BClass: 3 t d
+  FClass: 9 n m nt mt
+  FClass: 3 t d
+ 1 1 1
+  ClsList: 1
+  BClsList: 1
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Between n n"
+ 1 1 1
+  ClsList: 1
+  BClsList: 2
+  FClsList: 2
+ 1
+  SeqLookup: 0 "Between t t"
+  ClassNames: "All_Others" "hyphen"
+  BClassNames: "All_Others" "n" "t"
+  FClassNames: "All_Others" "n" "t"
+EndFPST
 ChainSub2: class "Blended Consonants Overrides" 4 4 4 2
   Class: 3 n m
   Class: 3 t d
@@ -2711,7 +2734,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 130 26 10
+WinInfo: 156 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
