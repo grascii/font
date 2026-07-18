@@ -11,6 +11,6 @@ Refer: 66 -1 N 4 0 0 4 -30 0 2
 Substitution2: "Skewed 45" tm.skew45
 Substitution2: "Skewed 30" tm.skew30
 Substitution2: "Angled" tm.angled
-Ligature2: "tn tm df jnt" d m
-Ligature2: "tn tm df jnt" t m
+Ligature2: "Blended Consonants" d m
+Ligature2: "Blended Consonants" t m
 EndChar

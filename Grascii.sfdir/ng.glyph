@@ -8,5 +8,5 @@ AnchorPoint: "Join" 10 62.1172 entry 0
 LayerCount: 2
 Fore
 Refer: 6 110 N 0.965926 -0.258819 0.258819 0.965926 0.34082 64.7051 2
-Ligature2: "ch sh th ng nk" n g
+Ligature2: "Blended Consonants" n g
 EndChar

@@ -6,8 +6,6 @@ from shape import shape
     ("sh", ["sh"]),
     ("ch", ["ch"]),
     ("th", ["th.over"]),
-    ("ng", ["ng"]),
-    ("nk", ["nk"]),
 ])
 def test_multichar_ligatures(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -24,6 +22,8 @@ def test_consonant_blends(font, text, expected_glyphs):
 
 
 @pytest.mark.parametrize("text,expected_glyphs", [
+    ("ng", ["ng"]),
+    ("nk", ["nk"]),
     ("tn", ["tn"]),
     ("dn", ["tn"]),
     ("tm", ["tm"]),
@@ -39,6 +39,11 @@ def test_consonant_blends(font, text, expected_glyphs):
     ("jnd", ["jnt"]),
     ("pnt", ["jnt"]),
     ("pnd", ["jnt"]),
+    ("mn", ["m", "n"]),
+    ("mm", ["m", "n"]),
+    ("td", ["t", "d"]),
+    ("dt", ["t", "d"]),
+    ("dd", ["t", "d"]),
 ])
 def test_blended_consonants(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -55,6 +60,14 @@ def test_blended_consonants(font, text, expected_glyphs):
     ("mdn", ["m", "tn"]),
     ("nth", ["n", "th.over"]),
     ("mth", ["m", "th.over"]),
+    ("ntd", ["nt", "d"]),
+    ("mdt", ["mt", "t"]),
+    ("jntd", ["jnt", "d"]),
+    ("pndt", ["jnt", "t"]),
+    ("jntm", ["jnt", "m"]),
+    ("pndn", ["jnt", "n"]),
+    ("tnk", ["tn", "k"]),
+    ("dng", ["tn", "g"]),
 ])
 def test_blended_consonants_priority(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

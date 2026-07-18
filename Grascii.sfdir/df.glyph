@@ -15,7 +15,7 @@ Substitution2: "Skewed 45" df.skew45
 Substitution2: "Skewed 30" df.skew30
 Substitution2: "Angled" df.angled
 LCarets2: 1 0
-Ligature2: "tn tm df jnt" t v
-Ligature2: "tn tm df jnt" d v
-Ligature2: "tn tm df jnt" d f
+Ligature2: "Blended Consonants" t v
+Ligature2: "Blended Consonants" d v
+Ligature2: "Blended Consonants" d f
 EndChar
