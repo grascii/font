@@ -9,5 +9,4 @@ LayerCount: 2
 Fore
 Refer: 58 -1 N -0.5 -0.866025 -0.866025 0.5 137.043 146.045 2
 Substitution2: "Cut Consonant" s.right.cut
-Ligature2: "Annotated Directions" s parenright
 EndChar

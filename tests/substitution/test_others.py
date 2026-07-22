@@ -44,6 +44,7 @@ def test_consonant_blends(font, text, expected_glyphs):
     ("td", ["t", "d"]),
     ("dt", ["t", "d"]),
     ("dd", ["t", "d"]),
+    ("ss", ["s.left", "s.right"]),
 ])
 def test_blended_consonants(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1784404269
+ModificationTime: 1784689352
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -43,13 +43,13 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 4 0 0 "Multichar strokes" { "ch sh th ng nk"  "Diphthongs"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 0 "Multichar strokes" { "ch sh th"  "Diphthongs"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Blended Consonants Overrides" { "Blended Consonants Overrides"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Blended Consonants" { "Blended Consonants"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 2 0 0 "Blended Consonant Decomposition" { "Blended Consonant Decomposition"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Jog" { "Jog"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 4 0 0 "Annotated Directions" { "Annotated Directions"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "Directions" { "s Direction"  "th Direction"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "Annotated Directions" { "Annotated Directions"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "Directions" { "s Direction"  "ss Direction"  "th Direction"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 8 0 "Consonant Joinings" { "k Joinings 1"  "k Joinings 2"  "r Joinings Overrides"  "r Joinings 1"  "r Joinings 2a"  "r Joinings 2"  "r Joinings 3"  "r Joinings 4"  "r Joinings 5"  "r Joinings 6"  "p Joinings 1"  "p Joinings 2"  "p Joinings 3"  "p Joinings 4"  "f Joinings 1"  "f Joinings 2"  "f Joinings 3"  "f Joinings 4"  "f Joinings 5"  "s.right Joinings 1"  "s.right Joinings 2"  "s.right Joinings 3"  "s.right Joinings 4"  "s.right Joinings 5"  "s.left Joinings 1"  "s.left Joinings 2"  "tn Joinings 1"  "tn Joinings 2"  "tn Joinings 3a"  "tn Joinings 3b"  "tn Joinings 3"  "tn Joinings 4"  "tn Joinings 5"  "tn Joinings 6"  "tn Joinings 7"  "tn Joinings 8"  "nt Joinings 1"  "nt Joinings 2"  "nt Joinings 3a"  "nt Joinings 3"  "nt Joinings 4"  "nt Joinings 5"  "nt Joinings 6"  "nt Joinings 7"  "nt Joinings 8"  "nt Joinings 9"  "u Joinings 1"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 8 0 "Vowel Between" { "Between Overrides 1"  "Between Overrides 2"  "Between k *"  "Between r *"  "Between n *"  "Between t *"  "Between p *"  "Between f *"  "Between ch *"  "Between ng *"  "Between tn *"  "Between nt *"  "Between u *"  } ['rclt' ('latn' <'dflt' > ) ]
 Lookup: 6 8 0 "Vowel Before/After" { "Vowel Before Overrides"  "Vowel Before"  "Vowel After Overrides"  "Vowel After"  "Vowel After u"  "Unlock Vowel"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -59,12 +59,13 @@ Lookup: 1 0 0 "Cut Consonant" { "Cut Consonant" ("cut") } []
 Lookup: 1 0 0 "Angled" { "Angled" ("angled") } []
 Lookup: 1 0 0 "Skewed 30" { "Skewed 30" ("skew30") } []
 Lookup: 1 0 0 "Skewed 45" { "Skewed 45" ("skew45") } []
-Lookup: 1 0 0 "Right s" { "Right s"  } []
-Lookup: 1 0 0 "Left s" { "Left s"  } []
+Lookup: 2 0 0 "Right" { "Right"  } []
+Lookup: 2 0 0 "Left" { "Left"  } []
 Lookup: 1 0 0 "Over th" { "Over th"  } []
 Lookup: 1 0 0 "Under th" { "Under th"  } []
 Lookup: 1 0 0 "Unlock" { "Unlock"  } []
 Lookup: 1 0 0 "Fallback" { "Fallback"  } []
+Lookup: 2 0 0 "Delete" { "Delete"  } []
 Lookup: 2 0 0 "Before ch" { "Before ch"  } []
 Lookup: 2 0 0 "Before f" { "Before f"  } []
 Lookup: 2 0 0 "Before k" { "Before k"  } []
@@ -235,6 +236,120 @@ Lookup: 257 0 0 "Position Before th" { "Position Before th"  } []
 Lookup: 257 0 0 "Position Before v" { "Position Before v"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: class "ss Direction" 6 6 6 6
+  Class: 2 ss
+  Class: 38 f v sh ch j s.right th.over tn tm df u
+  Class: 3 k g
+  Class: 11 a e i ea ae
+  Class: 14 p b s.left jnt
+  BClass: 2 ss
+  BClass: 38 f v sh ch j s.right th.over tn tm df u
+  BClass: 3 k g
+  BClass: 11 a e i ea ae
+  BClass: 14 p b s.left jnt
+  FClass: 2 ss
+  FClass: 38 f v sh ch j s.right th.over tn tm df u
+  FClass: 3 k g
+  FClass: 11 a e i ea ae
+  FClass: 14 p b s.left jnt
+ 1 2 0
+  ClsList: 1
+  BClsList: 4 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Left"
+ 1 2 0
+  ClsList: 1
+  BClsList: 4 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Left"
+ 1 1 0
+  ClsList: 1
+  BClsList: 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Left"
+ 1 0 2
+  ClsList: 1
+  BClsList:
+  FClsList: 4 5
+ 1
+  SeqLookup: 0 "Left"
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 5
+ 1
+  SeqLookup: 0 "Left"
+ 1 0 0
+  ClsList: 1
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "Right"
+  ClassNames: "All_Others" "ss" "left" "k" "circle" "p"
+  BClassNames: "All_Others" "ss" "left" "k" "circle" "p"
+  FClassNames: "All_Others" "ss" "left" "k" "circle" "p"
+EndFPST
+ChainSub2: class "Annotated Directions" 6 6 6 6
+  Class: 4 s ss
+  Class: 2 th
+  Class: 10 parenright
+  Class: 9 parenleft
+  Class: 14 s.right s.left
+  BClass: 4 s ss
+  BClass: 2 th
+  BClass: 10 parenright
+  BClass: 9 parenleft
+  BClass: 14 s.right s.left
+  FClass: 4 s ss
+  FClass: 2 th
+  FClass: 10 parenright
+  FClass: 9 parenleft
+  FClass: 14 s.right s.left
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 3
+ 1
+  SeqLookup: 0 "Right"
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 4
+ 1
+  SeqLookup: 0 "Left"
+ 2 0 0
+  ClsList: 2 4
+  BClsList:
+  FClsList:
+ 2
+  SeqLookup: 0 "Over th"
+  SeqLookup: 1 "Delete"
+ 2 0 0
+  ClsList: 2 3
+  BClsList:
+  FClsList:
+ 2
+  SeqLookup: 0 "Under th"
+  SeqLookup: 1 "Delete"
+ 1 1 0
+  ClsList: 3
+  BClsList: 5
+  FClsList:
+ 1
+  SeqLookup: 0 "Delete"
+ 1 1 0
+  ClsList: 4
+  BClsList: 5
+  FClsList:
+ 1
+  SeqLookup: 0 "Delete"
+  ClassNames: "All_Others" "s" "th" "R" "L" "srl"
+  BClassNames: "All_Others" "s" "th" "R" "L" "srl"
+  FClassNames: "All_Others" "s" "th" "R" "L" "srl"
+EndFPST
 ChainSub2: class "Jog" 2 3 3 2
   Class: 6 hyphen
   BClass: 9 n m tn tm
@@ -2081,103 +2196,103 @@ ChainSub2: class "s Direction" 9 9 9 17
   BClsList: 4 2
   FClsList:
  1
-  SeqLookup: 0 "Right s"
+  SeqLookup: 0 "Right"
  1 2 0
   ClsList: 1
   BClsList: 4 3
   FClsList:
  1
-  SeqLookup: 0 "Left s"
+  SeqLookup: 0 "Left"
  1 2 0
   ClsList: 1
   BClsList: 4 5
   FClsList:
  1
-  SeqLookup: 0 "Left s"
+  SeqLookup: 0 "Left"
  1 2 0
   ClsList: 1
   BClsList: 7 2
   FClsList:
  1
-  SeqLookup: 0 "Right s"
+  SeqLookup: 0 "Right"
  1 2 0
   ClsList: 1
   BClsList: 7 3
   FClsList:
  1
-  SeqLookup: 0 "Left s"
+  SeqLookup: 0 "Left"
  1 2 0
   ClsList: 1
   BClsList: 7 5
   FClsList:
  1
-  SeqLookup: 0 "Left s"
+  SeqLookup: 0 "Left"
  1 2 0
   ClsList: 1
   BClsList: 7 8
   FClsList:
  1
-  SeqLookup: 0 "Right s"
+  SeqLookup: 0 "Right"
  1 1 0
   ClsList: 1
   BClsList: 2
   FClsList:
  1
-  SeqLookup: 0 "Right s"
+  SeqLookup: 0 "Right"
  1 1 0
   ClsList: 1
   BClsList: 3
   FClsList:
  1
-  SeqLookup: 0 "Left s"
+  SeqLookup: 0 "Left"
  1 1 0
   ClsList: 1
   BClsList: 5
   FClsList:
  1
-  SeqLookup: 0 "Left s"
+  SeqLookup: 0 "Left"
  1 1 0
   ClsList: 1
   BClsList: 8
   FClsList:
  1
-  SeqLookup: 0 "Left s"
+  SeqLookup: 0 "Left"
  1 2 0
   ClsList: 1
   BClsList: 7 6
   FClsList:
  1
-  SeqLookup: 0 "Right s"
+  SeqLookup: 0 "Right"
  1 1 0
   ClsList: 1
   BClsList: 7
   FClsList:
  1
-  SeqLookup: 0 "Left s"
+  SeqLookup: 0 "Left"
  1 0 2
   ClsList: 1
   BClsList:
   FClsList: 4 3
  1
-  SeqLookup: 0 "Left s"
+  SeqLookup: 0 "Left"
  1 0 2
   ClsList: 1
   BClsList:
   FClsList: 7 3
  1
-  SeqLookup: 0 "Left s"
+  SeqLookup: 0 "Left"
  1 0 1
   ClsList: 1
   BClsList:
   FClsList: 3
  1
-  SeqLookup: 0 "Left s"
+  SeqLookup: 0 "Left"
  1 0 0
   ClsList: 1
   BClsList:
   FClsList:
  1
-  SeqLookup: 0 "Right s"
+  SeqLookup: 0 "Right"
   ClassNames: "All_Others" "s" "right" "left" "circle" "sharp" "u" "i" "over"
   BClassNames: "All_Others" "s" "right" "left" "circle" "sharp" "u" "i" "over"
   FClassNames: "All_Others" "s" "right" "left" "circle" "sharp" "u" "i" "over"

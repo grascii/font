@@ -12,5 +12,5 @@ SplineSet
 EndSplineSet
 Substitution2: "Under th" th.under
 Substitution2: "Over th" th.over
-Ligature2: "ch sh th ng nk" t h
+Ligature2: "ch sh th" t h
 EndChar

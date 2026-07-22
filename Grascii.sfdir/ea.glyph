@@ -10,7 +10,7 @@ MultipleSubs2: "Between nt n" a.tan eadot
 MultipleSubs2: "Between n nt" a.nan eadot
 MultipleSubs2: "Between r nt" a.rant eadot
 MultipleSubs2: "After th.over" a.thOa eadot
-Ligature2: "ch sh th ng nk" a ampersand quotesingle
+Ligature2: "ch sh th" a ampersand quotesingle
 MultipleSubs2: "After th.under" a.thUa eadot
 MultipleSubs2: "After b" a.ba eadot
 MultipleSubs2: "After tn" a.tna eadot

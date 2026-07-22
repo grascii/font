@@ -18,7 +18,7 @@ EndSplineSet
 MultipleSubs2: "Between f nt" a.fan e.fen
 MultipleSubs2: "Between t tn" ae.taet
 MultipleSubs2: "After nt" ae.ntae
-Ligature2: "ch sh th ng nk" a ampersand e
+Ligature2: "ch sh th" a ampersand e
 MultipleSubs2: "Between f t" a.fat e.fet
 MultipleSubs2: "Between f r" ae.faer
 MultipleSubs2: "Between p p" ae.paep

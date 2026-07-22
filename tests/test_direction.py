@@ -181,3 +181,38 @@ def test_lone_th(font, text, expected):
 ])
 def test_th_joinings(font, text, expected):
     assert map_th_direction(shape(text, font)) == expected
+
+
+@pytest.mark.parametrize("text,expected", [
+    ("ss", [-1, 1]),
+    ("ss)", [-1, 1]),
+    ("ss(", [1, -1]),
+])
+def test_lone_ss(font, text, expected):
+    assert map_s_direction(shape(text, font)) == expected
+
+
+@pytest.mark.parametrize("text,expected", [
+    ("nss", [0, -1, 1]),
+    ("riss", [0, 0, -1, 1]),
+    ("pass", [0, 0, -1, 1]),
+    ("tess", [0, 0, -1, 1]),
+    ("akss", [0, 0, -1, 1]),
+    ("ssl", [-1, 1, 0]),
+])
+def test_right_ss(font, text, expected):
+    assert map_s_direction(shape(text, font)) == expected
+
+
+@pytest.mark.parametrize("text,expected", [
+    ("kass", [0, 0, 1, -1]),
+    ("duss", [0, 0, 1, -1]),
+    ("ssp", [1, -1, 0]),
+    ("jess", [0, 0, 1, -1]),
+    ("ssep", [1, -1, 0, 0]),
+    ("ssepnd", [1, -1, 0, 0]),
+    ("thess", [0, 0, 1, -1]),
+    ("fass", [0, 0, 1, -1]),
+])
+def test_left_ss(font, text, expected):
+    assert map_s_direction(shape(text, font)) == expected
