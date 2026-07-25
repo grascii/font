@@ -2,6 +2,7 @@ StartChar: th.over.angled
 Encoding: 265 -1 82
 Width: 217
 Flags: W
+AnchorPoint: "ing" 155 43 basechar 0
 AnchorPoint: "Join" 207 138 exit 0
 AnchorPoint: "Join" 10 0 entry 0
 LayerCount: 2

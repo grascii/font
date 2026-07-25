@@ -2,6 +2,7 @@ StartChar: th.over.skew30
 Encoding: 267 -1 84
 Width: 297
 Flags: W
+AnchorPoint: "ing" 227 47 basechar 0
 AnchorPoint: "Join" 286.675 138 exit 0
 AnchorPoint: "Join" 10 0 entry 0
 LayerCount: 2

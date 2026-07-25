@@ -3,6 +3,7 @@ Encoding: 108 108 4
 Width: 860
 VWidth: 1147
 Flags: W
+AnchorPoint: "ing" 820 72 basechar 0
 AnchorPoint: "aspirate" 80 207 basechar 0
 AnchorPoint: "Join" 850 147 exit 0
 AnchorPoint: "Join" 10 147 entry 0

@@ -1,7 +1,9 @@
 StartChar: df
 Encoding: 324 -1 517
 Width: 647
+GlyphClass: 2
 Flags: W
+AnchorPoint: "ing" 487 -7 basechar 0
 AnchorPoint: "aspirate" 27 173 basechar 0
 AnchorPoint: "Join" 391 0 exit 0
 AnchorPoint: "Join" 10 0 entry 0
@@ -12,11 +14,11 @@ SplineSet
  10 202 463 444 601 364 c 0
  722 289 504 98 391 0 c 1024
 EndSplineSet
-Substitution2: "Skewed 45" df.skew45
-Substitution2: "Skewed 30" df.skew30
-Substitution2: "Angled" df.angled
-LCarets2: 1 0
-Ligature2: "Blended Consonants" t v
-Ligature2: "Blended Consonants" d v
 Ligature2: "Blended Consonants" d f
+Ligature2: "Blended Consonants" d v
+Ligature2: "Blended Consonants" t v
+Substitution2: "Angled" df.angled
+Substitution2: "Skewed 30" df.skew30
+Substitution2: "Skewed 45" df.skew45
+LCarets2: 1 0
 EndChar

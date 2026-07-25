@@ -2,13 +2,15 @@ StartChar: ng
 Encoding: 269 -1 26
 Width: 252
 VWidth: 1064
+GlyphClass: 2
 Flags: W
+AnchorPoint: "ing" 191 -62 basechar 0
 AnchorPoint: "aspirate" 50 129 basechar 0
 AnchorPoint: "Join" 241.822 0 exit 0
 AnchorPoint: "Join" 10 62.1172 entry 0
 LayerCount: 2
 Fore
 Refer: 6 110 N 0.965926 -0.258819 0.258819 0.965926 0.34082 64.7051 2
-LCarets2: 1 0
 Ligature2: "Blended Consonants" n g
+LCarets2: 1 0
 EndChar

@@ -2,6 +2,7 @@ StartChar: df.skew30
 Encoding: 326 -1 521
 Width: 762
 Flags: W
+AnchorPoint: "ing" 592 -7 basechar 0
 AnchorPoint: "Join" 506 0 exit 0
 AnchorPoint: "Join" 10 0 entry 0
 LayerCount: 2

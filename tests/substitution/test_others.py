@@ -130,3 +130,14 @@ def test_aspirate(font, text, expected_glyphs):
 ])
 def test_an(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("n'", ["n", "ing"]),
+    ("sa'", ["s.right", "a.sRa", "ing"]),
+    ("ge'", ["g", "e.ke", "ing"]),
+    ("sto'", ["s.right", "t", "o", "ing"]),
+    ("di'", ["d", "i.ti", "ing"]),
+])
+def test_ing(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

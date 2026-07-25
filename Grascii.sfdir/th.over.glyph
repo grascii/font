@@ -1,7 +1,9 @@
 StartChar: th.over
 Encoding: 263 -1 66
 Width: 217
+GlyphClass: 2
 Flags: W
+AnchorPoint: "ing" 142 53 basechar 0
 AnchorPoint: "aspirate" 31 140 basechar 0
 AnchorPoint: "Join" 207 138 exit 0
 AnchorPoint: "Join" 10 0 entry 0
@@ -11,8 +13,8 @@ SplineSet
 10 0 m 0
  10 89 151 138 207 138 c 1024
 EndSplineSet
-Substitution2: "Skewed 45" th.over.skew45
-Substitution2: "Skewed 30" th.over.skew30
 Substitution2: "Angled" th.over.angled
+Substitution2: "Skewed 30" th.over.skew30
+Substitution2: "Skewed 45" th.over.skew45
 LCarets2: 1 0
 EndChar

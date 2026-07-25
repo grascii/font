@@ -2,6 +2,7 @@ StartChar: u.tnau
 Encoding: 1529 -1 380
 Width: 293
 Flags: W
+AnchorPoint: "ing" 245 -65 basechar 0
 AnchorPoint: "Join" 242 4 exit 0
 AnchorPoint: "Join" 10 0 entry 0
 LayerCount: 2

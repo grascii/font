@@ -3,6 +3,7 @@ Encoding: 304 -1 342
 Width: 306
 VWidth: 1222
 Flags: W
+AnchorPoint: "ing" 311 74 basechar 0
 AnchorPoint: "aspirate" 217 294 basechar 0
 AnchorPoint: "Join" 267 223 exit 0
 AnchorPoint: "Join" 267 223 entry 0
@@ -16,6 +17,7 @@ SplineSet
  250 228 178 205 186 176 c 0
  206 101 349 201 267 223 c 1024
 EndSplineSet
+LCarets2: 2 0 0
 MultipleSubs2: "Between f nt" a.fan e.fen
 MultipleSubs2: "Between t tn" ae.taet
 MultipleSubs2: "After nt" ae.ntae

@@ -2,6 +2,7 @@ StartChar: m
 Encoding: 109 109 5
 Width: 620
 Flags: W
+AnchorPoint: "ing" 569 -57 basechar 0
 AnchorPoint: "aspirate" 42 60 basechar 0
 AnchorPoint: "Join" 610 0 exit 0
 AnchorPoint: "Join" 10 0 entry 0

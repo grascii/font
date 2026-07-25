@@ -2,6 +2,7 @@ StartChar: e.sLoe
 Encoding: 1683 -1 430
 Width: 86
 Flags: W
+AnchorPoint: "ing" 85 -41 basechar 0
 AnchorPoint: "Join" 42 0 exit 0
 AnchorPoint: "Join" 42 0 entry 0
 LayerCount: 2

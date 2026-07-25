@@ -2,7 +2,9 @@ StartChar: sh
 Encoding: 261 -1 19
 Width: 140
 VWidth: 1207
+GlyphClass: 2
 Flags: W
+AnchorPoint: "ing" 95 0 basechar 0
 AnchorPoint: "aspirate" 82 217 basechar 0
 AnchorPoint: "Join" 10 0 exit 0
 AnchorPoint: "Join" 130 208 entry 0
@@ -12,6 +14,6 @@ SplineSet
 130 208 m 0
  10 0 l 1024
 EndSplineSet
-LCarets2: 1 0
 Ligature2: "ch sh th" s h
+LCarets2: 1 0
 EndChar

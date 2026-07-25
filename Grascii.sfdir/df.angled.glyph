@@ -2,6 +2,7 @@ StartChar: df.angled
 Encoding: 325 -1 519
 Width: 647
 Flags: W
+AnchorPoint: "ing" 488 -7 basechar 0
 AnchorPoint: "Join" 391 0 exit 0
 AnchorPoint: "Join" 10 0 entry 0
 LayerCount: 2

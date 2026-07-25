@@ -3,6 +3,7 @@ Encoding: 739 -1 325
 Width: 103
 VWidth: 1036
 Flags: W
+AnchorPoint: "ing" 110 -25 basechar 0
 AnchorPoint: "Join" 93 57 exit 0
 AnchorPoint: "Join" 82 37 entry 0
 LayerCount: 2

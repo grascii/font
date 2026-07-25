@@ -2,19 +2,21 @@ StartChar: jnt
 Encoding: 350 -1 518
 Width: 647
 VWidth: 1379
+GlyphClass: 2
 Flags: W
+AnchorPoint: "ing" 685 323 basechar 0
 AnchorPoint: "aspirate" 194 400 basechar 0
 AnchorPoint: "Join" 636.502 379.686 exit 0
 AnchorPoint: "Join" 255.502 379.686 entry 0
 LayerCount: 2
 Fore
 Refer: 517 -1 N -1 1.22465e-16 -1.22465e-16 -1 646.502 379.686 2
-LCarets2: 2 0 0
-Substitution2: "Skewed 45" jnt.skew45
-Substitution2: "Skewed 30" jnt.skew30
-Substitution2: "Angled" jnt.angled
-Ligature2: "Blended Consonants" p n d
-Ligature2: "Blended Consonants" p n t
-Ligature2: "Blended Consonants" j n d
 Ligature2: "Blended Consonants" j n t
+Ligature2: "Blended Consonants" j n d
+Ligature2: "Blended Consonants" p n t
+Ligature2: "Blended Consonants" p n d
+Substitution2: "Angled" jnt.angled
+Substitution2: "Skewed 30" jnt.skew30
+Substitution2: "Skewed 45" jnt.skew45
+LCarets2: 2 0 0
 EndChar

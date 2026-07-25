@@ -6,5 +6,6 @@ Flags: W
 AnchorPoint: "Join" 0 0 exit 0
 AnchorPoint: "Join" 0 0 entry 0
 LayerCount: 2
+Substitution2: "Ing" ing
 Substitution2: "A/An" an
 EndChar

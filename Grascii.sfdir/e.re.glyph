@@ -2,6 +2,7 @@ StartChar: e.re
 Encoding: 731 -1 156
 Width: 89
 Flags: W
+AnchorPoint: "ing" 85 -31 basechar 0
 AnchorPoint: "Join" 20 0 exit 0
 AnchorPoint: "Join" 20 0 entry 0
 LayerCount: 2

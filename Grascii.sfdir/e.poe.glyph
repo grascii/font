@@ -2,6 +2,7 @@ StartChar: e.poe
 Encoding: 1677 -1 425
 Width: 101
 Flags: W
+AnchorPoint: "ing" 98 -37 basechar 0
 AnchorPoint: "Join" 49 0 exit 0
 AnchorPoint: "Join" 49 0 entry 0
 LayerCount: 2

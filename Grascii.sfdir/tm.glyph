@@ -2,17 +2,19 @@ StartChar: tm
 Encoding: 316 -1 464
 Width: 808
 VWidth: 4000
+GlyphClass: 2
 Flags: W
+AnchorPoint: "ing" 749 484 basechar 0
 AnchorPoint: "aspirate" 40 260 basechar 0
 AnchorPoint: "Join" 798 552 exit 0
 AnchorPoint: "Join" 10 0 entry 0
 LayerCount: 2
 Fore
 Refer: 66 -1 N 4 0 0 4 -30 0 2
-LCarets2: 1 0
-Substitution2: "Skewed 45" tm.skew45
-Substitution2: "Skewed 30" tm.skew30
-Substitution2: "Angled" tm.angled
-Ligature2: "Blended Consonants" d m
 Ligature2: "Blended Consonants" t m
+Ligature2: "Blended Consonants" d m
+Substitution2: "Angled" tm.angled
+Substitution2: "Skewed 30" tm.skew30
+Substitution2: "Skewed 45" tm.skew45
+LCarets2: 1 0
 EndChar
