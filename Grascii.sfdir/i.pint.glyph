@@ -3,6 +3,7 @@ Encoding: 1341 -1 513
 Width: 190
 VWidth: 1057
 Flags: W
+AnchorPoint: "aspirate" 152 195 basechar 0
 AnchorPoint: "Join" 81 52 exit 0
 AnchorPoint: "Join" 10 58 entry 0
 LayerCount: 2

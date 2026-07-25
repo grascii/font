@@ -2,6 +2,7 @@ StartChar: e.tet
 Encoding: 835 -1 504
 Width: 108
 Flags: W
+AnchorPoint: "aspirate" 47 137 basechar 0
 AnchorPoint: "Join" 40.7783 74.0332 exit 0
 AnchorPoint: "Join" 40.7783 74.0332 entry 0
 LayerCount: 2

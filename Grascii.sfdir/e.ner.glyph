@@ -2,6 +2,7 @@ StartChar: e.ner
 Encoding: 807 -1 186
 Width: 99
 Flags: W
+AnchorPoint: "aspirate" 93 117 basechar 0
 AnchorPoint: "Join" 10 0 exit 0
 AnchorPoint: "Join" 10 0 entry 0
 LayerCount: 2

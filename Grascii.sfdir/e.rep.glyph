@@ -2,6 +2,7 @@ StartChar: e.rep
 Encoding: 784 -1 179
 Width: 100
 Flags: W
+AnchorPoint: "aspirate" 57 110 basechar 0
 AnchorPoint: "Join" 10 0 exit 0
 AnchorPoint: "Join" 10 0 entry 0
 LayerCount: 2

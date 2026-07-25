@@ -1,6 +1,7 @@
 StartChar: quotesingle
 Encoding: 39 39 341
-Width: 0
+Width: 200
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
