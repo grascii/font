@@ -2,6 +2,7 @@ StartChar: e.et
 Encoding: 707 -1 160
 Width: 90
 Flags: W
+AnchorPoint: "aspirate" 37 105 basechar 0
 AnchorPoint: "Join" 31.6553 47.3369 exit 0
 AnchorPoint: "Join" 74.0908 71.8369 entry 0
 LayerCount: 2

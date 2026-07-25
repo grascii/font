@@ -2,6 +2,7 @@ StartChar: th.over
 Encoding: 263 -1 66
 Width: 217
 Flags: W
+AnchorPoint: "aspirate" 31 140 basechar 0
 AnchorPoint: "Join" 207 138 exit 0
 AnchorPoint: "Join" 10 0 entry 0
 LayerCount: 2

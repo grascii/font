@@ -1,0 +1,10 @@
+StartChar: th.over.aspirate
+Encoding: 1785 -1 549
+Width: 0
+Flags: W
+AnchorPoint: "Join" 0 0 exit 0
+AnchorPoint: "Join" 0 0 entry 0
+LayerCount: 2
+MultipleSubs2: "Aspirate Swap B" th.over aspirate
+Ligature2: "Aspirate Swap A" quotesingle th.over
+EndChar

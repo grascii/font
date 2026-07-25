@@ -1,0 +1,10 @@
+StartChar: a.aspirate
+Encoding: 1802 -1 559
+Width: 0
+Flags: W
+AnchorPoint: "Join" 0 0 exit 0
+AnchorPoint: "Join" 0 0 entry 0
+LayerCount: 2
+MultipleSubs2: "Aspirate Swap B" a aspirate
+Ligature2: "Aspirate Swap A" quotesingle a
+EndChar

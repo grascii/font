@@ -2,6 +2,7 @@ StartChar: o.op
 Encoding: 1044 -1 242
 Width: 193
 Flags: W
+AnchorPoint: "aspirate" 127 153 basechar 0
 AnchorPoint: "Join" 182.964 105 exit 0
 AnchorPoint: "Join" 77.9639 105 entry 0
 LayerCount: 2

@@ -2,6 +2,7 @@ StartChar: u.ur
 Encoding: 1170 -1 263
 Width: 157
 Flags: W
+AnchorPoint: "aspirate" 110 150 basechar 0
 AnchorPoint: "Join" 147 0 exit 0
 AnchorPoint: "Join" 10 0 entry 0
 LayerCount: 2

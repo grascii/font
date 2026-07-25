@@ -14,3 +14,9 @@ def font(tmp_path_factory):
     blob = hb.Blob.from_file_path(tmp_path)
     face = hb.Face(blob)
     return hb.Font(face)
+
+
+@pytest.fixture(scope="session")
+def ffont():
+    sdfir_path = Path(__file__).joinpath("../../Grascii.sfdir").resolve()
+    return fontforge.open(str(sdfir_path))

@@ -2,6 +2,7 @@ StartChar: e.oen
 Encoding: 1669 -1 420
 Width: 118
 Flags: W
+AnchorPoint: "aspirate" -23 147 basechar 0
 AnchorPoint: "Join" 51 16 exit 0
 AnchorPoint: "Join" 25 0 entry 0
 LayerCount: 2

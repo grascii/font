@@ -2,6 +2,7 @@ StartChar: a.ach
 Encoding: 364 -1 29
 Width: 158
 Flags: W
+AnchorPoint: "aspirate" 73 180 basechar 0
 AnchorPoint: "Join" 139 57 exit 0
 AnchorPoint: "Join" 106 0 entry 0
 LayerCount: 2

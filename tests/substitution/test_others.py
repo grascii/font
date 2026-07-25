@@ -108,3 +108,16 @@ def test_boundary(font, text, expected_glyphs):
 ])
 def test_jog(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("'", ["quotesingle"]),
+    ("'a", ["a", "aspirate"]),
+    ("'i", ["i", "aspirate"]),
+    ("'nd", ["nt", "aspirate"]),
+    ("'eu", ["e.eu", "u.eu", "aspirate"]),
+    ("'edn", ["e.etn", "aspirate", "tn"]),
+    ("en'ospt", ["e.en", "n", "o.op", "aspirate", "s.left", "p", "t"]),
+])
+def test_aspirate(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
