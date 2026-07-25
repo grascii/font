@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1785007232
+ModificationTime: 1785011563
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -57,6 +57,7 @@ Lookup: 6 8 0 "Vowel Between" { "Between Overrides 1"  "Between Overrides 2"  "B
 Lookup: 6 8 0 "Vowel Before/After" { "Vowel Before Overrides"  "Vowel Before"  "Vowel After Overrides"  "Vowel After"  "Vowel After u"  "Unlock Vowel"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 5 0 0 "Vowel Fallback" { "Vowel Fallback"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 2 0 0 "Diphthong Decomposition" { "Decompose"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "Final Substitutions" { "Final Substitutions"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Cut Consonant" { "Cut Consonant" ("cut") } []
 Lookup: 1 0 0 "Angled" { "Angled" ("angled") } []
 Lookup: 1 0 0 "Skewed 30" { "Skewed 30" ("skew30") } []
@@ -67,6 +68,7 @@ Lookup: 1 0 0 "Over th" { "Over th"  } []
 Lookup: 1 0 0 "Under th" { "Under th"  } []
 Lookup: 1 0 0 "Unlock" { "Unlock"  } []
 Lookup: 1 0 0 "Fallback" { "Fallback"  } []
+Lookup: 1 0 0 "A/An" { "A/An"  } []
 Lookup: 2 0 0 "Delete" { "Delete"  } []
 Lookup: 2 0 0 "Before ch" { "Before ch"  } []
 Lookup: 2 0 0 "Before f" { "Before f"  } []
@@ -239,6 +241,13 @@ Lookup: 257 0 0 "Position Before th" { "Position Before th"  } []
 Lookup: 257 0 0 "Position Before v" { "Position Before v"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: glyph "Final Substitutions" 0 0 0 1
+ String: 11 quotesingle
+ BString: 0
+ FString: 0
+ 1
+  SeqLookup: 0 "A/An"
+EndFPST
 ChainSub2: class "ss Direction" 6 6 6 6
   Class: 2 ss
   Class: 38 f v sh ch j s.right th.over tn tm df u

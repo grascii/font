@@ -111,7 +111,6 @@ def test_jog(font, text, expected_glyphs):
 
 
 @pytest.mark.parametrize("text,expected_glyphs", [
-    ("'", ["quotesingle"]),
     ("'a", ["a", "aspirate"]),
     ("'i", ["i", "aspirate"]),
     ("'nd", ["nt", "aspirate"]),
@@ -120,4 +119,14 @@ def test_jog(font, text, expected_glyphs):
     ("en'ospt", ["e.en", "n", "o.op", "aspirate", "s.left", "p", "t"]),
 ])
 def test_aspirate(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("'", ["an"]),
+    ("'-g", ["an", "hyphen", "g"]),
+    ("'-d", ["an", "hyphen", "d"]),
+    ("''ed", ["an", "e.et", "aspirate", "d"]),
+])
+def test_an(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
