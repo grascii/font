@@ -1,0 +1,13 @@
+StartChar: question
+Encoding: 63 63 574
+Width: 205
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+110 0 m 25
+ 110 0 194 84 195 85 c 1024
+195 0 m 0
+ 110 85 l 1024
+EndSplineSet
+EndChar

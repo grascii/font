@@ -297,3 +297,13 @@ def test_ing_anchors(ffont: fontforge.font, glyph_name):
 ])
 def test_inging_anchors(ffont: fontforge.font, glyph_name):
     assert has_anchor(ffont[glyph_name], "inging", "basemark")
+
+
+@pytest.mark.parametrize("glyph_name", [
+    "period",
+    "question",
+    "greater",
+])
+def test_no_join(ffont: fontforge.font, glyph_name):
+    assert not has_anchor(ffont[glyph_name], "Join", "entry")
+    assert not has_anchor(ffont[glyph_name], "Join", "exit")
