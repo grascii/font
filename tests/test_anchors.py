@@ -2,8 +2,8 @@ import pytest
 import fontforge
 
 
-def has_anchor(glyph: fontforge.glyph, anchor_name):
-    return next((anchor for anchor in glyph.anchorPoints if anchor[0] == anchor_name and anchor[1] == "base"), None) is not None
+def has_anchor(glyph: fontforge.glyph, anchor_name, kind="base"):
+    return next((anchor for anchor in glyph.anchorPoints if anchor[0] == anchor_name and anchor[1] == kind), None) is not None
 
 
 @pytest.mark.parametrize("glyph_name", [
@@ -290,3 +290,10 @@ def test_aspirate_anchors(ffont: fontforge.font, glyph_name):
 ])
 def test_ing_anchors(ffont: fontforge.font, glyph_name):
     assert has_anchor(ffont[glyph_name], "ing")
+
+
+@pytest.mark.parametrize("glyph_name", [
+    "ing",
+])
+def test_inging_anchors(ffont: fontforge.font, glyph_name):
+    assert has_anchor(ffont[glyph_name], "inging", "basemark")

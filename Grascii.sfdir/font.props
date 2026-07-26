@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1785023455
+ModificationTime: 1785030130
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -220,6 +220,7 @@ Lookup: 259 8 0 "Cursive Attachment" { "Join"  } ['curs' ('DFLT' <'dflt' > 'latn
 Lookup: 260 0 0 "A&' Dot Positioning" { "A&' Dot Positioning"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "Aspirate Positioning" { "Aspirate Positioning"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "Ing Positioning" { "Ing Positioning"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 262 0 0 "Ing Ing Positioning" { "Ing Ing Positioning"  } ['mkmk' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 257 0 0 "Position Before b" { "Position Before b"  } []
 Lookup: 257 0 0 "Position Before b.cut" { "Position Before b.cut"  } []
 Lookup: 257 0 0 "Position Before ch" { "Position Before ch"  } []
@@ -244,24 +245,37 @@ Lookup: 257 0 0 "Position Before th" { "Position Before th"  } []
 Lookup: 257 0 0 "Position Before v" { "Position Before v"  } []
 MarkAttachClasses: 1
 MarkAttachSets: 1
-"quotesingle" 11 quotesingle
+"quoting" 22 quotesingle ing inging
 DEI: 91125
-ChainSub2: class "Ings" 3 3 3 1
+ChainSub2: class "Ings" 5 5 5 2
   Class: 11 quotesingle
   Class: 113 k g r l n m t d p b f v s.right s.left sh ch j ng nk th.over th.under tn tm nt mt df jnt a e o u i ea ae oe au eu
+  Class: 3 ing
+  Class: 6 inging
   BClass: 11 quotesingle
   BClass: 113 k g r l n m t d p b f v s.right s.left sh ch j ng nk th.over th.under tn tm nt mt df jnt a e o u i ea ae oe au eu
+  BClass: 3 ing
+  BClass: 6 inging
   FClass: 11 quotesingle
   FClass: 113 k g r l n m t d p b f v s.right s.left sh ch j ng nk th.over th.under tn tm nt mt df jnt a e o u i ea ae oe au eu
+  FClass: 3 ing
+  FClass: 6 inging
  1 1 0
   ClsList: 1
   BClsList: 2
   FClsList:
  1
   SeqLookup: 0 "Ing"
-  ClassNames: "All_Others" "quote" "stroke"
-  BClassNames: "All_Others" "quote" "stroke"
-  FClassNames: "All_Others" "quote" "stroke"
+ 1 1 0
+  ClsList: 1
+  BClsList: 3
+  FClsList:
+ 2
+  SeqLookup: 0 "Ing"
+  SeqLookup: 0 "Ing"
+  ClassNames: "All_Others" "quote" "stroke" "ing" "inging"
+  BClassNames: "All_Others" "quote" "stroke" "ing" "inging"
+  FClassNames: "All_Others" "quote" "stroke" "ing" "inging"
 EndFPST
 ChainSub2: glyph "Final Substitutions" 0 0 0 1
  String: 11 quotesingle
@@ -2887,5 +2901,5 @@ WinInfo: 182 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "ing" "Ing Positioning" "aspirate" "Aspirate Positioning" "aedot" "A&' Dot Positioning" "Join" "Join"
+AnchorClass2: "inging" "Ing Ing Positioning" "ing" "Ing Positioning" "aspirate" "Aspirate Positioning" "aedot" "A&' Dot Positioning" "Join" "Join"
 EndSplineFont

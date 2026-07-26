@@ -10,7 +10,8 @@ HALF_STROKE_WIDTH = STROKE_WIDTH // 2
 NO_STROKE = {
     "eadot",
     "aspirate",
-    "quotesingle",
+    "ing",
+    "inging",
 }
 
 font = fontforge.open(sys.argv[1])

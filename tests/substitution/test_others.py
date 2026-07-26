@@ -141,3 +141,10 @@ def test_an(font, text, expected_glyphs):
 ])
 def test_ing(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("th''", ["th.over", "ing", "inging"]),
+])
+def test_inging(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
