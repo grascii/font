@@ -10,4 +10,5 @@ AnchorPoint: "Join" 10 0 entry 0
 LayerCount: 2
 Fore
 Refer: 5 109 N 0.866025 0.5 -0.5 0.866025 1.33984 -5 2
+MultipleSubs2: "Start and End" _start d _end
 EndChar

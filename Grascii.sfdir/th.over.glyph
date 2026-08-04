@@ -13,6 +13,7 @@ SplineSet
 10 0 m 0
  10 89 151 138 207 138 c 1024
 EndSplineSet
+MultipleSubs2: "Start and End" _start th.over _end
 Substitution2: "Angled" th.over.angled
 Substitution2: "Skewed 30" th.over.skew30
 Substitution2: "Skewed 45" th.over.skew45

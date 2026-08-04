@@ -14,6 +14,7 @@ SplineSet
  10 202 463 444 601 364 c 0
  722 289 504 98 391 0 c 1024
 EndSplineSet
+MultipleSubs2: "Start and End" _start df _end
 Ligature2: "Blended Consonants" d f
 Ligature2: "Blended Consonants" d v
 Ligature2: "Blended Consonants" t v

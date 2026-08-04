@@ -5,6 +5,7 @@ Flags: W
 AnchorPoint: "Join" 0 0 exit 0
 AnchorPoint: "Join" 0 0 entry 0
 LayerCount: 2
+MultipleSubs2: "Start and End" _start oe _end
 MultipleSubs2: "Between ch nt" o.choen e.choen
 MultipleSubs2: "Between p nt" o.poen e.poen
 MultipleSubs2: "Before nt" o.oe e.oen

@@ -7,7 +7,7 @@ def position_of_first(text, font):
     buf.add_str(text)
     buf.guess_segment_properties()
     hb.shape(font, buf)
-    return buf.glyph_positions[0]
+    return buf.glyph_positions[1]
 
 
 @pytest.mark.parametrize("text,moved_x,moved_y", [

@@ -14,6 +14,7 @@ SplineSet
 130 208 m 0
  10 0 l 1024
 EndSplineSet
+MultipleSubs2: "Start and End" _start sh _end
 Ligature2: "ch sh th" s h
 LCarets2: 1 0
 EndChar

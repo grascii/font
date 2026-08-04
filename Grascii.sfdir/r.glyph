@@ -13,5 +13,6 @@ SplineSet
 10 76 m 0
  14 -66 288 27 430 76 c 1024
 EndSplineSet
+MultipleSubs2: "Start and End" _start r _end
 Substitution2: "Cut Consonant" r.cut
 EndChar

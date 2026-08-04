@@ -11,6 +11,7 @@ AnchorPoint: "Join" 10 0 entry 0
 LayerCount: 2
 Fore
 Refer: 66 -1 N 4 0 0 4 -30 0 2
+MultipleSubs2: "Start and End" _start tm _end
 Ligature2: "Blended Consonants" t m
 Ligature2: "Blended Consonants" d m
 Substitution2: "Angled" tm.angled

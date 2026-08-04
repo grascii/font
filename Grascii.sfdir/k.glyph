@@ -10,5 +10,6 @@ AnchorPoint: "Join" 10 0 entry 0
 LayerCount: 2
 Fore
 Refer: 8 114 N -1 1.22465e-16 -1.22465e-16 -1 440 76 2
+MultipleSubs2: "Start and End" _start k _end
 Substitution2: "Cut Consonant" k.cut
 EndChar

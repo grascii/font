@@ -10,6 +10,7 @@ AnchorPoint: "Join" 10 0 entry 0
 LayerCount: 2
 Fore
 Refer: 272 -1 N 1 0 0.57735 1 0 0 2
+MultipleSubs2: "Start and End" _start u _end
 MultipleSubs2: "Between nt f" u.lock
 Substitution2: "Cut Consonant" u.cut
 Position2: "Position Before ch" dx=105 dy=364 dh=0 dv=0

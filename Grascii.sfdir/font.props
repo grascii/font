@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1785041194
+ModificationTime: 1785823184
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -54,6 +54,8 @@ Lookup: 6 8 0 "Directions" { "s Direction"  "ss Direction"  "th Direction"  } ['
 Lookup: 4 0 0 "Aspirate Swap A" { "Aspirate Swap A"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 2 0 0 "Aspirate Swap B" { "Aspirate Swap B"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 16 0 "Ings" { "Ings"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 2 0 0 "Start and End" { "Start and End"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 65552 0 "Middle" { "Middle"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 8 0 "Consonant Joinings" { "k Joinings 1"  "k Joinings 2"  "r Joinings Overrides"  "r Joinings 1"  "r Joinings 2a"  "r Joinings 2"  "r Joinings 3"  "r Joinings 4"  "r Joinings 5"  "r Joinings 6"  "p Joinings 1"  "p Joinings 2"  "p Joinings 3"  "p Joinings 4"  "f Joinings 1"  "f Joinings 2"  "f Joinings 3"  "f Joinings 4"  "f Joinings 5"  "s.right Joinings 1"  "s.right Joinings 2"  "s.right Joinings 3"  "s.right Joinings 4"  "s.right Joinings 5"  "s.left Joinings 1"  "s.left Joinings 2"  "tn Joinings 1"  "tn Joinings 2"  "tn Joinings 3a"  "tn Joinings 3b"  "tn Joinings 3"  "tn Joinings 4"  "tn Joinings 5"  "tn Joinings 6"  "tn Joinings 7"  "tn Joinings 8"  "nt Joinings 1"  "nt Joinings 2"  "nt Joinings 3a"  "nt Joinings 3"  "nt Joinings 4"  "nt Joinings 5"  "nt Joinings 6"  "nt Joinings 7"  "nt Joinings 8"  "nt Joinings 9"  "u Joinings 1"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 8 0 "Vowel Between" { "Between Overrides 1"  "Between Overrides 2"  "Between k *"  "Between r *"  "Between n *"  "Between t *"  "Between p *"  "Between f *"  "Between ch *"  "Between ng *"  "Between tn *"  "Between nt *"  "Between u *"  } ['rclt' ('latn' <'dflt' > ) ]
 Lookup: 6 8 0 "Vowel Before/After" { "Vowel Before Overrides"  "Vowel Before"  "Vowel After Overrides"  "Vowel After"  "Vowel After u"  "Unlock Vowel"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -245,8 +247,9 @@ Lookup: 257 0 0 "Position Before t" { "Position Before t"  } []
 Lookup: 257 0 0 "Position Before th" { "Position Before th"  } []
 Lookup: 257 0 0 "Position Before v" { "Position Before v"  } []
 MarkAttachClasses: 1
-MarkAttachSets: 1
+MarkAttachSets: 2
 "quoting" 22 quotesingle ing inging
+"end" 11 _start _end
 DEI: 91125
 ChainSub2: class "Ings" 5 5 5 2
   Class: 11 quotesingle
@@ -278,12 +281,17 @@ ChainSub2: class "Ings" 5 5 5 2
   BClassNames: "All_Others" "quote" "stroke" "ing" "inging"
   FClassNames: "All_Others" "quote" "stroke" "ing" "inging"
 EndFPST
-ChainSub2: glyph "Final Substitutions" 0 0 0 1
+ChainSub2: glyph "Final Substitutions" 0 0 0 2
  String: 11 quotesingle
- BString: 0 
- FString: 0 
+ BString: 0
+ FString: 0
  1
   SeqLookup: 0 "A/An"
+ String: 7 _middle
+ BString: 0
+ FString: 0
+ 1
+  SeqLookup: 0 "Delete"
 EndFPST
 ChainSub2: class "ss Direction" 6 6 6 6
   Class: 2 ss
@@ -2898,7 +2906,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 26 10
+WinInfo: 208 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144

@@ -6,4 +6,5 @@ def shape(text, font):
     buf.add_str(text)
     buf.guess_segment_properties()
     hb.shape(font, buf)
-    return [font.glyph_to_string(info.codepoint) for info in buf.glyph_infos]
+    glyphs = (font.glyph_to_string(info.codepoint) for info in buf.glyph_infos)
+    return list(filter(lambda g: g != "_start" and g != "_end", glyphs))

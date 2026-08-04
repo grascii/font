@@ -11,6 +11,7 @@ AnchorPoint: "Join" 10 62.1172 entry 0
 LayerCount: 2
 Fore
 Refer: 6 110 N 0.965926 -0.258819 0.258819 0.965926 0.34082 64.7051 2
+MultipleSubs2: "Start and End" _start ng _end
 Ligature2: "Blended Consonants" n g
 LCarets2: 1 0
 EndChar
