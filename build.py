@@ -10,6 +10,7 @@ HALF_STROKE_WIDTH = STROKE_WIDTH // 2
 NO_STROKE = {
     "eadot",
     "aspirate",
+    "an",
     "ing",
     "inging",
 }
