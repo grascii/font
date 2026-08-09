@@ -9,9 +9,4 @@ AnchorPoint: "Join" 10 24.6934 entry 0
 LayerCount: 2
 Fore
 Refer: 156 -1 N 0.5 0.866025 0.866025 -0.5 0 7.37334 2
-Position2: "Position Before s.left" dx=109 dy=131 dh=0 dv=0
-Position2: "Position Before p.cut" dx=247 dy=281 dh=0 dv=0
-Position2: "Position Before p" dx=246 dy=339 dh=0 dv=0
-Position2: "Position Before b.cut" dx=485 dy=592 dh=0 dv=0
-Position2: "Position Before b" dx=486 dy=703 dh=0 dv=0
 EndChar

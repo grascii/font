@@ -18,16 +18,6 @@ MultipleSubs2: "Between t nt" o.ton
 MultipleSubs2: "Between r tn" o.op
 MultipleSubs2: "Between n tn" o.op
 MultipleSubs2: "Before nt" o.ont
-Position2: "Position Before ch" dx=75 dy=259 dh=0 dv=0
-Position2: "Position Before f" dx=75 dy=259 dh=0 dv=0
-Position2: "Position Before j" dx=285 dy=622 dh=0 dv=0
-Position2: "Position Before ng" dx=0 dy=-43 dh=0 dv=0
-Position2: "Position Before nk" dx=0 dy=19 dh=0 dv=0
-Position2: "Position Before p" dx=110 dy=259 dh=0 dv=0
-Position2: "Position Before p.cut" dx=112 dy=201 dh=0 dv=0
-Position2: "Position Before s.right" dx=0 dy=51 dh=0 dv=0
-Position2: "Position Before sh" dx=0 dy=103 dh=0 dv=0
-Position2: "Position Before v" dx=285 dy=622 dh=0 dv=0
 MultipleSubs2: "Between u nt" o.lock
 MultipleSubs2: "Between u tn" o.lock
 MultipleSubs2: "Between u ng" o.lock

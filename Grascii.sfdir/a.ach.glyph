@@ -12,7 +12,4 @@ SplineSet
  12 0 -10 69 28 107 c 0
  78 157 180 128 139 57 c 1024
 EndSplineSet
-Position2: "Position Before sh" dx=0 dy=151 dh=0 dv=0
-Position2: "Position Before j" dx=291 dy=670 dh=0 dv=0
-Position2: "Position Before ch" dx=81 dy=307 dh=0 dv=0
 EndChar
