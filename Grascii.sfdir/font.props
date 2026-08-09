@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1785823184
+ModificationTime: 1786244668
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -219,11 +219,52 @@ Lookup: 2 0 0 "Between u ng" { "Between u ng"  } []
 Lookup: 2 0 0 "Between u tn" { "Between u tn"  } []
 Lookup: 2 0 0 "Between u nt" { "Between u nt"  } []
 Lookup: 264 8 0 "Line of Writing" { "Starts with a"  "Starts with e"  "Starts with o"  "Starts with u"  } [' RQD' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 257 0 0 "Stroke Adjustment" { "Stroke Adjustment"  } [' RQD' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 259 8 0 "Cursive Attachment" { "Join"  } ['curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "A&' Dot Positioning" { "A&' Dot Positioning"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "Aspirate Positioning" { "Aspirate Positioning"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "Ing Positioning" { "Ing Positioning"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 262 0 0 "Ing Ing Positioning" { "Ing Ing Positioning"  } ['mkmk' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 257 0 0 "Right 1" { "Right 1"  } []
+Lookup: 257 0 0 "Right 2" { "Right 2"  } []
+Lookup: 257 0 0 "Right 3" { "Right 3"  } []
+Lookup: 257 0 0 "Right 4" { "Right 4"  } []
+Lookup: 257 0 0 "Right 5" { "Right 5"  } []
+Lookup: 257 0 0 "Right 6" { "Right 6"  } []
+Lookup: 257 0 0 "Right 12" { "Right 12"  } []
+Lookup: 257 0 0 "Right 18" { "Right 18"  } []
+Lookup: 257 0 0 "Right 24" { "Right 24"  } []
+Lookup: 257 0 0 "Right 30" { "Right 30"  } []
+Lookup: 257 0 0 "Right 36" { "Right 36"  } []
+Lookup: 257 0 0 "Right 72" { "Right 72"  } []
+Lookup: 257 0 0 "Right 108" { "Right 108"  } []
+Lookup: 257 0 0 "Right 144" { "Right 144"  } []
+Lookup: 257 0 0 "Right 180" { "Right 180"  } []
+Lookup: 257 0 0 "Right 216" { "Right 216"  } []
+Lookup: 257 0 0 "Right 432" { "Right 432"  } []
+Lookup: 257 0 0 "Right 648" { "Right 648"  } []
+Lookup: 257 0 0 "Right 864" { "Right 864"  } []
+Lookup: 257 0 0 "Right 1080" { "Right 1080"  } []
+Lookup: 257 0 0 "Up 1" { "Up 1"  } []
+Lookup: 257 0 0 "Up 2" { "Up 2"  } []
+Lookup: 257 0 0 "Up 3" { "Up 3"  } []
+Lookup: 257 0 0 "Up 4" { "Up 4"  } []
+Lookup: 257 0 0 "Up 5" { "Up 5"  } []
+Lookup: 257 0 0 "Up 6" { "Up 6"  } []
+Lookup: 257 0 0 "Up 12" { "Up 12"  } []
+Lookup: 257 0 0 "Up 18" { "Up 18"  } []
+Lookup: 257 0 0 "Up 24" { "Up 24"  } []
+Lookup: 257 0 0 "Up 30" { "Up 30"  } []
+Lookup: 257 0 0 "Up 36" { "Up 36"  } []
+Lookup: 257 0 0 "Up 72" { "Up 72"  } []
+Lookup: 257 0 0 "Up 108" { "Up 108"  } []
+Lookup: 257 0 0 "Up 144" { "Up 144"  } []
+Lookup: 257 0 0 "Up 180" { "Up 180"  } []
+Lookup: 257 0 0 "Up 216" { "Up 216"  } []
+Lookup: 257 0 0 "Up 432" { "Up 432"  } []
+Lookup: 257 0 0 "Up 648" { "Up 648"  } []
+Lookup: 257 0 0 "Up 864" { "Up 864"  } []
+Lookup: 257 0 0 "Up 1080" { "Up 1080"  } []
 Lookup: 257 0 0 "Position Before b" { "Position Before b"  } []
 Lookup: 257 0 0 "Position Before b.cut" { "Position Before b.cut"  } []
 Lookup: 257 0 0 "Position Before ch" { "Position Before ch"  } []
@@ -249,7 +290,7 @@ Lookup: 257 0 0 "Position Before v" { "Position Before v"  } []
 MarkAttachClasses: 1
 MarkAttachSets: 2
 "quoting" 22 quotesingle ing inging
-"end" 11 _start _end
+"end" 4 _end
 DEI: 91125
 ChainSub2: class "Ings" 5 5 5 2
   Class: 11 quotesingle
@@ -283,13 +324,13 @@ ChainSub2: class "Ings" 5 5 5 2
 EndFPST
 ChainSub2: glyph "Final Substitutions" 0 0 0 2
  String: 11 quotesingle
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  1
   SeqLookup: 0 "A/An"
  String: 7 _middle
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  1
   SeqLookup: 0 "Delete"
 EndFPST
@@ -2451,36 +2492,36 @@ EndFPST
 ChainSub2: class "Vowel After" 12 12 12 10
   Class: 24 a e o u i ea ae au eu oe
   Class: 7 sh ch j
-  Class: 48 f v f.cut v.cut s.right s.right.cut df df.angled
+  Class: 68 f v f.cut v.cut s.right s.right.cut df df.angled df.skew30 df.skew45
   Class: 15 k g k.cut g.cut
   Class: 3 n m
   Class: 33 p b p.cut b.cut s.left s.left.cut
   Class: 15 r l r.cut l.cut
   Class: 3 t d
-  Class: 98 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tm tm.angled tm.skew30
-  Class: 117 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 mt mt.angled mt.skew30 jnt jnt.angled
+  Class: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  Class: 159 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45
   Class: 5 ng nk
   BClass: 24 a e o u i ea ae au eu oe
   BClass: 7 sh ch j
-  BClass: 48 f v f.cut v.cut s.right s.right.cut df df.angled
+  BClass: 68 f v f.cut v.cut s.right s.right.cut df df.angled df.skew30 df.skew45
   BClass: 15 k g k.cut g.cut
   BClass: 3 n m
   BClass: 33 p b p.cut b.cut s.left s.left.cut
   BClass: 15 r l r.cut l.cut
   BClass: 3 t d
-  BClass: 98 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tm tm.angled tm.skew30
-  BClass: 117 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 mt mt.angled mt.skew30 jnt jnt.angled
+  BClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  BClass: 159 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45
   BClass: 5 ng nk
   FClass: 24 a e o u i ea ae au eu oe
   FClass: 7 sh ch j
-  FClass: 48 f v f.cut v.cut s.right s.right.cut df df.angled
+  FClass: 68 f v f.cut v.cut s.right s.right.cut df df.angled df.skew30 df.skew45
   FClass: 15 k g k.cut g.cut
   FClass: 3 n m
   FClass: 33 p b p.cut b.cut s.left s.left.cut
   FClass: 15 r l r.cut l.cut
   FClass: 3 t d
-  FClass: 98 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tm tm.angled tm.skew30
-  FClass: 117 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 mt mt.angled mt.skew30 jnt jnt.angled
+  FClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
+  FClass: 159 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45
   FClass: 5 ng nk
  1 1 0
   ClsList: 1
@@ -2818,22 +2859,22 @@ ChainSub2: class "Vowel Before" 12 1 12 10
   Class: 35 f v f.cut v.cut s.right s.right.cut
   Class: 15 k g k.cut g.cut
   Class: 3 n m
-  Class: 37 p b p.cut b.cut s.left s.left.cut jnt
+  Class: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   Class: 15 r l r.cut l.cut
   Class: 3 t d
-  Class: 101 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tm tm.angled tm.skew30 df
-  Class: 102 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 mt mt.angled mt.skew30
+  Class: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
+  Class: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   Class: 5 ng nk
   FClass: 24 a e o u i ea ae au eu oe
   FClass: 7 sh ch j
   FClass: 35 f v f.cut v.cut s.right s.right.cut
   FClass: 15 k g k.cut g.cut
   FClass: 3 n m
-  FClass: 37 p b p.cut b.cut s.left s.left.cut jnt
+  FClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
   FClass: 15 r l r.cut l.cut
   FClass: 3 t d
-  FClass: 101 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tm tm.angled tm.skew30 df
-  FClass: 102 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 mt mt.angled mt.skew30
+  FClass: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
+  FClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
   FClass: 5 ng nk
  1 0 1
   ClsList: 1
@@ -2906,7 +2947,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 208 26 10
+WinInfo: 234 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144

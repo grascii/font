@@ -1,5 +1,5 @@
 exceptiongroup==1.3.0
-fontforge-stubs==2026.1.2
+fontforge-stubs @ git+https://github.com/chanicpanic/fontforge-stubs@a07c75ab4e394e563da94a39ad7f4c00c0556724
 iniconfig==2.1.0
 numpy==2.2.5
 packaging==25.0

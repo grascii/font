@@ -59,4 +59,5 @@ MultipleSubs2: "Between f t" e.feu u.feu
 MultipleSubs2: "Between f p" e.feu u.feu
 MultipleSubs2: "Between f f" e.feu u.feu
 MultipleSubs2: "Between f ch" e.feu u.feuch
+MultipleSubs2: "Between nt tn" e.teu u.teu
 EndChar

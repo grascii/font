@@ -1,11 +1,14 @@
 FONT_FORGE = $(shell (command -v fontforge && echo fontforge) || echo ./FontForge.AppImage)
 CWD = $(shell pwd)
 
-.PHONY: install test run install-tools
+.PHONY: install test run install-tools calculate-line-of-writing
 
 build: build.py Grascii.sfdir
 	mkdir -p build
 	$(FONT_FORGE) --quiet -script $(CWD)/build.py $(CWD)/Grascii.sfdir $(CWD)/build/Grascii.otf $(CWD)/build/Grascii.sfd
+
+calculate-line-of-writing: scripts/calculate_line_of_writing_positions.py Grascii.sfdir
+	$(FONT_FORGE) --quiet -script $(CWD)/scripts/calculate_line_of_writing_positions.py $(CWD)/Grascii.sfdir
 
 install: build
 	mkdir -p ~/.local/share/fonts/grascii

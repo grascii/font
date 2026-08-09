@@ -1,8 +1,49 @@
 StartChar: _start
 Encoding: 364 -1 607
 Width: 0
-GlyphClass: 4
+GlyphClass: 2
 Flags: W
 AnchorPoint: "Join" 0 0 exit 0
 LayerCount: 2
+Position2: "Stroke Adjustment" dx=-10 dy=-10 dh=0 dv=0
+Position2: "Up 1080" dx=0 dy=1080 dh=0 dv=0
+Position2: "Up 864" dx=0 dy=864 dh=0 dv=0
+Position2: "Up 648" dx=0 dy=648 dh=0 dv=0
+Position2: "Up 432" dx=0 dy=432 dh=0 dv=0
+Position2: "Up 216" dx=0 dy=216 dh=0 dv=0
+Position2: "Up 180" dx=0 dy=180 dh=0 dv=0
+Position2: "Up 144" dx=0 dy=144 dh=0 dv=0
+Position2: "Up 108" dx=0 dy=108 dh=0 dv=0
+Position2: "Up 72" dx=0 dy=72 dh=0 dv=0
+Position2: "Up 36" dx=0 dy=36 dh=0 dv=0
+Position2: "Up 30" dx=0 dy=30 dh=0 dv=0
+Position2: "Up 24" dx=0 dy=24 dh=0 dv=0
+Position2: "Up 18" dx=0 dy=18 dh=0 dv=0
+Position2: "Up 12" dx=0 dy=12 dh=0 dv=0
+Position2: "Up 6" dx=0 dy=6 dh=0 dv=0
+Position2: "Up 5" dx=0 dy=5 dh=0 dv=0
+Position2: "Up 4" dx=0 dy=4 dh=0 dv=0
+Position2: "Up 3" dx=0 dy=3 dh=0 dv=0
+Position2: "Up 2" dx=0 dy=2 dh=0 dv=0
+Position2: "Up 1" dx=0 dy=1 dh=0 dv=0
+Position2: "Right 1080" dx=1080 dy=0 dh=0 dv=0
+Position2: "Right 864" dx=864 dy=0 dh=0 dv=0
+Position2: "Right 648" dx=648 dy=0 dh=0 dv=0
+Position2: "Right 432" dx=432 dy=0 dh=0 dv=0
+Position2: "Right 216" dx=216 dy=0 dh=0 dv=0
+Position2: "Right 180" dx=180 dy=0 dh=0 dv=0
+Position2: "Right 144" dx=144 dy=0 dh=0 dv=0
+Position2: "Right 108" dx=108 dy=0 dh=0 dv=0
+Position2: "Right 72" dx=72 dy=0 dh=0 dv=0
+Position2: "Right 36" dx=36 dy=0 dh=0 dv=0
+Position2: "Right 30" dx=30 dy=0 dh=0 dv=0
+Position2: "Right 24" dx=24 dy=0 dh=0 dv=0
+Position2: "Right 18" dx=18 dy=0 dh=0 dv=0
+Position2: "Right 12" dx=12 dy=0 dh=0 dv=0
+Position2: "Right 6" dx=6 dy=0 dh=0 dv=0
+Position2: "Right 5" dx=5 dy=0 dh=0 dv=0
+Position2: "Right 4" dx=4 dy=0 dh=0 dv=0
+Position2: "Right 3" dx=3 dy=0 dh=0 dv=0
+Position2: "Right 2" dx=2 dy=0 dh=0 dv=0
+Position2: "Right 1" dx=1 dy=0 dh=0 dv=0
 EndChar

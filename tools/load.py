@@ -12,5 +12,4 @@ site.addsitedir(Path(ENV_DIR).joinpath("tools"))
 
 import import_base_model
 import create_from_reference
-import recalculate_line_of_writing_positions
 import view_reference_tree
