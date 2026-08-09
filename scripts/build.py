@@ -32,7 +32,7 @@ for glyph in font.glyphs():
         glyph.stroke("circular", STROKE_WIDTH)
         glyph.transform(psMat.translate(0, HALF_STROKE_WIDTH))
 
-    if glyph.glyphname != "space":
+    if glyph.anchorPoints:
         glyph.left_side_bearing = 0
         glyph.right_side_bearing = 0
 
