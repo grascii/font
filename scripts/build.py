@@ -3,6 +3,8 @@ import sys
 import fontforge
 import psMat
 
+from calculate_line_of_writing_positions import calculate_line_of_writing_positions
+
 
 STROKE_WIDTH = 24
 HALF_STROKE_WIDTH = STROKE_WIDTH // 2
@@ -16,6 +18,7 @@ NO_STROKE = {
 }
 
 font = fontforge.open(sys.argv[1])
+calculate_line_of_writing_positions(font)
 font.strokedfont = False
 
 for glyph in font.glyphs():
