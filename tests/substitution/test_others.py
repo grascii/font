@@ -75,14 +75,14 @@ def test_blended_consonants_priority(font, text, expected_glyphs):
 
 
 @pytest.mark.parametrize("text,expected_glyphs", [
-    ("t-n", ["t", "hyphen", "n"]),
-    ("d-m", ["d", "hyphen", "m"]),
-    ("n-d", ["n", "hyphen", "d"]),
-    ("m-t", ["m", "hyphen", "t"]),
-    ("d-f", ["d", "hyphen", "f"]),
-    ("t-v", ["t", "hyphen", "v"]),
-    ("j-nt", ["j", "hyphen", "nt"]),
-    ("pn-t", ["p", "n", "hyphen", "t"]),
+    ("t-n", ["t", "boundary", "n"]),
+    ("d-m", ["d", "boundary", "m"]),
+    ("n-d", ["n", "boundary", "d"]),
+    ("m-t", ["m", "boundary", "t"]),
+    ("d-f", ["d", "boundary", "f"]),
+    ("t-v", ["t", "boundary", "v"]),
+    ("j-nt", ["j", "boundary", "nt"]),
+    ("pn-t", ["p", "n", "boundary", "t"]),
 ])
 def test_boundary(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -124,8 +124,8 @@ def test_aspirate(font, text, expected_glyphs):
 
 @pytest.mark.parametrize("text,expected_glyphs", [
     ("'", ["an"]),
-    ("'-g", ["an", "hyphen", "g"]),
-    ("'-d", ["an", "hyphen", "d"]),
+    ("'-g", ["an", "boundary", "g"]),
+    ("'-d", ["an", "boundary", "d"]),
     ("''ed", ["an", "e.et", "aspirate", "d"]),
 ])
 def test_an(font, text, expected_glyphs):
