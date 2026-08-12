@@ -9,13 +9,7 @@ from calculate_line_of_writing_positions import calculate_line_of_writing_positi
 STROKE_WIDTH = 24
 HALF_STROKE_WIDTH = STROKE_WIDTH // 2
 
-NO_STROKE = {
-    "eadot",
-    "aspirate",
-    "an",
-    "ing",
-    "inging",
-}
+no_stroke = []
 
 font = fontforge.open(sys.argv[1])
 calculate_line_of_writing_positions(font)
@@ -28,14 +22,19 @@ for glyph in font.glyphs():
 
     glyph.background = glyph.foreground
 
-    if glyph.glyphname not in NO_STROKE:
+    if glyph.persistent is not None and glyph.persistent["no_stroke"]:
+        no_stroke.append(glyph.glyphname)
+    else:
         glyph.stroke("circular", STROKE_WIDTH)
         glyph.transform(psMat.translate(0, HALF_STROKE_WIDTH))
+
 
     if glyph.anchorPoints:
         glyph.left_side_bearing = 0
         glyph.right_side_bearing = 0
 
+
+print("Did not stroke", no_stroke)
 
 font.generate(sys.argv[2])
 font.save(sys.argv[3])

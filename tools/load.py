@@ -13,3 +13,4 @@ site.addsitedir(Path(ENV_DIR).joinpath("tools"))
 import import_base_model
 import create_from_reference
 import view_reference_tree
+import no_stroke
