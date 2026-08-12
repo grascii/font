@@ -73,7 +73,7 @@ CONSONANTS = [
 
 S = ["s)", "s("]
 
-TAIL_CONSONANT_VARIANTS = {
+TAIL_VARIANTS = {
     "k": ["k", "k.cut"],
     "g": ["g", "g.cut"],
     "p": ["p", "p.cut"],
@@ -83,6 +83,7 @@ TAIL_CONSONANT_VARIANTS = {
     "nt": ["nt", "nt.angled", "nt.skew30", "nt.skew45"],
     "mt": ["mt", "mt.angled", "mt.skew30", "mt.skew45"],
     "jnt": ["jnt", "jnt.angled", "jnt.skew30", "jnt.skew45"],
+    "u.fu": ["u.fu", "u.cut"],
 }
 
 LOOKUP = "Line of Writing"
@@ -107,6 +108,7 @@ def calculate_line_of_writing_positions(font: fontforge.font):
             product(VOWELS, S, DOWNWARD_CONSONANTS),
             product(S, DOWNWARD_CONSONANTS),
             product(VOWELS, S, VOWELS),
+            product(S, ["U"], ["A", "E", "I"], DOWNWARD_CONSONANTS),
             product(S, VOWELS),
             product(VOWELS, DOWNWARD_CONSONANTS),
             product(VOWELS, CONSONANTS),
@@ -119,7 +121,7 @@ def calculate_line_of_writing_positions(font: fontforge.font):
     for text in texts:
         shaped = shape(text, hb_font)
 
-        variants = TAIL_CONSONANT_VARIANTS.get(shaped[-1], [shaped[-1]])
+        variants = TAIL_VARIANTS.get(shaped[-1], [shaped[-1]])
         glyphs_list = [shaped[:-1] + [variant] for variant in variants]
 
         for glyphs in glyphs_list:
