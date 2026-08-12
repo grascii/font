@@ -180,3 +180,7 @@ def test_inging(font, text, expected_glyphs):
 ])
 def test_lowercase(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
+
+
+def test_grascii(font):
+    assert shape("grascii", font) == ["g", "r", "a.rap", "s.left", "k", "e.ke"]
