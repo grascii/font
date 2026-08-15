@@ -273,7 +273,97 @@ MarkAttachSets: 2
 "quoting" 22 quotesingle ing inging
 "end" 4 _end
 DEI: 91125
-ChainPos2: glyph "Line of Writing 5120" 0 0 0 42
+ChainPos2: glyph "Line of Writing 5120" 0 0 0 122
+ String: 6 _start
+ BString: 0 
+ FString: 11 e.eu u.eu n
+ 5
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 30"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 11 e.eu u.eu m
+ 5
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 30"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 11 e.eu u.eu t
+ 5
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 30"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 11 e.eu u.eu d
+ 5
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 30"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 24 e.eu u.eu th.over.skew30
+ 5
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 30"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 18 e.eu u.eu th.under
+ 5
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 30"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 25 e.eu u.eu th.under.angled
+ 5
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 30"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 25 e.eu u.eu th.under.skew30
+ 5
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 30"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 25 e.eu u.eu th.under.skew45
+ 5
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 30"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 19 e.eu u.eu tn.skew30
+ 5
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 30"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 2"
  String: 6 _start
  BString: 0 
  FString: 19 e.eu u.eu tm.skew30
@@ -592,6 +682,709 @@ ChainPos2: glyph "Line of Writing 5120" 0 0 0 42
   SeqLookup: 0 "Up 3"
  String: 6 _start
  BString: 0 
+ FString: 18 u.cut a.ap p.cut r
+ 6
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 6"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 30"
+  SeqLookup: 0 "Up 3"
+ String: 6 _start
+ BString: 0 
+ FString: 18 u.cut a.ap p.cut l
+ 6
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 6"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 180"
+  SeqLookup: 0 "Up 30"
+  SeqLookup: 0 "Up 3"
+ String: 6 _start
+ BString: 0 
+ FString: 18 u.cut a.ap b.cut r
+ 7
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 24"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 18"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 18 u.cut a.ap b.cut l
+ 8
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 24"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 72"
+  SeqLookup: 0 "Up 18"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 12 u.cut a.ap p
+ 6
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 5"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 12"
+  SeqLookup: 0 "Up 4"
+ String: 6 _start
+ BString: 0 
+ FString: 16 u.cut a.ap p.cut
+ 5
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 6"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 36"
+  SeqLookup: 0 "Up 30"
+ String: 6 _start
+ BString: 0 
+ FString: 12 u.cut a.ap b
+ 8
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 24"
+  SeqLookup: 0 "Right 5"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 36"
+  SeqLookup: 0 "Up 18"
+  SeqLookup: 0 "Up 1"
+ String: 6 _start
+ BString: 0 
+ FString: 16 u.cut a.ap b.cut
+ 8
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 24"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 432"
+  SeqLookup: 0 "Up 144"
+  SeqLookup: 0 "Up 12"
+  SeqLookup: 0 "Up 5"
+ String: 6 _start
+ BString: 0 
+ FString: 17 u.cut a.uaf f.cut
+ 6
+  SeqLookup: 0 "Right 180"
+  SeqLookup: 0 "Right 6"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 180"
+  SeqLookup: 0 "Up 18"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 17 u.cut a.uaf v.cut
+ 8
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 180"
+  SeqLookup: 0 "Right 24"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 72"
+  SeqLookup: 0 "Up 6"
+  SeqLookup: 0 "Up 1"
+ String: 6 _start
+ BString: 0 
+ FString: 15 u.cut a.uach sh
+ 7
+  SeqLookup: 0 "Right 36"
+  SeqLookup: 0 "Right 30"
+  SeqLookup: 0 "Right 2"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 36"
+  SeqLookup: 0 "Up 18"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 15 u.cut a.uach ch
+ 7
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 6"
+  SeqLookup: 0 "Right 1"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 180"
+  SeqLookup: 0 "Up 30"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 14 u.cut a.uach j
+ 7
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 1"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 30"
+  SeqLookup: 0 "Up 5"
+ String: 6 _start
+ BString: 0 
+ FString: 14 u.cut a.ang ng
+ 6
+  SeqLookup: 0 "Right 108"
+  SeqLookup: 0 "Right 24"
+  SeqLookup: 0 "Right 1"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 12"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 14 u.cut a.ang nk
+ 5
+  SeqLookup: 0 "Right 108"
+  SeqLookup: 0 "Right 24"
+  SeqLookup: 0 "Right 1"
+  SeqLookup: 0 "Up 144"
+  SeqLookup: 0 "Up 30"
+ String: 6 _start
+ BString: 0 
+ FString: 23 u.cut a.uaf s.right.cut
+ 5
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 2"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 18"
+  SeqLookup: 0 "Up 3"
+ String: 6 _start
+ BString: 0 
+ FString: 17 u.cut a.ap s.left
+ 3
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 24"
+ String: 6 _start
+ BString: 0 
+ FString: 21 u.cut a.ap s.left.cut
+ 4
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Up 72"
+  SeqLookup: 0 "Up 30"
+  SeqLookup: 0 "Up 1"
+ String: 6 _start
+ BString: 0 
+ FString: 14 u.cut a.ap jnt
+ 6
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 5"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 30"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 21 u.cut a.ap jnt.angled
+ 6
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 5"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 30"
+  SeqLookup: 0 "Up 1"
+ String: 6 _start
+ BString: 0 
+ FString: 21 u.cut a.ap jnt.skew30
+ 6
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 5"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 24"
+  SeqLookup: 0 "Up 4"
+ String: 6 _start
+ BString: 0 
+ FString: 21 u.cut a.ap jnt.skew45
+ 6
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 5"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 24"
+  SeqLookup: 0 "Up 3"
+ String: 6 _start
+ BString: 0 
+ FString: 19 u.cut e.uep p.cut r
+ 6
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 24"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 432"
+  SeqLookup: 0 "Up 12"
+  SeqLookup: 0 "Up 1"
+ String: 6 _start
+ BString: 0 
+ FString: 19 u.cut e.uep p.cut l
+ 7
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 24"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 432"
+  SeqLookup: 0 "Up 72"
+  SeqLookup: 0 "Up 12"
+  SeqLookup: 0 "Up 1"
+ String: 6 _start
+ BString: 0 
+ FString: 19 u.cut e.uep b.cut r
+ 6
+  SeqLookup: 0 "Right 432"
+  SeqLookup: 0 "Right 36"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 1"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 108"
+ String: 6 _start
+ BString: 0 
+ FString: 19 u.cut e.uep b.cut l
+ 6
+  SeqLookup: 0 "Right 432"
+  SeqLookup: 0 "Right 36"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 1"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 180"
+ String: 6 _start
+ BString: 0 
+ FString: 13 u.cut e.uep p
+ 7
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 24"
+  SeqLookup: 0 "Right 2"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 180"
+  SeqLookup: 0 "Up 30"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 17 u.cut e.uep p.cut
+ 7
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 24"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 144"
+  SeqLookup: 0 "Up 6"
+  SeqLookup: 0 "Up 4"
+ String: 6 _start
+ BString: 0 
+ FString: 13 u.cut e.uep b
+ 8
+  SeqLookup: 0 "Right 432"
+  SeqLookup: 0 "Right 36"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 2"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 30"
+  SeqLookup: 0 "Up 5"
+ String: 6 _start
+ BString: 0 
+ FString: 17 u.cut e.uep b.cut
+ 7
+  SeqLookup: 0 "Right 432"
+  SeqLookup: 0 "Right 36"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 1"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 30"
+  SeqLookup: 0 "Up 3"
+ String: 6 _start
+ BString: 0 
+ FString: 17 u.cut e.uef f.cut
+ 6
+  SeqLookup: 0 "Right 180"
+  SeqLookup: 0 "Right 6"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 180"
+  SeqLookup: 0 "Up 18"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 17 u.cut e.uef v.cut
+ 8
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 180"
+  SeqLookup: 0 "Right 24"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 72"
+  SeqLookup: 0 "Up 6"
+  SeqLookup: 0 "Up 1"
+ String: 6 _start
+ BString: 0 
+ FString: 15 u.cut e.uech sh
+ 7
+  SeqLookup: 0 "Right 36"
+  SeqLookup: 0 "Right 24"
+  SeqLookup: 0 "Right 1"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 36"
+  SeqLookup: 0 "Up 18"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 15 u.cut e.uech ch
+ 7
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 6"
+  SeqLookup: 0 "Right 1"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 180"
+  SeqLookup: 0 "Up 30"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 14 u.cut e.uech j
+ 7
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 1"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 30"
+  SeqLookup: 0 "Up 5"
+ String: 6 _start
+ BString: 0 
+ FString: 15 u.cut e.ueng ng
+ 5
+  SeqLookup: 0 "Right 24"
+  SeqLookup: 0 "Right 1"
+  SeqLookup: 0 "Up 72"
+  SeqLookup: 0 "Up 30"
+  SeqLookup: 0 "Up 4"
+ String: 6 _start
+ BString: 0 
+ FString: 15 u.cut e.ueng nk
+ 4
+  SeqLookup: 0 "Right 24"
+  SeqLookup: 0 "Right 1"
+  SeqLookup: 0 "Up 144"
+  SeqLookup: 0 "Up 24"
+ String: 6 _start
+ BString: 0 
+ FString: 23 u.cut e.uef s.right.cut
+ 5
+  SeqLookup: 0 "Right 36"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 18"
+  SeqLookup: 0 "Up 3"
+ String: 6 _start
+ BString: 0 
+ FString: 18 u.cut e.uep s.left
+ 5
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 30"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 4"
+ String: 6 _start
+ BString: 0 
+ FString: 22 u.cut e.uep s.left.cut
+ 6
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 30"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 180"
+  SeqLookup: 0 "Up 6"
+  SeqLookup: 0 "Up 5"
+ String: 6 _start
+ BString: 0 
+ FString: 15 u.cut e.uep jnt
+ 5
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 24"
+  SeqLookup: 0 "Right 2"
+  SeqLookup: 0 "Up 432"
+  SeqLookup: 0 "Up 12"
+ String: 6 _start
+ BString: 0 
+ FString: 22 u.cut e.uep jnt.angled
+ 6
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 24"
+  SeqLookup: 0 "Right 2"
+  SeqLookup: 0 "Up 432"
+  SeqLookup: 0 "Up 6"
+  SeqLookup: 0 "Up 5"
+ String: 6 _start
+ BString: 0 
+ FString: 22 u.cut e.uep jnt.skew30
+ 6
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 24"
+  SeqLookup: 0 "Right 2"
+  SeqLookup: 0 "Up 432"
+  SeqLookup: 0 "Up 6"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 22 u.cut e.uep jnt.skew45
+ 6
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 24"
+  SeqLookup: 0 "Right 2"
+  SeqLookup: 0 "Up 432"
+  SeqLookup: 0 "Up 6"
+  SeqLookup: 0 "Up 1"
+ String: 6 _start
+ BString: 0 
+ FString: 19 u.cut i.uip p.cut r
+ 6
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 432"
+  SeqLookup: 0 "Up 30"
+  SeqLookup: 0 "Up 3"
+ String: 6 _start
+ BString: 0 
+ FString: 19 u.cut i.uip p.cut l
+ 7
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 432"
+  SeqLookup: 0 "Up 72"
+  SeqLookup: 0 "Up 30"
+  SeqLookup: 0 "Up 3"
+ String: 6 _start
+ BString: 0 
+ FString: 19 u.cut i.uip b.cut r
+ 7
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 180"
+  SeqLookup: 0 "Right 2"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 18"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 19 u.cut i.uip b.cut l
+ 7
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 180"
+  SeqLookup: 0 "Right 2"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 180"
+  SeqLookup: 0 "Up 18"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 13 u.cut i.uip p
+ 6
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 432"
+  SeqLookup: 0 "Up 12"
+  SeqLookup: 0 "Up 4"
+ String: 6 _start
+ BString: 0 
+ FString: 17 u.cut i.uip p.cut
+ 6
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 144"
+  SeqLookup: 0 "Up 30"
+ String: 6 _start
+ BString: 0 
+ FString: 13 u.cut i.uip b
+ 7
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 180"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 144"
+  SeqLookup: 0 "Up 18"
+  SeqLookup: 0 "Up 1"
+ String: 6 _start
+ BString: 0 
+ FString: 17 u.cut i.uip b.cut
+ 7
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 180"
+  SeqLookup: 0 "Right 2"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 36"
+  SeqLookup: 0 "Up 12"
+  SeqLookup: 0 "Up 5"
+ String: 6 _start
+ BString: 0 
+ FString: 13 u.cut i.uit f
+ 5
+  SeqLookup: 0 "Right 180"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 1"
+  SeqLookup: 0 "Up 432"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 13 u.cut i.uit v
+ 7
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 180"
+  SeqLookup: 0 "Right 6"
+  SeqLookup: 0 "Right 1"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 144"
+  SeqLookup: 0 "Up 5"
+ String: 6 _start
+ BString: 0 
+ FString: 13 u.cut i.ui sh
+ 7
+  SeqLookup: 0 "Right 108"
+  SeqLookup: 0 "Right 6"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 72"
+  SeqLookup: 0 "Up 12"
+  SeqLookup: 0 "Up 5"
+ String: 6 _start
+ BString: 0 
+ FString: 13 u.cut i.ui ch
+ 6
+  SeqLookup: 0 "Right 180"
+  SeqLookup: 0 "Right 24"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 432"
+  SeqLookup: 0 "Up 24"
+  SeqLookup: 0 "Up 5"
+ String: 6 _start
+ BString: 0 
+ FString: 12 u.cut i.ui j
+ 8
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 180"
+  SeqLookup: 0 "Right 18"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 144"
+  SeqLookup: 0 "Up 30"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 14 u.cut i.uit ng
+ 6
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 5"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 24"
+  SeqLookup: 0 "Up 4"
+ String: 6 _start
+ BString: 0 
+ FString: 14 u.cut i.uit nk
+ 6
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 5"
+  SeqLookup: 0 "Up 180"
+  SeqLookup: 0 "Up 12"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 19 u.cut i.uit s.right
+ 6
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 5"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 6"
+  SeqLookup: 0 "Up 4"
+ String: 6 _start
+ BString: 0 
+ FString: 18 u.cut i.uip s.left
+ 4
+  SeqLookup: 0 "Right 18"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 24"
+ String: 6 _start
+ BString: 0 
+ FString: 22 u.cut i.uip s.left.cut
+ 5
+  SeqLookup: 0 "Right 18"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 180"
+  SeqLookup: 0 "Up 30"
+  SeqLookup: 0 "Up 1"
+ String: 6 _start
+ BString: 0 
+ FString: 15 u.cut i.uip jnt
+ 6
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 432"
+  SeqLookup: 0 "Up 30"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 22 u.cut i.uip jnt.angled
+ 6
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 432"
+  SeqLookup: 0 "Up 30"
+  SeqLookup: 0 "Up 1"
+ String: 6 _start
+ BString: 0 
+ FString: 22 u.cut i.uip jnt.skew30
+ 6
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 432"
+  SeqLookup: 0 "Up 24"
+  SeqLookup: 0 "Up 4"
+ String: 6 _start
+ BString: 0 
+ FString: 22 u.cut i.uip jnt.skew45
+ 6
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 432"
+  SeqLookup: 0 "Up 24"
+  SeqLookup: 0 "Up 3"
+ String: 6 _start
+ BString: 0 
+ FString: 10 u.cut a.ua
+ 6
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 18"
+  SeqLookup: 0 "Right 1"
+  SeqLookup: 0 "Up 144"
+  SeqLookup: 0 "Up 12"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 10 u.cut e.ue
+ 5
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 1"
+  SeqLookup: 0 "Up 72"
+  SeqLookup: 0 "Up 24"
+  SeqLookup: 0 "Up 5"
+ String: 6 _start
+ BString: 0 
+ FString: 10 u.cut i.ui
+ 6
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 2"
+  SeqLookup: 0 "Up 144"
+  SeqLookup: 0 "Up 12"
+  SeqLookup: 0 "Up 3"
+ String: 6 _start
+ BString: 0 
  FString: 1 a
  5
   SeqLookup: 0 "Right 180"
@@ -615,6 +1408,13 @@ ChainPos2: glyph "Line of Writing 5120" 0 0 0 42
   SeqLookup: 0 "Up 72"
   SeqLookup: 0 "Up 30"
   SeqLookup: 0 "Up 3"
+ String: 6 _start
+ BString: 0 
+ FString: 5 u.cut
+ 3
+  SeqLookup: 0 "Up 36"
+  SeqLookup: 0 "Up 24"
+  SeqLookup: 0 "Up 4"
  String: 6 _start
  BString: 0 
  FString: 1 i
@@ -4131,6 +4931,13 @@ ChainPos2: glyph "Line of Writing 4096" 0 0 0 1024
   SeqLookup: 0 "Up 2"
  String: 6 _start
  BString: 0 
+ FString: 17 a.ap s.left u.cut
+ 3
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 24"
+ String: 6 _start
+ BString: 0 
  FString: 20 a.ap s.left.cut i.pi
  3
   SeqLookup: 0 "Right 12"
@@ -4297,6 +5104,14 @@ ChainPos2: glyph "Line of Writing 4096" 0 0 0 1024
   SeqLookup: 0 "Right 1"
   SeqLookup: 0 "Up 144"
   SeqLookup: 0 "Up 12"
+ String: 6 _start
+ BString: 0 
+ FString: 17 e.ep s.left u.cut
+ 4
+  SeqLookup: 0 "Right 108"
+  SeqLookup: 0 "Right 1"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 4"
  String: 6 _start
  BString: 0 
  FString: 20 e.ep s.left.cut i.pi
@@ -4481,6 +5296,15 @@ ChainPos2: glyph "Line of Writing 4096" 0 0 0 1024
   SeqLookup: 0 "Up 12"
  String: 6 _start
  BString: 0 
+ FString: 17 o.op s.left u.cut
+ 5
+  SeqLookup: 0 "Right 36"
+  SeqLookup: 0 "Right 30"
+  SeqLookup: 0 "Right 2"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 4"
+ String: 6 _start
+ BString: 0 
  FString: 20 o.op s.left.cut i.pi
  5
   SeqLookup: 0 "Right 36"
@@ -4657,6 +5481,14 @@ ChainPos2: glyph "Line of Writing 4096" 0 0 0 1024
   SeqLookup: 0 "Up 180"
   SeqLookup: 0 "Up 6"
   SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 17 u.up s.left u.cut
+ 4
+  SeqLookup: 0 "Right 18"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 36"
  String: 6 _start
  BString: 0 
  FString: 20 u.up s.left.cut i.pi
@@ -4846,6 +5678,16 @@ ChainPos2: glyph "Line of Writing 4096" 0 0 0 1024
   SeqLookup: 0 "Up 180"
   SeqLookup: 0 "Up 24"
   SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 17 i.ip s.left u.cut
+ 6
+  SeqLookup: 0 "Right 180"
+  SeqLookup: 0 "Right 30"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 36"
+  SeqLookup: 0 "Up 18"
  String: 6 _start
  BString: 0 
  FString: 20 i.ip s.left.cut i.pi
@@ -5045,6 +5887,17 @@ ChainPos2: glyph "Line of Writing 4096" 0 0 0 1024
   SeqLookup: 0 "Up 1"
  String: 6 _start
  BString: 0 
+ FString: 15 ae s.left u.cut
+ 7
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 36"
+  SeqLookup: 0 "Right 5"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 36"
+  SeqLookup: 0 "Up 30"
+  SeqLookup: 0 "Up 5"
+ String: 6 _start
+ BString: 0 
  FString: 18 ae s.left.cut i.pi
  6
   SeqLookup: 0 "Right 216"
@@ -5236,6 +6089,16 @@ ChainPos2: glyph "Line of Writing 4096" 0 0 0 1024
   SeqLookup: 0 "Up 180"
   SeqLookup: 0 "Up 6"
   SeqLookup: 0 "Up 5"
+ String: 6 _start
+ BString: 0 
+ FString: 24 o.oep e.oep s.left u.cut
+ 6
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 6"
+  SeqLookup: 0 "Right 1"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 36"
+  SeqLookup: 0 "Up 3"
  String: 6 _start
  BString: 0 
  FString: 27 o.oep e.oep s.left.cut i.pi
@@ -5439,6 +6302,16 @@ ChainPos2: glyph "Line of Writing 4096" 0 0 0 1024
   SeqLookup: 0 "Up 12"
  String: 6 _start
  BString: 0 
+ FString: 22 a.au u.au s.left u.cut
+ 6
+  SeqLookup: 0 "Right 180"
+  SeqLookup: 0 "Right 6"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 180"
+  SeqLookup: 0 "Up 4"
+ String: 6 _start
+ BString: 0 
  FString: 25 a.au u.au s.left.cut i.pi
  6
   SeqLookup: 0 "Right 180"
@@ -5640,6 +6513,16 @@ ChainPos2: glyph "Line of Writing 4096" 0 0 0 1024
   SeqLookup: 0 "Up 36"
   SeqLookup: 0 "Up 12"
   SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 22 e.eu u.eu s.left u.cut
+ 6
+  SeqLookup: 0 "Right 108"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 6"
  String: 6 _start
  BString: 0 
  FString: 25 e.eu u.eu s.left.cut i.pi
@@ -7273,6 +8156,14 @@ ChainPos2: glyph "Line of Writing 4096" 0 0 0 1024
   SeqLookup: 0 "Right 1"
   SeqLookup: 0 "Up 144"
   SeqLookup: 0 "Up 12"
+ String: 6 _start
+ BString: 0 
+ FString: 12 s.left u.cut
+ 4
+  SeqLookup: 0 "Right 108"
+  SeqLookup: 0 "Right 1"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 4"
  String: 6 _start
  BString: 0 
  FString: 15 s.left.cut i.pi
@@ -11073,96 +11964,6 @@ ChainPos2: glyph "Line of Writing 4096" 0 0 0 1024
   SeqLookup: 0 "Up 144"
   SeqLookup: 0 "Up 6"
   SeqLookup: 0 "Up 4"
- String: 6 _start
- BString: 0 
- FString: 11 e.eu u.eu n
- 5
-  SeqLookup: 0 "Right 72"
-  SeqLookup: 0 "Right 30"
-  SeqLookup: 0 "Right 4"
-  SeqLookup: 0 "Up 108"
-  SeqLookup: 0 "Up 2"
- String: 6 _start
- BString: 0 
- FString: 11 e.eu u.eu m
- 5
-  SeqLookup: 0 "Right 72"
-  SeqLookup: 0 "Right 30"
-  SeqLookup: 0 "Right 4"
-  SeqLookup: 0 "Up 108"
-  SeqLookup: 0 "Up 2"
- String: 6 _start
- BString: 0 
- FString: 11 e.eu u.eu t
- 5
-  SeqLookup: 0 "Right 72"
-  SeqLookup: 0 "Right 30"
-  SeqLookup: 0 "Right 4"
-  SeqLookup: 0 "Up 108"
-  SeqLookup: 0 "Up 2"
- String: 6 _start
- BString: 0 
- FString: 11 e.eu u.eu d
- 5
-  SeqLookup: 0 "Right 72"
-  SeqLookup: 0 "Right 30"
-  SeqLookup: 0 "Right 4"
-  SeqLookup: 0 "Up 108"
-  SeqLookup: 0 "Up 2"
- String: 6 _start
- BString: 0 
- FString: 24 e.eu u.eu th.over.skew30
- 5
-  SeqLookup: 0 "Right 72"
-  SeqLookup: 0 "Right 30"
-  SeqLookup: 0 "Right 4"
-  SeqLookup: 0 "Up 108"
-  SeqLookup: 0 "Up 2"
- String: 6 _start
- BString: 0 
- FString: 18 e.eu u.eu th.under
- 5
-  SeqLookup: 0 "Right 72"
-  SeqLookup: 0 "Right 30"
-  SeqLookup: 0 "Right 4"
-  SeqLookup: 0 "Up 108"
-  SeqLookup: 0 "Up 2"
- String: 6 _start
- BString: 0 
- FString: 25 e.eu u.eu th.under.angled
- 5
-  SeqLookup: 0 "Right 72"
-  SeqLookup: 0 "Right 30"
-  SeqLookup: 0 "Right 4"
-  SeqLookup: 0 "Up 108"
-  SeqLookup: 0 "Up 2"
- String: 6 _start
- BString: 0 
- FString: 25 e.eu u.eu th.under.skew30
- 5
-  SeqLookup: 0 "Right 72"
-  SeqLookup: 0 "Right 30"
-  SeqLookup: 0 "Right 4"
-  SeqLookup: 0 "Up 108"
-  SeqLookup: 0 "Up 2"
- String: 6 _start
- BString: 0 
- FString: 25 e.eu u.eu th.under.skew45
- 5
-  SeqLookup: 0 "Right 72"
-  SeqLookup: 0 "Right 30"
-  SeqLookup: 0 "Right 4"
-  SeqLookup: 0 "Up 108"
-  SeqLookup: 0 "Up 2"
- String: 6 _start
- BString: 0 
- FString: 19 e.eu u.eu tn.skew30
- 5
-  SeqLookup: 0 "Right 72"
-  SeqLookup: 0 "Right 30"
-  SeqLookup: 0 "Right 4"
-  SeqLookup: 0 "Up 108"
-  SeqLookup: 0 "Up 2"
 EndFPST
 ChainPos2: glyph "Line of Writing 3072" 0 0 0 1024
  String: 6 _start

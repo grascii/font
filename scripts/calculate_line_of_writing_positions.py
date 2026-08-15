@@ -84,6 +84,7 @@ TAIL_VARIANTS = {
     "mt": ["mt", "mt.angled", "mt.skew30", "mt.skew45"],
     "jnt": ["jnt", "jnt.angled", "jnt.skew30", "jnt.skew45"],
     "u.fu": ["u.fu", "u.cut"],
+    "u": ["u", "u.cut"],
 }
 
 LOOKUP = "Line of Writing"
@@ -114,6 +115,8 @@ def calculate_line_of_writing_positions(font: fontforge.font):
             product(VOWELS, CONSONANTS),
             CONSONANTS,
             DOWNWARD_CONSONANTS,
+            product(["U"], ["A", "E", "I"], DOWNWARD_CONSONANTS),
+            product(["U"], ["A", "E", "I"]),
             VOWELS,
         ),
     )
