@@ -2,6 +2,7 @@ StartChar: e.tep
 Encoding: 888 -1 195
 Width: 146
 Flags: W
+AnchorPoint: "sound" 155 -30 basechar 0
 AnchorPoint: "aspirate" 44 120 basechar 0
 AnchorPoint: "Join" 10 0 exit 0
 AnchorPoint: "Join" 10 0 entry 0

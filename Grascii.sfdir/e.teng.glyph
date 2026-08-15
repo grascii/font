@@ -2,6 +2,7 @@ StartChar: e.teng
 Encoding: 891 -1 198
 Width: 92
 Flags: W
+AnchorPoint: "sound" 73 -78 basechar 0
 AnchorPoint: "Join" 44 0 exit 0
 AnchorPoint: "Join" 44 0 entry 0
 LayerCount: 2

@@ -2,6 +2,7 @@ StartChar: e.rent
 Encoding: 841 -1 184
 Width: 91
 Flags: W
+AnchorPoint: "sound" 53 -60 basechar 0
 AnchorPoint: "Join" 50 0 exit 0
 AnchorPoint: "Join" 50 0 entry 0
 LayerCount: 2

@@ -2,6 +2,7 @@ StartChar: e.ren
 Encoding: 834 -1 177
 Width: 107
 Flags: W
+AnchorPoint: "sound" 56 -60 basechar 0
 AnchorPoint: "Join" 60 0 exit 0
 AnchorPoint: "Join" 60 0 entry 0
 LayerCount: 2
