@@ -307,3 +307,43 @@ def test_inging_anchors(ffont: fontforge.font, glyph_name):
 def test_no_join(ffont: fontforge.font, glyph_name):
     assert not has_anchor(ffont[glyph_name], "Join", "entry")
     assert not has_anchor(ffont[glyph_name], "Join", "exit")
+
+
+@pytest.mark.parametrize("glyph_name", [
+    "a",
+    "a.ar",
+    "a.ka",
+    "a.ra",
+    "a.na",
+    "a.ta",
+    "a.pa",
+    "a.ba",
+    "a.fa",
+    "a.cha",
+    "a.nga",
+    "a.thOa",
+    "a.thUa",
+    "a.kak",
+    "a.kar",
+    "a.kan",
+    "a.kat",
+    "a.kaf",
+    "a.kach",
+    "a.nar",
+    "a.tak",
+    "a.tan",
+    "a.tang",
+    "a.par",
+    "a.pap",
+    "a.pach",
+    "a.far",
+    "a.fan",
+    "a.fat",
+    "a.faf",
+    "a.fach",
+    "a.sLa",
+    "a.sRa",
+    "a.tnak",
+])
+def test_wunderbar_anchors(ffont: fontforge.font, glyph_name):
+    assert has_anchor(ffont[glyph_name], "sound")

@@ -184,3 +184,20 @@ def test_lowercase(font, text, expected_glyphs):
 
 def test_grascii(font):
     assert shape("grascii", font) == ["g", "r", "a.rap", "s.left", "k", "e.ke"]
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("a_", ["a", "wunderbar"]),
+    ("e_", ["e", "wunderbar"]),
+    ("o_", ["o", "wunderbar"]),
+    ("u_", ["u", "wunderbar"]),
+    ("i_", ["i", "wunderbar"]),
+    ("a&e_", ["ae", "wunderbar"]),
+    ("oe_", ["o.oe", "e.oe", "wunderbar"]),
+    ("eu_", ["e.eu", "u.eu", "wunderbar"]),
+    ("'a_", ["a", "aspirate", "wunderbar"]),
+    ("ba_r", ["b.cut", "a.par", "wunderbar", "r"]),
+    ("na_", ["n", "a.na", "wunderbar"]),
+])
+def test_wunderbar(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs

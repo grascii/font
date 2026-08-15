@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1786507247
+ModificationTime: 1786819268
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -49,6 +49,7 @@ Lookup: 6 0 0 "Blended Consonants Overrides" { "Blended Consonants Overrides"  }
 Lookup: 4 0 0 "Blended Consonants" { "Blended Consonants"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 2 0 0 "Blended Consonant Decomposition" { "Blended Consonant Decomposition"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Boundaries and Jogs" { "Boundaries and Jogs"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 8 0 "Wunderbars" { "Wunderbars"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Annotated Directions" { "Annotated Directions"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 8 0 "Directions" { "s Direction"  "ss Direction"  "th Direction"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Aspirate Swap A" { "Aspirate Swap A"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -65,6 +66,7 @@ Lookup: 6 8 0 "Vowel Before/After" { "Vowel Before Overrides"  "Vowel Before"  "
 Lookup: 5 0 0 "Vowel Fallback" { "Vowel Fallback"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 2 0 0 "Diphthong Decomposition" { "Decompose"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Final Substitutions" { "Final Substitutions"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "Sound" { "Sound"  } []
 Lookup: 1 0 0 "Ing" { "Ing"  } []
 Lookup: 1 0 0 "Cut Consonant" { "Cut Consonant" ("cut") } []
 Lookup: 1 0 0 "Angled" { "Angled" ("angled") } []
@@ -228,6 +230,7 @@ Lookup: 260 0 0 "A&' Dot Positioning" { "A&' Dot Positioning"  } ['mark' ('DFLT'
 Lookup: 260 0 0 "Aspirate Positioning" { "Aspirate Positioning"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "Ing Positioning" { "Ing Positioning"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 262 0 0 "Ing Ing Positioning" { "Ing Ing Positioning"  } ['mkmk' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 260 0 0 "Sound Positioning" { "Sound Positioning"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 257 0 0 "Right 1" { "Right 1"  } []
 Lookup: 257 0 0 "Right 2" { "Right 2"  } []
 Lookup: 257 0 0 "Right 3" { "Right 3"  } []
@@ -273,6 +276,13 @@ MarkAttachSets: 2
 "quoting" 22 quotesingle ing inging
 "end" 4 _end
 DEI: 91125
+ChainSub2: coverage "Wunderbars" 0 0 0 1
+ 1 1 0
+  Coverage: 10 underscore
+  BCoverage: 24 a e i o u ea ae oe au eu
+ 1
+  SeqLookup: 0 "Sound"
+EndFPST
 ChainPos2: glyph "Line of Writing 5120" 0 0 0 122
  String: 6 _start
  BString: 0 
@@ -58535,9 +58545,9 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 52 26 10
+WinInfo: 416 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "inging" "Ing Ing Positioning" "ing" "Ing Positioning" "aspirate" "Aspirate Positioning" "aedot" "A&' Dot Positioning" "Join" "Join"
+AnchorClass2: "sound" "Sound Positioning" "inging" "Ing Ing Positioning" "ing" "Ing Positioning" "aspirate" "Aspirate Positioning" "aedot" "A&' Dot Positioning" "Join" "Join"
 EndSplineFont

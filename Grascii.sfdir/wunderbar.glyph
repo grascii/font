@@ -1,0 +1,13 @@
+StartChar: wunderbar
+Encoding: 259 -1 612
+Width: 180
+GlyphClass: 4
+Flags: W
+AnchorPoint: "sound" 90 -60 mark 0
+LayerCount: 2
+Fore
+SplineSet
+10 -60 m 0
+ 170 -60 l 1024
+EndSplineSet
+EndChar

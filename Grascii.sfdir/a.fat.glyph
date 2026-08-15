@@ -3,6 +3,7 @@ Encoding: 601 -1 126
 Width: 211
 VWidth: 1163
 Flags: W
+AnchorPoint: "sound" 78 -60 basechar 0
 AnchorPoint: "aedot" 60 47 basechar 0
 AnchorPoint: "Join" 201.15 163.115 exit 0
 AnchorPoint: "Join" 201.15 163.115 entry 0

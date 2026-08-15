@@ -2,6 +2,7 @@ StartChar: a.ar
 Encoding: 422 -1 35
 Width: 208
 Flags: W
+AnchorPoint: "sound" 96 -80 basechar 0
 AnchorPoint: "aspirate" 107 233 basechar 0
 AnchorPoint: "Join" 10 73 exit 0
 AnchorPoint: "Join" 92 0 entry 0
