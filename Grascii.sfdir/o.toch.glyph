@@ -1,0 +1,11 @@
+StartChar: o.toch
+Encoding: 1181 -1 614
+Width: 155
+Flags: W
+AnchorPoint: "sound" -55 -60 basechar 0
+AnchorPoint: "Join" 145.296 105 exit 0
+AnchorPoint: "Join" 40.2959 105 entry 0
+LayerCount: 2
+Fore
+Refer: 7 111 N 1 0 0 1 -3.04916e-05 0 2
+EndChar

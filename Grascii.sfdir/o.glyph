@@ -3,6 +3,7 @@ Encoding: 111 111 7
 Width: 155
 VWidth: 1105
 Flags: W
+AnchorPoint: "sound" 45 -60 basechar 0
 AnchorPoint: "ing" 145 -6 basechar 0
 AnchorPoint: "aspirate" 92 160 basechar 0
 AnchorPoint: "Join" 145.296 105 exit 0
@@ -10,6 +11,7 @@ AnchorPoint: "Join" 40.2959 105 entry 0
 LayerCount: 2
 Fore
 Refer: 237 -1 N 1 0 0.57735 1 -30.3265 0 2
+MultipleSubs2: "Between t ch" o.toch
 MultipleSubs2: "Start and End" _start o _end
 MultipleSubs2: "Between nt n" o.nton
 MultipleSubs2: "Between nt r" o.ntor
@@ -65,7 +67,7 @@ MultipleSubs2: "Before l" o.ol
 MultipleSubs2: "Between k k" o.kok
 MultipleSubs2: "Between k t" o.kot
 MultipleSubs2: "Between k p" o.kop
-MultipleSubs2: "Between k ch" o.ko
+MultipleSubs2: "Between k ch" o.koch
 MultipleSubs2: "Between k tn" o.ko
 MultipleSubs2: "Between t n" o.ton
 MultipleSubs2: "Between t ng" o.tong

@@ -385,6 +385,22 @@ def test_no_join(ffont: fontforge.font, glyph_name):
     "e.ngep",
     "e.ngech",
     "e.tne",
+    "o",
+    "o.ok",
+    "o.op",
+    "o.or",
+    "o.ol",
+    "o.on",
+    "o.ot",
+    "o.ont",
+    "o.ko",
+    "o.po",
+    "o.fo",
+    "o.kok",
+    "o.kot",
+    "o.kop",
+    "o.koch",
+    "o.toch",
 ])
 def test_wunderbar_anchors(ffont: fontforge.font, glyph_name):
     assert has_anchor(ffont[glyph_name], "sound")

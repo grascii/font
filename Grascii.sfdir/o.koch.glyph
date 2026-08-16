@@ -1,0 +1,11 @@
+StartChar: o.koch
+Encoding: 1175 -1 613
+Width: 148
+Flags: W
+AnchorPoint: "sound" -70 -60 basechar 0
+AnchorPoint: "Join" 138.038 108.463 exit 0
+AnchorPoint: "Join" 33.0381 108.463 entry 0
+LayerCount: 2
+Fore
+Refer: 245 -1 N 1 0 0 1 0.0381065 0.462505 2
+EndChar
