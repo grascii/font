@@ -2,6 +2,7 @@ StartChar: e.koet
 Encoding: 1741 -1 436
 Width: 140
 Flags: W
+AnchorPoint: "sound" -35 -100 basechar 0
 AnchorPoint: "Join" 110 38 exit 0
 AnchorPoint: "Join" 51 0 entry 0
 LayerCount: 2

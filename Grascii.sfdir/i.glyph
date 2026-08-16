@@ -3,6 +3,7 @@ Encoding: 105 105 2
 Width: 285
 VWidth: 1212
 Flags: W
+AnchorPoint: "sound" 138 -60 basechar 0
 AnchorPoint: "ing" 337 113 basechar 0
 AnchorPoint: "aspirate" 147 280 basechar 0
 AnchorPoint: "Join" 114 97 exit 0

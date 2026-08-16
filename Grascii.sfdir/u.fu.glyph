@@ -2,6 +2,7 @@ StartChar: u.fu
 Encoding: 1251 -1 269
 Width: 193
 Flags: W
+AnchorPoint: "sound" 94 -60 basechar 0
 AnchorPoint: "ing" 187 -33 basechar 0
 AnchorPoint: "Join" 115 0 exit 0
 AnchorPoint: "Join" 10 0 entry 0

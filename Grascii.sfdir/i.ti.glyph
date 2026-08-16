@@ -2,6 +2,7 @@ StartChar: i.ti
 Encoding: 1355 -1 296
 Width: 187
 Flags: W
+AnchorPoint: "sound" 92 -60 basechar 0
 AnchorPoint: "ing" 177 -17 basechar 0
 AnchorPoint: "Join" 93.333 67.4971 exit 0
 AnchorPoint: "Join" 56.8418 100.7 entry 0
