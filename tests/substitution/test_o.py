@@ -32,6 +32,7 @@ from shape import shape
     ("ond",  ["o.ont", "nt"]),
     ("omt",  ["o.ont", "mt"]),
     ("omd",  ["o.ont", "mt"]),
+    ("old",   ["o.ol", "ld.head.cut", "ld.tail"]),
 ])
 def test_o_before(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -101,6 +102,7 @@ def test_o_after(font, text, expected_glyphs):
     ("komd", ["k", "o.ont", "mt"]),
     ("kodf", ["k", "o.ko", "df.angled"]),
     ("kojnt", ["k", "o.kop", "jnt"]),
+    ("kold",  ["k", "o.ol", "ld.head.cut", "ld.tail"]),
 ])
 def test_k_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -133,6 +135,7 @@ def test_k_o(font, text, expected_glyphs):
     ("gomd", ["g", "o.ont", "mt"]),
     ("godf", ["g", "o.ko", "df.angled"]),
     ("gojnt", ["g", "o.kop", "jnt"]),
+    ("gold",  ["g", "o.ol", "ld.head.cut", "ld.tail"]),
 ])
 def test_g_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -167,6 +170,7 @@ def test_g_o(font, text, expected_glyphs):
     ("rond",  ["r", "o.ont", "nt"]),
     ("romt",  ["r", "o.ont", "mt"]),
     ("romd",  ["r", "o.ont", "mt"]),
+    ("rold",  ["r", "o.ol", "ld.head.cut", "ld.tail"]),
 ])
 def test_r_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -201,6 +205,7 @@ def test_r_o(font, text, expected_glyphs):
     ("lond",  ["l", "o.ont", "nt"]),
     ("lomt",  ["l", "o.ont", "mt"]),
     ("lomd",  ["l", "o.ont", "mt"]),
+    ("lold",  ["l", "o.ol", "ld.head.cut", "ld.tail"]),
 ])
 def test_l_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -234,6 +239,7 @@ def test_l_o(font, text, expected_glyphs):
     ("nomt",  ["n", "o.ont", "mt"]),
     ("nomd",  ["n", "o.ont", "mt"]),
     ("nodf",  ["n", "o.op", "df.skew30"]),
+    ("nold",  ["n", "o.ol", "ld.head.cut", "ld.tail"]),
 ])
 def test_n_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -267,6 +273,7 @@ def test_n_o(font, text, expected_glyphs):
     ("momt",  ["m", "o.ont", "mt"]),
     ("momd",  ["m", "o.ont", "mt"]),
     ("modf",  ["m", "o.op", "df.skew30"]),
+    ("mold",  ["m", "o.ol", "ld.head.cut", "ld.tail"]),
 ])
 def test_m_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -296,6 +303,7 @@ def test_m_o(font, text, expected_glyphs):
     ("tond",  ["t", "o.ton", "nt"]),
     ("tomt",  ["t", "o.ton", "mt"]),
     ("tomd",  ["t", "o.ton", "mt"]),
+    ("told",  ["t", "o.ol", "ld.head.cut", "ld.tail"]),
 ])
 def test_t_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -325,6 +333,7 @@ def test_t_o(font, text, expected_glyphs):
     ("dond",  ["d", "o.ton", "nt"]),
     ("domt",  ["d", "o.ton", "mt"]),
     ("domd",  ["d", "o.ton", "mt"]),
+    ("dold",  ["d", "o.ol", "ld.head.cut", "ld.tail"]),
 ])
 def test_d_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -360,6 +369,7 @@ def test_d_o(font, text, expected_glyphs):
     ("pomt",  ["p", "o.po", "mt"]),
     ("pomd",  ["p", "o.po", "mt"]),
     ("podf",  ["p", "o.po", "df.angled"]),
+    ("pold",  ["p", "o.po", "ld.head", "ld.tail"]),
 ])
 def test_p_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -395,6 +405,7 @@ def test_p_o(font, text, expected_glyphs):
     ("bomt",  ["b", "o.po", "mt"]),
     ("bomd",  ["b", "o.po", "mt"]),
     ("bodf",  ["b", "o.po", "df.angled"]),
+    ("bold",  ["b", "o.po", "ld.head", "ld.tail"]),
 ])
 def test_b_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -425,6 +436,7 @@ def test_b_o(font, text, expected_glyphs):
     ("fond",  ["f", "o.fo", "nt"]),
     ("fomt",  ["f", "o.fo", "mt"]),
     ("fomd",  ["f", "o.fo", "mt"]),
+    ("fold",  ["f", "o.fo", "ld.head", "ld.tail"]),
 ])
 def test_f_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -455,6 +467,7 @@ def test_f_o(font, text, expected_glyphs):
     ("vond",  ["v", "o.fo", "nt"]),
     ("vomt",  ["v", "o.fo", "mt"]),
     ("vomd",  ["v", "o.fo", "mt"]),
+    ("vold",  ["v", "o.fo", "ld.head", "ld.tail"]),
 ])
 def test_v_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -481,6 +494,7 @@ def test_v_o(font, text, expected_glyphs):
     ("shong",  ["sh", "o", "ng"]),
     ("shonk",  ["sh", "o", "nk"]),
     ("shoth",  ["sh", "o", "th.under"]),
+    ("shold",  ["sh", "o", "ld.head", "ld.tail"]),
 ])
 def test_sh_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -507,6 +521,7 @@ def test_sh_o(font, text, expected_glyphs):
     ("chong",  ["ch", "o", "ng"]),
     ("chonk",  ["ch", "o", "nk"]),
     ("choth",  ["ch", "o", "th.under"]),
+    ("chold",  ["ch", "o", "ld.head", "ld.tail"]),
 ])
 def test_ch_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -533,6 +548,7 @@ def test_ch_o(font, text, expected_glyphs):
     ("jong",  ["j", "o", "ng"]),
     ("jonk",  ["j", "o", "nk"]),
     ("joth",  ["j", "o", "th.under"]),
+    ("jold",  ["j", "o", "ld.head", "ld.tail"]),
 ])
 def test_j_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -567,6 +583,7 @@ def test_j_o(font, text, expected_glyphs):
     ("s)ond",  ["s.right", "o.fo", "nt"]),
     ("s)omt",  ["s.right", "o.fo", "mt"]),
     ("s)omd",  ["s.right", "o.fo", "mt"]),
+    ("s)old",  ["s.right", "o.fo", "ld.head", "ld.tail"]),
 ])
 def test_sR_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -638,6 +655,7 @@ def test_nk_o(font, text, expected_glyphs):
     ("th(os(",  ["th.over", "o.tnop", "s.left"]),
     ("th(ong",  ["th.over", "o.tnong", "ng"]),
     ("th(onk",  ["th.over", "o.tnong", "nk"]),
+    ("th(old",  ["th.over", "o.ol", "ld.head.cut", "ld.tail"]),
 ])
 def test_thO_o(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

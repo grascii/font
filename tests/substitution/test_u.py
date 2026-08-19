@@ -68,6 +68,7 @@ def test_u_before(font, text, expected_glyphs):
     ("ndu",  ["nt.angled", "u"]),
     ("mtu",  ["mt.angled", "u"]),
     ("mdu",  ["mt.angled", "u"]),
+    ("ldu",  ["ld.head", "ld.tail.angled", "u"]),
 ])
 def test_u_after(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -263,6 +264,7 @@ def test_m_u(font, text, expected_glyphs):
     ("tus",  ["t", "u.tu", "s.right"]),
     ("tuth", ["t", "u.tu", "th.over.skew30"]),
     ("tudf", ["t", "u.tu", "df.skew30"]),
+    ("tuld", ["t", "u.tur", "ld.head", "ld.tail"]),
 ])
 def test_t_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -288,6 +290,7 @@ def test_t_u(font, text, expected_glyphs):
     ("dus",  ["d", "u.tu", "s.right"]),
     ("duth", ["d", "u.tu", "th.over.skew30"]),
     ("dudf", ["d", "u.tu", "df.skew30"]),
+    ("duld", ["d", "u.tur", "ld.head", "ld.tail"]),
 ])
 def test_d_u(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

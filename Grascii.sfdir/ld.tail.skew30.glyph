@@ -1,0 +1,10 @@
+StartChar: ld.tail.skew30
+Encoding: 378 -1 617
+Width: 942
+Flags: W
+AnchorPoint: "Join" 932.114 357 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+Refer: 616 -1 N 1 0 0.57735 1 0 0 2
+EndChar

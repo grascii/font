@@ -65,6 +65,7 @@ def test_oe_after(font, text, expected_glyphs):
     ("koem",  ["k.cut", "o.koen", "e.koen", "m"]),
     ("koet",  ["k.cut", "o.koet", "e.koet", "t"]),
     ("koed",  ["k.cut", "o.koet", "e.koet", "d"]),
+    ("koeld", ["k.cut", "o.koer", "e.koer", "ld.head.cut", "ld.tail"]),
 ])
 def test_k_oe(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -77,6 +78,7 @@ def test_k_oe(font, text, expected_glyphs):
     ("goem",  ["g.cut", "o.koen", "e.koen", "m"]),
     ("goet",  ["g.cut", "o.koet", "e.koet", "t"]),
     ("goed",  ["g.cut", "o.koet", "e.koet", "d"]),
+    ("goeld", ["g.cut", "o.koer", "e.koer", "ld.head.cut", "ld.tail"]),
 ])
 def test_g_oe(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -191,6 +193,7 @@ def test_d_oe(font, text, expected_glyphs):
     ("poend", ["p", "o.poen", "e.poen", "nt"]),
     ("poemt", ["p", "o.poen", "e.poen", "mt"]),
     ("poemd", ["p", "o.poen", "e.poen", "mt"]),
+    ("poeld", ["p", "o.poer", "e.poer", "ld.head.cut", "ld.tail"]),
 ])
 def test_p_oe(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -211,6 +214,7 @@ def test_p_oe(font, text, expected_glyphs):
     ("boend", ["b", "o.poen", "e.poen", "nt"]),
     ("boemt", ["b", "o.poen", "e.poen", "mt"]),
     ("boemd", ["b", "o.poen", "e.poen", "mt"]),
+    ("boeld", ["b", "o.poer", "e.poer", "ld.head.cut", "ld.tail"]),
 ])
 def test_b_oe(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -255,6 +259,7 @@ def test_v_oe(font, text, expected_glyphs):
 @pytest.mark.parametrize("text,expected_glyphs", [
     ("soer",  ["s.right", "o.foe", "e.oer", "r.cut"]),
     ("soel",  ["s.right", "o.foe", "e.oer", "l.cut"]),
+    ("soeld", ["s.right", "o.foe", "e.oer", "ld.head.cut", "ld.tail"]),
 ])
 def test_sR_oe(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

@@ -1,0 +1,13 @@
+StartChar: ld.tail.angled
+Encoding: 377 -1 616
+Width: 736
+Flags: W
+AnchorPoint: "Join" 726 357 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 0 m 0
+ 136 0 596 132 726 357 c 1024
+EndSplineSet
+EndChar

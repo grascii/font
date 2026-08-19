@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1786844530
+ModificationTime: 1787116867
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -56306,15 +56306,15 @@ ChainPos2: glyph "Line of Writing 0" 0 0 0 1024
 EndFPST
 ChainSub2: class "Ings" 5 5 5 2
   Class: 11 quotesingle
-  Class: 113 k g r l n m t d p b f v s.right s.left sh ch j ng nk th.over th.under tn tm nt mt df jnt a e o u i ea ae oe au eu
+  Class: 121 k g r l ld.tail n m t d p b f v s.right s.left sh ch j ng nk th.over th.under tn tm nt mt df jnt a e o u i ea ae oe au eu
   Class: 3 ing
   Class: 6 inging
   BClass: 11 quotesingle
-  BClass: 113 k g r l n m t d p b f v s.right s.left sh ch j ng nk th.over th.under tn tm nt mt df jnt a e o u i ea ae oe au eu
+  BClass: 121 k g r l ld.tail n m t d p b f v s.right s.left sh ch j ng nk th.over th.under tn tm nt mt df jnt a e o u i ea ae oe au eu
   BClass: 3 ing
   BClass: 6 inging
   FClass: 11 quotesingle
-  FClass: 113 k g r l n m t d p b f v s.right s.left sh ch j ng nk th.over th.under tn tm nt mt df jnt a e o u i ea ae oe au eu
+  FClass: 121 k g r l ld.tail n m t d p b f v s.right s.left sh ch j ng nk th.over th.under tn tm nt mt df jnt a e o u i ea ae oe au eu
   FClass: 3 ing
   FClass: 6 inging
  1 1 0
@@ -56523,7 +56523,7 @@ ChainSub2: coverage "tn Joinings 8" 0 0 0 1
 EndFPST
 ChainSub2: coverage "nt Joinings 9" 0 0 0 1
  1 0 2
-  Coverage: 18 th.under nt mt jnt
+  Coverage: 26 th.under nt mt jnt ld.tail
   FCoverage: 1 i
   FCoverage: 7 n m t d
  1
@@ -56531,7 +56531,7 @@ ChainSub2: coverage "nt Joinings 9" 0 0 0 1
 EndFPST
 ChainSub2: coverage "nt Joinings 8" 0 0 0 1
  1 0 2
-  Coverage: 18 th.under nt mt jnt
+  Coverage: 26 th.under nt mt jnt ld.tail
   FCoverage: 1 i
   FCoverage: 3 k g
  1
@@ -56562,9 +56562,9 @@ ChainSub2: coverage "tn Joinings 3b" 0 0 0 1
 EndFPST
 ChainSub2: coverage "nt Joinings 3a" 0 0 0 1
  1 0 2
-  Coverage: 18 th.under nt mt jnt
+  Coverage: 26 th.under nt mt jnt ld.tail
   FCoverage: 1 o
-  FCoverage: 13 r l n m ng nk
+  FCoverage: 21 r l ld.head n m ng nk
  1
   SeqLookup: 0 "Angled"
 EndFPST
@@ -56594,7 +56594,7 @@ ChainSub2: coverage "tn Joinings 4" 0 0 0 1
 EndFPST
 ChainSub2: coverage "nt Joinings 7" 0 0 0 1
  1 0 2
-  Coverage: 18 th.under nt mt jnt
+  Coverage: 26 th.under nt mt jnt ld.tail
   FCoverage: 1 e
   FCoverage: 7 n m t d
  1
@@ -56602,7 +56602,7 @@ ChainSub2: coverage "nt Joinings 7" 0 0 0 1
 EndFPST
 ChainSub2: coverage "nt Joinings 6" 0 0 0 1
  1 0 2
-  Coverage: 18 th.under nt mt jnt
+  Coverage: 26 th.under nt mt jnt ld.tail
   FCoverage: 4 a ea
   FCoverage: 7 n m t d
  1
@@ -56610,7 +56610,7 @@ ChainSub2: coverage "nt Joinings 6" 0 0 0 1
 EndFPST
 ChainSub2: coverage "nt Joinings 5" 0 0 0 1
  1 0 2
-  Coverage: 18 th.under nt mt jnt
+  Coverage: 26 th.under nt mt jnt ld.tail
   FCoverage: 5 a e i
   FCoverage: 34 k g k.cut g.cut s.left p b sh ch j
  1
@@ -56626,7 +56626,7 @@ ChainSub2: coverage "tn Joinings 5" 0 0 0 1
 EndFPST
 ChainSub2: coverage "nt Joinings 4" 0 0 0 1
  1 0 1
-  Coverage: 18 th.under nt mt jnt
+  Coverage: 26 th.under nt mt jnt ld.tail
   FCoverage: 1 u
  1
   SeqLookup: 0 "Angled"
@@ -56640,7 +56640,7 @@ ChainSub2: coverage "tn Joinings 6" 0 0 0 1
 EndFPST
 ChainSub2: coverage "r Joinings 6" 0 0 0 1
  1 2 0
-  Coverage: 3 r l
+  Coverage: 11 r l ld.head
   BCoverage: 2 ae
   BCoverage: 35 f f.cut v v.cut s.right s.right.cut
  1
@@ -56670,7 +56670,7 @@ ContextSub2: class "Vowel Fallback" 2 1 1 1
 EndFPST
 ChainSub2: coverage "r Joinings 2a" 0 0 0 1
  1 2 0
-  Coverage: 3 r l
+  Coverage: 11 r l ld.head
   BCoverage: 1 o
   BCoverage: 1 u
  0
@@ -56707,7 +56707,7 @@ ChainSub2: coverage "f Joinings 5" 0 0 0 1
 EndFPST
 ChainSub2: coverage "r Joinings 5" 0 0 0 1
  1 2 0
-  Coverage: 3 r l
+  Coverage: 11 r l ld.head
   BCoverage: 5 a e i
   BCoverage: 7 u u.cut
  1
@@ -56729,7 +56729,7 @@ ChainSub2: coverage "u Joinings 1" 0 0 0 1
 EndFPST
 ChainSub2: coverage "r Joinings 4" 0 0 0 1
  1 2 0
-  Coverage: 3 r l
+  Coverage: 11 r l ld.head
   BCoverage: 1 i
   BCoverage: 30 p.cut b.cut s.left.cut sh ch j
  1
@@ -56787,13 +56787,13 @@ EndFPST
 ChainSub2: class "r Joinings 3" 4 4 4 1
   Class: 11 k.cut g.cut
   Class: 1 u
-  Class: 3 r l
+  Class: 11 r l ld.head
   BClass: 11 k.cut g.cut
   BClass: 1 u
-  BClass: 3 r l
+  BClass: 11 r l ld.head
   FClass: 11 k.cut g.cut
   FClass: 1 u
-  FClass: 3 r l
+  FClass: 11 r l ld.head
  1 2 0
   ClsList: 3
   BClsList: 2 1
@@ -56807,13 +56807,13 @@ EndFPST
 ChainSub2: class "k Joinings 1" 4 4 4 1
   Class: 3 k g
   Class: 1 u
-  Class: 3 r l
+  Class: 11 r l ld.head
   BClass: 3 k g
   BClass: 1 u
-  BClass: 3 r l
+  BClass: 11 r l ld.head
   FClass: 3 k g
   FClass: 1 u
-  FClass: 3 r l
+  FClass: 11 r l ld.head
  1 0 2
   ClsList: 1
   BClsList:
@@ -56853,36 +56853,36 @@ ChainSub2: glyph "Unlock Vowel" 0 0 0 2
 EndFPST
 ChainSub2: coverage "r Joinings Overrides" 0 0 0 1
  1 2 0
-  Coverage: 3 r l
+  Coverage: 11 r l ld.head
   BCoverage: 1 o
   BCoverage: 87 p b f v f.cut v.cut s.right s.left s.right.cut sh ch j df df.angled df.skew30 df.skew45
  0
 EndFPST
 ChainSub2: coverage "nt Joinings 3" 0 0 0 1
  1 0 1
-  Coverage: 18 th.under nt mt jnt
+  Coverage: 26 th.under nt mt jnt ld.tail
   FCoverage: 41 o eu au s.left s.left.cut p p.cut b b.cut
  1
   SeqLookup: 0 "Skewed 30"
 EndFPST
 ChainSub2: coverage "r Joinings 2" 0 0 0 1
  1 1 0
-  Coverage: 3 r l
+  Coverage: 11 r l ld.head
   BCoverage: 10 o au eu oe
  1
   SeqLookup: 0 "Cut Consonant"
 EndFPST
 ChainSub2: coverage "nt Joinings 1" 0 0 0 1
  1 0 2
-  Coverage: 18 th.under nt mt jnt
+  Coverage: 26 th.under nt mt jnt ld.tail
   FCoverage: 3 a e
-  FCoverage: 57 r l r.cut l.cut f v f.cut v.cut ng nk s.right s.right.cut
+  FCoverage: 77 r l r.cut l.cut ld.head ld.head.cut f v f.cut v.cut ng nk s.right s.right.cut
  1
   SeqLookup: 0 "Skewed 30"
 EndFPST
 ChainSub2: coverage "r Joinings 1" 0 0 0 1
  1 2 0
-  Coverage: 3 r l
+  Coverage: 11 r l ld.head
   BCoverage: 1 a
   BCoverage: 5 ng nk
  1
@@ -56892,7 +56892,7 @@ ChainSub2: coverage "s.left Joinings 1" 0 0 0 1
  1 0 2
   Coverage: 6 s.left
   FCoverage: 3 a e
-  FCoverage: 47 k g r l n m f v f.cut v.cut s.right s.right.cut
+  FCoverage: 55 k g r l ld.head n m f v f.cut v.cut s.right s.right.cut
  1
   SeqLookup: 0 "Cut Consonant"
 EndFPST
@@ -56908,7 +56908,7 @@ ChainSub2: coverage "p Joinings 2" 0 0 0 1
  1 0 2
   Coverage: 3 p b
   FCoverage: 9 a e ea ae
-  FCoverage: 46 k g r l n m f v s.right ng nk th.over tn tm df
+  FCoverage: 54 k g r l ld.head n m f v s.right ng nk th.over tn tm df
  1
   SeqLookup: 0 "Cut Consonant"
 EndFPST
@@ -56916,7 +56916,7 @@ ChainSub2: coverage "tn Joinings 1" 0 0 0 1
  1 2 0
   Coverage: 16 th.over tn tm df
   BCoverage: 6 a e ea
-  BCoverage: 69 k g r l r.cut l.cut p b p.cut b.cut s.left s.left.cut sh ch j u u.cut
+  BCoverage: 71 k g r l ld.head r.cut p b p.cut b.cut s.left s.left.cut sh ch j u u.cut
  1
   SeqLookup: 0 "Skewed 30"
 EndFPST
@@ -56932,14 +56932,14 @@ ChainSub2: coverage "f Joinings 1" 0 0 0 1
  1 2 0
   Coverage: 3 f v
   BCoverage: 6 a e ae
-  BCoverage: 100 r l k g n m t d p b p.cut b.cut s.left s.left.cut th.under th.under.skew30 nt nt.skew30 mt mt.skew30
+  BCoverage: 123 r l k g n m t d p b p.cut b.cut s.left s.left.cut th.under th.under.skew30 nt nt.skew30 mt mt.skew30 ld.tail ld.tail.skew30
  1
   SeqLookup: 0 "Cut Consonant"
 EndFPST
 ChainSub2: class "Between k *" 12 12 12 10
   Class: 24 a e i o u ea ae au eu oe
   Class: 15 k g k.cut g.cut
-  Class: 15 r l r.cut l.cut
+  Class: 35 r l r.cut l.cut ld.head ld.head.cut
   Class: 3 n m
   Class: 3 t d
   Class: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
@@ -56958,10 +56958,10 @@ ChainSub2: class "Between k *" 12 12 12 10
   BClass: 7 sh ch j
   BClass: 5 ng nk
   BClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
-  BClass: 159 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45
+  BClass: 212 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45 ld.tail ld.tail.angled ld.tail.skew30 ld.tail.skew45
   FClass: 24 a e i o u ea ae au eu oe
   FClass: 15 k g k.cut g.cut
-  FClass: 15 r l r.cut l.cut
+  FClass: 35 r l r.cut l.cut ld.head ld.head.cut
   FClass: 3 n m
   FClass: 3 t d
   FClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
@@ -57037,7 +57037,7 @@ EndFPST
 ChainSub2: class "Between r *" 12 12 12 10
   Class: 24 a e i o u ea ae au eu oe
   Class: 15 k g k.cut g.cut
-  Class: 15 r l r.cut l.cut
+  Class: 35 r l r.cut l.cut ld.head ld.head.cut
   Class: 3 n m
   Class: 3 t d
   Class: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
@@ -57056,10 +57056,10 @@ ChainSub2: class "Between r *" 12 12 12 10
   BClass: 7 sh ch j
   BClass: 5 ng nk
   BClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
-  BClass: 159 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45
+  BClass: 212 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45 ld.tail ld.tail.angled ld.tail.skew30 ld.tail.skew45
   FClass: 24 a e i o u ea ae au eu oe
   FClass: 15 k g k.cut g.cut
-  FClass: 15 r l r.cut l.cut
+  FClass: 35 r l r.cut l.cut ld.head ld.head.cut
   FClass: 3 n m
   FClass: 3 t d
   FClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
@@ -57135,7 +57135,7 @@ EndFPST
 ChainSub2: class "Between n *" 12 12 12 10
   Class: 24 a e i o u ea ae au eu oe
   Class: 15 k g k.cut g.cut
-  Class: 15 r l r.cut l.cut
+  Class: 35 r l r.cut l.cut ld.head ld.head.cut
   Class: 3 n m
   Class: 3 t d
   Class: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
@@ -57154,10 +57154,10 @@ ChainSub2: class "Between n *" 12 12 12 10
   BClass: 7 sh ch j
   BClass: 5 ng nk
   BClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
-  BClass: 159 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45
+  BClass: 212 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45 ld.tail ld.tail.angled ld.tail.skew30 ld.tail.skew45
   FClass: 24 a e i o u ea ae au eu oe
   FClass: 15 k g k.cut g.cut
-  FClass: 15 r l r.cut l.cut
+  FClass: 35 r l r.cut l.cut ld.head ld.head.cut
   FClass: 3 n m
   FClass: 3 t d
   FClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
@@ -57233,7 +57233,7 @@ EndFPST
 ChainSub2: class "Between t *" 12 12 12 10
   Class: 24 a e i o u ea ae au eu oe
   Class: 15 k g k.cut g.cut
-  Class: 15 r l r.cut l.cut
+  Class: 35 r l r.cut l.cut ld.head ld.head.cut
   Class: 3 n m
   Class: 3 t d
   Class: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
@@ -57252,10 +57252,10 @@ ChainSub2: class "Between t *" 12 12 12 10
   BClass: 7 sh ch j
   BClass: 5 ng nk
   BClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
-  BClass: 159 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45
+  BClass: 212 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45 ld.tail ld.tail.angled ld.tail.skew30 ld.tail.skew45
   FClass: 24 a e i o u ea ae au eu oe
   FClass: 15 k g k.cut g.cut
-  FClass: 15 r l r.cut l.cut
+  FClass: 35 r l r.cut l.cut ld.head ld.head.cut
   FClass: 3 n m
   FClass: 3 t d
   FClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
@@ -57331,7 +57331,7 @@ EndFPST
 ChainSub2: class "Between p *" 12 12 12 10
   Class: 24 a e i o u ea ae au eu oe
   Class: 15 k g k.cut g.cut
-  Class: 15 r l r.cut l.cut
+  Class: 35 r l r.cut l.cut ld.head ld.head.cut
   Class: 3 n m
   Class: 3 t d
   Class: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
@@ -57350,10 +57350,10 @@ ChainSub2: class "Between p *" 12 12 12 10
   BClass: 7 sh ch j
   BClass: 5 ng nk
   BClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
-  BClass: 159 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45
+  BClass: 212 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45 ld.tail ld.tail.angled ld.tail.skew30 ld.tail.skew45
   FClass: 24 a e i o u ea ae au eu oe
   FClass: 15 k g k.cut g.cut
-  FClass: 15 r l r.cut l.cut
+  FClass: 35 r l r.cut l.cut ld.head ld.head.cut
   FClass: 3 n m
   FClass: 3 t d
   FClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
@@ -57429,7 +57429,7 @@ EndFPST
 ChainSub2: class "Between f *" 12 12 12 10
   Class: 24 a e i o u ea ae au eu oe
   Class: 15 k g k.cut g.cut
-  Class: 15 r l r.cut l.cut
+  Class: 35 r l r.cut l.cut ld.head ld.head.cut
   Class: 3 n m
   Class: 3 t d
   Class: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
@@ -57448,10 +57448,10 @@ ChainSub2: class "Between f *" 12 12 12 10
   BClass: 7 sh ch j
   BClass: 5 ng nk
   BClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
-  BClass: 159 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45
+  BClass: 212 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45 ld.tail ld.tail.angled ld.tail.skew30 ld.tail.skew45
   FClass: 24 a e i o u ea ae au eu oe
   FClass: 15 k g k.cut g.cut
-  FClass: 15 r l r.cut l.cut
+  FClass: 35 r l r.cut l.cut ld.head ld.head.cut
   FClass: 3 n m
   FClass: 3 t d
   FClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
@@ -57527,7 +57527,7 @@ EndFPST
 ChainSub2: class "Between ch *" 12 12 12 10
   Class: 24 a e i o u ea ae au eu oe
   Class: 15 k g k.cut g.cut
-  Class: 15 r l r.cut l.cut
+  Class: 35 r l r.cut l.cut ld.head ld.head.cut
   Class: 3 n m
   Class: 3 t d
   Class: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
@@ -57546,10 +57546,10 @@ ChainSub2: class "Between ch *" 12 12 12 10
   BClass: 7 sh ch j
   BClass: 5 ng nk
   BClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
-  BClass: 159 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45
+  BClass: 212 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45 ld.tail ld.tail.angled ld.tail.skew30 ld.tail.skew45
   FClass: 24 a e i o u ea ae au eu oe
   FClass: 15 k g k.cut g.cut
-  FClass: 15 r l r.cut l.cut
+  FClass: 35 r l r.cut l.cut ld.head ld.head.cut
   FClass: 3 n m
   FClass: 3 t d
   FClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
@@ -57625,7 +57625,7 @@ EndFPST
 ChainSub2: class "Between ng *" 12 12 12 10
   Class: 24 a e i o u ea ae au eu oe
   Class: 15 k g k.cut g.cut
-  Class: 15 r l r.cut l.cut
+  Class: 35 r l r.cut l.cut ld.head ld.head.cut
   Class: 3 n m
   Class: 3 t d
   Class: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
@@ -57644,10 +57644,10 @@ ChainSub2: class "Between ng *" 12 12 12 10
   BClass: 7 sh ch j
   BClass: 5 ng nk
   BClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
-  BClass: 159 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45
+  BClass: 212 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45 ld.tail ld.tail.angled ld.tail.skew30 ld.tail.skew45
   FClass: 24 a e i o u ea ae au eu oe
   FClass: 15 k g k.cut g.cut
-  FClass: 15 r l r.cut l.cut
+  FClass: 35 r l r.cut l.cut ld.head ld.head.cut
   FClass: 3 n m
   FClass: 3 t d
   FClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
@@ -57723,7 +57723,7 @@ EndFPST
 ChainSub2: class "Between tn *" 12 12 12 10
   Class: 24 a e i o u ea ae au eu oe
   Class: 15 k g k.cut g.cut
-  Class: 15 r l r.cut l.cut
+  Class: 35 r l r.cut l.cut ld.head ld.head.cut
   Class: 3 n m
   Class: 3 t d
   Class: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
@@ -57742,10 +57742,10 @@ ChainSub2: class "Between tn *" 12 12 12 10
   BClass: 7 sh ch j
   BClass: 5 ng nk
   BClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
-  BClass: 159 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45
+  BClass: 212 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45 ld.tail ld.tail.angled ld.tail.skew30 ld.tail.skew45
   FClass: 24 a e i o u ea ae au eu oe
   FClass: 15 k g k.cut g.cut
-  FClass: 15 r l r.cut l.cut
+  FClass: 35 r l r.cut l.cut ld.head ld.head.cut
   FClass: 3 n m
   FClass: 3 t d
   FClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
@@ -57821,7 +57821,7 @@ EndFPST
 ChainSub2: class "Between nt *" 12 12 12 10
   Class: 24 a e i o u ea ae au eu oe
   Class: 15 k g k.cut g.cut
-  Class: 15 r l r.cut l.cut
+  Class: 35 r l r.cut l.cut ld.head ld.head.cut
   Class: 3 n m
   Class: 3 t d
   Class: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
@@ -57840,10 +57840,10 @@ ChainSub2: class "Between nt *" 12 12 12 10
   BClass: 7 sh ch j
   BClass: 5 ng nk
   BClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
-  BClass: 159 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45
+  BClass: 212 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45 ld.tail ld.tail.angled ld.tail.skew30 ld.tail.skew45
   FClass: 24 a e i o u ea ae au eu oe
   FClass: 15 k g k.cut g.cut
-  FClass: 15 r l r.cut l.cut
+  FClass: 35 r l r.cut l.cut ld.head ld.head.cut
   FClass: 3 n m
   FClass: 3 t d
   FClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
@@ -57919,7 +57919,7 @@ EndFPST
 ChainSub2: class "Between u *" 13 13 13 10
   Class: 7 a e i o
   Class: 15 k g k.cut g.cut
-  Class: 15 r l r.cut l.cut
+  Class: 35 r l r.cut l.cut ld.head ld.head.cut
   Class: 3 n m
   Class: 3 t d
   Class: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
@@ -57943,7 +57943,7 @@ ChainSub2: class "Between u *" 13 13 13 10
   BClass: 7 u u.cut
   FClass: 7 a e i o
   FClass: 15 k g k.cut g.cut
-  FClass: 15 r l r.cut l.cut
+  FClass: 35 r l r.cut l.cut ld.head ld.head.cut
   FClass: 3 n m
   FClass: 3 t d
   FClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
@@ -58079,7 +58079,7 @@ EndFPST
 ChainSub2: class "s Direction" 9 9 9 17
   Class: 1 s
   Class: 26 k g f v sh ch j s.right df
-  Class: 27 r l p b s.left th.under jnt
+  Class: 43 r l p b s.left th.under jnt ld.head ld.tail
   Class: 9 a e ea ae
   Class: 24 n m t d ng nk o oe nt mt
   Class: 1 u
@@ -58087,7 +58087,7 @@ ChainSub2: class "s Direction" 9 9 9 17
   Class: 5 tn tm
   BClass: 1 s
   BClass: 26 k g f v sh ch j s.right df
-  BClass: 27 r l p b s.left th.under jnt
+  BClass: 43 r l p b s.left th.under jnt ld.head ld.tail
   BClass: 9 a e ea ae
   BClass: 24 n m t d ng nk o oe nt mt
   BClass: 1 u
@@ -58095,7 +58095,7 @@ ChainSub2: class "s Direction" 9 9 9 17
   BClass: 5 tn tm
   FClass: 1 s
   FClass: 26 k g f v sh ch j s.right df
-  FClass: 27 r l p b s.left th.under jnt
+  FClass: 43 r l p b s.left th.under jnt ld.head ld.tail
   FClass: 9 a e ea ae
   FClass: 24 n m t d ng nk o oe nt mt
   FClass: 1 u
@@ -58209,11 +58209,11 @@ ChainSub2: class "s Direction" 9 9 9 17
 EndFPST
 ChainSub2: class "p Joinings 1" 3 3 3 1
   Class: 3 p b
-  Class: 3 r l
+  Class: 11 r l ld.head
   BClass: 3 p b
-  BClass: 3 r l
+  BClass: 11 r l ld.head
   FClass: 3 p b
-  FClass: 3 r l
+  FClass: 11 r l ld.head
  1 0 1
   ClsList: 1
   BClsList:
@@ -58311,7 +58311,7 @@ ChainSub2: class "Vowel After" 12 12 12 10
   Class: 15 r l r.cut l.cut
   Class: 3 t d
   Class: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
-  Class: 159 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45
+  Class: 212 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45 ld.tail ld.tail.angled ld.tail.skew30 ld.tail.skew45
   Class: 5 ng nk
   BClass: 24 a e o u i ea ae au eu oe
   BClass: 7 sh ch j
@@ -58322,7 +58322,7 @@ ChainSub2: class "Vowel After" 12 12 12 10
   BClass: 15 r l r.cut l.cut
   BClass: 3 t d
   BClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
-  BClass: 159 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45
+  BClass: 212 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45 ld.tail ld.tail.angled ld.tail.skew30 ld.tail.skew45
   BClass: 5 ng nk
   FClass: 24 a e o u i ea ae au eu oe
   FClass: 7 sh ch j
@@ -58333,7 +58333,7 @@ ChainSub2: class "Vowel After" 12 12 12 10
   FClass: 15 r l r.cut l.cut
   FClass: 3 t d
   FClass: 118 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45
-  FClass: 159 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45
+  FClass: 212 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45 jnt jnt.angled jnt.skew30 jnt.skew45 ld.tail ld.tail.angled ld.tail.skew30 ld.tail.skew45
   FClass: 5 ng nk
  1 1 0
   ClsList: 1
@@ -58399,10 +58399,15 @@ ChainSub2: class "Vowel After" 12 12 12 10
   BClassNames: "All_Others" "vowel" "ch" "f" "k" "n" "p" "r" "t" "tn" "nt" "ng"
   FClassNames: "All_Others" "vowel" "ch" "f" "k" "n" "p" "r" "t" "tn" "nt" "ng"
 EndFPST
-ChainSub2: glyph "Vowel Before Overrides" 0 0 0 10
+ChainSub2: glyph "Vowel Before Overrides" 0 0 0 12
  String: 1 a
  BString: 0 
  FString: 1 l
+ 1
+  SeqLookup: 0 "Before l"
+ String: 1 a
+ BString: 0 
+ FString: 7 ld.head
  1
   SeqLookup: 0 "Before l"
  String: 1 a
@@ -58423,6 +58428,11 @@ ChainSub2: glyph "Vowel Before Overrides" 0 0 0 10
  String: 1 o
  BString: 0 
  FString: 5 l.cut
+ 1
+  SeqLookup: 0 "Before l"
+ String: 1 o
+ BString: 0 
+ FString: 11 ld.head.cut
  1
   SeqLookup: 0 "Before l"
  String: 1 a
@@ -58458,7 +58468,7 @@ ChainSub2: class "Vowel Before" 12 1 12 10
   Class: 15 k g k.cut g.cut
   Class: 3 n m
   Class: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
-  Class: 15 r l r.cut l.cut
+  Class: 35 r l r.cut l.cut ld.head ld.head.cut
   Class: 3 t d
   Class: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   Class: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
@@ -58469,7 +58479,7 @@ ChainSub2: class "Vowel Before" 12 1 12 10
   FClass: 15 k g k.cut g.cut
   FClass: 3 n m
   FClass: 70 p b p.cut b.cut s.left s.left.cut jnt jnt.angled jnt.skew30 jnt.skew45
-  FClass: 15 r l r.cut l.cut
+  FClass: 35 r l r.cut l.cut ld.head ld.head.cut
   FClass: 3 t d
   FClass: 151 th.over th.over.angled th.over.skew30 th.over.skew45 tn tn.angled tn.skew30 tn.skew45 tm tm.angled tm.skew30 tm.skew45 df df.angled df.skew30 df.skew45
   FClass: 122 th.under th.under.angled th.under.skew30 th.under.skew45 nt nt.angled nt.skew30 nt.skew45 mt mt.angled mt.skew30 mt.skew45
@@ -58545,7 +58555,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 962 26 10
+WinInfo: 182 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144

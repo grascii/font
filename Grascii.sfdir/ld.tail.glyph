@@ -1,0 +1,18 @@
+StartChar: ld.tail
+Encoding: 376 -1 615
+Width: 736
+Flags: W
+AnchorPoint: "ing" 793 297 basechar 0
+AnchorPoint: "Join" 726 357 exit 0
+AnchorPoint: "Join" 10 0 entry 0
+LayerCount: 2
+Fore
+SplineSet
+10 0 m 0
+ 136 0 726 97 726 357 c 1024
+EndSplineSet
+Substitution2: "Skewed 45" ld.tail.skew45
+Substitution2: "Skewed 30" ld.tail.skew30
+Substitution2: "Angled" ld.tail.angled
+MultipleSubs2: "Start and End" _start ld.tail _end
+EndChar
