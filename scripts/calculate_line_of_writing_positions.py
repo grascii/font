@@ -85,6 +85,7 @@ TAIL_VARIANTS = {
     "jnt": ["jnt", "jnt.angled", "jnt.skew30", "jnt.skew45"],
     "u.fu": ["u.fu", "u.cut"],
     "u": ["u", "u.cut"],
+    "l": ["l", "ld.head"],
 }
 
 LOOKUP = "Line of Writing"
