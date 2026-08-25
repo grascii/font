@@ -1,3 +1,4 @@
+import math
 import sys
 
 import fontforge
@@ -25,7 +26,9 @@ for glyph in font.glyphs():
     if glyph.persistent is not None and glyph.persistent["no_stroke"]:
         no_stroke.append(glyph.glyphname)
     else:
-        glyph.stroke("circular", STROKE_WIDTH)
+        # With a circular nib, the angle does not matter in theory,
+        # but it makes a difference in practice
+        glyph.stroke("circular", STROKE_WIDTH, angle=math.pi/4)
         glyph.transform(psMat.translate(0, HALF_STROKE_WIDTH))
 
 

@@ -34,6 +34,7 @@ def import_base_model(data: None, glyph: fontforge.glyph):
 
     transformed = []
     pen = glyph.glyphPen()
+    anchors = glyph.anchorPoints
     start = paths[0].start
     for path in paths:
         path = path.translated(-start)
@@ -71,6 +72,11 @@ def import_base_model(data: None, glyph: fontforge.glyph):
     glyph.left_side_bearing = 0
 
     glyph.round()
+
+    # restore existing anchors
+    for anchor in anchors:
+        if anchor[0] != "Join":
+            glyph.addAnchorPoint(*anchor)
 
 
 fontforge.registerMenuItem(
