@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1787630993
+ModificationTime: 1787632208
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -77,6 +77,7 @@ Lookup: 2 0 0 "Right" { "Right"  } []
 Lookup: 2 0 0 "Left" { "Left"  } []
 Lookup: 1 0 0 "Over th" { "Over th"  } []
 Lookup: 1 0 0 "Under th" { "Under th"  } []
+Lookup: 1 0 0 "Side" { "Side"  } []
 Lookup: 1 0 0 "Unlock" { "Unlock"  } []
 Lookup: 1 0 0 "Fallback" { "Fallback"  } []
 Lookup: 1 0 0 "A/An" { "A/An"  } []
@@ -277,7 +278,7 @@ MarkAttachSets: 2
 "quoting" 22 quotesingle ing inging
 "end" 4 _end
 DEI: 91125
-ChainPos2: glyph "Line of Writing 5120" 0 0 0 566
+ChainPos2: glyph "Line of Writing 5120" 0 0 0 567
  String: 6 _start
  BString: 0 
  FString: 22 s.left u.cut i.uip jnt
@@ -5779,6 +5780,16 @@ ChainPos2: glyph "Line of Writing 5120" 0 0 0 566
   SeqLookup: 0 "Right 4"
   SeqLookup: 0 "Up 108"
   SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 6 o.side
+ 6
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 30"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 72"
+  SeqLookup: 0 "Up 30"
+  SeqLookup: 0 "Up 3"
 EndFPST
 ChainPos2: glyph "Line of Writing 4096" 0 0 0 1024
  String: 6 _start
@@ -61295,22 +61306,25 @@ ChainSub2: class "ss Direction" 6 6 6 6
   BClassNames: "All_Others" "ss" "left" "k" "circle" "p"
   FClassNames: "All_Others" "ss" "left" "k" "circle" "p"
 EndFPST
-ChainSub2: class "Annotated Directions" 6 6 6 6
+ChainSub2: class "Annotated Directions" 7 7 7 7
   Class: 4 s ss
   Class: 2 th
   Class: 10 parenright
   Class: 9 parenleft
   Class: 14 s.right s.left
+  Class: 1 o
   BClass: 4 s ss
   BClass: 2 th
   BClass: 10 parenright
   BClass: 9 parenleft
   BClass: 14 s.right s.left
+  BClass: 1 o
   FClass: 4 s ss
   FClass: 2 th
   FClass: 10 parenright
   FClass: 9 parenleft
   FClass: 14 s.right s.left
+  FClass: 1 o
  1 0 1
   ClsList: 1
   BClsList:
@@ -61349,9 +61363,16 @@ ChainSub2: class "Annotated Directions" 6 6 6 6
   FClsList:
  1
   SeqLookup: 0 "Delete"
-  ClassNames: "All_Others" "s" "th" "R" "L" "srl"
-  BClassNames: "All_Others" "s" "th" "R" "L" "srl"
-  FClassNames: "All_Others" "s" "th" "R" "L" "srl"
+ 2 0 0
+  ClsList: 6 4
+  BClsList:
+  FClsList:
+ 2
+  SeqLookup: 0 "Side"
+  SeqLookup: 1 "Delete"
+  ClassNames: "All_Others" "s" "th" "R" "L" "srl" "hook"
+  BClassNames: "All_Others" "s" "th" "R" "L" "srl" "hook"
+  FClassNames: "All_Others" "s" "th" "R" "L" "srl" "hook"
 EndFPST
 ChainSub2: class "Boundaries and Jogs" 2 3 3 3
   Class: 6 hyphen
@@ -62974,7 +62995,7 @@ ChainSub2: class "s Direction" 9 9 9 17
   Class: 26 k g f v sh ch j s.right df
   Class: 43 r l p b s.left th.under jnt ld.head ld.tail
   Class: 9 a e ea ae
-  Class: 24 n m t d ng nk o oe nt mt
+  Class: 31 n m t d ng nk o oe nt mt o.side
   Class: 1 u
   Class: 1 i
   Class: 5 tn tm
@@ -62982,7 +63003,7 @@ ChainSub2: class "s Direction" 9 9 9 17
   BClass: 26 k g f v sh ch j s.right df
   BClass: 43 r l p b s.left th.under jnt ld.head ld.tail
   BClass: 9 a e ea ae
-  BClass: 24 n m t d ng nk o oe nt mt
+  BClass: 31 n m t d ng nk o oe nt mt o.side
   BClass: 1 u
   BClass: 1 i
   BClass: 5 tn tm
@@ -62990,7 +63011,7 @@ ChainSub2: class "s Direction" 9 9 9 17
   FClass: 26 k g f v sh ch j s.right df
   FClass: 43 r l p b s.left th.under jnt ld.head ld.tail
   FClass: 9 a e ea ae
-  FClass: 24 n m t d ng nk o oe nt mt
+  FClass: 31 n m t d ng nk o oe nt mt o.side
   FClass: 1 u
   FClass: 1 i
   FClass: 5 tn tm
@@ -63448,7 +63469,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 520 26 10
+WinInfo: 104 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144

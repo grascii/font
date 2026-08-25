@@ -119,6 +119,7 @@ def calculate_line_of_writing_positions(font: fontforge.font):
             product(["U"], ["A", "E", "I"], DOWNWARD_CONSONANTS),
             product(["U"], ["A", "E", "I"]),
             VOWELS,
+            ["o("],
         ),
     )
 

@@ -3,6 +3,14 @@ from shape import shape
 
 
 @pytest.mark.parametrize("text,expected_glyphs", [
+    ("o(", ["o.side"]),
+    ("o(s", ["o.side", "s.left"]),
+])
+def test_o_side(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
     ("ok",   ["o.ok", "k"]),
     ("og",   ["o.ok", "g"]),
     ("or",   ["o.or", "r.cut"]),
