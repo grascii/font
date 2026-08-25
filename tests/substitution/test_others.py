@@ -45,6 +45,7 @@ def test_consonant_blends(font, text, expected_glyphs):
     ("dt", ["t", "d"]),
     ("dd", ["t", "d"]),
     ("ss", ["s.left", "s.right"]),
+    ("ld", ["ld.head", "ld.tail"]),
 ])
 def test_blended_consonants(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -69,6 +70,7 @@ def test_blended_consonants(font, text, expected_glyphs):
     ("pndn", ["jnt", "n"]),
     ("tnk", ["tn", "k"]),
     ("dng", ["tn", "g"]),
+    ("ldn", ["ld.head", "ld.tail", "n"]),
 ])
 def test_blended_consonants_priority(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -83,6 +85,7 @@ def test_blended_consonants_priority(font, text, expected_glyphs):
     ("t-v", ["t", "boundary", "v"]),
     ("j-nt", ["j", "boundary", "nt"]),
     ("pn-t", ["p", "n", "boundary", "t"]),
+    ("l-d", ["l", "boundary", "d"]),
 ])
 def test_boundary(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -174,9 +177,7 @@ def test_inging(font, text, expected_glyphs):
     ("U", ["u"]),
     ("V", ["v"]),
     ("W", ["w"]),
-    ("X", ["x"]),
     ("Y", ["y"]),
-    ("Z", ["z"]),
 ])
 def test_lowercase(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
@@ -200,4 +201,14 @@ def test_grascii(font):
     ("na_", ["n", "a.na", "wunderbar"]),
 ])
 def test_wunderbar(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("z", ["s.right"]),
+    ("x", ["s.right"]),
+    ("Z", ["s.right"]),
+    ("X", ["s.right"]),
+])
+def test_aliases(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs

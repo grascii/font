@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1787630147
+ModificationTime: 1787630993
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -48,6 +48,7 @@ Lookup: 4 0 0 "Multichar strokes" { "ch sh th"  "Diphthongs"  } ['rlig' ('DFLT' 
 Lookup: 6 0 0 "Blended Consonants Overrides" { "Blended Consonants Overrides"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Blended Consonants" { "Blended Consonants"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 2 0 0 "Blended Consonant Decomposition" { "Blended Consonant Decomposition"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 2 0 0 "Aliases" { "Aliases"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Boundaries and Jogs" { "Boundaries and Jogs"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 8 0 "Wunderbars" { "Wunderbars"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Annotated Directions" { "Annotated Directions"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
