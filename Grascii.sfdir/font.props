@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1787633304
+ModificationTime: 1787637013
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -66,6 +66,7 @@ Lookup: 6 8 0 "Vowel Between" { "Between Overrides 1"  "Between Overrides 2"  "B
 Lookup: 6 8 0 "Vowel Before/After" { "Vowel Before Overrides"  "Vowel Before"  "Vowel After Overrides"  "Vowel After"  "Vowel After u"  "Unlock Vowel"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 5 0 0 "Vowel Fallback" { "Vowel Fallback"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 2 0 0 "Diphthong Decomposition" { "Decompose"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 8 0 "Consonant Joinings 2" { "r Joinings"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Final Substitutions" { "Final Substitutions"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Sound" { "Sound"  } []
 Lookup: 1 0 0 "Ing" { "Ing"  } []
@@ -278,6 +279,13 @@ MarkAttachSets: 2
 "quoting" 22 quotesingle ing inging
 "end" 4 _end
 DEI: 91125
+ChainSub2: coverage "r Joinings" 0 0 0 1
+ 1 1 0
+  Coverage: 3 r l
+  BCoverage: 3 f v
+ 1
+  SeqLookup: 0 "After f"
+EndFPST
 ChainSub2: coverage "f Joinings 6" 0 0 0 1
  1 1 0
   Coverage: 3 f v

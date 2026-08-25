@@ -1,0 +1,16 @@
+StartChar: l.fl
+Encoding: 283 -1 625
+Width: 835
+VWidth: 1147
+Flags: W
+AnchorPoint: "Join" 825 147 exit 0
+AnchorPoint: "Join" 48 147 entry 0
+LayerCount: 2
+Fore
+SplineSet
+48 147 m 0
+ -13 94 8 58 48 35 c 0
+ 90 11 152 0 223 0 c 0
+ 439 -1 631 87 825 147 c 1024
+EndSplineSet
+EndChar
