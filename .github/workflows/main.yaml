@@ -28,7 +28,7 @@ jobs:
         key: fontforge-${{ env.FONTFORGE_COMMIT }}-python-${{ env.PYTHON_VERSION }}
         path: fontforge
     - name: Install fontforge
-      if: steps.cache-fontforge.outputs.cache-hit != 'true'
+      # if: steps.cache-fontforge.outputs.cache-hit != 'true'
       run: |
         sudo apt-get update
         sudo apt-get -qy --no-install-recommends install \
@@ -47,6 +47,7 @@ jobs:
         mkdir build
         cd build
         cmake -G Ninja \
+          -D BUILD_SHARED_LIBS=OFF \
           -D CMAKE_INSTALL_PREFIX="$PWD/target" \
           -D ENABLE_DOCS=OFF \
           -D ENABLE_GUI=OFF \
