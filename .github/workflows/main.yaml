@@ -27,7 +27,7 @@ jobs:
       with:
         key: fontforge-${{ env.FONTFORGE_COMMIT }}-python-${{ env.PYTHON_VERSION }}
         path: fontforge
-    - name: Install fontforge
+    - name: Build fontforge
       if: steps.cache-fontforge.outputs.cache-hit != 'true'
       run: |
         sudo apt-get update
@@ -74,10 +74,19 @@ jobs:
           libharfbuzz0b \
           libwoff1 \
         ;
+    - name: Cache virtual environment
+      id: cache-env
+      uses: actions/cache@v6
+      with:
+        key: python-${{ env.PYTHON_VERSION }}-${{ hashFiles('requirements.txt') }}
+        path: env
     - name: Create virtual environment
+      if: steps.cache-env.outputs.cache-hit != 'true'
       run: make env
     - name: Run tests
       run: make FONT_FORGE=./fontforge/build/target/bin/fontforge test
+    - name: Install Grascii tools
+      run: make FONT_FORGE=./fontforge/build/target/bin/fontforge install-tools
     - name: Build fonts
       run: make FONT_FORGE=./fontforge/build/target/bin/fontforge build
     - name: Upload artifacts
