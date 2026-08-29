@@ -1,0 +1,16 @@
+FONTLOG for the Grascii font
+
+This file provides detailed information on the Grascii Font Software.
+This information should be distributed along with the Grascii fonts
+and any derivative works.
+
+Basic Font Information
+
+Grascii is a typeface for Gregg Shorthand that uses the Latin script.
+
+Documentation and source code can be found at: https://github.com/grascii/font
+
+ChangeLog
+
+d mmm yyyy Grascii Version 0.070
+- Initial release

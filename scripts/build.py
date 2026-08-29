@@ -1,6 +1,8 @@
 import math
 import sys
 
+from pathlib import Path
+
 import fontforge
 import psMat
 
@@ -38,6 +40,15 @@ for glyph in font.glyphs():
 
 
 print("Did not stroke", no_stroke)
+
+font_dir = Path(sys.argv[1]).parent
+license = font_dir.joinpath("OFL.txt").read_text()
+copyright = license[0:license.find("\n")]
+font.copyright = copyright
+sfnt_names = list(font.sfnt_names)
+sfnt_names.append(("English (US)", "License", license))
+font.sfnt_names = tuple(sfnt_names)
+font.fontlog = font_dir.joinpath("FONTLOG.txt").read_text()
 
 font.generate(sys.argv[2])
 font.save(sys.argv[3])
