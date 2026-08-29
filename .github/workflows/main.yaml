@@ -72,7 +72,7 @@ jobs:
         sudo apt-get -qy --no-install-recommends install \
           libfreetype6 \
           libharfbuzz0b \
-          libwoff \
+          libwoff1 \
         ;
     - name: Create virtual environment
       run: make env
