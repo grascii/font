@@ -67,5 +67,5 @@ jobs:
     - name: Create virtual environment
       run: make env
     - name: Run tests
-      run: make test
+      run: make FONT_FORGE=./fontforge/build/target/bin/fontforge test
 
