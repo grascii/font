@@ -21,14 +21,14 @@ jobs:
       uses: actions/setup-python@v7
       with:
         python-version: ${{ env.PYTHON_VERSION }}
-    # - name: Cache fontforge
-    #   id: cache-fontforge
-    #   uses: actions/cache@v6
-    #   with:
-    #     key: fontforge-${{ env.FONTFORGE_COMMIT }}-python-${{ env.PYTHON_VERSION }}
-    #     path: fontforge
+    - name: Cache fontforge
+      id: cache-fontforge
+      uses: actions/cache@v6
+      with:
+        key: fontforge-${{ env.FONTFORGE_COMMIT }}-python-${{ env.PYTHON_VERSION }}
+        path: fontforge
     - name: Install fontforge
-      # if: steps.cache-fontforge.outputs.cache-hit != 'true'
+      if: steps.cache-fontforge.outputs.cache-hit != 'true'
       run: |
         sudo apt-get update
         sudo apt-get -qy --no-install-recommends install \
@@ -65,6 +65,15 @@ jobs:
         ;
         ninja
         sudo ninja install
+    - name: Install fontforge runtime dependencies
+      if: steps.cache-fontforge.outputs.cache-hit == 'true'
+      run: |
+        sudo apt-get update
+        sudo apt-get -qy --no-install-recommends install \
+          libfreetype6 \
+          libharfbuzz0b \
+          libwoff \
+        ;
     - name: Create virtual environment
       run: make env
     - name: Run tests
