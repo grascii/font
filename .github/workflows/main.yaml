@@ -35,6 +35,7 @@ jobs:
           build-essential \
           cmake \
           libfreetype6-dev \
+          libwoff-dev \
           ninja-build \
           python${{ env.PYTHON_VERSION }}-dev \
         ;
