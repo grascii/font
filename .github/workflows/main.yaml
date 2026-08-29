@@ -11,8 +11,8 @@ env:
   PYTHON_VERSION: 3.12
 
 jobs:
-  test:
-    name: Run Tests
+  build:
+    name: Test and Build
     runs-on: ubuntu-24.04
     steps:
     - name: Checkout
@@ -68,4 +68,10 @@ jobs:
       run: make env
     - name: Run tests
       run: make FONT_FORGE=./fontforge/build/target/bin/fontforge test
-
+    - name: Build fonts
+      run: make FONT_FORGE=./fontforge/build/target/bin/fontforge build
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v7
+      with:
+        name: fonts
+        path: build/*
