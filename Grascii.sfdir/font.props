@@ -1,11 +1,10 @@
 SplineFontDB: 3.2
-FontName: Grascii
-FullName: Grascii
+FontName: Grascii-Regular
+FullName: Grascii Regular
 FamilyName: Grascii
 Weight: Regular
 Copyright: Copyright (c) 2026, Grascii: Language and Tools for Gregg Shorthand
-UComments: "2025-5-9: Created with FontForge (http://fontforge.org)"
-Version: 001.000
+Version: 0.070
 StrokeWidth: 10
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -23,9 +22,9 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1787637013
-PfmFamily: 17
-TTFWeight: 700
+ModificationTime: 1787976462
+PfmFamily: 65
+TTFWeight: 400
 TTFWidth: 5
 LineGap: 90
 VLineGap: 0
@@ -42,7 +41,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
-OS2Vendor: 'PfEd'
+OS2Vendor: 'GRAS'
 Lookup: 1 0 0 "Lowercase" { "Lowercase"  } [' RQD' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Multichar strokes" { "ch sh th"  "Diphthongs"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Blended Consonants Overrides" { "Blended Consonants Overrides"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -63484,7 +63483,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 104 26 10
+WinInfo: 0 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
