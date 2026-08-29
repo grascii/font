@@ -49,14 +49,13 @@ jobs:
           -D CMAKE_INSTALL_PREFIX="$PWD/target" \
           -D ENABLE_DOCS=OFF \
           -D ENABLE_GUI=OFF \
-          -D ENABLE_HARFFBUZZ=OFF \
+          -D ENABLE_HARFBUZZ=OFF \
           -D ENABLE_LIBGIF=OFF \
           -D ENABLE_LIBJPEG=OFF \
           -D ENABLE_LIBPNG=OFF \
           -D ENABLE_LIBREADLINE=OFF \
           -D ENABLE_LIBSPIRO=OFF \
           -D ENABLE_LIBTIFF=OFF \
-          -D ENABLE_LIBUNINAMESLIST=OFF \
           -D ENABLE_NATIVE_SCRIPTING=OFF \
           -D ENABLE_PYTHON_EXTENSION=ON \
           -D ENABLE_PYTHON_SCRIPTING=ON \
