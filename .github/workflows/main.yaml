@@ -87,7 +87,7 @@ jobs:
     - name: Run tests
       run: make FONT_FORGE=./fontforge/build/target/bin/fontforge test
     - name: Install Grascii tools
-      run: make FONT_FORGE=./fontforge/build/target/bin/fontforge install-tools
+      run: sudo make FONT_FORGE=./fontforge/build/target/bin/fontforge install-tools
     - name: Build fonts
       run: make FONT_FORGE=./fontforge/build/target/bin/fontforge build
     - name: Upload artifacts
