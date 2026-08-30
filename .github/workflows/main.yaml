@@ -49,7 +49,6 @@ jobs:
         mkdir build
         cd build
         cmake -G Ninja \
-          -D BUILD_SHARED_LIBS=OFF \
           -D CMAKE_INSTALL_PREFIX="$PWD/target" \
           -D ENABLE_DOCS=OFF \
           -D ENABLE_GUI=OFF \
