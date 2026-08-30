@@ -5,6 +5,8 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+  release:
+    types: [published]
 
 env:
   FONTFORGE_COMMIT: 0bb1a2b28929059447d21869be8b098500798eb2
@@ -94,3 +96,21 @@ jobs:
       with:
         name: fonts
         path: build/*
+
+  release:
+    name: Upload release assets
+    if: github.ref_type == 'tag'
+    needs:
+    - build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Download the fonts
+      uses: actions/download-artifact@v5
+      with:
+        name: fonts
+        path: build/
+    - name: Upload files to release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        file_glob: true
+        file: build/*
