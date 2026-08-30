@@ -1,0 +1,115 @@
+name: Main
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  release:
+    types: [published]
+
+env:
+  FONTFORGE_COMMIT: 0bb1a2b28929059447d21869be8b098500798eb2
+  PYTHON_VERSION: 3.12
+
+jobs:
+  build:
+    name: Test and Build
+    runs-on: ubuntu-24.04
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v7
+    - name: Set up Python ${{ env.PYTHON_VERSION }}
+      uses: actions/setup-python@v7
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+    - name: Cache fontforge
+      id: cache-fontforge
+      uses: actions/cache@v6
+      with:
+        key: fontforge-${{ env.FONTFORGE_COMMIT }}-python-${{ env.PYTHON_VERSION }}
+        path: fontforge
+    - name: Build fontforge
+      if: steps.cache-fontforge.outputs.cache-hit != 'true'
+      run: |
+        sudo apt-get update
+        sudo apt-get -qy --no-install-recommends install \
+          build-essential \
+          cmake \
+          libfreetype6-dev \
+          libharfbuzz-dev \
+          libwoff-dev \
+          ninja-build \
+          python${{ env.PYTHON_VERSION }}-dev \
+        ;
+        curl -Lo fontforge.zip https://github.com/fontforge/fontforge/archive/${{ env.FONTFORGE_COMMIT }}.zip
+        unzip fontforge.zip
+        mv fontforge-${{ env.FONTFORGE_COMMIT }} fontforge
+        cd fontforge
+        mkdir build
+        cd build
+        cmake -G Ninja \
+          -D CMAKE_INSTALL_PREFIX="$PWD/target" \
+          -D ENABLE_DOCS=OFF \
+          -D ENABLE_GUI=OFF \
+          -D ENABLE_LIBGIF=OFF \
+          -D ENABLE_LIBJPEG=OFF \
+          -D ENABLE_LIBPNG=OFF \
+          -D ENABLE_LIBREADLINE=OFF \
+          -D ENABLE_LIBSPIRO=OFF \
+          -D ENABLE_LIBTIFF=OFF \
+          -D ENABLE_NATIVE_SCRIPTING=OFF \
+          -D ENABLE_PYTHON_EXTENSION=ON \
+          -D ENABLE_PYTHON_SCRIPTING=ON \
+          -D ENABLE_WOFF2=ON \
+          .. \
+        ;
+        ninja
+        sudo ninja install
+    - name: Install fontforge runtime dependencies
+      if: steps.cache-fontforge.outputs.cache-hit == 'true'
+      run: |
+        sudo apt-get update
+        sudo apt-get -qy --no-install-recommends install \
+          libfreetype6 \
+          libharfbuzz0b \
+          libwoff1 \
+        ;
+    - name: Cache virtual environment
+      id: cache-env
+      uses: actions/cache@v6
+      with:
+        key: python-${{ env.PYTHON_VERSION }}-${{ hashFiles('requirements.txt') }}
+        path: env
+    - name: Create virtual environment
+      if: steps.cache-env.outputs.cache-hit != 'true'
+      run: make env
+    - name: Run tests
+      run: make FONT_FORGE=./fontforge/build/target/bin/fontforge test
+    - name: Install Grascii tools
+      run: sudo make FONT_FORGE=./fontforge/build/target/bin/fontforge install-tools
+    - name: Build fonts
+      run: make FONT_FORGE=./fontforge/build/target/bin/fontforge build
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v7
+      with:
+        name: fonts
+        path: build/*
+
+  release:
+    name: Upload release assets
+    if: github.ref_type == 'tag'
+    needs:
+    - build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Download the fonts
+      uses: actions/download-artifact@v8
+      with:
+        name: fonts
+        path: build/
+    - name: Upload files to release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        file_glob: true
+        file: build/*
