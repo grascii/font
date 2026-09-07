@@ -6,6 +6,11 @@ from pathlib import Path
 import fontforge
 import psMat
 
+version = sys.version_info
+site.addsitedir(Path(__file__).joinpath(
+    f"../../env/lib/python{version.major}.{version.minor}/site-packages/"
+))
+
 from calculate_line_of_writing_positions import calculate_line_of_writing_positions
 
 
