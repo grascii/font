@@ -127,7 +127,7 @@ better, install the newest version of the font.
 reports of the same issue.
 
 If this is not a known issue, create a [new
-issue](https://github.com/grascii/font/issues/new).
+issue](https://github.com/grascii/font/issues/new?template=wrong.yaml).
 
 ### What are the core design principles of the font?
 
