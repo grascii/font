@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1746848514
-ModificationTime: 1788927714
+ModificationTime: 1788928624
 PfmFamily: 65
 TTFWeight: 400
 TTFWidth: 5
@@ -289,7 +289,7 @@ EndFPST
 ChainSub2: coverage "r Joinings" 0 0 0 1
  1 1 0
   Coverage: 3 r l
-  BCoverage: 3 f v
+  BCoverage: 36 f v df df.angled df.skew30 df.skew45
  1
   SeqLookup: 0 "After f"
 EndFPST
@@ -63491,7 +63491,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 26 10
+WinInfo: 130 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
