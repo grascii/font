@@ -87,7 +87,7 @@ jobs:
     - name: Run tests
       run: make FONT_FORGE=./fontforge/build/target/bin/fontforge test
     - name: Build fonts
-      run: make FONT_FORGE=./fontforge/build/target/bin/fontforge build
+      run: make FONT_FORGE=./fontforge/build/target/bin/fontforge
     - name: Upload artifacts
       uses: actions/upload-artifact@v7
       with:

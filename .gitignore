@@ -2,3 +2,4 @@ __pycache__/
 env/
 *.AppImage
 build/
+pages/assets/fonts/Grascii*

@@ -72,7 +72,7 @@ $ make test
 ## Building
 
 ```sh
-$ make build
+$ make
 ```
 
 The build process creates the `build/` directory and outputs the font in three
