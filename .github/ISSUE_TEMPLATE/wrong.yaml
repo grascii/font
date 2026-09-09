@@ -1,0 +1,118 @@
+name: Something doesn't look right
+description: Report text that doesn't look right when rendered as shorthand by the font
+title: \"[TEXT]\" doesn't look right
+type: bug
+body:
+- type: checkboxes
+  id: prerequisites
+  attributes:
+    label: Prerequisites
+    options:
+    - label: I have read the [User Guide](https://github.com/grascii/font/blob/main/docs/UserGuide.md).
+      required: true
+    - label: I have read [Why doesn't this look right?](https://github.com/grascii/font/blob/main/docs/FAQ.md#why-doesnt-this-look-right).
+      required: true
+
+- type: markdown
+  attributes:
+    value: "## Problem Text"
+- type: input
+  id: text
+  attributes:
+    label: Text
+    description: What text doesn't look right when rendered as shorthand by the font?
+  validations:
+    required: true
+- type: markdown
+  attributes:
+    value: Replace `[TEXT]` in the title with the same value you entered in the above field.
+- type: input
+  id: representation
+  attributes:
+    label: Representation
+    description: |
+      What is the word or phrase that the text represents?
+      You may leave this empty if the text does not represent an actual word or phrase, but such issues will be considered lower priority.
+- type: dropdown
+  id: edition
+  attributes:
+    label: Edition
+    description: Which edition of Gregg Shorthand is the text and its representation based on?
+    options:
+    - Preanniversary
+    - Anniversary
+    - Simplified
+    - Diamond Jubilee
+    - Series 90
+    - Centennial
+
+- type: markdown
+  attributes:
+    value: "## Actual"
+- type: markdown
+  attributes:
+    value: Please complete **at least one** of the next two fields.
+- type: upload
+  id: bad-image
+  attributes:
+    label: Upload Bad Image
+    description: Upload an image showing the incorrectly rendered shorthand.
+- type: textarea
+  id: bad-description
+  attributes:
+    label: What's wrong?
+    description: Describe what is wrong with the rendered shorthand.
+
+- type: markdown
+  attributes:
+    value: "## Expected"
+- type: markdown
+  attributes:
+    value: |
+      Please complete **at least one** of the next two fields.
+
+      Tip: [Grascii Search](https://huggingface.co/spaces/grascii/search) and [halplatt's site](https://halplatt.github.io/GreggDictionary) are helpful tools for finding reference shorthand images.
+- type: upload
+  id: good-image
+  attributes:
+    label: Upload Good Image
+    description: Upload an image showing what the rendered shorthand should look like.
+- type: textarea
+  id: good-description
+  attributes:
+    label: What should it look like?
+    description: Describe how the rendered shorthand should look.
+
+- type: markdown
+  attributes:
+    value: "## Environment"
+- type: input
+  id: version
+  attributes:
+    label: Font Version
+    description: |
+      What version of the font are you using? If you are using a version
+      downloaded from the Releases page, enter the version associated with
+      the release like "0.070". If you are using an intermediate version,
+      enter the commit from which the font was built.
+  validations:
+    reqired: true
+- type: input
+  id: os
+  attributes:
+    label: Operating System
+    description: What operating system are you using?
+- type: input
+  id: application
+  attributes:
+    label: Application
+    description: What application are you using with the font?
+
+- type: markdown
+  attributes:
+    value: "## Other"
+- type: textarea
+  id: other
+  attributes:
+    label: Additional details
+    description: Add any other details here.
