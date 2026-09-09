@@ -17,7 +17,7 @@ serve: pages
 
 clean:
 	rm -rf build/
-	rm -f demo/assets/fonts/Grascii-Regular*
+	rm -f pages/assets/fonts/Grascii*
 
 calculate-line-of-writing: scripts/calculate_line_of_writing_positions.py Grascii.sfdir
 	$(FONT_FORGE) --quiet -script $(CWD)/scripts/calculate_line_of_writing_positions.py $(CWD)/Grascii.sfdir
