@@ -1,6 +1,7 @@
 name: Something doesn't look right
 description: Report text that doesn't look right when rendered as shorthand by the font
-title: \"[TEXT]\" doesn't look right
+title: >
+  [TEXT] doesn't look right
 type: bug
 body:
 - type: checkboxes
@@ -96,7 +97,7 @@ body:
       the release like "0.070". If you are using an intermediate version,
       enter the commit from which the font was built.
   validations:
-    reqired: true
+    required: true
 - type: input
   id: os
   attributes:
