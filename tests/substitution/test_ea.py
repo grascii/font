@@ -1,6 +1,14 @@
 import pytest
 from shape import shape
 
+
+@pytest.mark.parametrize("text,expected_glyphs", [
+    ("a&'", ["a", "eadot"]),
+])
+def test_ea(font, text, expected_glyphs):
+    assert shape(text, font) == expected_glyphs
+
+
 @pytest.mark.parametrize("text,expected_glyphs", [
     ("ka&'", ["k", "a.ka", "eadot"]),
     ("ga&'", ["g", "a.ka", "eadot"]),
