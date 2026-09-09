@@ -87,12 +87,49 @@ jobs:
     - name: Run tests
       run: make FONT_FORGE=./fontforge/build/target/bin/fontforge test
     - name: Build fonts
-      run: make FONT_FORGE=./fontforge/build/target/bin/fontforge build
+      run: make FONT_FORGE=./fontforge/build/target/bin/fontforge
     - name: Upload artifacts
       uses: actions/upload-artifact@v7
       with:
         name: fonts
         path: build/*
+
+  pages:
+    name: Make pages
+    needs:
+    - build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v7
+    - name: Download the fonts
+      uses: actions/download-artifact@v8
+      with:
+        name: fonts
+        path: build/
+    - name: Build pages
+      run: make pages
+    - name: Upload Artifact
+      uses: actions/upload-pages-artifact@v5
+      with:
+        path: pages
+
+  deploy:
+    name: Deploy pages
+    if: github.ref == 'refs/heads/main'
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs:
+    - pages
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v5
 
   release:
     name: Upload release assets
