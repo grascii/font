@@ -24,6 +24,8 @@ def test_multichar_ligatures(font, text, expected_glyphs):
     ("fl", ["f", "l.fl"]),
     ("vr", ["v", "r.fr"]),
     ("vl", ["v", "l.fl"]),
+    ("dfr", ["df", "r.fr"]),
+    ("dfl", ["df", "l.fl"]),
 ])
 def test_consonant_blends(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
