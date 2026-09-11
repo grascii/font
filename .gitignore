@@ -3,3 +3,4 @@ env/
 *.AppImage
 build/
 pages/assets/fonts/Grascii*
+pages/demo/commit.txt
