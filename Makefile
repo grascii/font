@@ -11,6 +11,7 @@ build/%: scripts/build.py Grascii.sfdir
 
 pages: build/Grascii-Regular.woff2
 	cp build/Grascii-Regular.woff2 pages/assets/fonts
+	git rev-parse HEAD > pages/demo/commit.txt
 
 serve: pages
 	python -m http.server --bind 127.0.0.1 --directory pages
@@ -18,6 +19,7 @@ serve: pages
 clean:
 	rm -rf build/
 	rm -f pages/assets/fonts/Grascii*
+	rm -f pages/demo/commit.txt
 
 calculate-line-of-writing: scripts/calculate_line_of_writing_positions.py Grascii.sfdir
 	$(FONT_FORGE) --quiet -script $(CWD)/scripts/calculate_line_of_writing_positions.py $(CWD)/Grascii.sfdir

@@ -31,3 +31,16 @@ scaleInput.oninput = (e) => {
   grasciiTextArea.style.fontSize = `${3 * e.target.value}rem`;
   grasciiTextArea.style.lineHeight = `${3 * e.target.value}rem`;
 }
+
+fetch("./commit.txt").then(res => {
+  if (!res.ok) {
+    throw new Error(`Bad status: ${res.status}`);
+  } else {
+    return res.text();
+  }
+}).then(commit => {
+  const footer = document.getElementsByTagName("footer")[0];
+  footer.innerHTML = `Grascii font built from commit <a href="https://github.com/grascii/font/commit/${commit}">${commit.substring(0, 7)}</a>`;
+}).catch(err => {
+  console.warn("Failed to fetch build info", err);
+})

@@ -21,6 +21,12 @@
   padding: 1rem;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 2rem);
+}
+
 header {
   text-align: center;
 }
@@ -43,6 +49,8 @@ em {
 main {
   display: flex;
   justify-content: center;
+  align-items: start;
+  flex-grow: 1;
 }
 
 #reference {
@@ -107,6 +115,11 @@ textarea {
 
 #raw-text {
   padding-top: 2rem;
+}
+
+footer {
+  text-align: center;
+  color: gray;
 }
 
 @media (width < 42rem) {
