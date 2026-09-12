@@ -119,9 +119,10 @@ Preanniversary or Anniversary Gregg Shorthand dictionaries.
 
 Check if this is a known issue:
 
-1. Type the bad text into the demo site. The demo has the bleeding edge version
-of the font and there is a chance the issue may already be fixed. If it looks
-better, install the newest version of the font.
+1. Type the bad text into the [demo
+   site](https://grascii.github.io/font/demo/). The demo has the bleeding edge
+version of the font and there is a chance the issue may already be fixed. If it
+looks better, install the newest version of the font.
 2. Check [Issues](https://github.com/grascii/font/issues) and
    [Discussions](https://github.com/grascii/font/discussions) for existing
 reports of the same issue.

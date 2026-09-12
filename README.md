@@ -9,6 +9,8 @@ handwritten shorthand forms. The font leverages the Latin character set and the
 [Grascii Language](https://grascii.readthedocs.io/en/stable/language.html) to
 enable the efficient digital composition of Gregg Shorthand.
 
+Check out the [demo](https://grascii.github.io/font/demo/)!
+
 > [!NOTE]
 > The development of a Gregg Shorthand font is [years in the
 > making](./docs/History.md) and still ongoing. Currently the font is
