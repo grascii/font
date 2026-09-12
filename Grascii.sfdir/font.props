@@ -278,29 +278,7 @@ MarkAttachSets: 2
 "quoting" 22 quotesingle ing inging
 "end" 4 _end
 DEI: 91125
-ContextSub2: coverage "Vowel Fallback Overrides" 0 0 0 1
- 3 0 0
-  Coverage: 6 _start
-  Coverage: 2 ea
-  Coverage: 4 _end
- 1
-  SeqLookup: 1 "Diphthong Decomposition"
-EndFPST
-ChainSub2: coverage "r Joinings" 0 0 0 1
- 1 1 0
-  Coverage: 3 r l
-  BCoverage: 36 f v df df.angled df.skew30 df.skew45
- 1
-  SeqLookup: 0 "After f"
-EndFPST
-ChainSub2: coverage "f Joinings 6" 0 0 0 1
- 1 1 0
-  Coverage: 3 f v
-  BCoverage: 3 k g
- 1
-  SeqLookup: 0 "Cut Consonant"
-EndFPST
-ChainPos2: glyph "Line of Writing 5120" 0 0 0 567
+ChainPos2: glyph "Line of Writing 5120" 0 0 0 615
  String: 6 _start
  BString: 0 
  FString: 22 s.left u.cut i.uip jnt
@@ -5450,6 +5428,480 @@ ChainPos2: glyph "Line of Writing 5120" 0 0 0 567
   SeqLookup: 0 "Up 432"
   SeqLookup: 0 "Up 6"
   SeqLookup: 0 "Up 1"
+ String: 6 _start
+ BString: 0 
+ FString: 16 u o.chop p.cut r
+ 7
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 6"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 144"
+  SeqLookup: 0 "Up 18"
+  SeqLookup: 0 "Up 3"
+ String: 6 _start
+ BString: 0 
+ FString: 16 u o.chop p.cut l
+ 6
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 6"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 432"
+  SeqLookup: 0 "Up 18"
+  SeqLookup: 0 "Up 3"
+ String: 6 _start
+ BString: 0 
+ FString: 22 u o.chop p.cut ld.head
+ 6
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 6"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 432"
+  SeqLookup: 0 "Up 18"
+  SeqLookup: 0 "Up 3"
+ String: 6 _start
+ BString: 0 
+ FString: 16 u o.chop b.cut r
+ 8
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 30"
+  SeqLookup: 0 "Right 2"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 36"
+  SeqLookup: 0 "Up 6"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 16 u o.chop b.cut l
+ 8
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 30"
+  SeqLookup: 0 "Right 2"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 6"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 22 u o.chop b.cut ld.head
+ 8
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 30"
+  SeqLookup: 0 "Right 2"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 6"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 10 u o.chop p
+ 6
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 6"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 144"
+  SeqLookup: 0 "Up 4"
+ String: 6 _start
+ BString: 0 
+ FString: 14 u o.chop p.cut
+ 6
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 6"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 72"
+  SeqLookup: 0 "Up 18"
+ String: 6 _start
+ BString: 0 
+ FString: 10 u o.chop b
+ 8
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 30"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 72"
+  SeqLookup: 0 "Up 6"
+  SeqLookup: 0 "Up 1"
+ String: 6 _start
+ BString: 0 
+ FString: 14 u o.chop b.cut
+ 7
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 30"
+  SeqLookup: 0 "Right 2"
+  SeqLookup: 0 "Up 432"
+  SeqLookup: 0 "Up 180"
+  SeqLookup: 0 "Up 5"
+ String: 6 _start
+ BString: 0 
+ FString: 5 u o f
+ 5
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 144"
+  SeqLookup: 0 "Up 4"
+ String: 6 _start
+ BString: 0 
+ FString: 5 u o v
+ 8
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 36"
+  SeqLookup: 0 "Right 30"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 72"
+  SeqLookup: 0 "Up 6"
+  SeqLookup: 0 "Up 1"
+ String: 6 _start
+ BString: 0 
+ FString: 6 u o sh
+ 3
+  SeqLookup: 0 "Up 180"
+  SeqLookup: 0 "Up 24"
+  SeqLookup: 0 "Up 4"
+ String: 6 _start
+ BString: 0 
+ FString: 6 u o ch
+ 5
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 144"
+  SeqLookup: 0 "Up 4"
+ String: 6 _start
+ BString: 0 
+ FString: 5 u o j
+ 8
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 36"
+  SeqLookup: 0 "Right 30"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 72"
+  SeqLookup: 0 "Up 6"
+  SeqLookup: 0 "Up 1"
+ String: 6 _start
+ BString: 0 
+ FString: 6 u o ng
+ 3
+  SeqLookup: 0 "Up 72"
+  SeqLookup: 0 "Up 30"
+  SeqLookup: 0 "Up 3"
+ String: 6 _start
+ BString: 0 
+ FString: 6 u o nk
+ 3
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 12"
+  SeqLookup: 0 "Up 4"
+ String: 6 _start
+ BString: 0 
+ FString: 11 u o s.right
+ 2
+  SeqLookup: 0 "Up 144"
+  SeqLookup: 0 "Up 12"
+ String: 6 _start
+ BString: 0 
+ FString: 15 u o.chop s.left
+ 2
+  SeqLookup: 0 "Up 144"
+  SeqLookup: 0 "Up 12"
+ String: 6 _start
+ BString: 0 
+ FString: 19 u o.chop s.left.cut
+ 3
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 18"
+  SeqLookup: 0 "Up 1"
+ String: 6 _start
+ BString: 0 
+ FString: 12 u o.chop jnt
+ 7
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 6"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 144"
+  SeqLookup: 0 "Up 18"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 19 u o.chop jnt.angled
+ 7
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 6"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 144"
+  SeqLookup: 0 "Up 18"
+  SeqLookup: 0 "Up 1"
+ String: 6 _start
+ BString: 0 
+ FString: 19 u o.chop jnt.skew30
+ 7
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 6"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 144"
+  SeqLookup: 0 "Up 12"
+  SeqLookup: 0 "Up 4"
+ String: 6 _start
+ BString: 0 
+ FString: 19 u o.chop jnt.skew45
+ 7
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 6"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 144"
+  SeqLookup: 0 "Up 12"
+  SeqLookup: 0 "Up 3"
+ String: 6 _start
+ BString: 0 
+ FString: 14 u u.up p.cut r
+ 7
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 180"
+  SeqLookup: 0 "Up 12"
+  SeqLookup: 0 "Up 5"
+ String: 6 _start
+ BString: 0 
+ FString: 14 u u.up p.cut l
+ 7
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 432"
+  SeqLookup: 0 "Up 36"
+  SeqLookup: 0 "Up 12"
+  SeqLookup: 0 "Up 5"
+ String: 6 _start
+ BString: 0 
+ FString: 20 u u.up p.cut ld.head
+ 7
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 432"
+  SeqLookup: 0 "Up 36"
+  SeqLookup: 0 "Up 12"
+  SeqLookup: 0 "Up 5"
+ String: 6 _start
+ BString: 0 
+ FString: 14 u u.up b.cut r
+ 6
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 180"
+  SeqLookup: 0 "Right 2"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 72"
+  SeqLookup: 0 "Up 4"
+ String: 6 _start
+ BString: 0 
+ FString: 14 u u.up b.cut l
+ 6
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 180"
+  SeqLookup: 0 "Right 2"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 144"
+  SeqLookup: 0 "Up 4"
+ String: 6 _start
+ BString: 0 
+ FString: 20 u u.up b.cut ld.head
+ 6
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 180"
+  SeqLookup: 0 "Right 2"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 144"
+  SeqLookup: 0 "Up 4"
+ String: 6 _start
+ BString: 0 
+ FString: 8 u u.up p
+ 5
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 180"
+ String: 6 _start
+ BString: 0 
+ FString: 12 u u.up p.cut
+ 7
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 12"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 8 u u.up b
+ 6
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 180"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 3"
+ String: 6 _start
+ BString: 0 
+ FString: 12 u u.up b.cut
+ 5
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 180"
+  SeqLookup: 0 "Right 2"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 1"
+ String: 6 _start
+ BString: 0 
+ FString: 8 u u.uf f
+ 7
+  SeqLookup: 0 "Right 108"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 1"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 72"
+  SeqLookup: 0 "Up 18"
+  SeqLookup: 0 "Up 5"
+ String: 6 _start
+ BString: 0 
+ FString: 8 u u.uf v
+ 7
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 108"
+  SeqLookup: 0 "Right 6"
+  SeqLookup: 0 "Right 1"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 24"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 6 u u sh
+ 5
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 180"
+  SeqLookup: 0 "Up 24"
+  SeqLookup: 0 "Up 4"
+ String: 6 _start
+ BString: 0 
+ FString: 6 u u ch
+ 6
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 30"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 144"
+  SeqLookup: 0 "Up 4"
+ String: 6 _start
+ BString: 0 
+ FString: 5 u u j
+ 8
+  SeqLookup: 0 "Right 216"
+  SeqLookup: 0 "Right 72"
+  SeqLookup: 0 "Right 24"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 648"
+  SeqLookup: 0 "Up 72"
+  SeqLookup: 0 "Up 6"
+  SeqLookup: 0 "Up 1"
+ String: 6 _start
+ BString: 0 
+ FString: 6 u u ng
+ 3
+  SeqLookup: 0 "Up 36"
+  SeqLookup: 0 "Up 24"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 6 u u nk
+ 3
+  SeqLookup: 0 "Up 108"
+  SeqLookup: 0 "Up 12"
+  SeqLookup: 0 "Up 4"
+ String: 6 _start
+ BString: 0 
+ FString: 14 u u.uf s.right
+ 4
+  SeqLookup: 0 "Right 1"
+  SeqLookup: 0 "Up 72"
+  SeqLookup: 0 "Up 30"
+  SeqLookup: 0 "Up 1"
+ String: 6 _start
+ BString: 0 
+ FString: 13 u u.up s.left
+ 5
+  SeqLookup: 0 "Right 18"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 180"
+  SeqLookup: 0 "Up 6"
+  SeqLookup: 0 "Up 2"
+ String: 6 _start
+ BString: 0 
+ FString: 17 u u.up s.left.cut
+ 5
+  SeqLookup: 0 "Right 18"
+  SeqLookup: 0 "Right 4"
+  SeqLookup: 0 "Up 144"
+  SeqLookup: 0 "Up 12"
+  SeqLookup: 0 "Up 3"
+ String: 6 _start
+ BString: 0 
+ FString: 10 u u.up jnt
+ 7
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 180"
+  SeqLookup: 0 "Up 12"
+  SeqLookup: 0 "Up 4"
+ String: 6 _start
+ BString: 0 
+ FString: 17 u u.up jnt.angled
+ 7
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 180"
+  SeqLookup: 0 "Up 12"
+  SeqLookup: 0 "Up 3"
+ String: 6 _start
+ BString: 0 
+ FString: 17 u u.up jnt.skew30
+ 6
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 180"
+  SeqLookup: 0 "Up 12"
+ String: 6 _start
+ BString: 0 
+ FString: 17 u u.up jnt.skew45
+ 7
+  SeqLookup: 0 "Right 144"
+  SeqLookup: 0 "Right 12"
+  SeqLookup: 0 "Right 3"
+  SeqLookup: 0 "Up 216"
+  SeqLookup: 0 "Up 180"
+  SeqLookup: 0 "Up 6"
+  SeqLookup: 0 "Up 5"
  String: 6 _start
  BString: 0 
  FString: 19 u.cut i.uip p.cut r
@@ -61222,6 +61674,28 @@ ChainPos2: glyph "Line of Writing 0" 0 0 0 1024
   SeqLookup: 0 "Up 72"
   SeqLookup: 0 "Up 24"
   SeqLookup: 0 "Up 2"
+EndFPST
+ContextSub2: coverage "Vowel Fallback Overrides" 0 0 0 1
+ 3 0 0
+  Coverage: 6 _start
+  Coverage: 2 ea
+  Coverage: 4 _end
+ 1
+  SeqLookup: 1 "Diphthong Decomposition"
+EndFPST
+ChainSub2: coverage "r Joinings" 0 0 0 1
+ 1 1 0
+  Coverage: 3 r l
+  BCoverage: 36 f v df df.angled df.skew30 df.skew45
+ 1
+  SeqLookup: 0 "After f"
+EndFPST
+ChainSub2: coverage "f Joinings 6" 0 0 0 1
+ 1 1 0
+  Coverage: 3 f v
+  BCoverage: 3 k g
+ 1
+  SeqLookup: 0 "Cut Consonant"
 EndFPST
 ChainSub2: coverage "Wunderbars" 0 0 0 1
  1 1 0
