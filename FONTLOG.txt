@@ -12,5 +12,5 @@ Documentation and source code can be found at: https://github.com/grascii/font
 
 ChangeLog
 
-d mmm yyyy Grascii Version 0.070
+12 Sep 2026 Grascii Version 0.070
 - Initial release
