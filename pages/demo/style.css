@@ -114,7 +114,8 @@ textarea {
 }
 
 #raw-text {
-  padding-top: 2rem;
+  padding-top: 1.75rem;
+  font-size: 0.75rem;
 }
 
 footer {

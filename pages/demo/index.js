@@ -11,7 +11,7 @@ if (initialText) {
 
 function updateUrl(grascii) {
   const url = new URL(window.location);
-  url.search = new URLSearchParams([["grascii", grascii]]);
+  url.search = new URLSearchParams({ grascii });
   window.history.replaceState(null, "", url);
 }
 
@@ -26,7 +26,7 @@ grasciiTextArea.oninput = (e) => {
 }
 
 scaleInput.oninput = (e) => {
-  rawTextArea.style.fontSize = `${e.target.value}rem`;
+  rawTextArea.style.fontSize = `${0.75 * e.target.value}rem`;
   rawTextArea.style.lineHeight = `${3 * e.target.value}rem`;
   grasciiTextArea.style.fontSize = `${3 * e.target.value}rem`;
   grasciiTextArea.style.lineHeight = `${3 * e.target.value}rem`;
