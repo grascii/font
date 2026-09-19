@@ -9,7 +9,7 @@ on:
     types: [published]
 
 env:
-  FONTFORGE_COMMIT: 0bb1a2b28929059447d21869be8b098500798eb2
+  FONTFORGE_COMMIT: bcf453ac349246e395aab9a451f47baac520b3cf
   PYTHON_VERSION: 3.12
 
 jobs:
@@ -37,7 +37,6 @@ jobs:
           build-essential \
           cmake \
           libfreetype6-dev \
-          libharfbuzz-dev \
           libwoff-dev \
           ninja-build \
           python${{ env.PYTHON_VERSION }}-dev \
@@ -52,6 +51,7 @@ jobs:
           -D CMAKE_INSTALL_PREFIX="$PWD/target" \
           -D ENABLE_DOCS=OFF \
           -D ENABLE_GUI=OFF \
+          -D ENABLE_HARFBUZZ=OFF \
           -D ENABLE_LIBGIF=OFF \
           -D ENABLE_LIBJPEG=OFF \
           -D ENABLE_LIBPNG=OFF \
