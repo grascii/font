@@ -9,7 +9,7 @@ on:
     types: [published]
 
 env:
-  FONTFORGE_COMMIT: bcf453ac349246e395aab9a451f47baac520b3cf
+  FONTFORGE_COMMIT: 9b38f284466dd15aee88835bb3ddba3ad934e6e7
   PYTHON_VERSION: 3.12
 
 jobs:
