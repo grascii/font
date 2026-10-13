@@ -3,8 +3,8 @@ Encoding: 598 -1 123
 Width: 303
 VWidth: 1164
 Flags: W
-AnchorPoint: "Join" 293.018 164.609 exit 0
 AnchorPoint: "Join" 293.018 164.609 entry 0
+AnchorPoint: "Join" 293.018 164.609 exit 0
 LayerCount: 2
 Fore
 Refer: 92 -1 N -1 1.22465e-16 -1.22465e-16 -1 303.017 164.609 2

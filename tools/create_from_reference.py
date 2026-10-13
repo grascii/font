@@ -13,9 +13,11 @@ def compose(*mats: tuple[float, float, float, float, float, float]):
 flip_vertical = psMat.scale(1, -1)
 flip_horizontal = psMat.scale(-1, 1)
 
+
 class Transformation(TypedDict):
     matrix: tuple[float, float, float, float, float, float]
     reverse: bool
+
 
 transformations: dict[str, Transformation] = {
     "Identity": {
@@ -56,15 +58,13 @@ transformations: dict[str, Transformation] = {
     },
     "Skew 30 Rotate 30": {
         "matrix": compose(
-             psMat.skew(math.radians(30)),
-             psMat.rotate(math.radians(-30))
+            psMat.skew(math.radians(30)), psMat.rotate(math.radians(-30))
         ),
         "reverse": False,
     },
     "Skew 30 Rotate 40": {
         "matrix": compose(
-             psMat.skew(math.radians(30)),
-             psMat.rotate(math.radians(-40))
+            psMat.skew(math.radians(30)), psMat.rotate(math.radians(-40))
         ),
         "reverse": False,
     },
@@ -95,14 +95,18 @@ def create_from_reference(data: None, glyph: fontforge.glyph):
             {
                 "type": "choice",
                 "question": "transformation",
-                "answers": list({"name": t, "default": t == "Identity"} for t in transformations.keys())
+                "answers": [
+                    {"name": t, "default": t == "Identity"} for t in transformations
+                ],
             },
             {
                 "type": "choice",
                 "question": "transformation2",
-                "answers": list({"name": t, "default": t == "Identity"} for t in transformations.keys())
+                "answers": [
+                    {"name": t, "default": t == "Identity"} for t in transformations
+                ],
             },
-        ]
+        ],
     )
 
     if not answers:
@@ -139,7 +143,7 @@ def create_from_reference(data: None, glyph: fontforge.glyph):
     glyph.left_side_bearing = 0
     glyph.right_side_bearing = 0
 
-    (xmin, ymin, xmax, ymax) = glyph.boundingBox()
+    (_xmin, ymin, _xmax, _ymax) = glyph.boundingBox()
     if ymin < 0:
         glyph.transform(psMat.translate(0, -ymin - glyph.font.strokewidth))
 
@@ -147,5 +151,5 @@ def create_from_reference(data: None, glyph: fontforge.glyph):
 fontforge.registerMenuItem(
     callback=create_from_reference,
     context="Glyph",
-    name=("Create from Reference", "grascii_create_from_reference")
+    name=("Create from Reference", "grascii_create_from_reference"),
 )

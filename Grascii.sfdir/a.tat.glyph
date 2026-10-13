@@ -2,9 +2,9 @@ StartChar: a.tat
 Encoding: 549 -1 109
 Width: 169
 Flags: W
-AnchorPoint: "aedot" 80 53 basechar 0
-AnchorPoint: "Join" 62.4375 97.04 exit 0
 AnchorPoint: "Join" 62.4375 97.04 entry 0
+AnchorPoint: "Join" 62.4375 97.04 exit 0
+AnchorPoint: "aedot" 80 53 basechar 0
 LayerCount: 2
 Fore
 Refer: 99 -1 N 0.866025 0.5 -0.5 0.866025 30.1293 -29 2

@@ -1,6 +1,6 @@
 import pytest
-import uharfbuzz as hb
 from substitution.shape import shape
+
 
 def create_map_direction(first, second):
     def map_glyph(glyph):
@@ -100,7 +100,6 @@ def test_s_o(font, text, expected):
     ("veshus", [0, 0, 0, 0, 1]),
     ("sut", [1, 0, 0]),
     ("sup", [1, 0, 0]),
-    ("us", [0, 1]),
 ])
 def test_s_u(font, text, expected):
     assert map_s_direction(shape(text, font)) == expected

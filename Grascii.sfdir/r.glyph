@@ -3,17 +3,17 @@ Encoding: 114 114 8
 Width: 440
 VWidth: 1075
 Flags: W
-AnchorPoint: "ing" 400 3 basechar 0
-AnchorPoint: "aspirate" 53 120 basechar 0
-AnchorPoint: "Join" 430 76 exit 0
 AnchorPoint: "Join" 10 76 entry 0
+AnchorPoint: "Join" 430 76 exit 0
+AnchorPoint: "aspirate" 53 120 basechar 0
+AnchorPoint: "ing" 400 3 basechar 0
 LayerCount: 2
 Fore
 SplineSet
 10 76 m 0
  14 -66 288 27 430 76 c 1024
 EndSplineSet
+Substitution2: "Cut Consonant" r.cut
 MultipleSubs2: "After f" r.fr
 MultipleSubs2: "Start and End" _start r _end
-Substitution2: "Cut Consonant" r.cut
 EndChar

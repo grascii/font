@@ -2,8 +2,8 @@ StartChar: a.nang
 Encoding: 527 -1 104
 Width: 183
 Flags: W
-AnchorPoint: "Join" 70 0 exit 0
 AnchorPoint: "Join" 70 0 entry 0
+AnchorPoint: "Join" 70 0 exit 0
 LayerCount: 2
 Fore
 SplineSet

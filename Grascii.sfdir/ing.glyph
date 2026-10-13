@@ -2,8 +2,8 @@ StartChar: ing
 Encoding: 359 -1 571
 Width: 0
 Flags: W
-AnchorPoint: "inging" 120 20 basemark 0
 AnchorPoint: "ing" 20 20 mark 0
+AnchorPoint: "inging" 120 20 basemark 0
 LayerCount: 2
 Fore
 SplineSet

@@ -4,17 +4,17 @@ Width: 230
 VWidth: 1363
 GlyphClass: 2
 Flags: W
-AnchorPoint: "ing" 95 0 basechar 0
-AnchorPoint: "aspirate" 164 380 basechar 0
-AnchorPoint: "Join" 10 0 exit 0
 AnchorPoint: "Join" 220 364 entry 0
+AnchorPoint: "Join" 10 0 exit 0
+AnchorPoint: "aspirate" 164 380 basechar 0
+AnchorPoint: "ing" 95 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
 220 364 m 0
  10 0 l 1024
 EndSplineSet
-MultipleSubs2: "Start and End" _start ch _end
-Ligature2: "ch sh th" c h
 LCarets2: 1 0
+Ligature2: "ch sh th" c h
+MultipleSubs2: "Start and End" _start ch _end
 EndChar

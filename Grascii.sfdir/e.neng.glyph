@@ -2,8 +2,8 @@ StartChar: e.neng
 Encoding: 865 -1 191
 Width: 95
 Flags: W
-AnchorPoint: "Join" 47 0 exit 0
 AnchorPoint: "Join" 47 0 entry 0
+AnchorPoint: "Join" 47 0 exit 0
 LayerCount: 2
 Fore
 SplineSet

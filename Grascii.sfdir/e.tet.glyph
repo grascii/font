@@ -2,10 +2,10 @@ StartChar: e.tet
 Encoding: 887 -1 504
 Width: 108
 Flags: W
-AnchorPoint: "sound" 56 -60 basechar 0
-AnchorPoint: "aspirate" 47 137 basechar 0
-AnchorPoint: "Join" 40.7783 74.0332 exit 0
 AnchorPoint: "Join" 40.7783 74.0332 entry 0
+AnchorPoint: "Join" 40.7783 74.0332 exit 0
+AnchorPoint: "aspirate" 47 137 basechar 0
+AnchorPoint: "sound" 56 -60 basechar 0
 LayerCount: 2
 Fore
 Refer: 502 -1 N 0.866025 0.5 -0.5 0.866025 16.5491 0 2

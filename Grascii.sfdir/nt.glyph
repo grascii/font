@@ -4,18 +4,18 @@ Width: 463
 VWidth: 1310
 GlyphClass: 2
 Flags: W
-AnchorPoint: "ing" 505 248 basechar 0
-AnchorPoint: "aspirate" 40 60 basechar 0
-AnchorPoint: "Join" 453.25 310.5 exit 0
 AnchorPoint: "Join" 10 0 entry 0
+AnchorPoint: "Join" 453.25 310.5 exit 0
+AnchorPoint: "aspirate" 40 60 basechar 0
+AnchorPoint: "ing" 505 248 basechar 0
 LayerCount: 2
 Fore
 Refer: 463 -1 N -1 1.22465e-16 -1.22465e-16 -1 463.25 310.5 2
-MultipleSubs2: "Start and End" _start nt _end
-Ligature2: "Blended Consonants" n t
-Ligature2: "Blended Consonants" n d
-Substitution2: "Skewed 30" nt.skew30
-Substitution2: "Angled" nt.angled
-Substitution2: "Skewed 45" nt.skew45
 LCarets2: 1 0
+Ligature2: "Blended Consonants" n d
+Ligature2: "Blended Consonants" n t
+Substitution2: "Angled" nt.angled
+Substitution2: "Skewed 30" nt.skew30
+Substitution2: "Skewed 45" nt.skew45
+MultipleSubs2: "Start and End" _start nt _end
 EndChar

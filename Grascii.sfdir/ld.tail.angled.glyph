@@ -2,8 +2,8 @@ StartChar: ld.tail.angled
 Encoding: 377 -1 616
 Width: 736
 Flags: W
-AnchorPoint: "Join" 726 357 exit 0
 AnchorPoint: "Join" 10 0 entry 0
+AnchorPoint: "Join" 726 357 exit 0
 LayerCount: 2
 Fore
 SplineSet

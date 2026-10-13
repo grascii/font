@@ -2,9 +2,9 @@ StartChar: a.al
 Encoding: 419 -1 32
 Width: 292
 Flags: W
-AnchorPoint: "aspirate" 147 333 basechar 0
-AnchorPoint: "Join" 10 139 exit 0
 AnchorPoint: "Join" 147 0 entry 0
+AnchorPoint: "Join" 10 139 exit 0
+AnchorPoint: "aspirate" 147 333 basechar 0
 LayerCount: 2
 Fore
 SplineSet

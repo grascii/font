@@ -1,7 +1,6 @@
+import site
 import sys
 from pathlib import Path
-import site
-
 
 version = sys.version_info
 site.addsitedir(Path(__file__).joinpath(

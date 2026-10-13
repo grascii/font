@@ -1,7 +1,12 @@
 import fontforge
 import psMat
-from svgpathtools import Document, SVG_GROUP_TAG, SVG_NAMESPACE, Line, CubicBezier, QuadraticBezier
-
+from svgpathtools import (
+    SVG_GROUP_TAG,
+    SVG_NAMESPACE,
+    CubicBezier,
+    Document,
+    Line,
+)
 
 DEFAULT_MODEL_ID = "model"
 
@@ -54,11 +59,13 @@ def import_base_model(data: None, glyph: fontforge.glyph):
                     (segment.end.real, -segment.end.imag),
                 )
             else:
-                raise Exception(f"Base model contains an unsupported path segment of type {type(segment)}")
+                raise TypeError(
+                    f"Base model contains an unsupported path segment of type {type(segment)}"
+                )
 
     contour.draw(pen)
 
-    (xmin, ymin, xmax, ymax) = bbox(transformed)
+    (_xmin, ymin, _xmax, ymax) = bbox(transformed)
 
     glyph.addAnchorPoint("Join", "entry", contour[0].x, contour[0].y)
     glyph.addAnchorPoint("Join", "exit", contour[-1].x, contour[-1].y)
@@ -82,5 +89,5 @@ def import_base_model(data: None, glyph: fontforge.glyph):
 fontforge.registerMenuItem(
     callback=import_base_model,
     context="Glyph",
-    name=("Import Grascii Base Model", "grascii_import_base_model")
+    name=("Import Grascii Base Model", "grascii_import_base_model"),
 )

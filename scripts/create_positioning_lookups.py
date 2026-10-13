@@ -1,3 +1,5 @@
+import sys
+
 import fontforge
 
 font = fontforge.open(sys.argv[1])
@@ -10,7 +12,7 @@ last_lookup = "Ing Ing Positioning"
 start_glyph = font["_start"]
 
 for exp in range(digits):
-    increment = base ** exp
+    increment = base**exp
     for i in range(1, base):
         amount = increment * i
         name = f"Right {amount}"
@@ -21,7 +23,7 @@ for exp in range(digits):
 
 
 for exp in range(digits):
-    increment = base ** exp
+    increment = base**exp
     for i in range(1, base):
         amount = increment * i
         name = f"Up {amount}"

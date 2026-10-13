@@ -3,8 +3,8 @@ Encoding: 1192 -1 259
 Width: 185
 VWidth: 1105
 Flags: W
-AnchorPoint: "Join" 175 105 exit 0
 AnchorPoint: "Join" 40 105 entry 0
+AnchorPoint: "Join" 175 105 exit 0
 LayerCount: 2
 Fore
 SplineSet

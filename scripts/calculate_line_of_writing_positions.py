@@ -1,9 +1,10 @@
 import os
-import re
+import sys
 import tempfile
+from itertools import chain, product
+
 import fontforge
 import uharfbuzz as hb
-from itertools import chain, product
 
 
 def shape(text, font):
@@ -101,9 +102,9 @@ def calculate_line_of_writing_positions(font: fontforge.font):
     os.remove(tmp_path)
 
     rules = {}
-    texts = map(
-        lambda t: "".join(t),
-        chain(
+    texts = (
+        "".join(t)
+        for t in chain(
             # put more specific rules first so they take precedence
             product(VOWELS, S, VOWELS, DOWNWARD_CONSONANTS),
             product(S, VOWELS, DOWNWARD_CONSONANTS),
@@ -120,7 +121,7 @@ def calculate_line_of_writing_positions(font: fontforge.font):
             product(["U"], ["A", "E", "I"]),
             VOWELS,
             ["o("],
-        ),
+        )
     )
 
     for text in texts:
@@ -140,22 +141,20 @@ def calculate_line_of_writing_positions(font: fontforge.font):
             for glyph_name in glyphs:
                 glyph = font[glyph_name]
                 for anchor in glyph.anchorPoints:
-                    if anchor[0] == "Join":
-                        if anchor[1] == "entry":
-                            entry_x = anchor[2]
-                            entry_y = anchor[3]
+                    if anchor[0] == "Join" and anchor[1] == "entry":
+                        entry_x = anchor[2]
+                        entry_y = anchor[3]
 
-                xmin, ymin, xmax, ymax = glyph.boundingBox()
+                xmin, ymin, _xmax, _ymax = glyph.boundingBox()
                 x_adjustment += max(0, round(entry_x - xmin - exit_x))
                 y_adjustment += max(
                     0, round(entry_y - ymin - exit_y - font.strokewidth)
                 )
 
                 for anchor in glyph.anchorPoints:
-                    if anchor[0] == "Join":
-                        if anchor[1] == "exit":
-                            exit_x = anchor[2]
-                            exit_y = anchor[3]
+                    if anchor[0] == "Join" and anchor[1] == "exit":
+                        exit_x = anchor[2]
+                        exit_y = anchor[3]
 
             x_adjustment -= font.strokewidth
             assert x_adjustment >= 0 and y_adjustment >= 0
