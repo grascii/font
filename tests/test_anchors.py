@@ -1,5 +1,5 @@
-import pytest
 import fontforge
+import pytest
 
 
 def has_anchor(glyph: fontforge.glyph, anchor_name, kind="base"):
@@ -85,7 +85,6 @@ def has_anchor(glyph: fontforge.glyph, anchor_name, kind="base"):
     "e.ep",
     "e.ef",
     "e.esR",
-    "e.ep",
     "e.ech",
     "e.ethO",
     "e.ethU",
@@ -252,7 +251,6 @@ def test_aspirate_anchors(ffont: fontforge.font, glyph_name):
     "u.fu",
     "u.tnu",
     "u.ngu",
-    "u.tnu",
     "i",
     "i.ki",
     "i.ri",

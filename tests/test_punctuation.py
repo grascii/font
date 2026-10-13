@@ -1,5 +1,6 @@
-import pytest
 import fontforge
+import pytest
+
 
 @pytest.mark.parametrize("glyph_name", [
     "period",

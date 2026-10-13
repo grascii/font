@@ -2,9 +2,9 @@ StartChar: eu.aspirate
 Encoding: 1862 -1 567
 Width: 0
 Flags: W
-AnchorPoint: "Join" 0 0 exit 0
 AnchorPoint: "Join" 0 0 entry 0
+AnchorPoint: "Join" 0 0 exit 0
 LayerCount: 2
-MultipleSubs2: "Aspirate Swap B" eu aspirate
 Ligature2: "Aspirate Swap A" quotesingle eu
+MultipleSubs2: "Aspirate Swap B" eu aspirate
 EndChar

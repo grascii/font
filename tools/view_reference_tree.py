@@ -1,5 +1,6 @@
 import fontforge
 
+
 def view_reference_tree(data: None, font: fontforge.font):
     try:
         selected = next(iter(font.selection.byGlyphs))
@@ -24,5 +25,5 @@ def view_reference_tree(data: None, font: fontforge.font):
 fontforge.registerMenuItem(
     callback=view_reference_tree,
     context="Font",
-    name=("View Reference Tree", "grascii_view_reference_tree")
+    name=("View Reference Tree", "grascii_view_reference_tree"),
 )

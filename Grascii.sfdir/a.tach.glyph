@@ -2,9 +2,9 @@ StartChar: a.tach
 Encoding: 552 -1 112
 Width: 187
 Flags: W
-AnchorPoint: "aedot" 127 100 basechar 0
-AnchorPoint: "Join" 10 0 exit 0
 AnchorPoint: "Join" 10 0 entry 0
+AnchorPoint: "Join" 10 0 exit 0
+AnchorPoint: "aedot" 127 100 basechar 0
 LayerCount: 2
 Fore
 SplineSet

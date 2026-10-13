@@ -3,10 +3,10 @@ Encoding: 108 108 4
 Width: 860
 VWidth: 1147
 Flags: W
-AnchorPoint: "ing" 820 72 basechar 0
-AnchorPoint: "aspirate" 80 207 basechar 0
-AnchorPoint: "Join" 850 147 exit 0
 AnchorPoint: "Join" 10 147 entry 0
+AnchorPoint: "Join" 850 147 exit 0
+AnchorPoint: "aspirate" 80 207 basechar 0
+AnchorPoint: "ing" 820 72 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14,7 +14,7 @@ SplineSet
  9 39 107 1 247 0 c 0
  463 -1 656 87 850 147 c 1024
 EndSplineSet
+Substitution2: "Cut Consonant" l.cut
 MultipleSubs2: "After f" l.fl
 MultipleSubs2: "Start and End" _start l _end
-Substitution2: "Cut Consonant" l.cut
 EndChar

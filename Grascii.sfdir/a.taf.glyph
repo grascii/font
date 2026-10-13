@@ -2,8 +2,8 @@ StartChar: a.taf
 Encoding: 551 -1 111
 Width: 173
 Flags: W
-AnchorPoint: "Join" 10 0 exit 0
 AnchorPoint: "Join" 10 0 entry 0
+AnchorPoint: "Join" 10 0 exit 0
 LayerCount: 2
 Fore
 SplineSet

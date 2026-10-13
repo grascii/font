@@ -3,16 +3,16 @@ Encoding: 548 -1 108
 Width: 226
 VWidth: 1139
 Flags: W
-AnchorPoint: "sound" 169 -84 basechar 0
-AnchorPoint: "aedot" 107 67 basechar 0
-AnchorPoint: "Join" 145 0 exit 0
 AnchorPoint: "Join" 145 0 entry 0
+AnchorPoint: "Join" 145 0 exit 0
+AnchorPoint: "aedot" 107 67 basechar 0
+AnchorPoint: "sound" 169 -84 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-145 0 m 4
- 230 49 229 114 197 129 c 4
- 118 167 -15 97 14 39 c 4
- 36 -6 62 0 145 0 c 1028
+145 0 m 0
+ 230 49 229 114 197 129 c 0
+ 118 167 -15 97 14 39 c 0
+ 36 -6 62 0 145 0 c 1024
 EndSplineSet
 EndChar

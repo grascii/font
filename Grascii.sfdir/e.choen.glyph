@@ -2,8 +2,8 @@ StartChar: e.choen
 Encoding: 1763 -1 458
 Width: 115
 Flags: W
-AnchorPoint: "Join" 52 0 exit 0
 AnchorPoint: "Join" 52 0 entry 0
+AnchorPoint: "Join" 52 0 exit 0
 LayerCount: 2
 Fore
 SplineSet

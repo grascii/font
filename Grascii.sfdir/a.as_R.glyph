@@ -2,9 +2,9 @@ StartChar: a.asR
 Encoding: 427 -1 63
 Width: 111
 Flags: W
-AnchorPoint: "aspirate" 53 167 basechar 0
-AnchorPoint: "Join" 101 108 exit 0
 AnchorPoint: "Join" 64 0 entry 0
+AnchorPoint: "Join" 101 108 exit 0
+AnchorPoint: "aspirate" 53 167 basechar 0
 LayerCount: 2
 Fore
 SplineSet

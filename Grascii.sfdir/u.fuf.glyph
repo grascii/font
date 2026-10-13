@@ -2,8 +2,8 @@ StartChar: u.fuf
 Encoding: 1294 -1 283
 Width: 107
 Flags: W
-AnchorPoint: "Join" 97 40 exit 0
 AnchorPoint: "Join" 10 0 entry 0
+AnchorPoint: "Join" 97 40 exit 0
 LayerCount: 2
 Fore
 SplineSet

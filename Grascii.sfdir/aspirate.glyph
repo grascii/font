@@ -6,11 +6,11 @@ AnchorPoint: "aspirate" 20 20 mark 0
 LayerCount: 2
 Fore
 SplineSet
-0 20 m 4
- 0 31 9 40 20 40 c 4
- 31 40 40 31 40 20 c 4
- 40 9 31 0 20 0 c 4
- 9 0 0 9 0 20 c 4
+0 20 m 0
+ 0 31 9 40 20 40 c 0
+ 31 40 40 31 40 20 c 0
+ 40 9 31 0 20 0 c 0
+ 9 0 0 9 0 20 c 0
 EndSplineSet
 PickledData: "(dp0
 Vno_stroke

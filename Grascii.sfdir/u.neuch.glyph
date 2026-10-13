@@ -2,8 +2,8 @@ StartChar: u.neuch
 Encoding: 1661 -1 409
 Width: 207
 Flags: W
-AnchorPoint: "Join" 185 2 exit 0
 AnchorPoint: "Join" 10 0 entry 0
+AnchorPoint: "Join" 185 2 exit 0
 LayerCount: 2
 Fore
 SplineSet

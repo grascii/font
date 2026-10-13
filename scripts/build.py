@@ -1,18 +1,19 @@
 import math
+import site
 import sys
-
 from pathlib import Path
 
 import fontforge
 import psMat
 
 version = sys.version_info
-site.addsitedir(Path(__file__).joinpath(
-    f"../../env/lib/python{version.major}.{version.minor}/site-packages/"
-))
+site.addsitedir(
+    Path(__file__).joinpath(
+        f"../../env/lib/python{version.major}.{version.minor}/site-packages/"
+    )
+)
 
 from calculate_line_of_writing_positions import calculate_line_of_writing_positions
-
 
 STROKE_WIDTH = 24
 HALF_STROKE_WIDTH = STROKE_WIDTH // 2
@@ -35,9 +36,8 @@ for glyph in font.glyphs():
     else:
         # With a circular nib, the angle does not matter in theory,
         # but it makes a difference in practice
-        glyph.stroke("circular", STROKE_WIDTH, angle=math.pi/4)
+        glyph.stroke("circular", STROKE_WIDTH, angle=math.pi / 4)
         glyph.transform(psMat.translate(0, HALF_STROKE_WIDTH))
-
 
     if glyph.anchorPoints:
         glyph.left_side_bearing = 0
@@ -48,7 +48,7 @@ print("Did not stroke", no_stroke)
 
 font_dir = Path(sys.argv[1]).parent
 license = font_dir.joinpath("OFL.txt").read_text()
-copyright = license[0:license.find("\n")]
+copyright = license[0 : license.find("\n")]
 font.copyright = copyright
 sfnt_names = list(font.sfnt_names)
 sfnt_names.append(("English (US)", "License", license))

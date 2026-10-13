@@ -2,8 +2,8 @@ StartChar: e.noep
 Encoding: 1745 -1 440
 Width: 181
 Flags: W
-AnchorPoint: "Join" 48 53 exit 0
 AnchorPoint: "Join" 10 0 entry 0
+AnchorPoint: "Join" 48 53 exit 0
 LayerCount: 2
 Fore
 SplineSet

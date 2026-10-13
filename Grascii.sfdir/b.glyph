@@ -3,13 +3,13 @@ Encoding: 98 98 14
 Width: 506
 VWidth: 1128
 Flags: W
-AnchorPoint: "ing" 135 -25 basechar 0
-AnchorPoint: "aspirate" 407 747 basechar 0
-AnchorPoint: "Join" 75.6201 0 exit 0
 AnchorPoint: "Join" 495.62 727.462 entry 0
+AnchorPoint: "Join" 75.6201 0 exit 0
+AnchorPoint: "aspirate" 407 747 basechar 0
+AnchorPoint: "ing" 135 -25 basechar 0
 LayerCount: 2
 Fore
 Refer: 4 108 N 0.5 0.866025 0.866025 -0.5 -56.6859 64.8398 2
-MultipleSubs2: "Start and End" _start b _end
 Substitution2: "Cut Consonant" b.cut
+MultipleSubs2: "Start and End" _start b _end
 EndChar

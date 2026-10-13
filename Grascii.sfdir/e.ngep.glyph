@@ -3,9 +3,9 @@ Encoding: 992 -1 228
 Width: 125
 VWidth: 1049
 Flags: W
-AnchorPoint: "sound" 87 -60 basechar 0
-AnchorPoint: "Join" 10 6.83301 exit 0
 AnchorPoint: "Join" 10 6.83301 entry 0
+AnchorPoint: "Join" 10 6.83301 exit 0
+AnchorPoint: "sound" 87 -60 basechar 0
 LayerCount: 2
 Fore
 Refer: 215 -1 N -1 1.22465e-16 -1.22465e-16 -1 125 49.8334 2

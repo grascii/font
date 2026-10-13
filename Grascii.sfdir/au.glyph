@@ -2,49 +2,49 @@ StartChar: au
 Encoding: 306 -1 361
 Width: 0
 Flags: W
-AnchorPoint: "Join" 0 0 exit 0
 AnchorPoint: "Join" 0 0 entry 0
+AnchorPoint: "Join" 0 0 exit 0
 LayerCount: 2
-MultipleSubs2: "Start and End" _start au _end
-MultipleSubs2: "Between f t" a.fau u.fau
-MultipleSubs2: "Between nt t" a.tau u.tau
-MultipleSubs2: "Between nt n" a.tau u.tau
-MultipleSubs2: "Between p tn" a.pau u.au
+LCarets2: 1 0
+Ligature2: "Diphthongs" a u
+MultipleSubs2: "After ch" a.chau u.au
+MultipleSubs2: "After f" a.fau u.fau
+MultipleSubs2: "After k" a.kau u.kau
+MultipleSubs2: "After n" a.nau u.nau
 MultipleSubs2: "After nt" a.tau u.tau
-MultipleSubs2: "Between ch t" a.chau u.au
+MultipleSubs2: "After p" a.pau u.au
+MultipleSubs2: "After r" a.rau u.rau
+MultipleSubs2: "After t" a.tau u.tau
+MultipleSubs2: "After tn" a.tnau u.tnau
+MultipleSubs2: "Before ch" a.auch u.auch
+MultipleSubs2: "Before r" a.au u.aur
 MultipleSubs2: "Between ch r" a.chau u.aur
+MultipleSubs2: "Between ch t" a.chau u.au
 MultipleSubs2: "Between f ch" a.fau u.fauch
 MultipleSubs2: "Between f r" a.fau u.faur
-MultipleSubs2: "Between p ch" a.pau u.auch
-MultipleSubs2: "Between p f" a.pau u.au
-MultipleSubs2: "Between p t" a.pau u.au
-MultipleSubs2: "Between p r" a.pau u.aur
-MultipleSubs2: "Between t tn" a.tau u.tau
-MultipleSubs2: "Between t ch" a.tau u.tauch
-MultipleSubs2: "Between t f" a.tau u.tau
-MultipleSubs2: "Between t t" a.tau u.tau
-MultipleSubs2: "Between t r" a.tau u.taur
-MultipleSubs2: "Between n tn" a.nau u.nau
+MultipleSubs2: "Between f t" a.fau u.fau
+MultipleSubs2: "Between k ch" a.kau u.kauch
+MultipleSubs2: "Between k r" a.kau u.kaur
+MultipleSubs2: "Between k t" a.kau u.kau
 MultipleSubs2: "Between n f" a.nau u.nau
 MultipleSubs2: "Between n t" a.nau u.nau
-MultipleSubs2: "Between r f" a.rau u.rau
+MultipleSubs2: "Between n tn" a.nau u.nau
+MultipleSubs2: "Between nt n" a.tau u.tau
+MultipleSubs2: "Between nt t" a.tau u.tau
+MultipleSubs2: "Between p ch" a.pau u.auch
+MultipleSubs2: "Between p f" a.pau u.au
+MultipleSubs2: "Between p r" a.pau u.aur
+MultipleSubs2: "Between p t" a.pau u.au
+MultipleSubs2: "Between p tn" a.pau u.au
 MultipleSubs2: "Between r ch" a.rau u.rau
-MultipleSubs2: "Between r t" a.rau u.rau
+MultipleSubs2: "Between r f" a.rau u.rau
 MultipleSubs2: "Between r r" a.rau u.raur
-MultipleSubs2: "Between k ch" a.kau u.kauch
-Ligature2: "Diphthongs" a u
-MultipleSubs2: "Between k t" a.kau u.kau
+MultipleSubs2: "Between r t" a.rau u.rau
+MultipleSubs2: "Between t ch" a.tau u.tauch
+MultipleSubs2: "Between t f" a.tau u.tau
+MultipleSubs2: "Between t r" a.tau u.taur
+MultipleSubs2: "Between t t" a.tau u.tau
+MultipleSubs2: "Between t tn" a.tau u.tau
 MultipleSubs2: "Decompose" a.au u.au
-MultipleSubs2: "Before r" a.au u.aur
-MultipleSubs2: "Before ch" a.auch u.auch
-MultipleSubs2: "After k" a.kau u.kau
-MultipleSubs2: "After r" a.rau u.rau
-MultipleSubs2: "After n" a.nau u.nau
-MultipleSubs2: "After t" a.tau u.tau
-MultipleSubs2: "After p" a.pau u.au
-MultipleSubs2: "After f" a.fau u.fau
-MultipleSubs2: "After tn" a.tnau u.tnau
-MultipleSubs2: "After ch" a.chau u.au
-MultipleSubs2: "Between k r" a.kau u.kaur
-LCarets2: 1 0
+MultipleSubs2: "Start and End" _start au _end
 EndChar

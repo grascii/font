@@ -214,4 +214,3 @@ def test_v_ae(font, text, expected_glyphs):
 ])
 def test_sR_ae(font, text, expected_glyphs):
     assert shape(text, font) == expected_glyphs
-

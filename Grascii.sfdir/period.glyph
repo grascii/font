@@ -5,7 +5,7 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-214 0 m 4
- 110 60 l 1028
+214 0 m 0
+ 110 60 l 1024
 EndSplineSet
 EndChar

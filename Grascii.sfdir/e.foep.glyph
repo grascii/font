@@ -2,8 +2,8 @@ StartChar: e.foep
 Encoding: 1757 -1 452
 Width: 214
 Flags: W
-AnchorPoint: "Join" 96 82 exit 0
 AnchorPoint: "Join" 10 0 entry 0
+AnchorPoint: "Join" 96 82 exit 0
 LayerCount: 2
 Fore
 SplineSet
