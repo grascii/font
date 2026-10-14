@@ -12,5 +12,11 @@ Documentation and source code can be found at: https://github.com/grascii/font
 
 ChangeLog
 
+13 Oct 2026 Grascii Version 0.071
+- Updated S direction inference rules
+- Added aspirate anchor to u.cut
+- Fixed vertical positioning of words starting with:
+    U <vowel> S <downward consonant>
+
 12 Sep 2026 Grascii Version 0.070
 - Initial release
