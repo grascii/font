@@ -123,6 +123,7 @@ def has_anchor(glyph: fontforge.glyph, anchor_name, kind="base"):
     "o.po",
     "o.ntor",
     "u",
+    "u.cut",
     "u.ur",
     "u.up",
     "u.uf",
