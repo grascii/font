@@ -1,7 +1,7 @@
 import os
 import sys
 import tempfile
-from itertools import chain, product
+from itertools import product
 
 import fontforge
 import uharfbuzz as hb
@@ -90,6 +90,7 @@ TAIL_VARIANTS = {
 }
 
 LOOKUP = "Line of Writing"
+SUBTABLE_PREFIX = "LoW"
 
 
 def calculate_line_of_writing_positions(font: fontforge.font):
@@ -101,106 +102,120 @@ def calculate_line_of_writing_positions(font: fontforge.font):
 
     os.remove(tmp_path)
 
-    rules = {}
-    texts = (
-        "".join(t)
-        for t in chain(
-            # put more specific rules first so they take precedence
-            product(VOWELS, S, VOWELS, DOWNWARD_CONSONANTS),
-            product(S, VOWELS, DOWNWARD_CONSONANTS),
-            product(VOWELS, S, DOWNWARD_CONSONANTS),
-            product(S, DOWNWARD_CONSONANTS),
-            product(VOWELS, S, VOWELS),
-            product(S, ["U"], ["A", "E", "I"], DOWNWARD_CONSONANTS),
-            product(S, VOWELS),
-            product(VOWELS, DOWNWARD_CONSONANTS),
-            product(VOWELS, CONSONANTS),
-            CONSONANTS,
-            DOWNWARD_CONSONANTS,
-            product(["U"], ["A", "E", "O", "U", "I"], DOWNWARD_CONSONANTS),
-            product(["U"], ["A", "E", "I"]),
-            VOWELS,
-            ["o("],
-        )
-    )
-
-    for text in texts:
-        shaped = shape(text, hb_font)
-
-        variants = TAIL_VARIANTS.get(shaped[-1], [shaped[-1]])
-        glyphs_list = [shaped[:-1] + [variant] for variant in variants]
-
-        for glyphs in glyphs_list:
-            key = " ".join(glyphs)
-            if key in rules:
-                continue
-
-            x_adjustment, y_adjustment = 0, 0
-            exit_x, exit_y = 0, 0
-            xmin, ymin = 0, 0
-            for glyph_name in glyphs:
-                glyph = font[glyph_name]
-                for anchor in glyph.anchorPoints:
-                    if anchor[0] == "Join" and anchor[1] == "entry":
-                        entry_x = anchor[2]
-                        entry_y = anchor[3]
-
-                xmin, ymin, _xmax, _ymax = glyph.boundingBox()
-                x_adjustment += max(0, round(entry_x - xmin - exit_x))
-                y_adjustment += max(
-                    0, round(entry_y - ymin - exit_y - font.strokewidth)
-                )
-
-                for anchor in glyph.anchorPoints:
-                    if anchor[0] == "Join" and anchor[1] == "exit":
-                        exit_x = anchor[2]
-                        exit_y = anchor[3]
-
-            x_adjustment -= font.strokewidth
-            assert x_adjustment >= 0 and y_adjustment >= 0
-            if x_adjustment == 0 and y_adjustment == 0:
-                continue
-
-            x_adjustments = decomose_adjustments(x_adjustment)
-            y_adjustments = decomose_adjustments(y_adjustment)
-
-            lookups = []
-            for adjustment in x_adjustments:
-                lookups.append(f"@<Right {adjustment}>")
-            for adjustment in y_adjustments:
-                lookups.append(f"@<Up {adjustment}>")
-
-            rules[key] = f"| _start {' '.join(lookups)} | {key}"
-
-    subtables = font.getLookupSubtables(LOOKUP)
-    for subtable in subtables:
+    for subtable in font.getLookupSubtables(LOOKUP):
         font.removeLookupSubtable(subtable)
 
-    # limit the number of rules per subtable to keep them under 64 KB
-    RULES_PER_SUBTABLE = 1024
-    rules_list = list(rules.values())
+    subtables = [
+        # put more specific rules first so they take precedence
+        (
+            "Vowel S Vowel Downward 1",
+            product(VOWELS[:3], S, VOWELS, DOWNWARD_CONSONANTS),
+        ),
+        (
+            "Vowel S Vowel Downward 2",
+            product(VOWELS[3:6], S, VOWELS, DOWNWARD_CONSONANTS),
+        ),
+        (
+            "Vowel S Vowel Downward 3",
+            product(VOWELS[6:], S, VOWELS, DOWNWARD_CONSONANTS),
+        ),
+        ("S Vowel Downward", product(S, VOWELS, DOWNWARD_CONSONANTS)),
+        ("Vowel S Downward", product(VOWELS, S, DOWNWARD_CONSONANTS)),
+        ("S Downward", product(S, DOWNWARD_CONSONANTS)),
+        ("Vowel S Vowel", product(VOWELS, S, VOWELS)),
+        (
+            "S U Circle Downward",
+            product(S, ["U"], ["A", "E", "I"], DOWNWARD_CONSONANTS),
+        ),
+        ("S Vowel", product(S, VOWELS)),
+        ("Vowel Downward", product(VOWELS, DOWNWARD_CONSONANTS)),
+        ("Vowel Consonant", product(VOWELS, CONSONANTS)),
+        ("Consonant", CONSONANTS),
+        ("Downward", DOWNWARD_CONSONANTS),
+        (
+            "U Vowel S Downward",
+            product(["U"], ["A", "E", "O", "U", "I"], S, DOWNWARD_CONSONANTS),
+        ),
+        (
+            "U Vowel Downward",
+            product(["U"], ["A", "E", "O", "U", "I"], DOWNWARD_CONSONANTS),
+        ),
+        ("U Circle", product(["U"], ["A", "E", "I"])),
+        ("Vowel", VOWELS),
+        ("O", ["o("]),
+    ]
+
+    rule_count = 0
     last_subtable = None
-    for i in range(0, len(rules_list), RULES_PER_SUBTABLE):
-        subtable = f"{LOOKUP} {i}"
-        if i > 0:
+    for name, rule_seq in subtables:
+        subtable = f"{SUBTABLE_PREFIX} {name}"
+        rules = []
+
+        for text in ("".join(t) for t in rule_seq):
+            shaped = shape(text, hb_font)
+
+            variants = TAIL_VARIANTS.get(shaped[-1], [shaped[-1]])
+            glyphs_list = [shaped[:-1] + [variant] for variant in variants]
+
+            for glyphs in glyphs_list:
+                x_adjustment, y_adjustment = 0, 0
+                exit_x, exit_y = 0, 0
+                xmin, ymin = 0, 0
+                for glyph_name in glyphs:
+                    glyph = font[glyph_name]
+                    for anchor in glyph.anchorPoints:
+                        if anchor[0] == "Join" and anchor[1] == "entry":
+                            entry_x = anchor[2]
+                            entry_y = anchor[3]
+
+                    xmin, ymin, _xmax, _ymax = glyph.boundingBox()
+                    x_adjustment += max(0, round(entry_x - xmin - exit_x))
+                    y_adjustment += max(
+                        0, round(entry_y - ymin - exit_y - font.strokewidth)
+                    )
+
+                    for anchor in glyph.anchorPoints:
+                        if anchor[0] == "Join" and anchor[1] == "exit":
+                            exit_x = anchor[2]
+                            exit_y = anchor[3]
+
+                x_adjustment -= font.strokewidth
+                assert x_adjustment >= 0 and y_adjustment >= 0
+                if x_adjustment == 0 and y_adjustment == 0:
+                    continue
+
+                x_adjustments = decomose_adjustments(x_adjustment)
+                y_adjustments = decomose_adjustments(y_adjustment)
+
+                lookups = []
+                for adjustment in x_adjustments:
+                    lookups.append(f"@<Right {adjustment}>")
+                for adjustment in y_adjustments:
+                    lookups.append(f"@<Up {adjustment}>")
+
+                rules.append(f"| _start {' '.join(lookups)} | {' '.join(glyphs)}")
+                rule_count += 1
+
+        if last_subtable is not None:
             font.addContextualSubtable(
                 LOOKUP,
                 subtable,
                 "glyph",
-                rules_list[i : i + RULES_PER_SUBTABLE],
+                rules,
                 afterSubtable=last_subtable,
             )
         else:
-            font.addContextualSubtable(
-                LOOKUP, subtable, "glyph", rules_list[i : i + RULES_PER_SUBTABLE]
-            )
+            font.addContextualSubtable(LOOKUP, subtable, "glyph", rules)
+
+        print(f"{subtable}: {len(rules)} rules")
+
         last_subtable = subtable
 
     font["_start"].addPosSub(
         "Stroke Adjustment", -int(font.strokewidth), -int(font.strokewidth), 0, 0
     )
 
-    print("Created", len(rules), "rules")
+    print("Created", rule_count, "rules")
 
 
 def decomose_adjustments(value):
