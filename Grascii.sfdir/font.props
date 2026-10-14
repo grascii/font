@@ -49,7 +49,7 @@ Lookup: 2 0 0 "Aliases" { "Aliases"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' 
 Lookup: 6 0 0 "Boundaries and Jogs" { "Boundaries and Jogs"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 8 0 "Wunderbars" { "Wunderbars"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "Annotated Directions" { "Annotated Directions"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 8 0 "Directions" { "s Direction"  "ss Direction"  "th Direction"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 8 0 "Directions" { "s Direction Override 1"  "s Direction"  "ss Direction"  "th Direction"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Aspirate Swap A" { "Aspirate Swap A"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 2 0 0 "Aspirate Swap B" { "Aspirate Swap B"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 16 0 "Ings" { "Ings"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -276,6 +276,15 @@ MarkAttachSets: 2
 "quoting" 22 quotesingle ing inging
 "end" 4 _end
 DEI: 91125
+ChainSub2: coverage "s Direction Override 1" 0 0 0 1
+ 1 2 1
+  Coverage: 1 s
+  BCoverage: 11 a e i ea ae
+  BCoverage: 1 u
+  FCoverage: 3 p b
+ 1
+  SeqLookup: 0 "Left"
+EndFPST
 ChainPos2: glyph "Line of Writing 5120" 0 0 0 615
  String: 6 _start
  BString: 0
@@ -63484,7 +63493,7 @@ ChainSub2: class "th Direction" 5 5 5 7
   BClassNames: "All_Others" "th" "r" "o" "circle"
   FClassNames: "All_Others" "th" "r" "o" "circle"
 EndFPST
-ChainSub2: class "s Direction" 9 9 9 17
+ChainSub2: class "s Direction" 9 9 9 26
   Class: 1 s
   Class: 26 k g f v sh ch j s.right df
   Class: 43 r l p b s.left th.under jnt ld.head ld.tail
@@ -63529,6 +63538,18 @@ ChainSub2: class "s Direction" 9 9 9 17
   SeqLookup: 0 "Left"
  1 2 0
   ClsList: 1
+  BClsList: 4 8
+  FClsList:
+ 1
+  SeqLookup: 0 "Right"
+ 1 2 0
+  ClsList: 1
+  BClsList: 4 6
+  FClsList:
+ 1
+  SeqLookup: 0 "Right"
+ 1 2 0
+  ClsList: 1
   BClsList: 7 2
   FClsList:
  1
@@ -63549,6 +63570,60 @@ ChainSub2: class "s Direction" 9 9 9 17
   ClsList: 1
   BClsList: 7 8
   FClsList:
+ 1
+  SeqLookup: 0 "Right"
+ 1 2 0
+  ClsList: 1
+  BClsList: 7 6
+  FClsList:
+ 1
+  SeqLookup: 0 "Right"
+ 1 0 2
+  ClsList: 1
+  BClsList:
+  FClsList: 4 2
+ 1
+  SeqLookup: 0 "Right"
+ 1 0 2
+  ClsList: 1
+  BClsList:
+  FClsList: 4 3
+ 1
+  SeqLookup: 0 "Left"
+ 1 0 2
+  ClsList: 1
+  BClsList:
+  FClsList: 4 5
+ 1
+  SeqLookup: 0 "Right"
+ 1 0 2
+  ClsList: 1
+  BClsList:
+  FClsList: 4 8
+ 1
+  SeqLookup: 0 "Right"
+ 1 0 2
+  ClsList: 1
+  BClsList:
+  FClsList: 7 2
+ 1
+  SeqLookup: 0 "Right"
+ 1 0 2
+  ClsList: 1
+  BClsList:
+  FClsList: 7 3
+ 1
+  SeqLookup: 0 "Left"
+ 1 0 2
+  ClsList: 1
+  BClsList:
+  FClsList: 7 5
+ 1
+  SeqLookup: 0 "Right"
+ 1 0 2
+  ClsList: 1
+  BClsList:
+  FClsList: 7 8
  1
   SeqLookup: 0 "Right"
  1 1 0
@@ -63575,9 +63650,9 @@ ChainSub2: class "s Direction" 9 9 9 17
   FClsList:
  1
   SeqLookup: 0 "Left"
- 1 2 0
+ 1 1 0
   ClsList: 1
-  BClsList: 7 6
+  BClsList: 6
   FClsList:
  1
   SeqLookup: 0 "Right"
@@ -63585,18 +63660,6 @@ ChainSub2: class "s Direction" 9 9 9 17
   ClsList: 1
   BClsList: 7
   FClsList:
- 1
-  SeqLookup: 0 "Left"
- 1 0 2
-  ClsList: 1
-  BClsList:
-  FClsList: 4 3
- 1
-  SeqLookup: 0 "Left"
- 1 0 2
-  ClsList: 1
-  BClsList:
-  FClsList: 7 3
  1
   SeqLookup: 0 "Left"
  1 0 1

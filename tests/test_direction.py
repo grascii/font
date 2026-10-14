@@ -100,15 +100,26 @@ def test_s_o(font, text, expected):
     ("veshus", [0, 0, 0, 0, 1]),
     ("sut", [1, 0, 0]),
     ("sup", [1, 0, 0]),
+    ("uesl", [0, 0, 1, 0]),
+    ("uesp", [0, 0, -1, 0]),
+    ("uasbre", [0, 0, -1, 0, 0, 0]),
 ])
 def test_s_u(font, text, expected):
     assert map_s_direction(shape(text, font)) == expected
 
 
 @pytest.mark.parametrize("text,expected", [
+    ("soes", [1, 0, 0, -1]),
+    ("seus", [1, 0, 0, 1]),
+    ("saus", [1, 0, 0, 1]),
+])
+def test_s_diphthongs(font, text, expected):
+    assert map_s_direction(shape(text, font)) == expected
+
+
+@pytest.mark.parametrize("text,expected", [
     ("uosp", [0, 0, -1, 0]),
     ("past", [0, 0, -1, 0]),
-    ("uesp", [0, 0, -1, 0]),
     ("uestf", [0, 0, 1, 0, 0]),
     ("gosep", [0, 0, -1, 0, 0]),
     ("trespas", [0, 0, 0, -1, 0, 0, -1]),
@@ -121,6 +132,10 @@ def test_s_u(font, text, expected):
     ("dosel", [0, 0, -1, 0, 0]),
     ("flask", [0, 0, 0, -1, 0]),
     ("klasp", [0, 0, 0, -1, 0]),
+    ("nsek", [0, 1, 0, 0]),
+    ("rsid", [0, 1, 0, 0]),
+    ("dsat", [0, 1, 0, 0]),
+    ("rsedn", [0, 1, 0, 0]),
 ])
 def test_sandwiched_s(font, text, expected):
     assert map_s_direction(shape(text, font)) == expected
