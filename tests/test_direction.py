@@ -185,6 +185,7 @@ def test_lone_th(font, text, expected):
     ("moth", [0, 0, -1]),
     ("erth", [0, 0, -1]),
     ("elth", [0, 0, -1]),
+    ("thoe", [-1, 0, 0]),
 ])
 def test_th_joinings(font, text, expected):
     assert map_th_direction(shape(text, font)) == expected
