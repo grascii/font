@@ -12,6 +12,9 @@ Documentation and source code can be found at: https://github.com/grascii/font
 
 ChangeLog
 
+14 Nov 2026 Grascii Version 0.072
+- Updated TH direction inference before OE
+
 13 Oct 2026 Grascii Version 0.071
 - Updated S direction inference rules
 - Added aspirate anchor to u.cut
